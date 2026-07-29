@@ -1,0 +1,60 @@
+name: Update training data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "59 3 * * *"
+    - cron: "59 4 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    name: Refresh provider sources
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Set up Node
+        uses: actions/setup-node@v5
+        with:
+          node-version: "24"
+
+      - name: Check Eastern-time schedule
+        id: schedule
+        shell: bash
+        run: |
+          offset="$(TZ=America/New_York date +%z)"
+          run_update="false"
+
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            run_update="true"
+          elif [ "${{ github.event.schedule }}" = "59 3 * * *" ] && [ "$offset" = "-0400" ]; then
+            run_update="true"
+          elif [ "${{ github.event.schedule }}" = "59 4 * * *" ] && [ "$offset" = "-0500" ]; then
+            run_update="true"
+          fi
+
+          echo "run_update=$run_update" >> "$GITHUB_OUTPUT"
+          echo "Eastern offset: $offset"
+
+      - name: Refresh data
+        if: steps.schedule.outputs.run_update == 'true'
+        run: node update-feeds.mjs
+
+      - name: Commit refreshed data
+        if: steps.schedule.outputs.run_update == 'true'
+        shell: bash
+        run: |
+          if git diff --quiet -- data/trainings.json; then
+            echo "No training data changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/trainings.json
+          git commit -m "Refresh training data"
+          git push
