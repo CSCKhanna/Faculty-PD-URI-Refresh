@@ -1,0 +1,280 @@
+{
+  "sources": [
+    {
+      "key": "uri_atl_fall_2026",
+      "provider": "URI-ATL",
+      "label": "URI ATL Fall 2026 programming",
+      "url": "https://web.uri.edu/atl/fall-2026-atl-programming/",
+      "type": "event-page",
+      "enabled": true,
+      "discover": false,
+      "itemIdPrefix": "uri-atl-",
+      "match": [
+        "Writing",
+        "Faculty",
+        "Reflective Teaching",
+        "SoTL",
+        "IDEA"
+      ]
+    },
+    {
+      "key": "uri_ncfdd",
+      "provider": "NCFDD",
+      "label": "URI NCFDD membership page",
+      "url": "https://web.uri.edu/diversity/training/national-center-for-faculty-development-diversity-ncfdd/",
+      "type": "access-evidence",
+      "enabled": true
+    },
+    {
+      "key": "ncfdd_writing_challenge",
+      "provider": "NCFDD",
+      "label": "NCFDD 14-Day Writing Challenge",
+      "url": "https://www.ncfdd.org/programs/14-day-writing-challenge/",
+      "type": "event-page",
+      "enabled": true,
+      "match": [
+        "14-Day Writing Challenge",
+        "Session"
+      ]
+    },
+    {
+      "key": "ncfdd_events",
+      "provider": "NCFDD",
+      "label": "NCFDD events and webinar archive",
+      "url": "https://www.ncfdd.org/category/events-and-webinars/",
+      "type": "archive-page",
+      "enabled": true,
+      "match": [
+        "AI",
+        "Writing",
+        "Tenure",
+        "Promotion"
+      ]
+    },
+    {
+      "key": "uri_cirtl",
+      "provider": "CIRTL",
+      "label": "URI ATL CIRTL page",
+      "url": "https://web.uri.edu/atl/graduate-students/",
+      "type": "access-evidence",
+      "enabled": true
+    },
+    {
+      "key": "cirtl_upcoming",
+      "provider": "CIRTL",
+      "label": "CIRTL upcoming events and courses",
+      "url": "https://cirtl.net/events/",
+      "type": "event-index",
+      "enabled": true,
+      "match": [
+        "AI",
+        "writing",
+        "teaching",
+        "career",
+        "promotion",
+        "tenure"
+      ]
+    },
+    {
+      "key": "cirtl_summer_2026",
+      "provider": "CIRTL",
+      "label": "CIRTL Summer 2026 programming",
+      "url": "https://cirtl.net/summer-2026-cirtl-network-programming/",
+      "type": "event-page",
+      "enabled": true,
+      "match": [
+        "AI",
+        "Writing",
+        "Teaching-as-Research",
+        "UDL"
+      ]
+    },
+    {
+      "key": "eab_ai_center",
+      "provider": "EAB",
+      "label": "EAB Higher Education AI Resource Center",
+      "url": "https://eab.com/resources/resource-center/higher-education-ai-resource-center/",
+      "type": "resource-center",
+      "enabled": true,
+      "match": [
+        "AI",
+        "faculty",
+        "student success"
+      ]
+    },
+    {
+      "key": "eab_ai_toolkit",
+      "provider": "EAB",
+      "label": "EAB Construction Kit for Faculty AI Resources",
+      "url": "https://eab.com/resources/tool/construction-kit-faculty-ai-resources/",
+      "type": "resource-page",
+      "enabled": true,
+      "match": [
+        "AI",
+        "Faculty Engagement"
+      ]
+    },
+    {
+      "key": "cur_calendar",
+      "provider": "CUR",
+      "label": "CUR Community event calendar",
+      "url": "https://community.cur.org/events/calendar",
+      "type": "event-index",
+      "enabled": true,
+      "match": [
+        "Webinar",
+        "AI",
+        "Mentor",
+        "Undergraduate Research",
+        "Writing"
+      ]
+    },
+    {
+      "key": "cur_coeur",
+      "provider": "CUR",
+      "label": "CUR COEUR 2.0",
+      "url": "https://www.cur.org/resources-publications/coeur-2-0/",
+      "type": "resource-page",
+      "enabled": true,
+      "match": [
+        "COEUR",
+        "Undergraduate Research"
+      ]
+    },
+    {
+      "key": "cur_mentoring",
+      "provider": "CUR",
+      "label": "CUR mentoring insight page",
+      "url": "https://www.cur.org/insights/mentoring/",
+      "type": "resource-page",
+      "enabled": true,
+      "match": [
+        "Mentoring",
+        "Webinars"
+      ]
+    },
+    {
+      "key": "aacu_ai_week",
+      "provider": "AAC&U",
+      "label": "AAC&U AI Week listing",
+      "url": "https://hawksites.newpaltz.edu/fdc/2026/04/21/aac-apr-27-30/",
+      "type": "event-page",
+      "enabled": true,
+      "match": [
+        "AI",
+        "Writing"
+      ]
+    },
+    {
+      "key": "cur_activation",
+      "provider": "CUR",
+      "label": "CUR Enhanced Membership activation",
+      "url": "https://www.cur.org/membership-community/membership/activate-enhanced-membership-benefits/",
+      "type": "access-evidence",
+      "enabled": true
+    },
+    {
+      "key": "cur_connectur",
+      "provider": "CUR",
+      "label": "CUR ConnectUR",
+      "url": "https://www.cur.org/events-services/connectur/",
+      "type": "event-page",
+      "enabled": true,
+      "match": [
+        "ConnectUR",
+        "undergraduate research",
+        "conference"
+      ]
+    },
+    {
+      "key": "cur_dialogues",
+      "provider": "CUR",
+      "label": "CUR Grant Dialogues",
+      "url": "https://www.cur.org/events-services/dialogues/",
+      "type": "event-page",
+      "enabled": true,
+      "match": [
+        "Grant Dialogues",
+        "funding",
+        "professional development"
+      ]
+    },
+    {
+      "key": "cur_on_demand",
+      "provider": "CUR",
+      "label": "CUR on-demand learning courses",
+      "url": "https://www.cur.org/events-services/on-demand-learning-courses/",
+      "type": "resource-page",
+      "enabled": true,
+      "match": [
+        "AI",
+        "Grant Writing",
+        "ChatGPT",
+        "Mentorship"
+      ]
+    },
+    {
+      "key": "cirtl_instructor_materials",
+      "provider": "CIRTL",
+      "label": "CIRTL Instructor Materials",
+      "url": "https://cirtl.net/instructor-materials/",
+      "type": "resource-page",
+      "enabled": true,
+      "match": [
+        "Instructor Materials",
+        "Teaching"
+      ]
+    },
+    {
+      "key": "cirtl_teaching_as_research",
+      "provider": "CIRTL",
+      "label": "CIRTL Teaching-as-Research",
+      "url": "https://cirtl.net/teaching-as-research/",
+      "type": "resource-page",
+      "enabled": true,
+      "match": [
+        "Teaching-as-Research",
+        "learning outcomes"
+      ]
+    },
+    {
+      "key": "cirtl_disciplinary_learning_communities",
+      "provider": "CIRTL",
+      "label": "CIRTL Disciplinary Learning Communities",
+      "url": "https://cirtl.net/disciplinary-learning-communities/",
+      "type": "resource-page",
+      "enabled": true,
+      "match": [
+        "Disciplinary Learning Communities",
+        "curricula"
+      ]
+    },
+    {
+      "key": "brown_advance_research_mentoring",
+      "provider": "Other",
+      "label": "Brown Advance-CTR Research Mentoring Training Programs",
+      "url": "https://advancectr.brown.edu/events-training/research-mentoring-training-programs",
+      "type": "event-page",
+      "enabled": true,
+      "match": [
+        "Research Mentoring Training",
+        "Mentors Supporting Other Mentors",
+        "CIMER",
+        "NRMN",
+        "professional development"
+      ]
+    },
+    {
+      "key": "ncfdd_member_library",
+      "provider": "NCFDD",
+      "label": "NCFDD member library",
+      "url": "https://members.ncfdd.org/library?page=1",
+      "type": "member-resource",
+      "enabled": false,
+      "match": [
+        "Webinars",
+        "Courses"
+      ]
+    }
+  ]
+}
