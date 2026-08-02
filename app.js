@@ -261,7 +261,7 @@ function getFilteredItems() {
 }
 
 function isActiveTraining(item) {
-  return item.status !== "expired";
+  return !["expired", "source-removed"].includes(item.status);
 }
 
 function searchableText(item) {

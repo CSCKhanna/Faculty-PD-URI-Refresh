@@ -21,9 +21,11 @@ const TOPIC_KEYWORDS = {
 export async function updateFeeds() {
   const data = JSON.parse(await fs.readFile(dataPath, "utf8"));
   const sources = JSON.parse(await fs.readFile(sourcesPath, "utf8")).sources.filter((source) => source.enabled);
+  const history = { runs: data.meta.updateHistory || [] };
 
   const snapshots = [];
   const discoveries = [];
+  const providerChanges = [];
   const now = new Date();
   const today = dateInTimeZone(now, DISPLAY_TIME_ZONE);
 
@@ -48,6 +50,7 @@ export async function updateFeeds() {
       const keywordsFound = findKeywords(text, source.match || []);
       const detectedDates = extractDates(text);
       const headings = extractHeadings(html);
+      const catalogTitles = source.catalogSync ? extractCatalogTitles(html) : [];
 
       snapshot.status = "ok";
       snapshot.title = title;
@@ -56,6 +59,19 @@ export async function updateFeeds() {
       snapshot.snippet = relevantSnippet(text, source.match || []);
 
       refreshKnownItems(data.trainings, source, today);
+      if (source.catalogSync) {
+        const reconciliation = reconcileCatalogItems(data.trainings, source, catalogTitles, today);
+        discoveries.push(...reconciliation.discoveries);
+        providerChanges.push({
+          source: source.key,
+          provider: source.provider,
+          catalogItems: reconciliation.catalogItems,
+          added: reconciliation.discoveries.map((item) => item.title),
+          missing: reconciliation.missing,
+          removed: reconciliation.removed,
+          restored: reconciliation.restored
+        });
+      }
       if (source.discover !== false) {
         discoveries.push(...discoverItems({ source, title, text, headings, detectedDates, today, trainings: data.trainings }));
       }
@@ -68,9 +84,15 @@ export async function updateFeeds() {
     snapshots.push(snapshot);
   }
 
+  const linkAudit = await auditKnownSourceLinks(data.trainings, snapshots, today);
+
   const merged = mergeDiscoveries(data.trainings, discoveries);
   data.trainings = merged.trainings;
+  const beforeExpiration = new Map(data.trainings.map((item) => [item.id, item.status]));
   const expiration = reconcileExpiredItems(data.trainings, today);
+  const archivedPast = data.trainings
+    .filter((item) => beforeExpiration.get(item.id) !== "expired" && item.status === "expired")
+    .map((item) => ({ id: item.id, title: item.title, provider: item.provider }));
   data.meta.lastUpdated = now.toISOString();
   data.meta.nextUpdateRecommended = addDays(now, 7).toISOString();
   data.meta.sourceSnapshots = snapshots;
@@ -84,6 +106,25 @@ export async function updateFeeds() {
     restoredItems: expiration.restored
   };
 
+  history.runs.push({
+    ranAt: now.toISOString(),
+    localDate: today,
+    checkedSources: snapshots.length,
+    successfulSources: snapshots.filter((snapshot) => snapshot.status === "ok").length,
+    failedSources: snapshots.filter((snapshot) => snapshot.status === "error").map((snapshot) => ({
+      key: snapshot.key,
+      provider: snapshot.provider,
+      error: snapshot.error
+    })),
+    added: discoveries.map((item) => ({ id: item.id, title: item.title, provider: item.provider })),
+    providerChanges,
+    archivedPast,
+    linkAudit,
+    providerCoverage: summarizeProviderCoverage(data.trainings, sources)
+  });
+  history.runs = history.runs.slice(-365);
+  data.meta.updateHistory = history.runs;
+
   await fs.writeFile(dataPath, `${JSON.stringify(data, null, 2)}\n`);
 
   return {
@@ -93,6 +134,76 @@ export async function updateFeeds() {
     addedDiscoveries: merged.added,
     archivedPastItems: expiration.archived,
     restoredItems: expiration.restored
+  };
+}
+
+export function reconcileCatalogItems(trainings, source, catalogTitles, today) {
+  const sync = source.catalogSync || {};
+  const prefix = sync.itemIdPrefix || source.itemIdPrefix;
+  const threshold = Math.max(1, sync.missingRunsBeforeArchive || 2);
+  const canonicalTitles = unique(catalogTitles.map((title) => source.catalogSync.titleAliases?.[title] || title));
+  const titleMap = new Map(canonicalTitles.map((title) => [catalogTitleKey(title), title]));
+  const managed = trainings.filter((item) => prefix && item.id.startsWith(prefix));
+  const missing = [];
+  const removed = [];
+  const restored = [];
+
+  for (const item of managed) {
+    const present = titleMap.has(catalogTitleKey(item.title));
+    if (present) {
+      delete item.sourceMissingCount;
+      delete item.sourceMissingSince;
+      if (item.status === "source-removed" && item.statusBeforeSourceRemoval) {
+        item.status = item.statusBeforeSourceRemoval;
+        delete item.statusBeforeSourceRemoval;
+        delete item.sourceRemovedAt;
+        restored.push(item.title);
+      }
+      continue;
+    }
+
+    item.sourceMissingCount = (item.sourceMissingCount || 0) + 1;
+    item.sourceMissingSince ||= today;
+    missing.push(item.title);
+    if (item.sourceMissingCount >= threshold && item.status !== "source-removed") {
+      item.statusBeforeSourceRemoval = item.status;
+      item.status = "source-removed";
+      item.sourceRemovedAt = today;
+      removed.push(item.title);
+    }
+  }
+
+  const known = new Set(managed.map((item) => catalogTitleKey(item.title)));
+  const discoveries = canonicalTitles
+    .filter((title) => !known.has(catalogTitleKey(title)))
+    .map((title) => catalogDiscovery(source, title, today));
+
+  return { catalogItems: canonicalTitles.length, discoveries, missing, removed, restored };
+}
+
+function catalogDiscovery(source, title, today) {
+  return {
+    id: `detected-${slug(source.provider)}-${slug(title)}`,
+    title,
+    provider: source.provider,
+    status: "discovered",
+    priority: "review",
+    startDate: today,
+    endDate: today,
+    dateLabel: "Newly detected on the provider catalog; date needs review",
+    datePrecision: "placeholder",
+    format: labelForSourceType(source.type),
+    topics: inferTopics(title),
+    audience: ["Faculty"],
+    access: "Automatically detected from the provider catalog. Confirm access, cost, and registration details.",
+    accessStatus: "confirm",
+    costStatus: "membership-confirmation-needed",
+    description: `New opportunity detected on ${source.label}.`,
+    whyInclude: "Added by the overnight provider-catalog comparison.",
+    sourceUrl: source.url,
+    lastVerified: today,
+    detectedByUpdater: true,
+    catalogSource: source.key
   };
 }
 
@@ -149,6 +260,7 @@ function dateInTimeZone(date, timeZone) {
 
 async function fetchText(url) {
   const response = await fetch(url, {
+    signal: AbortSignal.timeout(20000),
     headers: {
       "User-Agent": "URI-Faculty-Training-Updater/1.0",
       "Accept": "text/html,application/xhtml+xml,text/plain"
@@ -156,6 +268,80 @@ async function fetchText(url) {
   });
   if (!response.ok) throw new Error(`HTTP ${response.status}`);
   return response.text();
+}
+
+async function auditKnownSourceLinks(trainings, snapshots, today) {
+  const snapshotStatus = new Map(snapshots.map((snapshot) => [snapshot.url, snapshot.status]));
+  const urls = unique(trainings.map((item) => item.sourceUrl));
+  const results = await mapWithConcurrency(urls, 6, async (url) => {
+    if (snapshotStatus.get(url) === "ok") return { url, status: "ok", reusedSnapshot: true };
+    try {
+      await fetchText(url);
+      return { url, status: "ok" };
+    } catch (error) {
+      const hardGone = /HTTP (404|410)\b/.test(error.message);
+      return { url, status: hardGone ? "gone" : "error", error: error.message };
+    }
+  });
+  const byUrl = new Map(results.map((result) => [result.url, result]));
+  const removed = [];
+  const restored = [];
+
+  for (const item of trainings) {
+    const result = byUrl.get(item.sourceUrl);
+    if (!result) continue;
+    if (result.status === "ok") {
+      delete item.sourceLinkFailureCount;
+      delete item.sourceLinkFailureSince;
+      if (item.status === "source-removed" && item.statusBeforeSourceRemoval && !item.sourceMissingCount) {
+        item.status = item.statusBeforeSourceRemoval;
+        delete item.statusBeforeSourceRemoval;
+        delete item.sourceRemovedAt;
+        restored.push({ id: item.id, title: item.title, provider: item.provider });
+      }
+      continue;
+    }
+    if (result.status !== "gone") continue;
+    item.sourceLinkFailureCount = (item.sourceLinkFailureCount || 0) + 1;
+    item.sourceLinkFailureSince ||= today;
+    if (item.sourceLinkFailureCount >= 2 && item.status !== "source-removed") {
+      item.statusBeforeSourceRemoval = item.status;
+      item.status = "source-removed";
+      item.sourceRemovedAt = today;
+      removed.push({ id: item.id, title: item.title, provider: item.provider, url: item.sourceUrl });
+    }
+  }
+
+  return {
+    checkedUrls: results.length,
+    successfulUrls: results.filter((result) => result.status === "ok").length,
+    goneUrls: results.filter((result) => result.status === "gone").map((result) => result.url),
+    transientErrors: results.filter((result) => result.status === "error").map((result) => ({ url: result.url, error: result.error })),
+    removed,
+    restored
+  };
+}
+
+function summarizeProviderCoverage(trainings, sources) {
+  return unique(trainings.map((item) => item.provider)).sort().map((provider) => ({
+    provider,
+    activeRecords: trainings.filter((item) => item.provider === provider && !["expired", "source-removed"].includes(item.status)).length,
+    configuredSources: sources.filter((source) => source.provider === provider).length,
+    managedCatalogs: sources.filter((source) => source.provider === provider && source.catalogSync).length
+  }));
+}
+
+async function mapWithConcurrency(values, concurrency, mapper) {
+  const results = new Array(values.length);
+  let nextIndex = 0;
+  async function worker() {
+    while (nextIndex < values.length) {
+      const index = nextIndex++;
+      results[index] = await mapper(values[index], index);
+    }
+  }
+  await Promise.all(Array.from({ length: Math.min(concurrency, values.length) }, worker));
+  return results;
 }
 
 function refreshKnownItems(trainings, source, today) {
@@ -285,6 +471,37 @@ function extractHeadings(html) {
     .filter(Boolean);
 }
 
+export function extractCatalogTitles(html) {
+  const strongText = [...html.matchAll(/<(?:p|td)[^>]*>\s*<strong[^>]*>(.*?)<\/strong>/gis)]
+    .map((match) => normalizeText(stripHtml(match[1])))
+    .map(cleanCatalogTitle)
+    .filter(isCatalogTitle);
+  return unique(strongText);
+}
+
+function cleanCatalogTitle(title) {
+  return title
+    .replace(/(\s*\((?:ALL|FTF|GTA|PTF|NF)\))+\s*$/i, "")
+    .replace(/\s+Sessions?\s+#?[\d, &]+$/i, "")
+    .trim();
+}
+
+function isCatalogTitle(title) {
+  if (title.length < 5 || title.length > 180) return false;
+  if (/^(dates?|times?|location|logistics|registration|additional dates?|additional dates?\/times?|program information)\b/i.test(title)) return false;
+  if (/^(session|walking & talking|books will|while participation|registration for)/i.test(title)) return false;
+  return !isNavigationLabel(title);
+}
+
+function catalogTitleKey(title) {
+  return cleanCatalogTitle(title)
+    .toLowerCase()
+    .replace(/\b10th anniversary edition\b/g, "")
+    .replace(/[^a-z0-9]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 function extractDates(text) {
   const dateRegex = /\b(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:t(?:ember)?)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\.?\s+\d{1,2},?\s+20\d{2}\b/g;
   return unique([...text.matchAll(dateRegex)].map((match) => match[0])).map((label) => ({
@@ -370,7 +587,7 @@ function stripHtml(html) {
 }
 
 function normalizeText(text) {
-  return decodeEntities(text).replace(/\s+/g, " ").trim();
+  return decodeEntities(text).replace(/[–—]/g, "-").replace(/\s+/g, " ").trim();
 }
 
 function decodeEntities(text) {
@@ -383,7 +600,9 @@ function decodeEntities(text) {
     .replace(/&ldquo;/g, '"')
     .replace(/&rdquo;/g, '"')
     .replace(/&ndash;/g, "-")
-    .replace(/&mdash;/g, "-");
+    .replace(/&mdash;/g, "-")
+    .replace(/&#x([0-9a-f]+);/gi, (_, code) => String.fromCodePoint(Number.parseInt(code, 16)))
+    .replace(/&#(\d+);/g, (_, code) => String.fromCodePoint(Number.parseInt(code, 10)));
 }
 
 function unique(values) {

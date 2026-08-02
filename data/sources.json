@@ -9,6 +9,14 @@
       "enabled": true,
       "discover": false,
       "itemIdPrefix": "uri-atl-",
+      "catalogSync": {
+        "itemIdPrefix": "uri-atl-",
+        "missingRunsBeforeArchive": 2,
+        "titleAliases": {
+          "Consultations": "ATL Teaching and Curriculum Consultations",
+          "Fall Writing Retreat": "Fall Writing Retreats"
+        }
+      },
       "match": [
         "Writing",
         "Faculty",

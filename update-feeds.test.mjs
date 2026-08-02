@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 
-import { reconcileExpiredItems } from "./update-feeds.mjs";
+import { extractCatalogTitles, reconcileCatalogItems, reconcileExpiredItems } from "./update-feeds.mjs";
 
 function training(overrides = {}) {
   return {
@@ -70,4 +70,65 @@ test("ignores malformed dates", () => {
 
   assert.deepEqual(reconcileExpiredItems(items, "2026-07-27"), { archived: 0, restored: 0 });
   assert.equal(items[0].status, "recommended");
+});
+
+test("extracts provider program titles without logistics labels", () => {
+  const html = `
+    <p><strong>Faculty Learning Day</strong> (ALL)<br>Dates: September 3</p>
+    <p><strong>Registration</strong></p>
+    <p><strong>Additional Dates/Times:</strong></p>
+    <p><strong>Book Club &#8211; Faculty Life</strong></p>
+    <table><tr><td><strong>Brightspace Basics (ALL)</strong><br>Self-paced.</td></tr></table>
+  `;
+
+  assert.deepEqual(extractCatalogTitles(html), ["Faculty Learning Day", "Book Club - Faculty Life", "Brightspace Basics"]);
+});
+
+test("catalog reconciliation waits two successful misses before removal", () => {
+  const items = [training({
+    id: "uri-atl-existing",
+    title: "Existing Program",
+    endDate: "2026-12-01"
+  })];
+  const source = {
+    key: "uri_atl",
+    provider: "URI-ATL",
+    label: "URI ATL",
+    url: "https://example.edu/atl",
+    type: "event-page",
+    catalogSync: { itemIdPrefix: "uri-atl-", missingRunsBeforeArchive: 2 }
+  };
+
+  const first = reconcileCatalogItems(items, source, [], "2026-08-02");
+  assert.deepEqual(first.removed, []);
+  assert.equal(items[0].status, "recommended");
+  assert.equal(items[0].sourceMissingCount, 1);
+
+  const second = reconcileCatalogItems(items, source, [], "2026-08-03");
+  assert.deepEqual(second.removed, ["Existing Program"]);
+  assert.equal(items[0].status, "source-removed");
+});
+
+test("catalog reconciliation discovers additions and restores returned items", () => {
+  const items = [training({
+    id: "uri-atl-returned",
+    title: "Returned Program",
+    status: "source-removed",
+    statusBeforeSourceRemoval: "recommended",
+    sourceMissingCount: 2,
+    endDate: "2026-12-01"
+  })];
+  const source = {
+    key: "uri_atl",
+    provider: "URI-ATL",
+    label: "URI ATL",
+    url: "https://example.edu/atl",
+    type: "event-page",
+    catalogSync: { itemIdPrefix: "uri-atl-", missingRunsBeforeArchive: 2 }
+  };
+
+  const result = reconcileCatalogItems(items, source, ["Returned Program", "New Program"], "2026-08-04");
+  assert.deepEqual(result.restored, ["Returned Program"]);
+  assert.equal(items[0].status, "recommended");
+  assert.equal(result.discoveries[0].title, "New Program");
 });
