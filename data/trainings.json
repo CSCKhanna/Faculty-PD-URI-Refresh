@@ -2,7 +2,7 @@
   "meta": {
     "title": "URI Faculty Development Training Calendar: Available PD from URI's Member Organizations",
     "subtitle": "Available professional development from URI's member organizations",
-    "lastUpdated": "2026-08-02T06:26:02.866Z",
+    "lastUpdated": "2026-08-02T15:00:00.000Z",
     "dataVersion": 1,
     "notes": [
       "The three starter DOCX files were imported locally on June 2, 2026.",
@@ -483,6 +483,26 @@
       "archivedPastItems": 0,
       "restoredItems": 0
     },
+    "sourceReconciliations": [
+      {
+        "checkedAt": "2026-08-02T15:00:00.000Z",
+        "source": "https://web.uri.edu/atl/fall-2026-atl-programming/",
+        "provider": "URI-ATL",
+        "added": [
+          {
+            "id": "uri-atl-faculty-learning-day-fall-2026",
+            "title": "Faculty Learning Day: Fostering Curiosity, Inquiry, & Engagement"
+          }
+        ],
+        "removedFromDashboard": [
+          {
+            "id": "uri-atl-graduate-student-learning-community-fall-2026",
+            "title": "Graduate Student Learning Community",
+            "reason": "No longer listed on the Fall 2026 ATL programming overview; the individual ATL page remains available."
+          }
+        ]
+      }
+    ],
     "documentImports": [
       {
         "title": "Faculty Membership Resources.docx",
@@ -1245,6 +1265,34 @@
       "lastVerified": "2026-08-02"
     },
     {
+      "id": "uri-atl-faculty-learning-day-fall-2026",
+      "title": "Faculty Learning Day: Fostering Curiosity, Inquiry, & Engagement",
+      "provider": "URI-ATL",
+      "status": "recommended",
+      "priority": "local",
+      "startDate": "2026-09-03",
+      "endDate": "2026-09-03",
+      "dateLabel": "September 3, 2026, 9:30 a.m.-3:30 p.m.",
+      "datePrecision": "exact",
+      "format": "Zoom; choose one or more virtual sessions",
+      "topics": [
+        "Teaching",
+        "Research",
+        "Student Success"
+      ],
+      "audience": [
+        "All instructors"
+      ],
+      "access": "Open to URI instructors; registration is required for session calendar invitations and Zoom links.",
+      "accessStatus": "verified",
+      "costStatus": "free",
+      "description": "A virtual day of ATL and University Libraries sessions focused on building teaching skills and supporting research assignments, with five blocks of concurrent sessions.",
+      "whyInclude": "Offers a flexible, concentrated day of practical teaching and research-assignment development before the fall semester is fully underway.",
+      "registrationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSdp2ssu_ULXawdAyQy6Cd-_DvGmAY1-mKPddlxjeTZFHRII-Q/viewform",
+      "sourceUrl": "https://web.uri.edu/atl/faculty-learning-day-2026/",
+      "lastVerified": "2026-08-02"
+    },
+    {
       "id": "uri-atl-partnering-with-students-fall-2026",
       "title": "Partnering with Students in Teaching and Learning",
       "provider": "URI-ATL",
@@ -1299,34 +1347,6 @@
       "whyInclude": "Creates a low-barrier community-building opportunity for part-time instructors.",
       "registrationUrl": "https://forms.gle/o1QsvRbZrCyyLwRi6",
       "sourceUrl": "https://web.uri.edu/atl/part-time-faculty-meet-greet/",
-      "lastVerified": "2026-08-02"
-    },
-    {
-      "id": "uri-atl-graduate-student-learning-community-fall-2026",
-      "title": "Graduate Student Learning Community",
-      "provider": "URI-ATL",
-      "status": "recommended",
-      "priority": "local",
-      "startDate": "2026-09-15",
-      "endDate": "2026-12-08",
-      "dateLabel": "September 15; October 6; November 10; December 8, 10:00-11:00 a.m.",
-      "datePrecision": "exact",
-      "format": "In person, Tyler Hall 225",
-      "topics": [
-        "Teaching",
-        "Mentoring",
-        "Graduate Education"
-      ],
-      "audience": [
-        "Graduate teaching assistants"
-      ],
-      "access": "Open to URI graduate teaching assistants; limited to 15 participants.",
-      "accessStatus": "verified",
-      "costStatus": "free",
-      "description": "A four-session learning community for graduate teaching assistants to deepen inclusive and effective teaching practices through discussion, relationship-building, and implementation activities.",
-      "whyInclude": "Provides sustained teaching development and peer support for graduate instructors.",
-      "registrationUrl": "https://forms.gle/ex9f3mbn3JTYjL3i8",
-      "sourceUrl": "https://web.uri.edu/atl/graduate-ta-learning-community/",
       "lastVerified": "2026-08-02"
     },
     {
