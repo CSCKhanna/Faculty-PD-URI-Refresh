@@ -53,7 +53,7 @@ export async function updateFeeds() {
       const detectedDates = extractDates(text);
       const headings = extractHeadings(html);
       const catalogItems = source.catalogSync
-        ? extractCatalogItems(html, { ...source.catalogSync, baseUrl: source.url })
+        ? extractCatalogItems(html, { ...source.catalogSync, baseUrl: source.url, referenceDate: today })
         : [];
 
       snapshot.status = "ok";
@@ -161,7 +161,7 @@ export function reconcileCatalogItems(trainings, source, catalogItems, today) {
   const canonicalItems = uniqueCatalogItems(catalogItems.map((item) => {
     const normalized = typeof item === "string" ? { title: item } : item;
     return { ...normalized, title: sync.titleAliases?.[normalized.title] || normalized.title };
-  }));
+  }), sync.identityIncludesDate);
   if (canonicalItems.length < minimumItems) {
     return {
       status: "degraded",
@@ -173,7 +173,7 @@ export function reconcileCatalogItems(trainings, source, catalogItems, today) {
       restored: []
     };
   }
-  const titleMap = new Map(canonicalItems.map((item) => [catalogTitleKey(item.title), item]));
+  const titleMap = new Map(canonicalItems.map((item) => [catalogItemKey(item, sync), item]));
   const managed = trainings.filter((item) => item.catalogSource === source.key || (prefix && item.id.startsWith(prefix)));
   const missing = [];
   const removed = [];
@@ -190,8 +190,11 @@ export function reconcileCatalogItems(trainings, source, catalogItems, today) {
       }
       continue;
     }
-    const present = titleMap.has(catalogTitleKey(item.title));
+    const present = titleMap.has(catalogItemKey(item, sync));
     if (present) {
+      if (sync.refreshManagedFields) {
+        refreshManagedCatalogItem(item, titleMap.get(catalogItemKey(item, sync)), source, today);
+      }
       delete item.sourceMissingCount;
       delete item.sourceMissingSince;
       if (item.status === "source-removed" && item.statusBeforeSourceRemoval) {
@@ -216,9 +219,9 @@ export function reconcileCatalogItems(trainings, source, catalogItems, today) {
     }
   }
 
-  const known = new Set(managed.map((item) => catalogTitleKey(item.title)));
+  const known = new Set(managed.map((item) => catalogItemKey(item, sync)));
   const discoveries = canonicalItems
-    .filter((item) => !known.has(catalogTitleKey(item.title)))
+    .filter((item) => !known.has(catalogItemKey(item, sync)))
     .map((item) => catalogDiscovery(source, item, today));
 
   return { status: "ok", catalogItems: canonicalItems.length, discoveries, missing, removed, restored };
@@ -230,28 +233,51 @@ function catalogDiscovery(source, item, today) {
   const endDate = isoDatePart(item.endDate) || startDate;
   const hasExactDates = Boolean(isoDatePart(item.startDate));
   return {
-    id: `detected-${slug(source.provider)}-${slug(title)}`,
+    id: `detected-${slug(source.provider)}-${slug(title)}${source.catalogSync?.identityIncludesDate && hasExactDates ? `-${startDate}` : ""}`,
     title,
     provider: source.provider,
     status: "discovered",
     priority: "standard",
     startDate,
     endDate,
-    dateLabel: hasExactDates ? formatCatalogDate(startDate, endDate) : "See the provider source for dates and registration",
+    dateLabel: item.dateLabel || (hasExactDates ? formatCatalogDate(startDate, endDate) : "See the provider source for dates and registration"),
     datePrecision: hasExactDates ? "exact" : "placeholder",
     format: item.format || labelForSourceType(source.type),
-    topics: inferTopics(title),
-    audience: ["Faculty"],
-    access: "Automatically published from the provider catalog. Check the source for access, cost, and registration details.",
-    accessStatus: "confirm",
-    costStatus: "membership-confirmation-needed",
+    topics: inferTopics(`${title} ${item.description || ""}`),
+    audience: source.catalogSync?.audience || ["Faculty"],
+    access: source.catalogSync?.access || "Automatically published from the provider catalog. Check the source for access, cost, and registration details.",
+    accessStatus: source.catalogSync?.accessStatus || "confirm",
+    costStatus: source.catalogSync?.costStatus || "membership-confirmation-needed",
     description: item.description || `New opportunity detected on ${source.label}.`,
     whyInclude: "Automatically added by the overnight provider-catalog comparison.",
     sourceUrl: item.url || source.url,
+    registrationUrl: item.registrationUrl,
     lastVerified: today,
     detectedByUpdater: true,
-    catalogSource: source.key
+    catalogSource: source.key,
+    catalogIdentityIncludesDate: source.catalogSync?.identityIncludesDate === true
   };
+}
+
+function refreshManagedCatalogItem(item, catalogItem, source, today) {
+  const startDate = isoDatePart(catalogItem.startDate);
+  const endDate = isoDatePart(catalogItem.endDate) || startDate;
+  if (startDate) {
+    item.startDate = startDate;
+    item.endDate = endDate;
+    item.datePrecision = "exact";
+  }
+  item.dateLabel = catalogItem.dateLabel || (startDate ? formatCatalogDate(startDate, endDate) : item.dateLabel);
+  item.format = catalogItem.format || item.format;
+  item.description = catalogItem.description || item.description;
+  item.registrationUrl = catalogItem.registrationUrl || item.registrationUrl;
+  item.sourceUrl = catalogItem.url || source.url;
+  item.topics = inferTopics(`${catalogItem.title} ${catalogItem.description || ""}`);
+  item.audience = source.catalogSync?.audience || item.audience;
+  item.access = source.catalogSync?.access || item.access;
+  item.accessStatus = source.catalogSync?.accessStatus || item.accessStatus;
+  item.costStatus = source.catalogSync?.costStatus || item.costStatus;
+  item.lastVerified = today;
 }
 
 export function reconcileExpiredItems(trainings, today) {
@@ -521,10 +547,11 @@ function mergeDiscoveries(trainings, discoveries) {
   let added = 0;
   const addedItems = [];
   const byId = new Map(trainings.map((item) => [item.id, item]));
-  const byTitleProvider = new Set(trainings.map((item) => `${item.provider}:${item.title}`.toLowerCase()));
+  const discoveryKey = (item) => `${item.provider}:${item.title}${item.catalogIdentityIncludesDate && item.startDate ? `:${item.startDate}` : ""}`.toLowerCase();
+  const byTitleProvider = new Set(trainings.map(discoveryKey));
 
   for (const discovery of discoveries) {
-    const key = `${discovery.provider}:${discovery.title}`.toLowerCase();
+    const key = discoveryKey(discovery);
     if (byId.has(discovery.id) || byTitleProvider.has(key)) continue;
     trainings.push(discovery);
     byId.set(discovery.id, discovery);
@@ -580,6 +607,7 @@ export function extractCatalogTitles(html, options = {}) {
 export function extractCatalogItems(html, options = {}) {
   if (options.structuredDataEvents) return filterCatalogItems(extractStructuredEvents(html), options);
   if (options.curCalendarEvents) return filterCatalogItems(extractCurCalendarEvents(html, options.baseUrl), options);
+  if (options.uriItsEvents) return filterCatalogItems(extractUriItsEvents(html, options), options);
 
   const headingLevels = (options.headingLevels || []).join("");
   const pattern = headingLevels
@@ -595,10 +623,75 @@ export function extractCatalogItems(html, options = {}) {
 function filterCatalogItems(items, options) {
   const includePatterns = (options.includePatterns || []).map((value) => new RegExp(value, "i"));
   const excludePatterns = (options.excludePatterns || []).map((value) => new RegExp(value, "i"));
+  const excludeContentPatterns = (options.excludeContentPatterns || []).map((value) => new RegExp(value, "i"));
   return uniqueCatalogItems(items
     .filter((item) => isCatalogTitle(item.title))
     .filter((item) => !includePatterns.length || includePatterns.some((rule) => rule.test(item.title)))
-    .filter((item) => !excludePatterns.some((rule) => rule.test(item.title))));
+    .filter((item) => !excludePatterns.some((rule) => rule.test(item.title)))
+    .filter((item) => !excludeContentPatterns.some((rule) => rule.test(`${item.title} ${item.description || ""}`))),
+  options.identityIncludesDate);
+}
+
+function extractUriItsEvents(html, options) {
+  const section = html.match(/Scheduled PD \(In-person and Virtual\)([\s\S]*?)Virtual Office Hours &amp; Drop-Ins/i)?.[1] || "";
+  const events = [];
+  for (const dayChunk of section.split(/<div class=["']calendar-day["']>/i).slice(1)) {
+    const month = dayChunk.match(/class=["']month_of["'][^>]*>([^<]+)/i)?.[1]?.trim();
+    const day = dayChunk.match(/class=["']day_of["'][^>]*>([^<]+)/i)?.[1]?.trim();
+    const startDate = inferUriItsDate(month, day, options.referenceDate);
+    for (const eventChunk of dayChunk.split(/<div class=["']calendar-event["']>/i).slice(1)) {
+      const title = normalizeText(stripHtml(eventChunk.match(/<h4[^>]*>([\s\S]*?)<\/h4>/i)?.[1] || ""));
+      if (!title) continue;
+      const startTime = normalizeText(stripHtml(eventChunk.match(/<span class=["']start["'][^>]*>([\s\S]*?)<\/span>/i)?.[1] || ""));
+      const endTime = normalizeText(stripHtml(eventChunk.match(/<span class=["']end["'][^>]*>([\s\S]*?)<\/span>/i)?.[1] || ""));
+      const detailsHtml = eventChunk.match(/<div class=["']type["'][^>]*>([\s\S]*?)<\/div>/i)?.[1] || "";
+      const extractedDescription = normalizeText(stripHtml(detailsHtml));
+      const description = /^(?:register|join zoom meeting)$/i.test(extractedDescription) ? "" : extractedDescription;
+      const registrationUrl = extractRegistrationHref(detailsHtml, options.baseUrl);
+      events.push({
+        title,
+        startDate,
+        endDate: startDate,
+        dateLabel: formatUriItsDate(startDate, startTime, endTime),
+        format: registrationUrl?.includes("zoom.us") ? "Online; Zoom" : "See the URI ITS source for format",
+        description: description || `URI ITS scheduled professional development on ${title}.`,
+        registrationUrl,
+        url: options.baseUrl
+      });
+    }
+  }
+  return events;
+}
+
+function inferUriItsDate(month, day, referenceDate) {
+  if (!month || !day) return undefined;
+  const reference = /^\d{4}-\d{2}-\d{2}$/.test(referenceDate || "")
+    ? new Date(`${referenceDate}T12:00:00Z`)
+    : new Date();
+  let candidate = new Date(`${month} ${day}, ${reference.getUTCFullYear()} 12:00:00 UTC`);
+  if (Number.isNaN(candidate.getTime())) return undefined;
+  const daysBehind = (reference - candidate) / 86400000;
+  if (daysBehind > 180) candidate = new Date(`${month} ${day}, ${reference.getUTCFullYear() + 1} 12:00:00 UTC`);
+  return candidate.toISOString().slice(0, 10);
+}
+
+function formatUriItsDate(date, startTime, endTime) {
+  if (!date) return "See the URI ITS source for date and registration";
+  const label = new Intl.DateTimeFormat("en-US", {
+    month: "long", day: "numeric", year: "numeric", timeZone: "UTC"
+  }).format(new Date(`${date}T12:00:00Z`));
+  return startTime && endTime ? `${label}, ${startTime}-${endTime}` : label;
+}
+
+function extractRegistrationHref(fragment, baseUrl) {
+  const match = [...fragment.matchAll(/<a[^>]+href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi)]
+    .find(([, , label]) => /register|join zoom/i.test(stripHtml(label)));
+  if (!match) return undefined;
+  try {
+    return new URL(decodeEntities(match[1]), baseUrl).href;
+  } catch {
+    return undefined;
+  }
 }
 
 function extractHref(fragment, baseUrl) {
@@ -660,11 +753,13 @@ function collectStructuredEvents(value, events) {
   if (value["@graph"]) collectStructuredEvents(value["@graph"], events);
 }
 
-function uniqueCatalogItems(items) {
+function uniqueCatalogItems(items, identityIncludesDate = false) {
   const byTitle = new Map();
   for (const item of items) {
     if (!item?.title) continue;
-    const key = catalogTitleKey(item.title);
+    const key = identityIncludesDate && isoDatePart(item.startDate)
+      ? `${catalogTitleKey(item.title)}:${isoDatePart(item.startDate)}`
+      : catalogTitleKey(item.title);
     if (!byTitle.has(key)) byTitle.set(key, item);
   }
   return [...byTitle.values()];
@@ -707,6 +802,11 @@ function catalogTitleKey(title) {
     .replace(/[^a-z0-9]+/g, " ")
     .replace(/\s+/g, " ")
     .trim();
+}
+
+function catalogItemKey(item, sync = {}) {
+  const title = catalogTitleKey(item.title);
+  return sync.identityIncludesDate && isoDatePart(item.startDate) ? `${title}:${isoDatePart(item.startDate)}` : title;
 }
 
 function extractDates(text) {

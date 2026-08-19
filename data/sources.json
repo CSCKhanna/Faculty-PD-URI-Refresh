@@ -27,6 +27,42 @@
       ]
     },
     {
+      "key": "uri_its_training_support",
+      "provider": "URI-ITS",
+      "label": "URI ITS Training and Support",
+      "url": "https://its.uri.edu/training-and-support/",
+      "type": "event-index",
+      "enabled": true,
+      "discover": false,
+      "catalogSync": {
+        "uriItsEvents": true,
+        "identityIncludesDate": true,
+        "refreshManagedFields": true,
+        "missingRunsBeforeArchive": 1,
+        "minimumItems": 3,
+        "excludeContentPatterns": [
+          "undergraduate(?: students?)? only",
+          "for undergraduate students only",
+          "only (?:open|available) to undergraduates?"
+        ],
+        "titleAliases": {
+          "Panaopto Advanced: Video editing and interactivity": "Panopto Advanced: Video Editing and Interactivity",
+          "Accessbility in LMS: Tools & Brightspace Insights for WCAG 2.1AA": "Accessibility in LMS: Tools and Brightspace Insights for WCAG 2.1 AA"
+        },
+        "audience": ["Faculty"],
+        "access": "URI ITS professional development for URI faculty. Use the registration link or source page for participation details.",
+        "accessStatus": "local",
+        "costStatus": "free-or-member"
+      },
+      "match": [
+        "Brightspace",
+        "Panopto",
+        "Accessibility",
+        "AI",
+        "Teaching"
+      ]
+    },
+    {
       "key": "uri_ncfdd",
       "provider": "NCFDD",
       "label": "URI NCFDD membership page",

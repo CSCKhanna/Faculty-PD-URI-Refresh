@@ -139,6 +139,64 @@ test("catalog reconciliation discovers additions and restores returned items", (
   assert.equal(result.discoveries[0].title, "New Program");
 });
 
+test("catalog reconciliation refreshes managed URI ITS session details", () => {
+  const items = [training({
+    id: "detected-uri-its-brightspace-basics-2026-09-04",
+    provider: "URI-ITS",
+    title: "Brightspace Basics",
+    startDate: "2026-09-04",
+    endDate: "2026-09-04",
+    dateLabel: "Old time",
+    description: "Old description",
+    catalogSource: "uri_its",
+    catalogIdentityIncludesDate: true,
+    detectedByUpdater: true
+  })];
+  const source = {
+    key: "uri_its",
+    provider: "URI-ITS",
+    url: "https://its.uri.edu/training-and-support/",
+    catalogSync: {
+      identityIncludesDate: true,
+      refreshManagedFields: true,
+      audience: ["Faculty"],
+      accessStatus: "local",
+      costStatus: "free-or-member"
+    }
+  };
+  const result = reconcileCatalogItems(items, source, [{
+    title: "Brightspace Basics",
+    startDate: "2026-09-04",
+    endDate: "2026-09-04",
+    dateLabel: "September 4, 2026, 10:00 AM-11:00 AM",
+    description: "Updated course setup workshop.",
+    registrationUrl: "https://example.edu/register"
+  }], "2026-08-19");
+
+  assert.equal(result.discoveries.length, 0);
+  assert.equal(items[0].dateLabel, "September 4, 2026, 10:00 AM-11:00 AM");
+  assert.equal(items[0].description, "Updated course setup workshop.");
+  assert.equal(items[0].registrationUrl, "https://example.edu/register");
+  assert.deepEqual(items[0].audience, ["Faculty"]);
+});
+
+test("catalog reconciliation preserves repeated URI ITS workshops on different dates", () => {
+  const source = {
+    key: "uri_its",
+    provider: "URI-ITS",
+    url: "https://its.uri.edu/training-and-support/",
+    type: "event-index",
+    catalogSync: { identityIncludesDate: true }
+  };
+  const result = reconcileCatalogItems([], source, [
+    { title: "Brightspace Basics", startDate: "2026-09-04", endDate: "2026-09-04" },
+    { title: "Brightspace Basics", startDate: "2026-10-30", endDate: "2026-10-30" }
+  ], "2026-08-19");
+
+  assert.equal(result.discoveries.length, 2);
+  assert.notEqual(result.discoveries[0].id, result.discoveries[1].id);
+});
+
 test("catalog reconciliation ignores an unexpectedly empty extraction", () => {
   const items = [training({ id: "uri-atl-existing", title: "Existing Program" })];
   const source = {
@@ -249,4 +307,70 @@ test("extracts CUR calendar events with dates and filters out deadlines", () => 
     endDate: "2026-10-13",
     format: "Provider event"
   }]);
+});
+
+test("extracts dated URI ITS scheduled PD as distinct sessions", () => {
+  const html = `
+    <h3>Scheduled PD (In-person and Virtual)</h3>
+    <div class="calendar-day"><div class='month_of'>Sep</div><div class='day_of'>04</div>
+      <div class='calendar-event'><h4>Brightspace Basics</h4>
+        <span class='start'>10:00 AM</span><span class='end'>11:00 AM</span>
+        <div class='type' id='one'>Faculty course setup.<a href='https://uri-edu.zoom.us/meeting/register/one'>Register</a></div>
+      </div>
+    </div>
+    <div class="calendar-day"><div class='month_of'>Oct</div><div class='day_of'>30</div>
+      <div class='calendar-event'><h4>Brightspace Basics</h4>
+        <span class='start'>11:00 AM</span><span class='end'>12:00 PM</span>
+        <div class='type' id='two'><a href='https://uri-edu.zoom.us/meeting/register/two'>Register</a></div>
+      </div>
+    </div>
+    <h3>Virtual Office Hours &amp; Drop-Ins</h3>
+    <div class="calendar-day"><div class='month_of'>Nov</div><div class='day_of'>02</div>
+      <div class='calendar-event'><h4>ITS Virtual Service Desk</h4></div>
+    </div>
+  `;
+  const items = extractCatalogItems(html, {
+    uriItsEvents: true,
+    identityIncludesDate: true,
+    baseUrl: "https://its.uri.edu/training-and-support/",
+    referenceDate: "2026-08-19"
+  });
+
+  assert.equal(items.length, 2);
+  assert.deepEqual(items.map((item) => [item.title, item.startDate]), [
+    ["Brightspace Basics", "2026-09-04"],
+    ["Brightspace Basics", "2026-10-30"]
+  ]);
+  assert.equal(items[0].registrationUrl, "https://uri-edu.zoom.us/meeting/register/one");
+  assert.equal(items.some((item) => item.title === "ITS Virtual Service Desk"), false);
+});
+
+test("excludes URI ITS opportunities limited to undergraduate students", () => {
+  const html = `
+    <h3>Scheduled PD (In-person and Virtual)</h3>
+    <div class="calendar-day"><div class='month_of'>Sep</div><div class='day_of'>10</div>
+      <div class='calendar-event'><h4>Student Technology Lab</h4>
+        <span class='start'>10:00 AM</span><span class='end'>11:00 AM</span>
+        <div class='type' id='undergrad'>This opportunity is for undergraduate students only.</div>
+      </div>
+      <div class='calendar-event'><h4>Teaching with Technology</h4>
+        <span class='start'>1:00 PM</span><span class='end'>2:00 PM</span>
+        <div class='type' id='faculty'>Faculty workshop about undergraduate student engagement.</div>
+      </div>
+    </div>
+    <h3>Virtual Office Hours &amp; Drop-Ins</h3>
+  `;
+  const items = extractCatalogItems(html, {
+    uriItsEvents: true,
+    identityIncludesDate: true,
+    baseUrl: "https://its.uri.edu/training-and-support/",
+    referenceDate: "2026-08-19",
+    excludeContentPatterns: [
+      "undergraduate(?: students?)? only",
+      "for undergraduate students only",
+      "only (?:open|available) to undergraduates?"
+    ]
+  });
+
+  assert.deepEqual(items.map((item) => item.title), ["Teaching with Technology"]);
 });

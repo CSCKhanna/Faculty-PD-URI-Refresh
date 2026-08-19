@@ -2,21 +2,21 @@
   "meta": {
     "title": "URI Instructor Development Calendar: Professional Development from URI and Member Organizations",
     "subtitle": "Professional development from URI and member organizations",
-    "lastUpdated": "2026-08-19T14:59:46.839Z",
+    "lastUpdated": "2026-08-19T16:33:40.523Z",
     "dataVersion": 1,
     "notes": [
       "The three starter DOCX files were imported locally on June 2, 2026.",
       "The internal training grid labeled DO NOT USE was used only for planning signals such as audience, timing, and topic gaps; its internal presenter and logistics details were not published.",
       "NCFDD, CIRTL, and CUR access were verified from URI or user-provided membership documentation. EAB and AAC&U access notes still need local confirmation for member-only or paid items."
     ],
-    "nextUpdateRecommended": "2026-08-26T14:38:18.697Z",
+    "nextUpdateRecommended": "2026-08-26T16:33:40.523Z",
     "sourceSnapshots": [
       {
         "key": "uri_atl_fall_2026",
         "provider": "URI-ATL",
         "label": "URI ATL Fall 2026 programming",
         "url": "https://web.uri.edu/atl/fall-2026-atl-programming/",
-        "lastFetched": "2026-08-19T14:38:18.697Z",
+        "lastFetched": "2026-08-19T16:33:40.523Z",
         "status": "ok",
         "keywordsFound": [
           "Writing",
@@ -37,11 +37,36 @@
         "changed": false
       },
       {
+        "key": "uri_its_training_support",
+        "provider": "URI-ITS",
+        "label": "URI ITS Training and Support",
+        "url": "https://its.uri.edu/training-and-support/",
+        "lastFetched": "2026-08-19T16:33:40.523Z",
+        "status": "ok",
+        "keywordsFound": [
+          "Brightspace",
+          "Panopto",
+          "Accessibility",
+          "AI",
+          "Teaching"
+        ],
+        "detectedDates": [
+          {
+            "label": "Jan 20, 2026",
+            "iso": "2026-01-20"
+          }
+        ],
+        "title": "Training",
+        "snippet": "S) are on the 2nd floor of the library, M-F, 8:30-4. Scheduled PD (In-person and Virtual) Aug 21 Merge Course Sections: Combine sections in Brightspace 10:00 AM to 10:30 AM View Details View in Calendar Are you teaching multiple sections of the same course and want to manage them all in one place? Join us for a hands-on session where we’ll walk you through t",
+        "contentHash": "02b127e741f2e9b69b93a59f3db2cd59cec99665b86ea301bb424f4991cab331",
+        "changed": false
+      },
+      {
         "key": "uri_ncfdd",
         "provider": "NCFDD",
         "label": "URI NCFDD membership page",
         "url": "https://web.uri.edu/diversity/training/national-center-for-faculty-development-diversity-ncfdd/",
-        "lastFetched": "2026-08-19T14:38:18.697Z",
+        "lastFetched": "2026-08-19T16:33:40.523Z",
         "status": "ok",
         "keywordsFound": [],
         "detectedDates": [],
@@ -55,7 +80,7 @@
         "provider": "NCFDD",
         "label": "NCFDD 14-Day Writing Challenge",
         "url": "https://www.ncfdd.org/programs/14-day-writing-challenge/",
-        "lastFetched": "2026-08-19T14:38:18.697Z",
+        "lastFetched": "2026-08-19T16:33:40.523Z",
         "status": "ok",
         "keywordsFound": [
           "14-Day Writing Challenge",
@@ -97,7 +122,7 @@
         "provider": "NCFDD",
         "label": "NCFDD events and webinar archive",
         "url": "https://www.ncfdd.org/category/events-and-webinars/",
-        "lastFetched": "2026-08-19T14:38:18.697Z",
+        "lastFetched": "2026-08-19T16:33:40.523Z",
         "status": "ok",
         "keywordsFound": [
           "AI",
@@ -148,7 +173,7 @@
         "provider": "CIRTL",
         "label": "URI ATL CIRTL page",
         "url": "https://web.uri.edu/atl/graduate-students/",
-        "lastFetched": "2026-08-19T14:38:18.697Z",
+        "lastFetched": "2026-08-19T16:33:40.523Z",
         "status": "ok",
         "keywordsFound": [],
         "detectedDates": [],
@@ -162,7 +187,7 @@
         "provider": "CIRTL",
         "label": "CIRTL upcoming events and courses",
         "url": "https://cirtl.net/events/",
-        "lastFetched": "2026-08-19T14:38:18.697Z",
+        "lastFetched": "2026-08-19T16:33:40.523Z",
         "status": "ok",
         "keywordsFound": [
           "AI",
@@ -199,7 +224,7 @@
         "provider": "CIRTL",
         "label": "CIRTL Summer 2026 programming",
         "url": "https://cirtl.net/summer-2026-cirtl-network-programming/",
-        "lastFetched": "2026-08-19T14:38:18.697Z",
+        "lastFetched": "2026-08-19T16:33:40.523Z",
         "status": "ok",
         "keywordsFound": [
           "AI",
@@ -212,29 +237,29 @@
             "iso": "2026-04-24"
           },
           {
-            "label": "October 26, 2023",
-            "iso": "2023-10-26"
+            "label": "June 7, 2024",
+            "iso": "2024-06-07"
           },
           {
-            "label": "December 13, 2023",
-            "iso": "2023-12-13"
+            "label": "July 14, 2022",
+            "iso": "2022-07-14"
           },
           {
-            "label": "July 15, 2025",
-            "iso": "2025-07-15"
+            "label": "April 8, 2024",
+            "iso": "2024-04-08"
           }
         ],
         "title": "Summer 2026 CIRTL Network Programming",
         "snippet": "Summer 2026 CIRTL Network Programming - CIRTL Network Skip to main content CIRTL Central Team Log In Calendar Contact Us About About CIRTL Why CIRTL Values Core Ideas Learning Goals Achievement Levels News Contact Us The CIRTL Network Institutions Leadership CIRTL Central Alumni Network Events & Courses Upcoming Past How to Attend CIRTL Network Transcripts M",
-        "contentHash": "70a5abf0a21542a46f24bf38c67713050c8d96e7073795e6922c273e2b684b1c",
-        "changed": false
+        "contentHash": "36176cf4a3c46dcad309dcfef703c519110572828f969d662275986c8dc57b17",
+        "changed": true
       },
       {
         "key": "eab_ai_center",
         "provider": "EAB",
         "label": "EAB Higher Education AI Resource Center",
         "url": "https://eab.com/resources/resource-center/higher-education-ai-resource-center/",
-        "lastFetched": "2026-08-19T14:38:18.697Z",
+        "lastFetched": "2026-08-19T16:33:40.523Z",
         "status": "ok",
         "keywordsFound": [
           "AI",
@@ -252,7 +277,7 @@
         "provider": "EAB",
         "label": "EAB Construction Kit for Faculty AI Resources",
         "url": "https://eab.com/resources/tool/construction-kit-faculty-ai-resources/",
-        "lastFetched": "2026-08-19T14:38:18.697Z",
+        "lastFetched": "2026-08-19T16:33:40.523Z",
         "status": "ok",
         "keywordsFound": [
           "AI",
@@ -269,7 +294,7 @@
         "provider": "CUR",
         "label": "CUR Community event calendar",
         "url": "https://community.cur.org/events/calendar",
-        "lastFetched": "2026-08-19T14:38:18.697Z",
+        "lastFetched": "2026-08-19T16:33:40.523Z",
         "status": "ok",
         "keywordsFound": [
           "AI",
@@ -321,7 +346,7 @@
         "provider": "CUR",
         "label": "CUR COEUR 2.0",
         "url": "https://www.cur.org/resources-publications/coeur-2-0/",
-        "lastFetched": "2026-08-19T14:38:18.697Z",
+        "lastFetched": "2026-08-19T16:33:40.523Z",
         "status": "ok",
         "keywordsFound": [
           "COEUR",
@@ -343,7 +368,7 @@
         "provider": "CUR",
         "label": "CUR mentoring insight page",
         "url": "https://www.cur.org/insights/mentoring/",
-        "lastFetched": "2026-08-19T14:38:18.697Z",
+        "lastFetched": "2026-08-19T16:33:40.523Z",
         "status": "ok",
         "keywordsFound": [
           "Mentoring"
@@ -359,7 +384,7 @@
         "provider": "AAC&U",
         "label": "AAC&U AI Week listing",
         "url": "https://hawksites.newpaltz.edu/fdc/2026/04/21/aac-apr-27-30/",
-        "lastFetched": "2026-08-19T14:38:18.697Z",
+        "lastFetched": "2026-08-19T16:33:40.523Z",
         "status": "ok",
         "keywordsFound": [
           "AI"
@@ -380,7 +405,7 @@
         "provider": "CUR",
         "label": "CUR Enhanced Membership activation",
         "url": "https://www.cur.org/membership-community/membership/activate-enhanced-membership-benefits/",
-        "lastFetched": "2026-08-19T14:38:18.697Z",
+        "lastFetched": "2026-08-19T16:33:40.523Z",
         "status": "ok",
         "keywordsFound": [],
         "detectedDates": [],
@@ -394,7 +419,7 @@
         "provider": "CUR",
         "label": "CUR ConnectUR",
         "url": "https://www.cur.org/events-services/connectur/",
-        "lastFetched": "2026-08-19T14:38:18.697Z",
+        "lastFetched": "2026-08-19T16:33:40.523Z",
         "status": "ok",
         "keywordsFound": [
           "ConnectUR",
@@ -445,7 +470,7 @@
         "provider": "CUR",
         "label": "CUR Grant Dialogues",
         "url": "https://www.cur.org/events-services/dialogues/",
-        "lastFetched": "2026-08-19T14:38:18.697Z",
+        "lastFetched": "2026-08-19T16:33:40.523Z",
         "status": "ok",
         "keywordsFound": [
           "Grant Dialogues",
@@ -484,7 +509,7 @@
         "provider": "CUR",
         "label": "CUR on-demand learning courses",
         "url": "https://www.cur.org/events-services/on-demand-learning-courses/",
-        "lastFetched": "2026-08-19T14:38:18.697Z",
+        "lastFetched": "2026-08-19T16:33:40.523Z",
         "status": "ok",
         "keywordsFound": [
           "AI"
@@ -500,7 +525,7 @@
         "provider": "CIRTL",
         "label": "CIRTL Instructor Materials",
         "url": "https://cirtl.net/instructor-materials/",
-        "lastFetched": "2026-08-19T14:38:18.697Z",
+        "lastFetched": "2026-08-19T16:33:40.523Z",
         "status": "ok",
         "keywordsFound": [
           "Instructor Materials",
@@ -517,7 +542,7 @@
         "provider": "CIRTL",
         "label": "CIRTL Teaching-as-Research",
         "url": "https://cirtl.net/teaching-as-research/",
-        "lastFetched": "2026-08-19T14:38:18.697Z",
+        "lastFetched": "2026-08-19T16:33:40.523Z",
         "status": "ok",
         "keywordsFound": [
           "Teaching-as-Research"
@@ -533,7 +558,7 @@
         "provider": "CIRTL",
         "label": "CIRTL Disciplinary Learning Communities",
         "url": "https://cirtl.net/disciplinary-learning-communities/",
-        "lastFetched": "2026-08-19T14:38:18.697Z",
+        "lastFetched": "2026-08-19T16:33:40.523Z",
         "status": "ok",
         "keywordsFound": [
           "Disciplinary Learning Communities",
@@ -550,7 +575,7 @@
         "provider": "Other",
         "label": "Brown Advance-CTR Research Mentoring Training Programs",
         "url": "https://advancectr.brown.edu/events-training/research-mentoring-training-programs",
-        "lastFetched": "2026-08-19T14:38:18.697Z",
+        "lastFetched": "2026-08-19T16:33:40.523Z",
         "status": "ok",
         "keywordsFound": [
           "Research Mentoring Training",
@@ -567,11 +592,11 @@
       }
     ],
     "updateSummary": {
-      "checkedSources": 21,
-      "successfulSources": 21,
-      "detectedItems": 28,
-      "addedDiscoveries": 26,
-      "updatedKnownItems": 83,
+      "checkedSources": 22,
+      "successfulSources": 22,
+      "detectedItems": 20,
+      "addedDiscoveries": 18,
+      "updatedKnownItems": 119,
       "archivedPastItems": 0,
       "restoredItems": 0
     },
@@ -2485,6 +2510,258 @@
           {
             "provider": "URI-Provost's Office",
             "activeRecords": 15,
+            "configuredSources": 0,
+            "managedCatalogs": 0
+          }
+        ]
+      },
+      {
+        "ranAt": "2026-08-19T16:33:40.523Z",
+        "localDate": "2026-08-19",
+        "checkedSources": 22,
+        "successfulSources": 22,
+        "failedSources": [],
+        "added": [
+          {
+            "id": "detected-uri-its-merge-course-sections-combine-sections-in-brightspace-2026-08-21",
+            "title": "Merge Course Sections: Combine sections in Brightspace",
+            "provider": "URI-ITS"
+          },
+          {
+            "id": "detected-uri-its-rhody-ed-tech-essentials-2026-08-25",
+            "title": "Rhody Ed Tech Essentials",
+            "provider": "URI-ITS"
+          },
+          {
+            "id": "detected-uri-its-brightspace-accessibility-and-uri-resources-2026-09-04",
+            "title": "Brightspace Accessibility and URI Resources",
+            "provider": "URI-ITS"
+          },
+          {
+            "id": "detected-uri-its-brightspace-basics-2026-09-04",
+            "title": "Brightspace Basics",
+            "provider": "URI-ITS"
+          },
+          {
+            "id": "detected-uri-its-panopto-basics-create-lectures-2026-09-11",
+            "title": "Panopto Basics: Create lectures",
+            "provider": "URI-ITS"
+          },
+          {
+            "id": "detected-uri-its-is-my-course-content-accessible-2026-09-18",
+            "title": "Is my course content accessible?",
+            "provider": "URI-ITS"
+          },
+          {
+            "id": "detected-uri-its-screencasts-videos-captions-and-transcripts-2026-09-25",
+            "title": "Screencasts, videos, captions and transcripts",
+            "provider": "URI-ITS"
+          },
+          {
+            "id": "detected-uri-its-archive-your-course-and-student-data-2026-09-29",
+            "title": "Archive Your Course and Student Data",
+            "provider": "URI-ITS"
+          },
+          {
+            "id": "detected-uri-its-accessibility-of-oer-and-external-course-resources-2026-10-02",
+            "title": "Accessibility of OER and External Course Resources",
+            "provider": "URI-ITS"
+          },
+          {
+            "id": "detected-uri-its-panopto-advanced-video-editing-and-interactivity-2026-10-02",
+            "title": "Panopto Advanced: Video Editing and Interactivity",
+            "provider": "URI-ITS"
+          },
+          {
+            "id": "detected-uri-its-edtech-connect-1st-wednesday-2026-10-07",
+            "title": "EdTech Connect 1st Wednesday",
+            "provider": "URI-ITS"
+          },
+          {
+            "id": "detected-uri-its-archive-your-course-and-student-data-2026-10-09",
+            "title": "Archive Your Course and Student Data",
+            "provider": "URI-ITS"
+          },
+          {
+            "id": "detected-uri-its-accessibility-and-ai-2026-10-16",
+            "title": "Accessibility and AI",
+            "provider": "URI-ITS"
+          },
+          {
+            "id": "detected-uri-its-reducing-your-brightspace-course-data-2026-10-23",
+            "title": "Reducing Your Brightspace Course Data",
+            "provider": "URI-ITS"
+          },
+          {
+            "id": "detected-uri-its-brightspace-basics-2026-10-30",
+            "title": "Brightspace Basics",
+            "provider": "URI-ITS"
+          },
+          {
+            "id": "detected-uri-its-edtech-connect-1st-wednesday-2026-11-04",
+            "title": "EdTech Connect 1st Wednesday",
+            "provider": "URI-ITS"
+          },
+          {
+            "id": "detected-uri-its-accessibility-in-lms-tools-and-brightspace-insights-for-wcag-2026-11-06",
+            "title": "Accessibility in LMS: Tools and Brightspace Insights for WCAG 2.1 AA",
+            "provider": "URI-ITS"
+          },
+          {
+            "id": "detected-uri-its-reducing-your-brightspace-course-data-2026-11-13",
+            "title": "Reducing Your Brightspace Course Data",
+            "provider": "URI-ITS"
+          }
+        ],
+        "changedSources": [
+          {
+            "key": "cirtl_summer_2026",
+            "provider": "CIRTL",
+            "label": "CIRTL Summer 2026 programming"
+          }
+        ],
+        "providerChanges": [
+          {
+            "source": "uri_atl_fall_2026",
+            "provider": "URI-ATL",
+            "status": "ok",
+            "catalogItems": 23,
+            "added": [],
+            "missing": [],
+            "removed": [],
+            "restored": []
+          },
+          {
+            "source": "uri_its_training_support",
+            "provider": "URI-ITS",
+            "status": "ok",
+            "catalogItems": 18,
+            "added": [
+              "Merge Course Sections: Combine sections in Brightspace",
+              "Rhody Ed Tech Essentials",
+              "Brightspace Accessibility and URI Resources",
+              "Brightspace Basics",
+              "Panopto Basics: Create lectures",
+              "Is my course content accessible?",
+              "Screencasts, videos, captions and transcripts",
+              "Archive Your Course and Student Data",
+              "Accessibility of OER and External Course Resources",
+              "Panopto Advanced: Video Editing and Interactivity",
+              "EdTech Connect 1st Wednesday",
+              "Archive Your Course and Student Data",
+              "Accessibility and AI",
+              "Reducing Your Brightspace Course Data",
+              "Brightspace Basics",
+              "EdTech Connect 1st Wednesday",
+              "Accessibility in LMS: Tools and Brightspace Insights for WCAG 2.1 AA",
+              "Reducing Your Brightspace Course Data"
+            ],
+            "missing": [],
+            "removed": [],
+            "restored": []
+          },
+          {
+            "source": "ncfdd_events",
+            "provider": "NCFDD",
+            "status": "ok",
+            "catalogItems": 6,
+            "added": [
+              "The AIs Go Marching On: Finding Our Way with AI in Education"
+            ],
+            "missing": [],
+            "removed": [],
+            "restored": []
+          },
+          {
+            "source": "cirtl_upcoming",
+            "provider": "CIRTL",
+            "status": "ok",
+            "catalogItems": 12,
+            "added": [
+              "UDL + AI Design Studio"
+            ],
+            "missing": [],
+            "removed": [],
+            "restored": []
+          },
+          {
+            "source": "cur_calendar",
+            "provider": "CUR",
+            "status": "ok",
+            "catalogItems": 6,
+            "added": [],
+            "missing": [],
+            "removed": [],
+            "restored": []
+          }
+        ],
+        "archivedPast": [],
+        "linkAudit": {
+          "checkedUrls": 80,
+          "successfulUrls": 80,
+          "goneUrls": [],
+          "transientErrors": [],
+          "removed": [],
+          "restored": []
+        },
+        "providerCoverage": [
+          {
+            "provider": "AAC&U",
+            "activeRecords": 2,
+            "configuredSources": 1,
+            "managedCatalogs": 0
+          },
+          {
+            "provider": "CIRTL",
+            "activeRecords": 15,
+            "configuredSources": 6,
+            "managedCatalogs": 1
+          },
+          {
+            "provider": "CUR",
+            "activeRecords": 14,
+            "configuredSources": 7,
+            "managedCatalogs": 1
+          },
+          {
+            "provider": "EAB",
+            "activeRecords": 4,
+            "configuredSources": 2,
+            "managedCatalogs": 0
+          },
+          {
+            "provider": "NCFDD",
+            "activeRecords": 21,
+            "configuredSources": 3,
+            "managedCatalogs": 1
+          },
+          {
+            "provider": "Other",
+            "activeRecords": 2,
+            "configuredSources": 1,
+            "managedCatalogs": 0
+          },
+          {
+            "provider": "URI",
+            "activeRecords": 2,
+            "configuredSources": 0,
+            "managedCatalogs": 0
+          },
+          {
+            "provider": "URI-ATL",
+            "activeRecords": 23,
+            "configuredSources": 1,
+            "managedCatalogs": 1
+          },
+          {
+            "provider": "URI-ITS",
+            "activeRecords": 18,
+            "configuredSources": 1,
+            "managedCatalogs": 1
+          },
+          {
+            "provider": "URI-Provost's Office",
+            "activeRecords": 18,
             "configuredSources": 0,
             "managedCatalogs": 0
           }
@@ -5730,6 +6007,526 @@
       "lastVerified": "2026-08-19",
       "detectedByUpdater": true,
       "catalogSource": "cur_calendar"
+    },
+    {
+      "id": "detected-uri-its-merge-course-sections-combine-sections-in-brightspace-2026-08-21",
+      "title": "Merge Course Sections: Combine sections in Brightspace",
+      "provider": "URI-ITS",
+      "status": "discovered",
+      "priority": "standard",
+      "startDate": "2026-08-21",
+      "endDate": "2026-08-21",
+      "dateLabel": "August 21, 2026, 10:00 AM-10:30 AM",
+      "datePrecision": "exact",
+      "format": "Online; Zoom",
+      "topics": [
+        "Teaching"
+      ],
+      "audience": [
+        "Faculty"
+      ],
+      "access": "URI ITS professional development for URI faculty. Use the registration link or source page for participation details.",
+      "accessStatus": "local",
+      "costStatus": "free-or-member",
+      "description": "Are you teaching multiple sections of the same course and want to manage them all in one place? Join us for a hands-on session where we’ll walk you through the steps to merge your course sections into a single, streamlined course. Register",
+      "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
+      "sourceUrl": "https://its.uri.edu/training-and-support/",
+      "registrationUrl": "https://uri-edu.zoom.us/meeting/register/RH8lhuPGQ-mwVJ03peqzeA",
+      "lastVerified": "2026-08-19",
+      "detectedByUpdater": true,
+      "catalogSource": "uri_its_training_support",
+      "catalogIdentityIncludesDate": true
+    },
+    {
+      "id": "detected-uri-its-rhody-ed-tech-essentials-2026-08-25",
+      "title": "Rhody Ed Tech Essentials",
+      "provider": "URI-ITS",
+      "status": "discovered",
+      "priority": "standard",
+      "startDate": "2026-08-25",
+      "endDate": "2026-08-25",
+      "dateLabel": "August 25, 2026, 10:00 AM-11:00 AM",
+      "datePrecision": "exact",
+      "format": "Online; Zoom",
+      "topics": [
+        "AI"
+      ],
+      "audience": [
+        "Faculty"
+      ],
+      "access": "URI ITS professional development for URI faculty. Use the registration link or source page for participation details.",
+      "accessStatus": "local",
+      "costStatus": "free-or-member",
+      "description": "Rhody Ed Tech Essentials provides new and current faculty with all the basic educational technology training they require to begin blended and online instruction in Brightspace. Introduction Brief Review / Introduction to IT Support Services Brightspace Essentials [Logging in, where to find templates, gradebook, assignments, quiz, etc] Brightspace accessibility checker, Readspeaker, & ADA compliance Panopto Essentials - how to make lecture videos for online courses Brief Review of other available ed tech tools [Camtasia, Snagit, Polling, etc] Professional development opportunities to advance training/skills in all these topics and more [What, where, when] End - Questions Register",
+      "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
+      "sourceUrl": "https://its.uri.edu/training-and-support/",
+      "registrationUrl": "https://uri-edu.zoom.us/meeting/register/6ZMWLCTeR0WTJL514eJBhw",
+      "lastVerified": "2026-08-19",
+      "detectedByUpdater": true,
+      "catalogSource": "uri_its_training_support",
+      "catalogIdentityIncludesDate": true
+    },
+    {
+      "id": "detected-uri-its-brightspace-accessibility-and-uri-resources-2026-09-04",
+      "title": "Brightspace Accessibility and URI Resources",
+      "provider": "URI-ITS",
+      "status": "discovered",
+      "priority": "standard",
+      "startDate": "2026-09-04",
+      "endDate": "2026-09-04",
+      "dateLabel": "September 4, 2026, 09:00 AM-10:00 AM",
+      "datePrecision": "exact",
+      "format": "Online; Zoom",
+      "topics": [
+        "Faculty Development"
+      ],
+      "audience": [
+        "Faculty"
+      ],
+      "access": "URI ITS professional development for URI faculty. Use the registration link or source page for participation details.",
+      "accessStatus": "local",
+      "costStatus": "free-or-member",
+      "description": "URI ITS scheduled professional development on Brightspace Accessibility and URI Resources.",
+      "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
+      "sourceUrl": "https://its.uri.edu/training-and-support/",
+      "registrationUrl": "https://uri-edu.zoom.us/meeting/register/pvOtDlkqRCS4qsnk0Ms72g",
+      "lastVerified": "2026-08-19",
+      "detectedByUpdater": true,
+      "catalogSource": "uri_its_training_support",
+      "catalogIdentityIncludesDate": true
+    },
+    {
+      "id": "detected-uri-its-brightspace-basics-2026-09-04",
+      "title": "Brightspace Basics",
+      "provider": "URI-ITS",
+      "status": "discovered",
+      "priority": "standard",
+      "startDate": "2026-09-04",
+      "endDate": "2026-09-04",
+      "dateLabel": "September 4, 2026, 10:00 AM-11:00 AM",
+      "datePrecision": "exact",
+      "format": "Online; Zoom",
+      "topics": [
+        "Faculty Development"
+      ],
+      "audience": [
+        "Faculty"
+      ],
+      "access": "URI ITS professional development for URI faculty. Use the registration link or source page for participation details.",
+      "accessStatus": "local",
+      "costStatus": "free-or-member",
+      "description": "URI ITS scheduled professional development on Brightspace Basics.",
+      "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
+      "sourceUrl": "https://its.uri.edu/training-and-support/",
+      "registrationUrl": "https://uri-edu.zoom.us/meeting/register/Z53wZ4TeQmqLAxFM7eKYwg",
+      "lastVerified": "2026-08-19",
+      "detectedByUpdater": true,
+      "catalogSource": "uri_its_training_support",
+      "catalogIdentityIncludesDate": true
+    },
+    {
+      "id": "detected-uri-its-panopto-basics-create-lectures-2026-09-11",
+      "title": "Panopto Basics: Create lectures",
+      "provider": "URI-ITS",
+      "status": "discovered",
+      "priority": "standard",
+      "startDate": "2026-09-11",
+      "endDate": "2026-09-11",
+      "dateLabel": "September 11, 2026, 10:00 AM-11:00 AM",
+      "datePrecision": "exact",
+      "format": "Online; Zoom",
+      "topics": [
+        "Teaching"
+      ],
+      "audience": [
+        "Faculty"
+      ],
+      "access": "URI ITS professional development for URI faculty. Use the registration link or source page for participation details.",
+      "accessStatus": "local",
+      "costStatus": "free-or-member",
+      "description": "Learn how to access and use Panopto for lecture capture and video creations to augment teaching and learning. Register",
+      "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
+      "sourceUrl": "https://its.uri.edu/training-and-support/",
+      "registrationUrl": "https://uri-edu.zoom.us/meeting/register/0ivVoe3iRS63AyhcuMVKRQ",
+      "lastVerified": "2026-08-19",
+      "detectedByUpdater": true,
+      "catalogSource": "uri_its_training_support",
+      "catalogIdentityIncludesDate": true
+    },
+    {
+      "id": "detected-uri-its-is-my-course-content-accessible-2026-09-18",
+      "title": "Is my course content accessible?",
+      "provider": "URI-ITS",
+      "status": "discovered",
+      "priority": "standard",
+      "startDate": "2026-09-18",
+      "endDate": "2026-09-18",
+      "dateLabel": "September 18, 2026, 09:00 AM-10:00 AM",
+      "datePrecision": "exact",
+      "format": "Online; Zoom",
+      "topics": [
+        "Faculty Development"
+      ],
+      "audience": [
+        "Faculty"
+      ],
+      "access": "URI ITS professional development for URI faculty. Use the registration link or source page for participation details.",
+      "accessStatus": "local",
+      "costStatus": "free-or-member",
+      "description": "URI ITS scheduled professional development on Is my course content accessible?.",
+      "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
+      "sourceUrl": "https://its.uri.edu/training-and-support/",
+      "registrationUrl": "https://uri-edu.zoom.us/meeting/register/Y0vAsKDBSSOXrS-kfGjQCg",
+      "lastVerified": "2026-08-19",
+      "detectedByUpdater": true,
+      "catalogSource": "uri_its_training_support",
+      "catalogIdentityIncludesDate": true
+    },
+    {
+      "id": "detected-uri-its-screencasts-videos-captions-and-transcripts-2026-09-25",
+      "title": "Screencasts, videos, captions and transcripts",
+      "provider": "URI-ITS",
+      "status": "discovered",
+      "priority": "standard",
+      "startDate": "2026-09-25",
+      "endDate": "2026-09-25",
+      "dateLabel": "September 25, 2026, 09:00 AM-10:00 AM",
+      "datePrecision": "exact",
+      "format": "Online; Zoom",
+      "topics": [
+        "Faculty Development"
+      ],
+      "audience": [
+        "Faculty"
+      ],
+      "access": "URI ITS professional development for URI faculty. Use the registration link or source page for participation details.",
+      "accessStatus": "local",
+      "costStatus": "free-or-member",
+      "description": "URI ITS scheduled professional development on Screencasts, videos, captions and transcripts.",
+      "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
+      "sourceUrl": "https://its.uri.edu/training-and-support/",
+      "registrationUrl": "https://uri-edu.zoom.us/meeting/register/MmatBhYGQWmcLDNOc-pezA",
+      "lastVerified": "2026-08-19",
+      "detectedByUpdater": true,
+      "catalogSource": "uri_its_training_support",
+      "catalogIdentityIncludesDate": true
+    },
+    {
+      "id": "detected-uri-its-archive-your-course-and-student-data-2026-09-29",
+      "title": "Archive Your Course and Student Data",
+      "provider": "URI-ITS",
+      "status": "discovered",
+      "priority": "standard",
+      "startDate": "2026-09-29",
+      "endDate": "2026-09-29",
+      "dateLabel": "September 29, 2026, 10:00 AM-11:00 AM",
+      "datePrecision": "exact",
+      "format": "Online; Zoom",
+      "topics": [
+        "AI"
+      ],
+      "audience": [
+        "Faculty"
+      ],
+      "access": "URI ITS professional development for URI faculty. Use the registration link or source page for participation details.",
+      "accessStatus": "local",
+      "costStatus": "free-or-member",
+      "description": "Brightspace courses are purged after four years, but this training will show you how to back up your course content and export key student information step by step for your records. You’ll leave with the knowledge and skills to store and reference your data long after your course is gone from the system. Join Zoom Meeting",
+      "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
+      "sourceUrl": "https://its.uri.edu/training-and-support/",
+      "registrationUrl": "https://uri-edu.zoom.us/meeting/register/sooFs0WfTWWA8vOD3AKlLA",
+      "lastVerified": "2026-08-19",
+      "detectedByUpdater": true,
+      "catalogSource": "uri_its_training_support",
+      "catalogIdentityIncludesDate": true
+    },
+    {
+      "id": "detected-uri-its-accessibility-of-oer-and-external-course-resources-2026-10-02",
+      "title": "Accessibility of OER and External Course Resources",
+      "provider": "URI-ITS",
+      "status": "discovered",
+      "priority": "standard",
+      "startDate": "2026-10-02",
+      "endDate": "2026-10-02",
+      "dateLabel": "October 2, 2026, 09:00 AM-10:00 AM",
+      "datePrecision": "exact",
+      "format": "Online; Zoom",
+      "topics": [
+        "Faculty Development"
+      ],
+      "audience": [
+        "Faculty"
+      ],
+      "access": "URI ITS professional development for URI faculty. Use the registration link or source page for participation details.",
+      "accessStatus": "local",
+      "costStatus": "free-or-member",
+      "description": "URI ITS scheduled professional development on Accessibility of OER and External Course Resources.",
+      "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
+      "sourceUrl": "https://its.uri.edu/training-and-support/",
+      "registrationUrl": "https://uri-edu.zoom.us/meeting/register/US1l74JqSXa0Ng3Kns5K_w",
+      "lastVerified": "2026-08-19",
+      "detectedByUpdater": true,
+      "catalogSource": "uri_its_training_support",
+      "catalogIdentityIncludesDate": true
+    },
+    {
+      "id": "detected-uri-its-panopto-advanced-video-editing-and-interactivity-2026-10-02",
+      "title": "Panopto Advanced: Video Editing and Interactivity",
+      "provider": "URI-ITS",
+      "status": "discovered",
+      "priority": "standard",
+      "startDate": "2026-10-02",
+      "endDate": "2026-10-02",
+      "dateLabel": "October 2, 2026, 10:00 AM-11:00 AM",
+      "datePrecision": "exact",
+      "format": "Online; Zoom",
+      "topics": [
+        "Faculty Development"
+      ],
+      "audience": [
+        "Faculty"
+      ],
+      "access": "URI ITS professional development for URI faculty. Use the registration link or source page for participation details.",
+      "accessStatus": "local",
+      "costStatus": "free-or-member",
+      "description": "Learn to how to use advanced features of Panopto. Register",
+      "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
+      "sourceUrl": "https://its.uri.edu/training-and-support/",
+      "registrationUrl": "https://uri-edu.zoom.us/meeting/register/eEuD8l9eQh6_qlnEt7LXKg",
+      "lastVerified": "2026-08-19",
+      "detectedByUpdater": true,
+      "catalogSource": "uri_its_training_support",
+      "catalogIdentityIncludesDate": true
+    },
+    {
+      "id": "detected-uri-its-edtech-connect-1st-wednesday-2026-10-07",
+      "title": "EdTech Connect 1st Wednesday",
+      "provider": "URI-ITS",
+      "status": "discovered",
+      "priority": "standard",
+      "startDate": "2026-10-07",
+      "endDate": "2026-10-07",
+      "dateLabel": "October 7, 2026, 10:00 AM-11:00 AM",
+      "datePrecision": "exact",
+      "format": "See the URI ITS source for format",
+      "topics": [
+        "Faculty Development"
+      ],
+      "audience": [
+        "Faculty"
+      ],
+      "access": "URI ITS professional development for URI faculty. Use the registration link or source page for participation details.",
+      "accessStatus": "local",
+      "costStatus": "free-or-member",
+      "description": "URI ITS scheduled professional development on EdTech Connect 1st Wednesday.",
+      "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
+      "sourceUrl": "https://its.uri.edu/training-and-support/",
+      "lastVerified": "2026-08-19",
+      "detectedByUpdater": true,
+      "catalogSource": "uri_its_training_support",
+      "catalogIdentityIncludesDate": true
+    },
+    {
+      "id": "detected-uri-its-archive-your-course-and-student-data-2026-10-09",
+      "title": "Archive Your Course and Student Data",
+      "provider": "URI-ITS",
+      "status": "discovered",
+      "priority": "standard",
+      "startDate": "2026-10-09",
+      "endDate": "2026-10-09",
+      "dateLabel": "October 9, 2026, 10:00 AM-11:00 AM",
+      "datePrecision": "exact",
+      "format": "Online; Zoom",
+      "topics": [
+        "AI"
+      ],
+      "audience": [
+        "Faculty"
+      ],
+      "access": "URI ITS professional development for URI faculty. Use the registration link or source page for participation details.",
+      "accessStatus": "local",
+      "costStatus": "free-or-member",
+      "description": "Brightspace courses are purged after four years, but this training will show you how to back up your course content and export key student information step by step for your records. You’ll leave with the knowledge and skills to store and reference your data long after your course is gone from the system. Register",
+      "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
+      "sourceUrl": "https://its.uri.edu/training-and-support/",
+      "registrationUrl": "https://uri-edu.zoom.us/meeting/register/UFKZjKf-Q0eHM7RzjzOW4g",
+      "lastVerified": "2026-08-19",
+      "detectedByUpdater": true,
+      "catalogSource": "uri_its_training_support",
+      "catalogIdentityIncludesDate": true
+    },
+    {
+      "id": "detected-uri-its-accessibility-and-ai-2026-10-16",
+      "title": "Accessibility and AI",
+      "provider": "URI-ITS",
+      "status": "discovered",
+      "priority": "standard",
+      "startDate": "2026-10-16",
+      "endDate": "2026-10-16",
+      "dateLabel": "October 16, 2026, 09:00 AM-10:00 AM",
+      "datePrecision": "exact",
+      "format": "Online; Zoom",
+      "topics": [
+        "AI"
+      ],
+      "audience": [
+        "Faculty"
+      ],
+      "access": "URI ITS professional development for URI faculty. Use the registration link or source page for participation details.",
+      "accessStatus": "local",
+      "costStatus": "free-or-member",
+      "description": "URI ITS scheduled professional development on Accessibility and AI.",
+      "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
+      "sourceUrl": "https://its.uri.edu/training-and-support/",
+      "registrationUrl": "https://uri-edu.zoom.us/meeting/register/bCnF4VrET8y6n5EXCoHP0Q",
+      "lastVerified": "2026-08-19",
+      "detectedByUpdater": true,
+      "catalogSource": "uri_its_training_support",
+      "catalogIdentityIncludesDate": true
+    },
+    {
+      "id": "detected-uri-its-reducing-your-brightspace-course-data-2026-10-23",
+      "title": "Reducing Your Brightspace Course Data",
+      "provider": "URI-ITS",
+      "status": "discovered",
+      "priority": "standard",
+      "startDate": "2026-10-23",
+      "endDate": "2026-10-23",
+      "dateLabel": "October 23, 2026, 10:00 AM-11:00 AM",
+      "datePrecision": "exact",
+      "format": "Online; Zoom",
+      "topics": [
+        "AI"
+      ],
+      "audience": [
+        "Faculty"
+      ],
+      "access": "URI ITS professional development for URI faculty. Use the registration link or source page for participation details.",
+      "accessStatus": "local",
+      "costStatus": "free-or-member",
+      "description": "Got a lot of material in Brightspace - you’re not alone. Cleaning up data can significantly improve your efficiency but data management can be a challenge - especially with a plethora of tools. Not all tools have the same features - we will discover which URI tools can help reduce Brightspace digital clutter and improve efficiency. You will also learn about data management and important information on emerging data storage trends. Training will cover: Which URI tools work best to streamline the management of course content and student submissions How to organize and manage course content documents, presentations and videos for efficient storage Register",
+      "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
+      "sourceUrl": "https://its.uri.edu/training-and-support/",
+      "registrationUrl": "https://uri-edu.zoom.us/meeting/register/zY-8ohODQe6cTE56SzRqVA",
+      "lastVerified": "2026-08-19",
+      "detectedByUpdater": true,
+      "catalogSource": "uri_its_training_support",
+      "catalogIdentityIncludesDate": true
+    },
+    {
+      "id": "detected-uri-its-brightspace-basics-2026-10-30",
+      "title": "Brightspace Basics",
+      "provider": "URI-ITS",
+      "status": "discovered",
+      "priority": "standard",
+      "startDate": "2026-10-30",
+      "endDate": "2026-10-30",
+      "dateLabel": "October 30, 2026, 10:00 AM-11:00 AM",
+      "datePrecision": "exact",
+      "format": "Online; Zoom",
+      "topics": [
+        "Faculty Development"
+      ],
+      "audience": [
+        "Faculty"
+      ],
+      "access": "URI ITS professional development for URI faculty. Use the registration link or source page for participation details.",
+      "accessStatus": "local",
+      "costStatus": "free-or-member",
+      "description": "URI ITS scheduled professional development on Brightspace Basics.",
+      "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
+      "sourceUrl": "https://its.uri.edu/training-and-support/",
+      "registrationUrl": "https://uri-edu.zoom.us/meeting/register/grnyinauSniBGspYB0tCUw",
+      "lastVerified": "2026-08-19",
+      "detectedByUpdater": true,
+      "catalogSource": "uri_its_training_support",
+      "catalogIdentityIncludesDate": true
+    },
+    {
+      "id": "detected-uri-its-edtech-connect-1st-wednesday-2026-11-04",
+      "title": "EdTech Connect 1st Wednesday",
+      "provider": "URI-ITS",
+      "status": "discovered",
+      "priority": "standard",
+      "startDate": "2026-11-04",
+      "endDate": "2026-11-04",
+      "dateLabel": "November 4, 2026, 11:00 AM-12:00 PM",
+      "datePrecision": "exact",
+      "format": "See the URI ITS source for format",
+      "topics": [
+        "Faculty Development"
+      ],
+      "audience": [
+        "Faculty"
+      ],
+      "access": "URI ITS professional development for URI faculty. Use the registration link or source page for participation details.",
+      "accessStatus": "local",
+      "costStatus": "free-or-member",
+      "description": "URI ITS scheduled professional development on EdTech Connect 1st Wednesday.",
+      "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
+      "sourceUrl": "https://its.uri.edu/training-and-support/",
+      "lastVerified": "2026-08-19",
+      "detectedByUpdater": true,
+      "catalogSource": "uri_its_training_support",
+      "catalogIdentityIncludesDate": true
+    },
+    {
+      "id": "detected-uri-its-accessibility-in-lms-tools-and-brightspace-insights-for-wcag-2026-11-06",
+      "title": "Accessibility in LMS: Tools and Brightspace Insights for WCAG 2.1 AA",
+      "provider": "URI-ITS",
+      "status": "discovered",
+      "priority": "standard",
+      "startDate": "2026-11-06",
+      "endDate": "2026-11-06",
+      "dateLabel": "November 6, 2026, 11:00 AM-12:00 PM",
+      "datePrecision": "exact",
+      "format": "Online; Zoom",
+      "topics": [
+        "AI"
+      ],
+      "audience": [
+        "Faculty"
+      ],
+      "access": "URI ITS professional development for URI faculty. Use the registration link or source page for participation details.",
+      "accessStatus": "local",
+      "costStatus": "free-or-member",
+      "description": "In this session, you will: Gain a solid understanding of WCAG 2.1 AA accessibility standards and how they apply to LMS content. Explore URI-specific ADA tools and learn which ones are best suited for different accessibility needs. Experiment with the Brightspace Accessibility Checker to identify and resolve common accessibility issues in your course materials. Register",
+      "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
+      "sourceUrl": "https://its.uri.edu/training-and-support/",
+      "registrationUrl": "https://uri-edu.zoom.us/meeting/register/TR1PgH7nTMif5JKmfwlaQA",
+      "lastVerified": "2026-08-19",
+      "detectedByUpdater": true,
+      "catalogSource": "uri_its_training_support",
+      "catalogIdentityIncludesDate": true
+    },
+    {
+      "id": "detected-uri-its-reducing-your-brightspace-course-data-2026-11-13",
+      "title": "Reducing Your Brightspace Course Data",
+      "provider": "URI-ITS",
+      "status": "discovered",
+      "priority": "standard",
+      "startDate": "2026-11-13",
+      "endDate": "2026-11-13",
+      "dateLabel": "November 13, 2026, 11:00 AM-12:00 PM",
+      "datePrecision": "exact",
+      "format": "Online; Zoom",
+      "topics": [
+        "AI"
+      ],
+      "audience": [
+        "Faculty"
+      ],
+      "access": "URI ITS professional development for URI faculty. Use the registration link or source page for participation details.",
+      "accessStatus": "local",
+      "costStatus": "free-or-member",
+      "description": "Got a lot of material in Brightspace - you’re not alone. Cleaning up data can significantly improve your efficiency but data management can be a challenge - especially with a plethora of tools. Not all tools have the same features - we will discover which URI tools can help reduce Brightspace digital clutter and improve efficiency. You will also learn about data management and important information on emerging data storage trends. Training will cover: Which URI tools work best to streamline the management of course content and student submissions How to organize and manage course content documents, presentations and videos for efficient storage Register",
+      "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
+      "sourceUrl": "https://its.uri.edu/training-and-support/",
+      "registrationUrl": "https://uri-edu.zoom.us/meeting/register/PcauHxA0RC2EU7FULt7VoQ",
+      "lastVerified": "2026-08-19",
+      "detectedByUpdater": true,
+      "catalogSource": "uri_its_training_support",
+      "catalogIdentityIncludesDate": true
     }
   ]
 }
