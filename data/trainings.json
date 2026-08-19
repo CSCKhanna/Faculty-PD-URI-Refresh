@@ -2,7 +2,7 @@
   "meta": {
     "title": "URI Instructor Development Calendar: Professional Development from URI and Member Organizations",
     "subtitle": "Professional development from URI and member organizations",
-    "lastUpdated": "2026-08-19T17:27:02.000Z",
+    "lastUpdated": "2026-08-19T17:31:08.000Z",
     "dataVersion": 1,
     "notes": [
       "The three starter DOCX files were imported locally on June 2, 2026.",
@@ -2811,14 +2811,7 @@
       "status": "verified",
       "summary": "URI faculty can activate AAC&U access using their URI email address and use available member resources and programming.",
       "action": "Activate with an @uri.edu address.",
-      "url": "https://hawksites.newpaltz.edu/fdc/2026/04/21/aac-apr-27-30/"
-    },
-    {
-      "provider": "Other",
-      "status": "confirm",
-      "summary": "Other sources can include strong faculty development opportunities outside URI's primary member organizations. Details such as dates, cost, eligibility, and access may vary by provider.",
-      "action": "Confirm dates, cost, and URI faculty eligibility before advertising as free or open.",
-      "url": "https://advancectr.brown.edu/events-training/research-mentoring-training-programs"
+      "url": "https://www.aacu.org/"
     }
   ],
   "trainings": [
