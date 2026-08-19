@@ -2,7 +2,7 @@
   "meta": {
     "title": "URI Instructor Development Calendar: Professional Development from URI and Member Organizations",
     "subtitle": "Professional development from URI and member organizations",
-    "lastUpdated": "2026-08-19T14:38:18.697Z",
+    "lastUpdated": "2026-08-19T14:59:46.839Z",
     "dataVersion": 1,
     "notes": [
       "The three starter DOCX files were imported locally on June 2, 2026.",
@@ -609,8 +609,8 @@
         "use": "Verified URI CUR Enhanced Institutional Membership and added CUR activation, community, publication, and undergraduate research resources."
       },
       {
-        "title": "Copy of Provost's Office Faculty Mentoring Plan 2026.docx",
-        "use": "Added faculty-facing 2026-27 Provost's Office mentoring, leadership, AI, promotion and tenure, and career-stage development events; omitted routine meetings, private logistics, and unscheduled placeholders without usable program details."
+        "title": "Provost's Office Faculty Mentoring Plan 2026 - Grouped.docx",
+        "use": "Reconciled 2026-27 mentoring, leadership, AI, promotion and tenure, and career-development opportunities. Routine administrative meetings, unscheduled retreats, and general member-workshop reminders were omitted."
       }
     ],
     "removedBrokenSourceLinks": {
@@ -637,6 +637,36 @@
       ]
     },
     "updateHistory": [
+      {
+        "timestamp": "2026-08-19T14:59:46.839Z",
+        "type": "manual-document-import",
+        "provider": "URI-Provost's Office",
+        "source": "Provost's Office Faculty Mentoring Plan 2026 - Grouped.docx",
+        "added": [
+          "uri-provost-new-faculty-reception-2026",
+          "uri-provost-new-faculty-mentoring-lunch-learn-2-october-2026",
+          "uri-provost-council-chairs-ptf-staff-evaluation-2027"
+        ],
+        "changed": [
+          "uri-provost-new-faculty-orientation-2026",
+          "uri-provost-associate-dean-kickoff-ir-2026",
+          "uri-provost-council-chairs-supporting-new-faculty-2026",
+          "uri-provost-council-chairs-workload-planning-2026",
+          "uri-provost-new-faculty-mentoring-lunch-learn-1-2026",
+          "uri-provost-cross-college-mentoring-1-2026",
+          "uri-provost-council-chairs-integrated-calendar-proctoring-2026",
+          "uri-provost-new-faculty-mentoring-lunch-learn-2-2026",
+          "uri-provost-cross-college-mentoring-2-2026",
+          "uri-provost-council-chairs-best-practices-2026",
+          "uri-provost-promotion-tenure-chairs-2026",
+          "uri-provost-academic-summit-2027",
+          "uri-provost-ai-productivity-gray-areas-2027",
+          "uri-provost-purpose-joy-career-stage-pd-2027",
+          "uri-provost-new-faculty-pt-shared-governance-2027"
+        ],
+        "removed": [],
+        "archived": []
+      },
       {
         "ranAt": "2026-08-03T06:51:31.812Z",
         "localDate": "2026-08-03",
@@ -4424,43 +4454,48 @@
       "expiredAt": "2026-07-27"
     },
     {
-      "id": "uri-provost-new-faculty-orientation-2026",
-      "title": "New Faculty Orientation",
       "provider": "URI-Provost's Office",
       "status": "recommended",
       "priority": "local",
+      "access": "URI faculty-development opportunity listed in the updated Provost's Office mentoring plan; participation details are shared through URI communications.",
+      "accessStatus": "local",
+      "costStatus": "free-or-member",
+      "sourceUrl": "https://web.uri.edu/provost/faculty-resources/",
+      "lastVerified": "2026-08-19",
+      "datePrecision": "exact",
+      "id": "uri-provost-new-faculty-orientation-2026",
+      "title": "New Faculty Orientation",
       "startDate": "2026-08-31",
       "endDate": "2026-09-01",
       "dateLabel": "August 31-September 1, 2026",
-      "datePrecision": "exact",
-      "format": "In person, Avedesian Hall",
+      "format": "In person; Avedesian Hall",
       "topics": [
-        "New Faculty",
         "Mentoring",
-        "Teaching"
+        "Teaching",
+        "Onboarding"
       ],
       "audience": [
         "New faculty"
       ],
-      "access": "URI faculty-development event listed in the Provost's Office mentoring plan; final participation details will be shared through URI communications.",
-      "accessStatus": "local",
-      "costStatus": "free-or-member",
-      "description": "A two-day orientation designed to help new URI faculty begin the academic year with essential institutional context, connections, and support.",
-      "whyInclude": "Creates an early shared foundation for onboarding, mentoring, and success at URI.",
-      "sourceUrl": "https://web.uri.edu/provost/faculty-resources/",
-      "lastVerified": "2026-07-27"
+      "description": "Two-day orientation introducing new faculty to URI resources, expectations, colleagues, and support for teaching and scholarship.",
+      "whyInclude": "Creates an early shared foundation for onboarding, mentoring, and success at URI."
     },
     {
-      "id": "uri-provost-associate-dean-kickoff-ir-2026",
-      "title": "Associate Dean Start-of-Semester Kickoff and IR Deep Dive",
       "provider": "URI-Provost's Office",
       "status": "recommended",
       "priority": "local",
+      "access": "URI faculty-development opportunity listed in the updated Provost's Office mentoring plan; participation details are shared through URI communications.",
+      "accessStatus": "local",
+      "costStatus": "free-or-member",
+      "sourceUrl": "https://web.uri.edu/provost/faculty-resources/",
+      "lastVerified": "2026-08-19",
+      "datePrecision": "exact",
+      "id": "uri-provost-associate-dean-kickoff-ir-2026",
+      "title": "Associate Dean Fall Kickoff: IR Deep Dive, Enrollment, and Planning",
       "startDate": "2026-08-31",
       "endDate": "2026-08-31",
-      "dateLabel": "August 31, 2026, 2:00 p.m. (tentative); 1.5 hours",
-      "datePrecision": "exact",
-      "format": "In person, Avedesian Hall 130",
+      "dateLabel": "August 31, 2026, 2:00-3:30 p.m.",
+      "format": "In person; Avedesian Hall 130",
       "topics": [
         "Faculty Leadership",
         "Assessment",
@@ -4469,52 +4504,52 @@
       "audience": [
         "Associate deans"
       ],
-      "access": "Listed in the Provost's Office mentoring plan; confirm the final time, location, and participation details through URI communications.",
-      "accessStatus": "confirm",
-      "costStatus": "free-or-member",
-      "description": "A start-of-semester leadership kickoff with an institutional research deep dive for associate deans.",
-      "whyInclude": "Supports evidence-informed academic planning at the beginning of the year.",
-      "sourceUrl": "https://web.uri.edu/provost/faculty-resources/",
-      "lastVerified": "2026-07-27"
+      "description": "A working session for associate deans on institutional research, enrollment, and academic planning.",
+      "whyInclude": "Supports evidence-informed academic planning at the beginning of the year."
     },
     {
-      "id": "uri-provost-council-chairs-supporting-new-faculty-2026",
-      "title": "Council of Chairs: The Role of a Chair and Supporting New Faculty",
       "provider": "URI-Provost's Office",
       "status": "recommended",
       "priority": "local",
+      "access": "URI faculty-development opportunity listed in the updated Provost's Office mentoring plan; participation details are shared through URI communications.",
+      "accessStatus": "local",
+      "costStatus": "free-or-member",
+      "sourceUrl": "https://web.uri.edu/provost/faculty-resources/",
+      "lastVerified": "2026-08-19",
+      "datePrecision": "exact",
+      "id": "uri-provost-council-chairs-supporting-new-faculty-2026",
+      "title": "Council of Chairs: The Role of a Chair, Supporting New Faculty, and Workload",
       "startDate": "2026-09-03",
       "endDate": "2026-09-03",
-      "dateLabel": "September 3, 2026, 10:00-11:30 a.m.",
-      "datePrecision": "exact",
-      "format": "In person, Thompson Boardroom, College of Business",
+      "dateLabel": "September 3, 2026, 10:00-11:15 a.m.",
+      "format": "In person; Thompson Boardroom, College of Business",
       "topics": [
         "Faculty Leadership",
         "Mentoring",
-        "New Faculty"
+        "Workload"
       ],
       "audience": [
         "Department chairs"
       ],
-      "access": "URI faculty-development event listed in the Provost's Office mentoring plan; final participation details will be shared through URI communications.",
-      "accessStatus": "local",
-      "costStatus": "free-or-member",
-      "description": "A Council of Chairs session on chair responsibilities and practical ways to support newly appointed faculty.",
-      "whyInclude": "Connects department leadership directly to effective new-faculty mentoring and onboarding.",
-      "sourceUrl": "https://web.uri.edu/provost/faculty-resources/",
-      "lastVerified": "2026-07-27"
+      "description": "A Council of Chairs session on chair responsibilities, supporting new faculty, and managing workload.",
+      "whyInclude": "Connects department leadership directly to effective new-faculty mentoring and onboarding."
     },
     {
-      "id": "uri-provost-council-chairs-workload-planning-2026",
-      "title": "Council of Chairs: Workload, Class Sizes, and Planning",
       "provider": "URI-Provost's Office",
       "status": "recommended",
       "priority": "local",
+      "access": "URI faculty-development opportunity listed in the updated Provost's Office mentoring plan; participation details are shared through URI communications.",
+      "accessStatus": "local",
+      "costStatus": "free-or-member",
+      "sourceUrl": "https://web.uri.edu/provost/faculty-resources/",
+      "lastVerified": "2026-08-19",
+      "datePrecision": "exact",
+      "id": "uri-provost-council-chairs-workload-planning-2026",
+      "title": "Council of Chairs: Class Sizes and Academic Planning",
       "startDate": "2026-09-10",
       "endDate": "2026-09-10",
       "dateLabel": "September 10, 2026, 2:00-3:00 p.m.",
-      "datePrecision": "exact",
-      "format": "Online via Zoom",
+      "format": "Online; Zoom",
       "topics": [
         "Faculty Leadership",
         "Strategy",
@@ -4523,27 +4558,26 @@
       "audience": [
         "Department chairs"
       ],
-      "access": "URI faculty-development event listed in the Provost's Office mentoring plan; final participation details will be shared through URI communications.",
-      "accessStatus": "local",
-      "costStatus": "free-or-member",
-      "description": "A leadership discussion focused on workload, class-size considerations, and academic planning.",
-      "whyInclude": "Addresses recurring operational decisions that affect faculty work and course planning.",
-      "sourceUrl": "https://web.uri.edu/provost/faculty-resources/",
-      "lastVerified": "2026-07-27"
+      "description": "A Council of Chairs session focused on class sizes and academic planning.",
+      "whyInclude": "Addresses recurring operational decisions that affect faculty work and course planning."
     },
     {
-      "id": "uri-provost-new-faculty-mentoring-lunch-learn-1-2026",
-      "title": "New Faculty Mentoring Lunch and Learn 1: Research, Scholarship, and Teaching Effectiveness",
       "provider": "URI-Provost's Office",
       "status": "recommended",
       "priority": "local",
+      "access": "URI faculty-development opportunity listed in the updated Provost's Office mentoring plan; participation details are shared through URI communications.",
+      "accessStatus": "local",
+      "costStatus": "free-or-member",
+      "sourceUrl": "https://web.uri.edu/provost/faculty-resources/",
+      "lastVerified": "2026-08-19",
+      "datePrecision": "exact",
+      "id": "uri-provost-new-faculty-mentoring-lunch-learn-1-2026",
+      "title": "New Faculty Mentoring Lunch and Learn 1: Scholarship and Teaching Effectiveness",
       "startDate": "2026-09-28",
       "endDate": "2026-09-28",
       "dateLabel": "September 28, 2026, 11:15 a.m.-1:45 p.m.",
-      "datePrecision": "exact",
-      "format": "In person, Memorial Union 360; lunch session",
+      "format": "In person; Memorial Union 360",
       "topics": [
-        "New Faculty",
         "Research",
         "Teaching",
         "Promotion & Tenure"
@@ -4553,53 +4587,54 @@
         "Tenure-track faculty",
         "Teaching-track faculty"
       ],
-      "access": "URI faculty-development event listed in the Provost's Office mentoring plan; final participation details will be shared through URI communications.",
-      "accessStatus": "local",
-      "costStatus": "free-or-member",
-      "description": "A mentoring lunch with parallel emphasis on research and scholarship for tenure-track faculty and teaching effectiveness for teaching-track faculty.",
-      "whyInclude": "Targets the distinct early-career priorities of new faculty across appointment tracks.",
-      "sourceUrl": "https://web.uri.edu/provost/faculty-resources/",
-      "lastVerified": "2026-07-27"
+      "description": "A new-faculty mentoring session on research and scholarship, teaching effectiveness, and building a strong foundation for advancement.",
+      "whyInclude": "Targets the distinct early-career priorities of new faculty across appointment tracks."
     },
     {
-      "id": "uri-provost-cross-college-mentoring-1-2026",
-      "title": "Cross-College Mentoring 1",
       "provider": "URI-Provost's Office",
       "status": "recommended",
       "priority": "local",
+      "access": "URI faculty-development opportunity listed in the updated Provost's Office mentoring plan; participation details are shared through URI communications.",
+      "accessStatus": "local",
+      "costStatus": "free-or-member",
+      "sourceUrl": "https://web.uri.edu/provost/faculty-resources/",
+      "lastVerified": "2026-08-19",
+      "datePrecision": "exact",
+      "id": "uri-provost-cross-college-mentoring-1-2026",
+      "title": "Cross-College Mentoring Event 1: Broadening Impact",
       "startDate": "2026-10-21",
       "endDate": "2026-10-21",
-      "dateLabel": "October 21, 2026, 11:30 a.m.-1:00 p.m.; lunch provided",
-      "datePrecision": "exact",
-      "format": "In person, Hardge Forum",
+      "dateLabel": "October 21, 2026, 11:30 a.m.-1:00 p.m.",
+      "format": "In person; Hardge Forum; lunch provided",
       "topics": [
         "Mentoring",
-        "Career Transitions",
+        "Career Development",
         "Faculty Leadership"
       ],
       "audience": [
         "Associate professors",
-        "Full professors"
+        "Full professors",
+        "Associate deans"
       ],
-      "access": "URI faculty-development event listed in the Provost's Office mentoring plan; final participation details will be shared through URI communications.",
-      "accessStatus": "local",
-      "costStatus": "free-or-member",
-      "description": "A cross-college mentoring gathering for associate and full professors to build relationships and exchange career-stage perspectives.",
-      "whyInclude": "Extends faculty mentoring beyond departments and supports mid- and later-career connection.",
-      "sourceUrl": "https://web.uri.edu/provost/faculty-resources/",
-      "lastVerified": "2026-07-27"
+      "description": "A cross-college mentoring lunch focused on broadening the impact of faculty work and connecting colleagues across academic units.",
+      "whyInclude": "Extends faculty mentoring beyond departments and supports mid- and later-career connection."
     },
     {
-      "id": "uri-provost-council-chairs-integrated-calendar-proctoring-2026",
-      "title": "Council of Chairs and Associate Deans: Integrated Calendar Planning and Online Proctoring",
       "provider": "URI-Provost's Office",
       "status": "recommended",
       "priority": "local",
+      "access": "URI faculty-development opportunity listed in the updated Provost's Office mentoring plan; participation details are shared through URI communications.",
+      "accessStatus": "local",
+      "costStatus": "free-or-member",
+      "sourceUrl": "https://web.uri.edu/provost/faculty-resources/",
+      "lastVerified": "2026-08-19",
+      "datePrecision": "exact",
+      "id": "uri-provost-council-chairs-integrated-calendar-proctoring-2026",
+      "title": "Associate Deans and Council of Chairs: Integrated Calendar and Online Proctoring",
       "startDate": "2026-11-05",
       "endDate": "2026-11-05",
-      "dateLabel": "November 5, 2026, 2:00-3:00 p.m.",
-      "datePrecision": "exact",
-      "format": "Online via Zoom",
+      "dateLabel": "November 5, 2026, 2:00-3:15 p.m.",
+      "format": "Online; Zoom",
       "topics": [
         "Faculty Leadership",
         "Strategy",
@@ -4607,84 +4642,84 @@
         "Assessment"
       ],
       "audience": [
-        "Department chairs",
-        "Associate deans"
+        "Associate deans",
+        "Department chairs"
       ],
-      "access": "URI faculty-development event listed in the Provost's Office mentoring plan; final participation details will be shared through URI communications.",
-      "accessStatus": "local",
-      "costStatus": "free-or-member",
-      "description": "A joint planning session introducing the 7/14 integrated-week calendar and discussing online proctoring.",
-      "whyInclude": "Helps academic leaders prepare for calendar implementation and technology-related assessment decisions.",
-      "sourceUrl": "https://web.uri.edu/provost/faculty-resources/",
-      "lastVerified": "2026-07-27"
+      "description": "A joint leadership session introducing the 7/14 academic calendar and discussing online proctoring.",
+      "whyInclude": "Helps academic leaders prepare for calendar implementation and technology-related assessment decisions."
     },
     {
-      "id": "uri-provost-new-faculty-mentoring-lunch-learn-2-2026",
-      "title": "New Faculty Mentoring Lunch and Learn 2: Teaching Effectiveness, IDEA, and AAUP",
       "provider": "URI-Provost's Office",
       "status": "recommended",
       "priority": "local",
+      "access": "URI faculty-development opportunity listed in the updated Provost's Office mentoring plan; participation details are shared through URI communications.",
+      "accessStatus": "local",
+      "costStatus": "free-or-member",
+      "sourceUrl": "https://web.uri.edu/provost/faculty-resources/",
+      "lastVerified": "2026-08-19",
+      "datePrecision": "exact",
+      "id": "uri-provost-new-faculty-mentoring-lunch-learn-2-2026",
+      "title": "New Faculty Mentoring Lunch and Learn 3: AAUP and Vice Provost Q&A",
       "startDate": "2026-11-13",
       "endDate": "2026-11-13",
-      "dateLabel": "November 13, 2026; time to be confirmed",
-      "datePrecision": "exact",
-      "format": "In person, Green Hall Great Room",
+      "dateLabel": "November 13, 2026, 11:15 a.m.-12:45 p.m.",
+      "format": "In person; Green Hall Great Room",
       "topics": [
-        "New Faculty",
-        "Teaching",
-        "Assessment",
-        "Faculty Well-being"
+        "Mentoring",
+        "Shared Governance",
+        "Faculty Leadership"
       ],
       "audience": [
         "New faculty"
       ],
-      "access": "Listed in the Provost's Office mentoring plan; confirm the final time, location, and participation details through URI communications.",
-      "accessStatus": "confirm",
-      "costStatus": "free-or-member",
-      "description": "A mentoring lunch focused on effective assignments, responding to challenging behavior, IDEA feedback, and AAUP information.",
-      "whyInclude": "Brings together practical teaching support and key institutional resources for new faculty.",
-      "sourceUrl": "https://web.uri.edu/provost/faculty-resources/",
-      "lastVerified": "2026-07-27"
+      "description": "A new-faculty lunch and learn featuring an AAUP discussion and a check-in and question session with the Vice Provost.",
+      "whyInclude": "Brings together practical teaching support and key institutional resources for new faculty."
     },
     {
-      "id": "uri-provost-cross-college-mentoring-2-2026",
-      "title": "Cross-College Mentoring 2: Professional Effectiveness",
       "provider": "URI-Provost's Office",
       "status": "recommended",
       "priority": "local",
+      "access": "URI faculty-development opportunity listed in the updated Provost's Office mentoring plan; participation details are shared through URI communications.",
+      "accessStatus": "local",
+      "costStatus": "free-or-member",
+      "sourceUrl": "https://web.uri.edu/provost/faculty-resources/",
+      "lastVerified": "2026-08-19",
+      "datePrecision": "exact",
+      "id": "uri-provost-cross-college-mentoring-2-2026",
+      "title": "Cross-College Mentoring Event 2: Professional Effectiveness",
       "startDate": "2026-12-02",
       "endDate": "2026-12-02",
-      "dateLabel": "December 2, 2026, 2:00-3:30 p.m. (tentative)",
-      "datePrecision": "exact",
-      "format": "In person, Hardge Forum; light refreshments planned",
+      "dateLabel": "December 2, 2026, 2:00-3:30 p.m.",
+      "format": "In person; Hardge Forum; refreshments provided",
       "topics": [
         "Mentoring",
-        "Productivity",
-        "Career Transitions"
+        "Career Development",
+        "Faculty Leadership"
       ],
       "audience": [
         "Associate professors",
-        "Full professors"
+        "Full professors",
+        "Associate deans"
       ],
-      "access": "Listed in the Provost's Office mentoring plan; confirm the final time, location, and participation details through URI communications.",
-      "accessStatus": "confirm",
-      "costStatus": "free-or-member",
-      "description": "A second cross-college mentoring session focused on professional effectiveness for associate and full professors.",
-      "whyInclude": "Provides structured career-stage support and cross-college peer exchange.",
-      "sourceUrl": "https://web.uri.edu/provost/faculty-resources/",
-      "lastVerified": "2026-07-27"
+      "description": "A cross-college mentoring session focused on professional effectiveness and career development.",
+      "whyInclude": "Provides structured career-stage support and cross-college peer exchange."
     },
     {
-      "id": "uri-provost-council-chairs-best-practices-2026",
-      "title": "Council of Chairs: Department Leadership Best Practices",
       "provider": "URI-Provost's Office",
       "status": "recommended",
       "priority": "local",
+      "access": "URI faculty-development opportunity listed in the updated Provost's Office mentoring plan; participation details are shared through URI communications.",
+      "accessStatus": "local",
+      "costStatus": "free-or-member",
+      "sourceUrl": "https://web.uri.edu/provost/faculty-resources/",
+      "lastVerified": "2026-08-19",
+      "datePrecision": "exact",
+      "id": "uri-provost-council-chairs-best-practices-2026",
+      "title": "Council of Chairs: Best Practices",
       "startDate": "2026-12-03",
       "endDate": "2026-12-03",
-      "dateLabel": "December 3, 2026, 2:00-3:00 p.m.; location to be confirmed",
-      "datePrecision": "exact",
-      "format": "In person; college conference room to be confirmed",
+      "dateLabel": "December 3, 2026, 2:00-3:30 p.m.",
+      "format": "In person; Hamilton Senate Chambers",
       "topics": [
         "Faculty Leadership",
         "Mentoring",
@@ -4693,25 +4728,25 @@
       "audience": [
         "Department chairs"
       ],
-      "access": "Listed in the Provost's Office mentoring plan; confirm the final time, location, and participation details through URI communications.",
-      "accessStatus": "confirm",
-      "costStatus": "free-or-member",
-      "description": "A peer-led Council of Chairs session in which department chairs share leadership strengths and effective practices.",
-      "whyInclude": "Builds a practical community of practice around department leadership.",
-      "sourceUrl": "https://web.uri.edu/provost/faculty-resources/",
-      "lastVerified": "2026-07-27"
+      "description": "A peer-focused Council of Chairs session sharing practical approaches and leadership best practices.",
+      "whyInclude": "Builds a practical community of practice around department leadership."
     },
     {
-      "id": "uri-provost-promotion-tenure-chairs-2026",
-      "title": "Promotion and Tenure for Department Chairs",
       "provider": "URI-Provost's Office",
       "status": "recommended",
       "priority": "advertise-now",
-      "startDate": "2026-12-22",
-      "endDate": "2026-12-22",
-      "dateLabel": "December 22, 2026, 1:30-3:00 p.m.",
+      "access": "URI faculty-development opportunity listed in the updated Provost's Office mentoring plan; participation details are shared through URI communications.",
+      "accessStatus": "local",
+      "costStatus": "free-or-member",
+      "sourceUrl": "https://web.uri.edu/provost/faculty-resources/",
+      "lastVerified": "2026-08-19",
       "datePrecision": "exact",
-      "format": "In person, Green Hall Great Room",
+      "id": "uri-provost-promotion-tenure-chairs-2026",
+      "title": "Promotion and Tenure for Department Chairs",
+      "startDate": "2026-10-22",
+      "endDate": "2026-10-22",
+      "dateLabel": "October 22, 2026, 1:30-3:00 p.m.",
+      "format": "In person; Green Hall Great Room",
       "topics": [
         "Promotion & Tenure",
         "Faculty Leadership",
@@ -4720,131 +4755,211 @@
       "audience": [
         "Department chairs"
       ],
-      "access": "URI faculty-development event listed in the Provost's Office mentoring plan; final participation details will be shared through URI communications.",
-      "accessStatus": "local",
-      "costStatus": "free-or-member",
-      "description": "An in-person session for department chairs on their responsibilities and practices in the promotion and tenure process.",
-      "whyInclude": "Directly supports consistent, informed chair leadership in promotion and tenure review.",
-      "sourceUrl": "https://web.uri.edu/provost/faculty-resources/",
-      "lastVerified": "2026-07-27"
+      "description": "A department-chair session on promotion and tenure processes, responsibilities, and support for faculty advancement.",
+      "whyInclude": "Directly supports consistent, informed chair leadership in promotion and tenure review."
     },
     {
-      "id": "uri-provost-academic-summit-2027",
-      "title": "URI Academic Summit",
       "provider": "URI-Provost's Office",
       "status": "recommended",
       "priority": "local",
+      "access": "URI faculty-development opportunity listed in the updated Provost's Office mentoring plan; participation details are shared through URI communications.",
+      "accessStatus": "confirm",
+      "costStatus": "free-or-member",
+      "sourceUrl": "https://web.uri.edu/provost/faculty-resources/",
+      "lastVerified": "2026-08-19",
+      "datePrecision": "exact",
+      "id": "uri-provost-academic-summit-2027",
+      "title": "URI Academic Summit",
       "startDate": "2027-01-14",
       "endDate": "2027-01-14",
-      "dateLabel": "January 14, 2027; time and location to be confirmed",
-      "datePrecision": "exact",
-      "format": "University-wide summit; details to be confirmed",
+      "dateLabel": "January 14, 2027; time to be confirmed",
+      "format": "Location and format to be confirmed",
       "topics": [
         "Faculty Leadership",
         "Strategy",
-        "New Faculty"
+        "Teaching",
+        "Research"
       ],
       "audience": [
-        "All URI faculty",
-        "Department chairs",
+        "New faculty",
+        "Early-career faculty",
+        "Associate professors",
+        "Full professors",
+        "Part-time faculty",
+        "Teaching-track faculty",
+        "Tenure-track faculty",
         "Associate deans",
-        "New faculty"
+        "Department chairs"
       ],
-      "access": "Listed in the Provost's Office mentoring plan; confirm the final time, location, and participation details through URI communications.",
-      "accessStatus": "confirm",
-      "costStatus": "free-or-member",
-      "description": "A university-wide academic summit for faculty and academic leaders, with cohort connection planned for new faculty.",
-      "whyInclude": "Creates a shared university forum for academic priorities and cross-role connection.",
-      "sourceUrl": "https://web.uri.edu/provost/faculty-resources/",
-      "lastVerified": "2026-07-27"
+      "description": "A university-wide academic summit bringing faculty and academic leaders together for shared learning and planning.",
+      "whyInclude": "Creates a shared university forum for academic priorities and cross-role connection."
     },
     {
-      "id": "uri-provost-ai-productivity-gray-areas-2027",
-      "title": "AI for Productivity and AI Gray Areas",
       "provider": "URI-Provost's Office",
       "status": "recommended",
       "priority": "advertise-now",
+      "access": "URI faculty-development opportunity listed in the updated Provost's Office mentoring plan; participation details are shared through URI communications.",
+      "accessStatus": "local",
+      "costStatus": "free-or-member",
+      "sourceUrl": "https://web.uri.edu/provost/faculty-resources/",
+      "lastVerified": "2026-08-19",
+      "datePrecision": "exact",
+      "id": "uri-provost-ai-productivity-gray-areas-2027",
+      "title": "AI for Productivity, Gray Areas, and Curriculum",
       "startDate": "2027-02-11",
       "endDate": "2027-02-11",
-      "dateLabel": "February 11, 2027: new faculty 11:15 a.m.-12:15 p.m.; associate deans 1:00-2:00 p.m. (tentative); chairs 2:00-3:00 p.m.",
-      "datePrecision": "exact",
+      "dateLabel": "February 11, 2027: new faculty and associate deans 11:15 a.m.-12:15 p.m.; department chairs 2:00-3:00 p.m.",
       "format": "Online; audience-specific sessions",
       "topics": [
         "AI",
         "Productivity",
-        "Faculty Leadership",
-        "New Faculty"
+        "Curriculum",
+        "Faculty Leadership"
       ],
       "audience": [
         "New faculty",
         "Associate deans",
         "Department chairs"
       ],
-      "access": "Listed in the Provost's Office mentoring plan; confirm the final time, location, and participation details through URI communications.",
-      "accessStatus": "confirm",
-      "costStatus": "free-or-member",
-      "description": "Audience-specific sessions examining practical uses of AI for productivity, ambiguous or high-risk use cases, and leadership considerations; the chair session also includes part-time faculty and staff evaluation processes.",
-      "whyInclude": "Connects practical AI use with ethical judgment and role-specific academic leadership responsibilities.",
-      "sourceUrl": "https://web.uri.edu/provost/faculty-resources/",
-      "lastVerified": "2026-07-27"
+      "description": "Audience-specific sessions on using AI for productivity, navigating AI gray areas, and considering AI in curriculum decisions.",
+      "whyInclude": "Connects practical AI use with ethical judgment and role-specific academic leadership responsibilities."
     },
     {
-      "id": "uri-provost-purpose-joy-career-stage-pd-2027",
-      "title": "Engineering a Life Filled with Purpose and Joy: Career-Stage Faculty Development",
       "provider": "URI-Provost's Office",
       "status": "recommended",
       "priority": "local",
-      "startDate": "2027-04-01",
-      "endDate": "2027-04-02",
-      "dateLabel": "April 1-2, 2027; audience-specific morning and afternoon sessions",
+      "access": "URI faculty-development opportunity listed in the updated Provost's Office mentoring plan; participation details are shared through URI communications.",
+      "accessStatus": "confirm",
+      "costStatus": "free-or-member",
+      "sourceUrl": "https://web.uri.edu/provost/faculty-resources/",
+      "lastVerified": "2026-08-19",
       "datePrecision": "exact",
-      "format": "In person, Hardge Forum",
+      "id": "uri-provost-purpose-joy-career-stage-pd-2027",
+      "title": "Engineering a Life Filled with Purpose and Joy",
+      "startDate": "2027-04-01",
+      "endDate": "2027-04-01",
+      "dateLabel": "April 1, 2027; morning time to be confirmed",
+      "format": "In person; Hardge Forum",
       "topics": [
         "Faculty Well-being",
-        "Career Transitions",
+        "Career Development",
         "Mentoring",
         "Faculty Leadership"
       ],
       "audience": [
         "Associate professors",
         "Full professors",
-        "Department chairs",
-        "Senior faculty"
+        "Associate deans",
+        "Department chairs"
       ],
-      "access": "Listed in the Provost's Office mentoring plan; confirm the final time, location, and participation details through URI communications.",
-      "accessStatus": "confirm",
-      "costStatus": "free-or-member",
-      "description": "A two-day career-stage program featuring tools for harnessing talents, authenticity, and personal strengths in academic work, plus audience-specific faculty and chair sessions.",
-      "whyInclude": "Supports professional purpose, well-being, and connection across mid- and later-career faculty roles.",
-      "sourceUrl": "https://web.uri.edu/provost/faculty-resources/",
-      "lastVerified": "2026-07-27"
+      "description": "A career-development program with Lisa Pruitt on harnessing talents, authenticity, and personal genius, with a chair appreciation component.",
+      "whyInclude": "Supports professional purpose, well-being, and connection across mid- and later-career faculty roles."
     },
     {
-      "id": "uri-provost-new-faculty-pt-shared-governance-2027",
-      "title": "New Faculty P&T Preparation and Shared Governance",
       "provider": "URI-Provost's Office",
       "status": "recommended",
       "priority": "local",
-      "startDate": "2027-04-15",
-      "endDate": "2027-04-15",
-      "dateLabel": "April 2027; date and time to be confirmed",
-      "datePrecision": "placeholder",
-      "format": "In person, Green Hall; details to be confirmed",
+      "access": "URI faculty-development opportunity listed in the updated Provost's Office mentoring plan; participation details are shared through URI communications.",
+      "accessStatus": "local",
+      "costStatus": "free-or-member",
+      "sourceUrl": "https://web.uri.edu/provost/faculty-resources/",
+      "lastVerified": "2026-08-19",
+      "datePrecision": "exact",
+      "id": "uri-provost-new-faculty-pt-shared-governance-2027",
+      "title": "New Faculty Lunch and Learn 4: Promotion and Tenure and Shared Governance",
+      "startDate": "2027-04-07",
+      "endDate": "2027-04-07",
+      "dateLabel": "April 7, 2027, 12:00-1:15 p.m.",
+      "format": "In person; Green Hall Great Room",
       "topics": [
         "Promotion & Tenure",
-        "Faculty Leadership",
-        "New Faculty"
+        "Shared Governance",
+        "Faculty Leadership"
       ],
       "audience": [
         "New faculty"
       ],
-      "access": "Listed in the Provost's Office mentoring plan; confirm the final time, location, and participation details through URI communications.",
+      "description": "A new-faculty lunch and learn on promotion and tenure and participation in shared governance.",
+      "whyInclude": "Directly addresses two institutional processes that new faculty need to understand early in their careers."
+    },
+    {
+      "provider": "URI-Provost's Office",
+      "status": "recommended",
+      "priority": "local",
+      "access": "URI faculty-development opportunity listed in the updated Provost's Office mentoring plan; participation details are shared through URI communications.",
+      "accessStatus": "local",
+      "costStatus": "free-or-member",
+      "sourceUrl": "https://web.uri.edu/provost/faculty-resources/",
+      "lastVerified": "2026-08-19",
+      "datePrecision": "exact",
+      "id": "uri-provost-new-faculty-reception-2026",
+      "title": "New Faculty Reception",
+      "description": "A welcome reception connecting new faculty with department chairs and the URI academic community.",
+      "topics": [
+        "Mentoring",
+        "Onboarding",
+        "Faculty Community"
+      ],
+      "audience": [
+        "New faculty",
+        "Department chairs"
+      ],
+      "startDate": "2026-08-31",
+      "endDate": "2026-08-31",
+      "dateLabel": "August 31, 2026, 4:00 p.m.",
+      "format": "In person; President's Lawn"
+    },
+    {
+      "provider": "URI-Provost's Office",
+      "status": "recommended",
+      "priority": "local",
+      "access": "URI faculty-development opportunity listed in the updated Provost's Office mentoring plan; participation details are shared through URI communications.",
+      "accessStatus": "local",
+      "costStatus": "free-or-member",
+      "sourceUrl": "https://web.uri.edu/provost/faculty-resources/",
+      "lastVerified": "2026-08-19",
+      "datePrecision": "exact",
+      "id": "uri-provost-new-faculty-mentoring-lunch-learn-2-october-2026",
+      "title": "New Faculty Mentoring Lunch and Learn 2: Challenging Classroom Behavior and IDEA",
+      "description": "A new-faculty session on responding to challenging classroom behavior and using IDEA feedback to support teaching.",
+      "topics": [
+        "Teaching",
+        "Student Support",
+        "Assessment"
+      ],
+      "audience": [
+        "New faculty"
+      ],
+      "startDate": "2026-10-09",
+      "endDate": "2026-10-09",
+      "dateLabel": "October 9, 2026, 11:15 a.m.-12:45 p.m.",
+      "format": "Online"
+    },
+    {
+      "provider": "URI-Provost's Office",
+      "status": "recommended",
+      "priority": "local",
+      "access": "URI faculty-development opportunity listed in the updated Provost's Office mentoring plan; participation details are shared through URI communications.",
       "accessStatus": "confirm",
       "costStatus": "free-or-member",
-      "description": "A planned session introducing new faculty to promotion and tenure preparation and shared governance at URI.",
-      "whyInclude": "Directly addresses two institutional processes that new faculty need to understand early in their careers.",
       "sourceUrl": "https://web.uri.edu/provost/faculty-resources/",
-      "lastVerified": "2026-07-27"
+      "lastVerified": "2026-08-19",
+      "datePrecision": "exact",
+      "id": "uri-provost-council-chairs-ptf-staff-evaluation-2027",
+      "title": "Council of Chairs: Part-Time Faculty and Staff Evaluation Process",
+      "description": "A Council of Chairs session on processes and responsibilities for evaluating part-time faculty and staff.",
+      "topics": [
+        "Faculty Leadership",
+        "Assessment",
+        "Workload"
+      ],
+      "audience": [
+        "Department chairs"
+      ],
+      "startDate": "2027-04-02",
+      "endDate": "2027-04-02",
+      "dateLabel": "April 2, 2027; time to be confirmed",
+      "format": "In person; Hardge Forum"
     },
     {
       "id": "detected-uri-atl-atl-s-ai-workshops",
