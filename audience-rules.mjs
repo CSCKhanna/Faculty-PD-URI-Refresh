@@ -41,6 +41,20 @@ export const AUDIENCE_GROUPS = [
   }
 ];
 
+export const NCFDD_ALL_AUDIENCES = [
+  "Graduate students",
+  "Postdocs",
+  "New faculty",
+  "Early-career faculty",
+  "Associate professors",
+  "Full professors",
+  "Part-time faculty",
+  "Teaching-track faculty",
+  "Tenure-track faculty",
+  "Associate deans",
+  "Department chairs"
+];
+
 const FACULTY_GROUPS = AUDIENCE_GROUPS
   .map((group) => group.label)
   .filter((label) => label.endsWith("Faculty"));
@@ -61,6 +75,7 @@ function normalizeAudience(value) {
 
 export function resolveAudienceGroups(item) {
   if (item.provider === "CIRTL") return new Set([GRADUATE_GROUP]);
+  if (item.provider === "NCFDD") return new Set(AUDIENCE_GROUPS.map((group) => group.label));
 
   const audiences = (item.audience || []).map(normalizeAudience);
   const directGroups = new Set();

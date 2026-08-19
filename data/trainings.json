@@ -2,7 +2,7 @@
   "meta": {
     "title": "URI Instructor Development Calendar: Professional Development from URI and Member Organizations",
     "subtitle": "Professional development from URI and member organizations",
-    "lastUpdated": "2026-08-19T16:33:40.523Z",
+    "lastUpdated": "2026-08-19T17:18:52.066Z",
     "dataVersion": 1,
     "notes": [
       "The three starter DOCX files were imported locally on June 2, 2026.",
@@ -2766,6 +2766,14 @@
             "managedCatalogs": 0
           }
         ]
+      },
+      {
+        "ranAt": "2026-08-19T17:18:52.066Z",
+        "localDate": "2026-08-19",
+        "type": "manual-provider-audience-rule",
+        "provider": "NCFDD",
+        "changed": 24,
+        "note": "Applied the Provost's Office request that every NCFDD opportunity match every dashboard audience category."
       }
     ]
   },
@@ -2894,9 +2902,17 @@
         "Productivity"
       ],
       "audience": [
-        "Faculty",
+        "Graduate students",
         "Postdocs",
-        "Graduate students"
+        "New faculty",
+        "Early-career faculty",
+        "Associate professors",
+        "Full professors",
+        "Part-time faculty",
+        "Teaching-track faculty",
+        "Tenure-track faculty",
+        "Associate deans",
+        "Department chairs"
       ],
       "access": "Free; URI NCFDD membership verified.",
       "accessStatus": "verified",
@@ -2985,9 +3001,17 @@
         "Productivity"
       ],
       "audience": [
-        "Faculty",
+        "Graduate students",
         "Postdocs",
-        "Graduate students"
+        "New faculty",
+        "Early-career faculty",
+        "Associate professors",
+        "Full professors",
+        "Part-time faculty",
+        "Teaching-track faculty",
+        "Tenure-track faculty",
+        "Associate deans",
+        "Department chairs"
       ],
       "access": "Free; URI NCFDD membership verified.",
       "accessStatus": "verified",
@@ -3046,9 +3070,17 @@
         "Productivity"
       ],
       "audience": [
-        "Faculty",
+        "Graduate students",
+        "Postdocs",
+        "New faculty",
         "Early-career faculty",
-        "Postdocs"
+        "Associate professors",
+        "Full professors",
+        "Part-time faculty",
+        "Teaching-track faculty",
+        "Tenure-track faculty",
+        "Associate deans",
+        "Department chairs"
       ],
       "access": "NCFDD member resource; URI NCFDD membership verified.",
       "accessStatus": "verified",
@@ -3074,9 +3106,17 @@
         "Productivity"
       ],
       "audience": [
-        "Faculty",
+        "Graduate students",
         "Postdocs",
-        "Graduate students"
+        "New faculty",
+        "Early-career faculty",
+        "Associate professors",
+        "Full professors",
+        "Part-time faculty",
+        "Teaching-track faculty",
+        "Tenure-track faculty",
+        "Associate deans",
+        "Department chairs"
       ],
       "access": "Free; URI NCFDD membership verified.",
       "accessStatus": "verified",
@@ -3103,8 +3143,17 @@
         "Productivity"
       ],
       "audience": [
-        "Faculty",
-        "Early-career faculty"
+        "Graduate students",
+        "Postdocs",
+        "New faculty",
+        "Early-career faculty",
+        "Associate professors",
+        "Full professors",
+        "Part-time faculty",
+        "Teaching-track faculty",
+        "Tenure-track faculty",
+        "Associate deans",
+        "Department chairs"
       ],
       "access": "NCFDD member resource; URI NCFDD membership verified.",
       "accessStatus": "verified",
@@ -3130,9 +3179,17 @@
         "Teaching"
       ],
       "audience": [
-        "Faculty",
-        "Academic leaders",
-        "Instructional support staff"
+        "Graduate students",
+        "Postdocs",
+        "New faculty",
+        "Early-career faculty",
+        "Associate professors",
+        "Full professors",
+        "Part-time faculty",
+        "Teaching-track faculty",
+        "Tenure-track faculty",
+        "Associate deans",
+        "Department chairs"
       ],
       "access": "NCFDD recording; URI NCFDD membership verified.",
       "accessStatus": "verified",
@@ -3249,9 +3306,17 @@
         "Productivity"
       ],
       "audience": [
-        "Faculty",
+        "Graduate students",
         "Postdocs",
-        "Graduate students"
+        "New faculty",
+        "Early-career faculty",
+        "Associate professors",
+        "Full professors",
+        "Part-time faculty",
+        "Teaching-track faculty",
+        "Tenure-track faculty",
+        "Associate deans",
+        "Department chairs"
       ],
       "access": "NCFDD member resources; URI NCFDD membership verified.",
       "accessStatus": "verified",
@@ -4125,7 +4190,17 @@
         "Promotion & Tenure"
       ],
       "audience": [
-        "Faculty"
+        "Graduate students",
+        "Postdocs",
+        "New faculty",
+        "Early-career faculty",
+        "Associate professors",
+        "Full professors",
+        "Part-time faculty",
+        "Teaching-track faculty",
+        "Tenure-track faculty",
+        "Associate deans",
+        "Department chairs"
       ],
       "access": "Do not advertise as free unless URI sponsors seats.",
       "accessStatus": "paid",
@@ -4151,7 +4226,17 @@
         "Teaching"
       ],
       "audience": [
-        "Faculty"
+        "Graduate students",
+        "Postdocs",
+        "New faculty",
+        "Early-career faculty",
+        "Associate professors",
+        "Full professors",
+        "Part-time faculty",
+        "Teaching-track faculty",
+        "Tenure-track faculty",
+        "Associate deans",
+        "Department chairs"
       ],
       "access": "NCFDD lists the 2026 course at $495; do not advertise as free unless URI purchases/sponsors access.",
       "accessStatus": "paid",
@@ -4212,7 +4297,17 @@
         "Faculty Leadership"
       ],
       "audience": [
-        "Faculty"
+        "Graduate students",
+        "Postdocs",
+        "New faculty",
+        "Early-career faculty",
+        "Associate professors",
+        "Full professors",
+        "Part-time faculty",
+        "Teaching-track faculty",
+        "Tenure-track faculty",
+        "Associate deans",
+        "Department chairs"
       ],
       "access": "Automatically detected from a source page. Review access and cost.",
       "accessStatus": "confirm",
@@ -4242,10 +4337,17 @@
         "Productivity"
       ],
       "audience": [
-        "Faculty",
+        "Graduate students",
+        "Postdocs",
         "New faculty",
-        "Mentors",
-        "Chairs"
+        "Early-career faculty",
+        "Associate professors",
+        "Full professors",
+        "Part-time faculty",
+        "Teaching-track faculty",
+        "Tenure-track faculty",
+        "Associate deans",
+        "Department chairs"
       ],
       "access": "NCFDD member resource; URI NCFDD membership verified.",
       "accessStatus": "verified",
@@ -4273,10 +4375,17 @@
         "Productivity"
       ],
       "audience": [
-        "Faculty",
-        "Postdocs",
         "Graduate students",
-        "Chairs"
+        "Postdocs",
+        "New faculty",
+        "Early-career faculty",
+        "Associate professors",
+        "Full professors",
+        "Part-time faculty",
+        "Teaching-track faculty",
+        "Tenure-track faculty",
+        "Associate deans",
+        "Department chairs"
       ],
       "access": "NCFDD member resource; URI NCFDD membership verified.",
       "accessStatus": "verified",
@@ -4303,9 +4412,17 @@
         "Promotion & Tenure"
       ],
       "audience": [
-        "Faculty",
+        "Graduate students",
         "Postdocs",
-        "Graduate students"
+        "New faculty",
+        "Early-career faculty",
+        "Associate professors",
+        "Full professors",
+        "Part-time faculty",
+        "Teaching-track faculty",
+        "Tenure-track faculty",
+        "Associate deans",
+        "Department chairs"
       ],
       "access": "Free sign-up; pairs well with URI's NCFDD membership.",
       "accessStatus": "verified",
@@ -4333,9 +4450,17 @@
         "Productivity"
       ],
       "audience": [
+        "Graduate students",
+        "Postdocs",
         "New faculty",
         "Early-career faculty",
-        "Mentors"
+        "Associate professors",
+        "Full professors",
+        "Part-time faculty",
+        "Teaching-track faculty",
+        "Tenure-track faculty",
+        "Associate deans",
+        "Department chairs"
       ],
       "access": "URI-supported NCFDD guidebook from the faculty membership resources document.",
       "accessStatus": "verified",
@@ -4362,10 +4487,17 @@
         "Career Transitions"
       ],
       "audience": [
-        "Pre-tenure faculty",
-        "Mid-career faculty",
-        "Mentors",
-        "Chairs"
+        "Graduate students",
+        "Postdocs",
+        "New faculty",
+        "Early-career faculty",
+        "Associate professors",
+        "Full professors",
+        "Part-time faculty",
+        "Teaching-track faculty",
+        "Tenure-track faculty",
+        "Associate deans",
+        "Department chairs"
       ],
       "access": "URI-supported NCFDD guidebook from the faculty membership resources document.",
       "accessStatus": "verified",
@@ -5310,9 +5442,17 @@
         "Writing"
       ],
       "audience": [
-        "Faculty",
-        "Graduate Students",
-        "Postdocs"
+        "Graduate students",
+        "Postdocs",
+        "New faculty",
+        "Early-career faculty",
+        "Associate professors",
+        "Full professors",
+        "Part-time faculty",
+        "Teaching-track faculty",
+        "Tenure-track faculty",
+        "Associate deans",
+        "Department chairs"
       ],
       "access": "Free program. Use the provider source to register.",
       "accessStatus": "verified",
@@ -5339,9 +5479,17 @@
         "Writing"
       ],
       "audience": [
-        "Faculty",
-        "Graduate Students",
-        "Postdocs"
+        "Graduate students",
+        "Postdocs",
+        "New faculty",
+        "Early-career faculty",
+        "Associate professors",
+        "Full professors",
+        "Part-time faculty",
+        "Teaching-track faculty",
+        "Tenure-track faculty",
+        "Associate deans",
+        "Department chairs"
       ],
       "access": "Free program. Use the provider source to register.",
       "accessStatus": "verified",
@@ -5368,9 +5516,17 @@
         "Writing"
       ],
       "audience": [
-        "Faculty",
-        "Graduate Students",
-        "Postdocs"
+        "Graduate students",
+        "Postdocs",
+        "New faculty",
+        "Early-career faculty",
+        "Associate professors",
+        "Full professors",
+        "Part-time faculty",
+        "Teaching-track faculty",
+        "Tenure-track faculty",
+        "Associate deans",
+        "Department chairs"
       ],
       "access": "Free program. Use the provider source to register.",
       "accessStatus": "verified",
@@ -5397,9 +5553,17 @@
         "Writing"
       ],
       "audience": [
-        "Faculty",
-        "Graduate Students",
-        "Postdocs"
+        "Graduate students",
+        "Postdocs",
+        "New faculty",
+        "Early-career faculty",
+        "Associate professors",
+        "Full professors",
+        "Part-time faculty",
+        "Teaching-track faculty",
+        "Tenure-track faculty",
+        "Associate deans",
+        "Department chairs"
       ],
       "access": "Free program. Use the provider source to register.",
       "accessStatus": "verified",
@@ -5426,7 +5590,17 @@
         "Faculty Development"
       ],
       "audience": [
-        "Faculty"
+        "Graduate students",
+        "Postdocs",
+        "New faculty",
+        "Early-career faculty",
+        "Associate professors",
+        "Full professors",
+        "Part-time faculty",
+        "Teaching-track faculty",
+        "Tenure-track faculty",
+        "Associate deans",
+        "Department chairs"
       ],
       "access": "Automatically published from the provider catalog. Check the source for access, cost, and registration details.",
       "accessStatus": "confirm",
@@ -5453,7 +5627,17 @@
         "Faculty Development"
       ],
       "audience": [
-        "Faculty"
+        "Graduate students",
+        "Postdocs",
+        "New faculty",
+        "Early-career faculty",
+        "Associate professors",
+        "Full professors",
+        "Part-time faculty",
+        "Teaching-track faculty",
+        "Tenure-track faculty",
+        "Associate deans",
+        "Department chairs"
       ],
       "access": "Automatically published from the provider catalog. Check the source for access, cost, and registration details.",
       "accessStatus": "confirm",
@@ -5480,7 +5664,17 @@
         "AI"
       ],
       "audience": [
-        "Faculty"
+        "Graduate students",
+        "Postdocs",
+        "New faculty",
+        "Early-career faculty",
+        "Associate professors",
+        "Full professors",
+        "Part-time faculty",
+        "Teaching-track faculty",
+        "Tenure-track faculty",
+        "Associate deans",
+        "Department chairs"
       ],
       "access": "Automatically published from the provider catalog. Check the source for access, cost, and registration details.",
       "accessStatus": "confirm",
@@ -5508,7 +5702,17 @@
         "Faculty Leadership"
       ],
       "audience": [
-        "Faculty"
+        "Graduate students",
+        "Postdocs",
+        "New faculty",
+        "Early-career faculty",
+        "Associate professors",
+        "Full professors",
+        "Part-time faculty",
+        "Teaching-track faculty",
+        "Tenure-track faculty",
+        "Associate deans",
+        "Department chairs"
       ],
       "access": "Automatically published from the provider catalog. Check the source for access, cost, and registration details.",
       "accessStatus": "confirm",
@@ -5535,7 +5739,17 @@
         "Faculty Development"
       ],
       "audience": [
-        "Faculty"
+        "Graduate students",
+        "Postdocs",
+        "New faculty",
+        "Early-career faculty",
+        "Associate professors",
+        "Full professors",
+        "Part-time faculty",
+        "Teaching-track faculty",
+        "Tenure-track faculty",
+        "Associate deans",
+        "Department chairs"
       ],
       "access": "Automatically published from the provider catalog. Check the source for access, cost, and registration details.",
       "accessStatus": "confirm",

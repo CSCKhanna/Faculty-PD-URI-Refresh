@@ -2,6 +2,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { createHash } from "node:crypto";
 import { fileURLToPath } from "node:url";
+import { NCFDD_ALL_AUDIENCES } from "./audience-rules.mjs";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -99,6 +100,7 @@ export async function updateFeeds() {
 
   const merged = mergeDiscoveries(data.trainings, discoveries);
   data.trainings = merged.trainings;
+  applyProviderAudienceRules(data.trainings);
   const beforeExpiration = new Map(data.trainings.map((item) => [item.id, item.status]));
   const expiration = reconcileExpiredItems(data.trainings, today);
   const archivedPast = data.trainings
@@ -304,6 +306,16 @@ export function reconcileExpiredItems(trainings, today) {
   }
 
   return { archived, restored };
+}
+
+export function applyProviderAudienceRules(trainings) {
+  let updated = 0;
+  for (const item of trainings) {
+    if (item.provider !== "NCFDD") continue;
+    if (JSON.stringify(item.audience) !== JSON.stringify(NCFDD_ALL_AUDIENCES)) updated += 1;
+    item.audience = [...NCFDD_ALL_AUDIENCES];
+  }
+  return updated;
 }
 
 function isExpirationEligible(item) {

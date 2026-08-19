@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 
-import { resolveAudienceGroups } from "./audience-rules.mjs";
+import { AUDIENCE_GROUPS, resolveAudienceGroups } from "./audience-rules.mjs";
 
 const ALL_FACULTY_GROUPS = [
   "New Faculty",
@@ -24,8 +24,13 @@ test("a specific faculty audience overrides a general faculty label", () => {
 });
 
 test("explicit graduate and postdoc audiences remain available with a general faculty audience", () => {
-  const groups = resolveAudienceGroups({ provider: "NCFDD", audience: ["Faculty", "Graduate students", "Postdocs"] });
+  const groups = resolveAudienceGroups({ provider: "Other", audience: ["Faculty", "Graduate students", "Postdocs"] });
   assert.deepEqual([...groups], ["Graduate Students & Postdocs", ...ALL_FACULTY_GROUPS]);
+});
+
+test("every NCFDD opportunity matches every audience category", () => {
+  const groups = resolveAudienceGroups({ provider: "NCFDD", audience: ["Faculty"] });
+  assert.deepEqual([...groups], AUDIENCE_GROUPS.map((group) => group.label));
 });
 
 test("leadership-specific opportunities stay leadership-specific", () => {

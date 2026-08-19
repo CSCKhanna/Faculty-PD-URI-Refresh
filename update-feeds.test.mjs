@@ -2,12 +2,15 @@ import assert from "node:assert/strict";
 import test from "node:test";
 
 import {
+  applyProviderAudienceRules,
   extractCatalogItems,
   extractCatalogTitles,
   reconcileCatalogItems,
   reconcileExpiredItems,
   refreshNcfddWritingChallenge
 } from "./update-feeds.mjs";
+
+import { NCFDD_ALL_AUDIENCES } from "./audience-rules.mjs";
 
 function training(overrides = {}) {
   return {
@@ -76,6 +79,19 @@ test("ignores malformed dates", () => {
 
   assert.deepEqual(reconcileExpiredItems(items, "2026-07-27"), { archived: 0, restored: 0 });
   assert.equal(items[0].status, "recommended");
+});
+
+test("applies every audience category to all NCFDD opportunities", () => {
+  const items = [
+    { provider: "NCFDD", audience: ["Faculty"] },
+    { provider: "NCFDD", audience: ["Graduate students", "Postdocs"] },
+    { provider: "EAB", audience: ["Faculty"] }
+  ];
+
+  assert.equal(applyProviderAudienceRules(items), 2);
+  assert.deepEqual(items[0].audience, NCFDD_ALL_AUDIENCES);
+  assert.deepEqual(items[1].audience, NCFDD_ALL_AUDIENCES);
+  assert.deepEqual(items[2].audience, ["Faculty"]);
 });
 
 test("extracts provider program titles without logistics labels", () => {
