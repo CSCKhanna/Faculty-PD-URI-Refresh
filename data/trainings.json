@@ -2,12 +2,12 @@
   "meta": {
     "title": "URI Instructor Development Calendar: Professional Development from URI and Member Organizations",
     "subtitle": "Professional development from URI and member organizations",
-    "lastUpdated": "2026-08-19T17:18:52.066Z",
+    "lastUpdated": "2026-08-19T17:27:02.000Z",
     "dataVersion": 1,
     "notes": [
       "The three starter DOCX files were imported locally on June 2, 2026.",
       "The internal training grid labeled DO NOT USE was used only for planning signals such as audience, timing, and topic gaps; its internal presenter and logistics details were not published.",
-      "NCFDD, CIRTL, and CUR access were verified from URI or user-provided membership documentation. EAB and AAC&U access notes still need local confirmation for member-only or paid items."
+      "NCFDD, CIRTL, CUR, EAB, and AAC&U access routes were verified from URI or user-provided membership information."
     ],
     "nextUpdateRecommended": "2026-08-26T16:33:40.523Z",
     "sourceSnapshots": [
@@ -2794,9 +2794,9 @@
     },
     {
       "provider": "EAB",
-      "status": "confirm",
-      "summary": "EAB resources and webinars use public forms and partner-login paths, but no public URI page documenting faculty access was found.",
-      "action": "Confirm the URI partner-login route with the Provost/ATL or the office that manages EAB access.",
+      "status": "verified",
+      "summary": "URI faculty can activate EAB access using their URI email address, then use EAB resources, webinars, and partner materials.",
+      "action": "Activate with an @uri.edu address.",
       "url": "https://eab.com/resources/resource-center/higher-education-ai-resource-center/"
     },
     {
@@ -2808,9 +2808,9 @@
     },
     {
       "provider": "AAC&U",
-      "status": "partial",
-      "summary": "AAC&U AI Week webinars were listed publicly as free; AAC&U institutes and conferences are often paid.",
-      "action": "Prioritize public/free webinars and recordings. Screen all institutes and conferences for cost.",
+      "status": "verified",
+      "summary": "URI faculty can activate AAC&U access using their URI email address and use available member resources and programming.",
+      "action": "Activate with an @uri.edu address.",
       "url": "https://hawksites.newpaltz.edu/fdc/2026/04/21/aac-apr-27-30/"
     },
     {
