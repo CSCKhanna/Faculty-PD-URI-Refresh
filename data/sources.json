@@ -41,9 +41,11 @@
         "missingRunsBeforeArchive": 1,
         "minimumItems": 3,
         "excludeContentPatterns": [
-          "undergraduate(?: students?)? only",
+          "undergraduate(?: students?)?[- ]only",
           "for undergraduate students only",
-          "only (?:open|available) to undergraduates?"
+          "only (?:open|available) to undergraduates?",
+          "(?:workshop|training|session|opportunity|program) (?:designed )?for undergraduate students",
+          "(?:designed|intended|open|available) (?:only )?(?:for|to) undergraduate students"
         ],
         "titleAliases": {
           "Panaopto Advanced: Video editing and interactivity": "Panopto Advanced: Video Editing and Interactivity",

@@ -357,6 +357,10 @@ test("excludes URI ITS opportunities limited to undergraduate students", () => {
         <span class='start'>1:00 PM</span><span class='end'>2:00 PM</span>
         <div class='type' id='faculty'>Faculty workshop about undergraduate student engagement.</div>
       </div>
+      <div class='calendar-event'><h4>Technology Workshop for Undergraduate Students</h4>
+        <span class='start'>2:00 PM</span><span class='end'>3:00 PM</span>
+        <div class='type' id='students'>Hands-on student technology support.</div>
+      </div>
     </div>
     <h3>Virtual Office Hours &amp; Drop-Ins</h3>
   `;
@@ -366,9 +370,11 @@ test("excludes URI ITS opportunities limited to undergraduate students", () => {
     baseUrl: "https://its.uri.edu/training-and-support/",
     referenceDate: "2026-08-19",
     excludeContentPatterns: [
-      "undergraduate(?: students?)? only",
+      "undergraduate(?: students?)?[- ]only",
       "for undergraduate students only",
-      "only (?:open|available) to undergraduates?"
+      "only (?:open|available) to undergraduates?",
+      "(?:workshop|training|session|opportunity|program) (?:designed )?for undergraduate students",
+      "(?:designed|intended|open|available) (?:only )?(?:for|to) undergraduate students"
     ]
   });
 
