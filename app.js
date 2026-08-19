@@ -1,3 +1,5 @@
+import { AUDIENCE_GROUPS, resolveAudienceGroups } from "./audience-rules.mjs";
+
 const DATA_URL = "./data/trainings.json";
 const TODAY = new Date("2026-06-02T12:00:00-04:00");
 const URI_PROVIDER_CHIPS = [
@@ -7,48 +9,6 @@ const URI_PROVIDER_CHIPS = [
   "URI-ITS",
   "URI-IACR",
   "URI-Provost's Office"
-];
-const AUDIENCE_GROUPS = [
-  {
-    label: "Graduate Students & Postdocs",
-    aliases: ["Future faculty", "Graduate students", "Graduate teaching assistants", "Postdocs"]
-  },
-  {
-    label: "New Faculty",
-    aliases: ["New faculty", "New full-time faculty"]
-  },
-  {
-    label: "Early-Career Faculty",
-    aliases: ["Early-career faculty", "Pre-tenure faculty"]
-  },
-  {
-    label: "Mid-Career Faculty",
-    aliases: ["Mid-career faculty", "Associate professors"]
-  },
-  {
-    label: "Senior Faculty",
-    aliases: ["Senior faculty", "Full professors"]
-  },
-  {
-    label: "Part-Time Faculty",
-    aliases: ["Part-time faculty", "URI employees who teach part time"]
-  },
-  {
-    label: "Teaching-Track Faculty",
-    aliases: ["Teaching-track faculty"]
-  },
-  {
-    label: "Tenure-Track Faculty",
-    aliases: ["Tenure-track faculty"]
-  },
-  {
-    label: "Associate Deans",
-    aliases: ["Associate deans"]
-  },
-  {
-    label: "Department Chairs",
-    aliases: ["Department chairs", "Chairs"]
-  }
 ];
 const AUDIENCE_TOPIC_LABELS = new Set(["New Faculty", "Part-time Faculty"]);
 
@@ -185,14 +145,14 @@ function buildFilterControls() {
   const topics = unique(trainings.flatMap((item) => item.topics))
     .filter((topic) => !AUDIENCE_TOPIC_LABELS.has(topic))
     .sort();
-  const audienceGroups = AUDIENCE_GROUPS.filter((group) => trainings.some((item) => {
-    return item.audience?.some((audience) => group.aliases.includes(audience));
-  }));
+  const audienceGroups = AUDIENCE_GROUPS.filter((group) => {
+    return trainings.some((item) => resolveAudienceGroups(item).has(group.label));
+  });
 
   els.providerChips.innerHTML = providers.map((provider) => chipHtml(provider, "provider")).join("");
   els.topicChips.innerHTML = topics.map((topic) => chipHtml(topic, "topic")).join("");
   els.audienceChips.innerHTML = audienceGroups.map((group) => {
-    return `<button class="chip has-tooltip" type="button" data-audience="${escapeAttr(group.label)}" data-tooltip="Show trainings intended for ${escapeAttr(group.label.toLowerCase())}.">${escapeHtml(group.label)}</button>`;
+    return `<button class="chip has-tooltip" type="button" data-audience="${escapeAttr(group.label)}" data-tooltip="Show opportunities intended for ${escapeAttr(group.label.toLowerCase())}.">${escapeHtml(group.label)}</button>`;
   }).join("");
 
   els.providerChips.querySelectorAll("button").forEach((button) => {
@@ -349,7 +309,7 @@ function renderCards(items) {
             <svg class="button-icon" aria-hidden="true"><use href="#icon-link"></use></svg>
             Source
           </a>
-          ${calendarUrl(item) ? `<a class="text-link" href="${calendarUrl(item)}" target="_blank" rel="noopener">Calendar</a>` : ""}
+          ${calendarLink(item)}
         </div>
       </div>
     </article>
@@ -376,6 +336,7 @@ function renderTimeline(items) {
                 <svg class="button-icon" aria-hidden="true"><use href="#icon-link"></use></svg>
                 Source
               </a>
+              ${calendarLink(item)}
             </div>
           </article>
         `).join("")}
@@ -390,11 +351,12 @@ function renderTable(items) {
       <thead>
         <tr>
           <th>Date</th>
-          <th>Training</th>
+          <th>Opportunity</th>
           <th>Provider</th>
           <th>Topics</th>
           <th>Audience</th>
           <th>Registration</th>
+          <th>Calendar</th>
           <th>Source</th>
         </tr>
       </thead>
@@ -407,6 +369,7 @@ function renderTable(items) {
             <td>${escapeHtml(item.topics.join(", "))}</td>
             <td>${escapeHtml(item.audience.join(", "))}</td>
             <td>${item.registrationUrl ? `<a href="${escapeAttr(item.registrationUrl)}" target="_blank" rel="noopener">Register</a>` : "—"}</td>
+            <td>${calendarLink(item, "—")}</td>
             <td><a href="${escapeAttr(item.sourceUrl)}" target="_blank" rel="noopener">Open</a></td>
           </tr>
         `).join("")}
@@ -441,15 +404,13 @@ function selectedViewElement(view) {
 }
 
 function matchesAudienceFilters(item) {
-  const itemAudiences = item.audience || [];
-  return AUDIENCE_GROUPS.some((group) => {
-    return state.audiences.has(group.label) && itemAudiences.some((audience) => group.aliases.includes(audience));
-  });
+  const itemAudienceGroups = resolveAudienceGroups(item);
+  return [...state.audiences].some((audience) => itemAudienceGroups.has(audience));
 }
 
 function titleForAudienceFilters() {
-  if (!state.audiences.size) return "All Trainings";
-  return `${[...state.audiences].join(" + ")} Trainings`;
+  if (!state.audiences.size) return "All Opportunities";
+  return `${[...state.audiences].join(" + ")} Opportunities`;
 }
 
 function groupByMonth(items) {
@@ -508,7 +469,7 @@ async function copyAnnouncement() {
     .slice(0, 6)
     .map((item) => `- ${item.title} (${item.provider}): ${item.dateLabel}`)
     .join("\n");
-  const text = `URI faculty can explore a curated yearlong pathway of AI, writing, and promotion/tenure trainings. Recommended starting points:\n${featured}`;
+  const text = `URI faculty can explore a curated yearlong pathway of AI, writing, and promotion/tenure opportunities. Recommended starting points:\n${featured}`;
   await navigator.clipboard.writeText(text);
   els.serverStatus.textContent = "Announcement copy placed on clipboard.";
 }
@@ -524,6 +485,11 @@ function calendarUrl(item) {
     details: `${item.description}\n\nAccess: ${item.access}\n\nSource: ${item.sourceUrl}`
   });
   return `https://calendar.google.com/calendar/render?${params.toString()}`;
+}
+
+function calendarLink(item, fallback = "") {
+  const url = calendarUrl(item);
+  return url ? `<a class="text-link" href="${escapeAttr(url)}" target="_blank" rel="noopener">Calendar</a>` : fallback;
 }
 
 function unique(values) {

@@ -47,12 +47,12 @@
     </header>
 
     <main>
-      <section class="toolbar" aria-label="Training filters">
-        <label class="search-box has-tooltip" data-tooltip="Search by training title, provider, topic, audience, description, access note, or source.">
+      <section class="toolbar" aria-label="Opportunity filters">
+        <label class="search-box has-tooltip" data-tooltip="Search by opportunity title, provider, topic, audience, description, access note, or source.">
           <svg class="button-icon" aria-hidden="true"><use href="#icon-search"></use></svg>
-          <input id="searchInput" type="search" placeholder="Search trainings, descriptions, sources">
+          <input id="searchInput" type="search" placeholder="Search opportunities, descriptions, sources">
         </label>
-        <label class="select-wrap has-tooltip" data-tooltip="Change the order of the currently visible trainings.">
+        <label class="select-wrap has-tooltip" data-tooltip="Change the order of the currently visible opportunities.">
           <span>Sort</span>
           <select id="sortSelect">
             <option value="date">Date</option>
@@ -60,7 +60,7 @@
             <option value="priority">Priority</option>
           </select>
         </label>
-        <label class="select-wrap has-tooltip" data-tooltip="Filter by the part of the year when a training is most useful.">
+        <label class="select-wrap has-tooltip" data-tooltip="Filter by the part of the year when an opportunity is most useful.">
           <span>Timing</span>
           <select id="timeSelect">
             <option value="all">All year</option>
@@ -73,8 +73,8 @@
       </section>
 
       <section class="quick-actions" aria-label="Page actions">
-        <button id="viewCards" class="mode-button active has-tooltip" type="button" aria-pressed="true" data-tooltip="Browse full training cards with dates, access notes, topics, and source links.">Cards</button>
-        <button id="viewTimeline" class="mode-button has-tooltip" type="button" aria-pressed="false" data-tooltip="Group visible trainings by month.">Timeline</button>
+        <button id="viewCards" class="mode-button active has-tooltip" type="button" aria-pressed="true" data-tooltip="Browse full opportunity cards with dates, access notes, topics, and source links.">Cards</button>
+        <button id="viewTimeline" class="mode-button has-tooltip" type="button" aria-pressed="false" data-tooltip="Group visible opportunities by month.">Timeline</button>
         <button id="viewTable" class="mode-button has-tooltip" type="button" aria-pressed="false" data-tooltip="See a compact spreadsheet-style version of the visible list.">Table</button>
         <button id="guideButton" class="icon-button has-tooltip" type="button" aria-expanded="false" aria-controls="guidePanel" data-tooltip="Open a short guide to the filters, buttons, and audience categories.">
           <svg class="button-icon" aria-hidden="true"><use href="#icon-help"></use></svg>
@@ -119,13 +119,13 @@
           </article>
           <article>
             <h3>Audience</h3>
-            <p><strong>Audience chips</strong> show trainings for selected career stages, appointment types, and leadership roles.</p>
+            <p><strong>Audience chips</strong> show opportunities for selected career stages, appointment types, and leadership roles.</p>
             <p>Select more than one audience to combine their matching opportunities.</p>
             <p>Click an active audience chip again to remove it from the filter.</p>
           </article>
           <article>
             <h3>Provider and Topic Chips</h3>
-            <p><strong>Provider chips</strong> show only trainings from selected organizations or categories such as Other.</p>
+            <p><strong>Provider chips</strong> show only opportunities from selected organizations or categories such as Other.</p>
             <p><strong>Topic chips</strong> show selected themes such as AI, Writing, Promotion & Tenure, Teaching, or Mentoring. Career stages are grouped under Audience.</p>
             <p><strong>Source</strong> links open the provider or evidence page for a card or access note.</p>
           </article>
@@ -158,12 +158,12 @@
         </article>
       </section>
 
-      <section class="results-shell" aria-label="Training results">
+      <section class="results-shell" aria-label="Opportunity results">
         <div class="results-head">
-          <h2 id="resultsTitle">All Trainings</h2>
+          <h2 id="resultsTitle">All Opportunities</h2>
           <span id="resultsCount"></span>
         </div>
-        <div id="emptyState" class="empty-state" hidden>No trainings match the current filters.</div>
+        <div id="emptyState" class="empty-state" hidden>No opportunities match the current filters.</div>
         <div id="cardsView" class="cards-grid"></div>
         <div id="timelineView" class="timeline-view" hidden></div>
         <div id="tableView" class="table-view" hidden></div>
@@ -180,6 +180,6 @@
       <span id="serverStatus">Updates run automatically daily at 11:59 p.m. Eastern.</span>
     </footer>
 
-    <script src="./app.js?v=20260729-recovery" type="module"></script>
+    <script src="./app.js?v=20260819-calendar-actions" type="module"></script>
   </body>
 </html>

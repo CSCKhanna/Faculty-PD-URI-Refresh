@@ -1,7 +1,13 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 
-import { extractCatalogTitles, reconcileCatalogItems, reconcileExpiredItems } from "./update-feeds.mjs";
+import {
+  extractCatalogItems,
+  extractCatalogTitles,
+  reconcileCatalogItems,
+  reconcileExpiredItems,
+  refreshNcfddWritingChallenge
+} from "./update-feeds.mjs";
 
 function training(overrides = {}) {
   return {
@@ -99,12 +105,12 @@ test("catalog reconciliation waits two successful misses before removal", () => 
     catalogSync: { itemIdPrefix: "uri-atl-", missingRunsBeforeArchive: 2 }
   };
 
-  const first = reconcileCatalogItems(items, source, [], "2026-08-02");
+  const first = reconcileCatalogItems(items, source, ["Another Program"], "2026-08-02");
   assert.deepEqual(first.removed, []);
   assert.equal(items[0].status, "recommended");
   assert.equal(items[0].sourceMissingCount, 1);
 
-  const second = reconcileCatalogItems(items, source, [], "2026-08-03");
+  const second = reconcileCatalogItems(items, source, ["Another Program"], "2026-08-03");
   assert.deepEqual(second.removed, ["Existing Program"]);
   assert.equal(items[0].status, "source-removed");
 });
@@ -131,4 +137,116 @@ test("catalog reconciliation discovers additions and restores returned items", (
   assert.deepEqual(result.restored, ["Returned Program"]);
   assert.equal(items[0].status, "recommended");
   assert.equal(result.discoveries[0].title, "New Program");
+});
+
+test("catalog reconciliation ignores an unexpectedly empty extraction", () => {
+  const items = [training({ id: "uri-atl-existing", title: "Existing Program" })];
+  const source = {
+    key: "uri_atl",
+    provider: "URI-ATL",
+    catalogSync: { itemIdPrefix: "uri-atl-", minimumItems: 2 }
+  };
+
+  const result = reconcileCatalogItems(items, source, [], "2026-08-05");
+  assert.equal(result.status, "degraded");
+  assert.equal(items[0].sourceMissingCount, undefined);
+  assert.deepEqual(result.removed, []);
+});
+
+test("catalog reconciliation immediately hides updater-created logistics labels", () => {
+  const items = [training({
+    id: "detected-uri-atl-logistics",
+    title: "All sessions will be held via Zoom.",
+    catalogSource: "uri_atl",
+    detectedByUpdater: true
+  })];
+  const source = { key: "uri_atl", provider: "URI-ATL", catalogSync: {} };
+
+  const result = reconcileCatalogItems(items, source, ["Real Program"], "2026-08-19");
+  assert.equal(items[0].status, "source-removed");
+  assert.equal(items[0].sourceRemovalReason, "catalog-invalid");
+  assert.deepEqual(result.removed, ["All sessions will be held via Zoom."]);
+});
+
+test("repairs the legacy Summer 2026 Writing Challenge before adding Summer 2027", () => {
+  const items = [training({
+    id: "ncfdd-writing-challenge-july-2026",
+    provider: "NCFDD",
+    title: "14-Day Writing Challenge: Summer Session",
+    startDate: "2027-06-07",
+    endDate: "2027-06-20"
+  })];
+  const source = { key: "ncfdd_writing_challenge", url: "https://example.org/writing" };
+  const text = "Summer 2027 Session: June 7 - June 20, 2027";
+
+  const discoveries = refreshNcfddWritingChallenge(items, source, text, "2026-08-19");
+  assert.equal(items[0].startDate, "2026-07-06");
+  assert.equal(items[0].status, "expired");
+  assert.equal(discoveries[0].title, "14-Day Writing Challenge: Summer 2027 Session");
+});
+
+test("extracts configured event heading levels and filters labels", () => {
+  const html = `
+    <h3>September 2026</h3>
+    <h4>Writing an Effective Teaching Philosophy Statement</h4>
+    <h4>Event Views Navigation</h4>
+    <h4>Rethinking Assessment Design in the Age of AI</h4>
+  `;
+
+  assert.deepEqual(extractCatalogTitles(html, { headingLevels: [4] }), [
+    "Writing an Effective Teaching Philosophy Statement",
+    "Rethinking Assessment Design in the Age of AI"
+  ]);
+});
+
+test("adds future NCFDD writing challenge sessions without overwriting another season", () => {
+  const items = [training({
+    id: "ncfdd-writing-challenge-summer-2026",
+    provider: "NCFDD",
+    title: "14-Day Writing Challenge: Summer Session",
+    startDate: "2026-07-06",
+    endDate: "2026-07-19"
+  })];
+  const source = { key: "ncfdd_writing_challenge", url: "https://example.org/writing" };
+  const text = "Fall 2026 Session: September 21 - October 4, 2026 Spring 2027 Session: February 15 - February 28, 2027";
+
+  const discoveries = refreshNcfddWritingChallenge(items, source, text, "2026-08-19");
+  assert.equal(items[0].startDate, "2026-07-06");
+  assert.deepEqual(discoveries.map((item) => item.title), [
+    "14-Day Writing Challenge: Fall 2026 Session",
+    "14-Day Writing Challenge: Spring 2027 Session"
+  ]);
+  assert.ok(discoveries.every((item) => item.status === "discovered" && item.datePrecision === "exact"));
+});
+
+test("extracts structured events with exact dates and direct links", () => {
+  const html = `<script type="application/ld+json">[{"@type":"Event","name":"AI Teaching Studio","startDate":"2026-09-30T10:00:00-05:00","endDate":"2026-09-30T11:15:00-05:00","url":"https://example.org/ai-studio","description":"A practical studio."}]</script>`;
+  const [item] = extractCatalogItems(html, { structuredDataEvents: true });
+
+  assert.equal(item.title, "AI Teaching Studio");
+  assert.equal(item.startDate, "2026-09-30T10:00:00-05:00");
+  assert.equal(item.url, "https://example.org/ai-studio");
+});
+
+test("extracts CUR calendar events with dates and filters out deadlines", () => {
+  const html = `
+    <h3><a href="/workshop">NACE-CUR Workshop Series Session 1</a></h3>
+    <div class="event-dates">When: Tue, Oct 13, 2026 from 09:00 AM</div>
+    <h3><a href="/deadline">Research Award Deadline</a></h3>
+    <div class="event-dates">When: Wed, Oct 14, 2026 from 09:00 AM</div>
+  `;
+  const items = extractCatalogItems(html, {
+    curCalendarEvents: true,
+    baseUrl: "https://community.cur.org/events/calendar",
+    includePatterns: ["Workshop"],
+    excludePatterns: ["Deadline"]
+  });
+
+  assert.deepEqual(items, [{
+    title: "NACE-CUR Workshop Series Session 1",
+    url: "https://community.cur.org/workshop",
+    startDate: "2026-10-13",
+    endDate: "2026-10-13",
+    format: "Provider event"
+  }]);
 });

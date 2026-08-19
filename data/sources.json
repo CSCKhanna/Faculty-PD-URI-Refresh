@@ -12,6 +12,7 @@
       "catalogSync": {
         "itemIdPrefix": "uri-atl-",
         "missingRunsBeforeArchive": 2,
+        "minimumItems": 10,
         "titleAliases": {
           "Consultations": "ATL Teaching and Curriculum Consultations",
           "Fall Writing Retreat": "Fall Writing Retreats"
@@ -40,6 +41,7 @@
       "url": "https://www.ncfdd.org/programs/14-day-writing-challenge/",
       "type": "event-page",
       "enabled": true,
+      "discover": false,
       "match": [
         "14-Day Writing Challenge",
         "Session"
@@ -52,6 +54,31 @@
       "url": "https://www.ncfdd.org/category/events-and-webinars/",
       "type": "archive-page",
       "enabled": true,
+      "discover": false,
+      "catalogSync": {
+        "headingLevels": [2],
+        "minimumItems": 4,
+        "missingRunsBeforeArchive": 2,
+        "includePatterns": [
+          "AI",
+          "Writing",
+          "Faculty Development",
+          "Tenure",
+          "Promotion",
+          "Teaching",
+          "Mentor",
+          "Every Semester Needs a Plan",
+          "Boundaries",
+          "Rest and Recovery"
+        ],
+        "excludePatterns": [
+          "Events and Webinars",
+          "All categories",
+          "^AASCU",
+          "^APLU",
+          "^SREB"
+        ]
+      },
       "match": [
         "AI",
         "Writing",
@@ -74,6 +101,12 @@
       "url": "https://cirtl.net/events/",
       "type": "event-index",
       "enabled": true,
+      "discover": false,
+      "catalogSync": {
+        "structuredDataEvents": true,
+        "minimumItems": 5,
+        "missingRunsBeforeArchive": 2
+      },
       "match": [
         "AI",
         "writing",
@@ -129,6 +162,21 @@
       "url": "https://community.cur.org/events/calendar",
       "type": "event-index",
       "enabled": true,
+      "discover": false,
+      "catalogSync": {
+        "curCalendarEvents": true,
+        "minimumItems": 2,
+        "missingRunsBeforeArchive": 2,
+        "includePatterns": [
+          "Workshop",
+          "Grant Dialogues",
+          "STR 20[0-9]{2}.*Session"
+        ],
+        "excludePatterns": ["Deadline", "Submission", "Registration Open"],
+        "titleAliases": {
+          "NACE-CUR Workshop Series Session 2: Best Practices for Integrating Career Readiness into Undergradua": "NACE-CUR Workshop Series Session 2: Best Practices for Integrating Career Readiness into Undergraduate Research"
+        }
+      },
       "match": [
         "Webinar",
         "AI",

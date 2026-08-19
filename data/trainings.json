@@ -1,22 +1,22 @@
 {
   "meta": {
-    "title": "URI Faculty Development Training Calendar: Available PD from URI's Member Organizations",
-    "subtitle": "Available professional development from URI's member organizations",
-    "lastUpdated": "2026-08-19T04:26:58.645Z",
+    "title": "URI Instructor Development Calendar: Professional Development from URI and Member Organizations",
+    "subtitle": "Professional development from URI and member organizations",
+    "lastUpdated": "2026-08-19T14:38:18.697Z",
     "dataVersion": 1,
     "notes": [
       "The three starter DOCX files were imported locally on June 2, 2026.",
       "The internal training grid labeled DO NOT USE was used only for planning signals such as audience, timing, and topic gaps; its internal presenter and logistics details were not published.",
       "NCFDD, CIRTL, and CUR access were verified from URI or user-provided membership documentation. EAB and AAC&U access notes still need local confirmation for member-only or paid items."
     ],
-    "nextUpdateRecommended": "2026-08-26T04:26:58.645Z",
+    "nextUpdateRecommended": "2026-08-26T14:38:18.697Z",
     "sourceSnapshots": [
       {
         "key": "uri_atl_fall_2026",
         "provider": "URI-ATL",
         "label": "URI ATL Fall 2026 programming",
         "url": "https://web.uri.edu/atl/fall-2026-atl-programming/",
-        "lastFetched": "2026-08-19T04:26:58.645Z",
+        "lastFetched": "2026-08-19T14:38:18.697Z",
         "status": "ok",
         "keywordsFound": [
           "Writing",
@@ -32,26 +32,30 @@
           }
         ],
         "title": "Fall 2026 ATL Programming",
-        "snippet": ":00pm - 2:00pm Location: Zoom Registration & More Information ________________________________________________________________________ Fall Writing Retreats (ALL) Writing Across URI (now housed in ATL) invites all writers to join our Fall Writing Retreats. Keep the momentum going on your academic article, grant proposal, or creative project! There’s no forma"
+        "snippet": ":00pm - 2:00pm Location: Zoom Registration & More Information ________________________________________________________________________ Fall Writing Retreats (ALL) Writing Across URI (now housed in ATL) invites all writers to join our Fall Writing Retreats. Keep the momentum going on your academic article, grant proposal, or creative project! There’s no forma",
+        "contentHash": "781a1bfae2ab6930e72fd985a5bbf2624c336a15595a51bc0c92ba5f7b1fb341",
+        "changed": false
       },
       {
         "key": "uri_ncfdd",
         "provider": "NCFDD",
         "label": "URI NCFDD membership page",
         "url": "https://web.uri.edu/diversity/training/national-center-for-faculty-development-diversity-ncfdd/",
-        "lastFetched": "2026-08-19T04:26:58.645Z",
+        "lastFetched": "2026-08-19T14:38:18.697Z",
         "status": "ok",
         "keywordsFound": [],
         "detectedDates": [],
         "title": "National Center for Faculty Development & Diversity (NCFDD)",
-        "snippet": "National Center for Faculty Development & Diversity (NCFDD) - Community, Equity and Diversity Skip to content Search Search the URI website University of Rhode Island You Future Students Students Faculty Staff Parents and Families Alumni Community Community, Equity and Diversity Facebook Instagram X URI Community, Equity and Diversity Training National Cente"
+        "snippet": "National Center for Faculty Development & Diversity (NCFDD) - Community, Equity and Diversity Skip to content Search Search the URI website University of Rhode Island You Future Students Students Faculty Staff Parents and Families Alumni Community Community, Equity and Diversity Facebook Instagram X URI Community, Equity and Diversity Training National Cente",
+        "contentHash": "00bbc45cc606c70348a2e2959e58fc7721c2346a17365a259117656cedec3878",
+        "changed": false
       },
       {
         "key": "ncfdd_writing_challenge",
         "provider": "NCFDD",
         "label": "NCFDD 14-Day Writing Challenge",
         "url": "https://www.ncfdd.org/programs/14-day-writing-challenge/",
-        "lastFetched": "2026-08-19T04:26:58.645Z",
+        "lastFetched": "2026-08-19T14:38:18.697Z",
         "status": "ok",
         "keywordsFound": [
           "14-Day Writing Challenge",
@@ -84,14 +88,16 @@
           }
         ],
         "title": "14-Day Writing Challenge",
-        "snippet": "14-Day Writing Challenge - NCFDD Skip to content Member Sign In Become a Member Menu Menu Why NCFDD Solutions Solutions for Administrators Solutions for Faculty Solutions for Graduate Students Faculty Wellbeing Faculty Mentoring Faculty Productivity Faculty Retention Faculty Development Grant Funding Institutional Success Offerings Programs Faculty Success P"
+        "snippet": "14-Day Writing Challenge - NCFDD Skip to content Member Sign In Become a Member Menu Menu Why NCFDD Solutions Solutions for Administrators Solutions for Faculty Solutions for Graduate Students Faculty Wellbeing Faculty Mentoring Faculty Productivity Faculty Retention Faculty Development Grant Funding Institutional Success Offerings Programs Faculty Success P",
+        "contentHash": "5dbab522e54dff253852e3fc05ab8be2ccdf9b61e31325d0022021226728fcfd",
+        "changed": false
       },
       {
         "key": "ncfdd_events",
         "provider": "NCFDD",
         "label": "NCFDD events and webinar archive",
         "url": "https://www.ncfdd.org/category/events-and-webinars/",
-        "lastFetched": "2026-08-19T04:26:58.645Z",
+        "lastFetched": "2026-08-19T14:38:18.697Z",
         "status": "ok",
         "keywordsFound": [
           "AI",
@@ -133,26 +139,30 @@
           }
         ],
         "title": "Events and Webinars Archives",
-        "snippet": "ductivity Faculty Retention Faculty Development Grant Funding Institutional Success Offerings Programs Faculty Success Program Department Chair Success Program Post-Tenure Pathfinders Courses Building Your Publishing Pipeline Teaching Toolkit in the Age of AI Rethinking Your Research Funding Course 14-Day Writing Challenge Dissertation Success Curriculum Wor"
+        "snippet": "ductivity Faculty Retention Faculty Development Grant Funding Institutional Success Offerings Programs Faculty Success Program Department Chair Success Program Post-Tenure Pathfinders Courses Building Your Publishing Pipeline Teaching Toolkit in the Age of AI Rethinking Your Research Funding Course 14-Day Writing Challenge Dissertation Success Curriculum Wor",
+        "contentHash": "587d31d4f053418bab6836ffda7854045a1ff0eb4362ec1b194edbeb7db1b928",
+        "changed": false
       },
       {
         "key": "uri_cirtl",
         "provider": "CIRTL",
         "label": "URI ATL CIRTL page",
         "url": "https://web.uri.edu/atl/graduate-students/",
-        "lastFetched": "2026-08-19T04:26:58.645Z",
+        "lastFetched": "2026-08-19T14:38:18.697Z",
         "status": "ok",
         "keywordsFound": [],
         "detectedDates": [],
         "title": "Graduate Students",
-        "snippet": "Graduate Students - Office for the Advancement of Teaching and Learning Skip to content Search Search the URI website University of Rhode Island You Future Students Students Faculty Staff Parents and Families Alumni Community Office for the Advancement of Teaching and Learning URI Office for the Advancement of Teaching and Learning Graduate Students Home Abo"
+        "snippet": "Graduate Students - Office for the Advancement of Teaching and Learning Skip to content Search Search the URI website University of Rhode Island You Future Students Students Faculty Staff Parents and Families Alumni Community Office for the Advancement of Teaching and Learning URI Office for the Advancement of Teaching and Learning Graduate Students Home Abo",
+        "contentHash": "46bfcd777fb7262f88d21a6943352e5f026f690e22673f35591d9367ac5427b1",
+        "changed": false
       },
       {
         "key": "cirtl_upcoming",
         "provider": "CIRTL",
         "label": "CIRTL upcoming events and courses",
         "url": "https://cirtl.net/events/",
-        "lastFetched": "2026-08-19T04:26:58.645Z",
+        "lastFetched": "2026-08-19T14:38:18.697Z",
         "status": "ok",
         "keywordsFound": [
           "AI",
@@ -180,14 +190,16 @@
           }
         ],
         "title": "Events",
-        "snippet": "Events from January 25, 2021 - March 29, 2021 - CIRTL Network Skip to main content CIRTL Central Team Log In Calendar Contact Us About About CIRTL Why CIRTL Values Core Ideas Learning Goals Achievement Levels News Contact Us The CIRTL Network Institutions Leadership CIRTL Central Alumni Network Events & Courses Upcoming Past How to Attend CIRTL Network Trans"
+        "snippet": "Events from January 25, 2021 - March 29, 2021 - CIRTL Network Skip to main content CIRTL Central Team Log In Calendar Contact Us About About CIRTL Why CIRTL Values Core Ideas Learning Goals Achievement Levels News Contact Us The CIRTL Network Institutions Leadership CIRTL Central Alumni Network Events & Courses Upcoming Past How to Attend CIRTL Network Trans",
+        "contentHash": "18183caff42b7e98104197f20d002d6fefd6d14f79074642df299233f45c13ed",
+        "changed": false
       },
       {
         "key": "cirtl_summer_2026",
         "provider": "CIRTL",
         "label": "CIRTL Summer 2026 programming",
         "url": "https://cirtl.net/summer-2026-cirtl-network-programming/",
-        "lastFetched": "2026-08-19T04:26:58.645Z",
+        "lastFetched": "2026-08-19T14:38:18.697Z",
         "status": "ok",
         "keywordsFound": [
           "AI",
@@ -200,27 +212,29 @@
             "iso": "2026-04-24"
           },
           {
-            "label": "October 3, 2022",
-            "iso": "2022-10-03"
+            "label": "October 26, 2023",
+            "iso": "2023-10-26"
           },
           {
-            "label": "February 5, 2024",
-            "iso": "2024-02-05"
+            "label": "December 13, 2023",
+            "iso": "2023-12-13"
           },
           {
-            "label": "December 4, 2024",
-            "iso": "2024-12-04"
+            "label": "July 15, 2025",
+            "iso": "2025-07-15"
           }
         ],
         "title": "Summer 2026 CIRTL Network Programming",
-        "snippet": "Summer 2026 CIRTL Network Programming - CIRTL Network Skip to main content CIRTL Central Team Log In Calendar Contact Us About About CIRTL Why CIRTL Values Core Ideas Learning Goals Achievement Levels News Contact Us The CIRTL Network Institutions Leadership CIRTL Central Alumni Network Events & Courses Upcoming Past How to Attend CIRTL Network Transcripts M"
+        "snippet": "Summer 2026 CIRTL Network Programming - CIRTL Network Skip to main content CIRTL Central Team Log In Calendar Contact Us About About CIRTL Why CIRTL Values Core Ideas Learning Goals Achievement Levels News Contact Us The CIRTL Network Institutions Leadership CIRTL Central Alumni Network Events & Courses Upcoming Past How to Attend CIRTL Network Transcripts M",
+        "contentHash": "70a5abf0a21542a46f24bf38c67713050c8d96e7073795e6922c273e2b684b1c",
+        "changed": false
       },
       {
         "key": "eab_ai_center",
         "provider": "EAB",
         "label": "EAB Higher Education AI Resource Center",
         "url": "https://eab.com/resources/resource-center/higher-education-ai-resource-center/",
-        "lastFetched": "2026-08-19T04:26:58.645Z",
+        "lastFetched": "2026-08-19T14:38:18.697Z",
         "status": "ok",
         "keywordsFound": [
           "AI",
@@ -229,14 +243,16 @@
         ],
         "detectedDates": [],
         "title": "Higher Education AI Resource Center | EAB",
-        "snippet": "Higher Education AI Resource Center | EAB Skip navigation EAB Logo Navigate to the EAB Homepage Navigate to EAB home Menu Close Solutions By Focus Area Marketing and Enrollment Graduate Marketing and Enrollment Student Success and Retention Data and Analytics Advancement Research and Advisory By Institution Type Colleges and Universities Community Colleges G"
+        "snippet": "Higher Education AI Resource Center | EAB Skip navigation EAB Logo Navigate to the EAB Homepage Navigate to EAB home Menu Close Solutions By Focus Area Marketing and Enrollment Graduate Marketing and Enrollment Student Success and Retention Data and Analytics Advancement Research and Advisory By Institution Type Colleges and Universities Community Colleges G",
+        "contentHash": "1ff70ce7a1e6739696c0ae3d25fe7b41022d3fc593adf445be7f1dabf9ca96a8",
+        "changed": false
       },
       {
         "key": "eab_ai_toolkit",
         "provider": "EAB",
         "label": "EAB Construction Kit for Faculty AI Resources",
         "url": "https://eab.com/resources/tool/construction-kit-faculty-ai-resources/",
-        "lastFetched": "2026-08-19T04:26:58.645Z",
+        "lastFetched": "2026-08-19T14:38:18.697Z",
         "status": "ok",
         "keywordsFound": [
           "AI",
@@ -244,14 +260,16 @@
         ],
         "detectedDates": [],
         "title": "Construction Kit for Faculty AI Resources | EAB",
-        "snippet": "Construction Kit for Faculty AI Resources | EAB Skip navigation EAB Logo Navigate to the EAB Homepage Navigate to EAB home Menu Close Solutions By Focus Area Marketing and Enrollment Graduate Marketing and Enrollment Student Success and Retention Data and Analytics Advancement Research and Advisory By Institution Type Colleges and Universities Community Coll"
+        "snippet": "Construction Kit for Faculty AI Resources | EAB Skip navigation EAB Logo Navigate to the EAB Homepage Navigate to EAB home Menu Close Solutions By Focus Area Marketing and Enrollment Graduate Marketing and Enrollment Student Success and Retention Data and Analytics Advancement Research and Advisory By Institution Type Colleges and Universities Community Coll",
+        "contentHash": "d5f2ed85616d14eff252aaffbb8bcbd9e6d1209e0a6ff44c34e59e2c68241f9d",
+        "changed": false
       },
       {
         "key": "cur_calendar",
         "provider": "CUR",
         "label": "CUR Community event calendar",
         "url": "https://community.cur.org/events/calendar",
-        "lastFetched": "2026-08-19T04:26:58.645Z",
+        "lastFetched": "2026-08-19T14:38:18.697Z",
         "status": "ok",
         "keywordsFound": [
           "AI",
@@ -294,14 +312,16 @@
           }
         ],
         "title": "Upcoming Events",
-        "snippet": "Upcoming Events - Council on Undergraduate Research Skip to main content (Press Enter). Sign in Skip auxiliary navigation (Press Enter). Contact Us Rules & Etiquette CUR Homepage Skip main navigation (Press Enter). Toggle navigation Home Forums All Forums My Forums Directory Events Upcoming Events Resources Job Board Volunteer Opportunities Making the Most o"
+        "snippet": "Upcoming Events - Council on Undergraduate Research Skip to main content (Press Enter). Sign in Skip auxiliary navigation (Press Enter). Contact Us Rules & Etiquette CUR Homepage Skip main navigation (Press Enter). Toggle navigation Home Forums All Forums My Forums Directory Events Upcoming Events Resources Job Board Volunteer Opportunities Making the Most o",
+        "contentHash": "42129e1dbcf1272cdd5f3953ff2889a47a386823d0dedd1e3d67d6aeb33dbb7d",
+        "changed": false
       },
       {
         "key": "cur_coeur",
         "provider": "CUR",
         "label": "CUR COEUR 2.0",
         "url": "https://www.cur.org/resources-publications/coeur-2-0/",
-        "lastFetched": "2026-08-19T04:26:58.645Z",
+        "lastFetched": "2026-08-19T14:38:18.697Z",
         "status": "ok",
         "keywordsFound": [
           "COEUR",
@@ -314,28 +334,32 @@
           }
         ],
         "title": "Characteristics of Excellence in Undergraduate Research 2.0 - The Council on Undergraduate Research",
-        "snippet": "n Undergraduate Research 2.0 Integrating and Scaffolding Research into Undergraduate Curricula Job Board Student Resources Mentor Resources COEUR COEUR Overview Campus Mission and Culture Administrative Support Research Infrastructure Professional Development Opportunities Recognition External Funding Dissemination Student-Centered Issues Curriculum Summer R"
+        "snippet": "n Undergraduate Research 2.0 Integrating and Scaffolding Research into Undergraduate Curricula Job Board Student Resources Mentor Resources COEUR COEUR Overview Campus Mission and Culture Administrative Support Research Infrastructure Professional Development Opportunities Recognition External Funding Dissemination Student-Centered Issues Curriculum Summer R",
+        "contentHash": "75fe4446b4a354463bcb0ad5cc4f9cff6a71dc79d9fd64b6d39d298f97c3c1a6",
+        "changed": false
       },
       {
         "key": "cur_mentoring",
         "provider": "CUR",
         "label": "CUR mentoring insight page",
         "url": "https://www.cur.org/insights/mentoring/",
-        "lastFetched": "2026-08-19T04:26:58.645Z",
+        "lastFetched": "2026-08-19T14:38:18.697Z",
         "status": "ok",
         "keywordsFound": [
           "Mentoring"
         ],
         "detectedDates": [],
         "title": "Mentoring in Engineering Undergraduate Research - The Council on Undergraduate Research",
-        "snippet": "Mentoring in Engineering Undergraduate Research - The Council on Undergraduate Research Skip to the content The Council on Undergraduate Research Join My Account Profile Log In Log Out My Communities Recent Events Recent Purchases Email Preferences Forgot Password Search Search About What is Undergraduate Research? Mission and History Strategic Plan Leadersh"
+        "snippet": "Mentoring in Engineering Undergraduate Research - The Council on Undergraduate Research Skip to the content The Council on Undergraduate Research Join My Account Profile Log In Log Out My Communities Recent Events Recent Purchases Email Preferences Forgot Password Search Search About What is Undergraduate Research? Mission and History Strategic Plan Leadersh",
+        "contentHash": "92137d045bc78d0e4d9bf7fd33e72e9cf61ef2ffbdcf0d3ef676364c2ba5a4f3",
+        "changed": false
       },
       {
         "key": "aacu_ai_week",
         "provider": "AAC&U",
         "label": "AAC&U AI Week listing",
         "url": "https://hawksites.newpaltz.edu/fdc/2026/04/21/aac-apr-27-30/",
-        "lastFetched": "2026-08-19T04:26:58.645Z",
+        "lastFetched": "2026-08-19T14:38:18.697Z",
         "status": "ok",
         "keywordsFound": [
           "AI"
@@ -347,26 +371,30 @@
           }
         ],
         "title": "AAC&U Webinars: Explore AI’s Impact on Higher Education During AI Week; Apr. 27-30",
-        "snippet": "AAC&U Webinars: Explore AI’s Impact on Higher Education During AI Week; Apr. 27-30 - Faculty Development Center Log In Search Skip to content Search About FDC Advisory Board Mission and Vision Events FDC event recordings Calendar of Events Faculty Life Work Resources Academic Resources SUNY Policies & Handbooks Faculty Groups LinkedIn Learning Pathways Teach"
+        "snippet": "AAC&U Webinars: Explore AI’s Impact on Higher Education During AI Week; Apr. 27-30 - Faculty Development Center Log In Search Skip to content Search About FDC Advisory Board Mission and Vision Events FDC event recordings Calendar of Events Faculty Life Work Resources Academic Resources SUNY Policies & Handbooks Faculty Groups LinkedIn Learning Pathways Teach",
+        "contentHash": "71f451cb9a23eea3572e4ae6f353aa03a247d97134922f74f468d1beecf15804",
+        "changed": false
       },
       {
         "key": "cur_activation",
         "provider": "CUR",
         "label": "CUR Enhanced Membership activation",
         "url": "https://www.cur.org/membership-community/membership/activate-enhanced-membership-benefits/",
-        "lastFetched": "2026-08-19T04:26:58.645Z",
+        "lastFetched": "2026-08-19T14:38:18.697Z",
         "status": "ok",
         "keywordsFound": [],
         "detectedDates": [],
         "title": "Activate Enhanced Membership Benefits - The Council on Undergraduate Research",
-        "snippet": "Activate Enhanced Membership Benefits - The Council on Undergraduate Research Skip to the content The Council on Undergraduate Research Join My Account Profile Log In Log Out My Communities Recent Events Recent Purchases Email Preferences Forgot Password Search Search About What is Undergraduate Research? Mission and History Strategic Plan Leadership CUR Imp"
+        "snippet": "Activate Enhanced Membership Benefits - The Council on Undergraduate Research Skip to the content The Council on Undergraduate Research Join My Account Profile Log In Log Out My Communities Recent Events Recent Purchases Email Preferences Forgot Password Search Search About What is Undergraduate Research? Mission and History Strategic Plan Leadership CUR Imp",
+        "contentHash": "130adfa11e60566cd1be8d5c3c5573300c9f3bb17298218e16c0911755f7848f",
+        "changed": false
       },
       {
         "key": "cur_connectur",
         "provider": "CUR",
         "label": "CUR ConnectUR",
         "url": "https://www.cur.org/events-services/connectur/",
-        "lastFetched": "2026-08-19T04:26:58.645Z",
+        "lastFetched": "2026-08-19T14:38:18.697Z",
         "status": "ok",
         "keywordsFound": [
           "ConnectUR",
@@ -408,14 +436,16 @@
           }
         ],
         "title": "ConnectUR - The Council on Undergraduate Research",
-        "snippet": "ConnectUR - The Council on Undergraduate Research Skip to the content The Council on Undergraduate Research Join My Account Profile Log In Log Out My Communities Recent Events Recent Purchases Email Preferences Forgot Password Search Search About What is Undergraduate Research? Mission and History Strategic Plan Leadership CUR Impact Report Code of Conduct M"
+        "snippet": "ConnectUR - The Council on Undergraduate Research Skip to the content The Council on Undergraduate Research Join My Account Profile Log In Log Out My Communities Recent Events Recent Purchases Email Preferences Forgot Password Search Search About What is Undergraduate Research? Mission and History Strategic Plan Leadership CUR Impact Report Code of Conduct M",
+        "contentHash": "e24d1b15791ff8c1c3bec465b4131f97909d0af0bb06af2edcbb77b3a5f6cdf8",
+        "changed": false
       },
       {
         "key": "cur_dialogues",
         "provider": "CUR",
         "label": "CUR Grant Dialogues",
         "url": "https://www.cur.org/events-services/dialogues/",
-        "lastFetched": "2026-08-19T04:26:58.645Z",
+        "lastFetched": "2026-08-19T14:38:18.697Z",
         "status": "ok",
         "keywordsFound": [
           "Grant Dialogues",
@@ -445,28 +475,32 @@
           }
         ],
         "title": "Grant Dialogues - The Council on Undergraduate Research",
-        "snippet": "Grant Dialogues - The Council on Undergraduate Research Skip to the content The Council on Undergraduate Research Join My Account Profile Log In Log Out My Communities Recent Events Recent Purchases Email Preferences Forgot Password Search Search About What is Undergraduate Research? Mission and History Strategic Plan Leadership CUR Impact Report Code of Con"
+        "snippet": "Grant Dialogues - The Council on Undergraduate Research Skip to the content The Council on Undergraduate Research Join My Account Profile Log In Log Out My Communities Recent Events Recent Purchases Email Preferences Forgot Password Search Search About What is Undergraduate Research? Mission and History Strategic Plan Leadership CUR Impact Report Code of Con",
+        "contentHash": "a28f4401c229b0de73145842e77fea35b82523d9be45d74c783c2ddd7052a3e4",
+        "changed": false
       },
       {
         "key": "cur_on_demand",
         "provider": "CUR",
         "label": "CUR on-demand learning courses",
         "url": "https://www.cur.org/events-services/on-demand-learning-courses/",
-        "lastFetched": "2026-08-19T04:26:58.645Z",
+        "lastFetched": "2026-08-19T14:38:18.697Z",
         "status": "ok",
         "keywordsFound": [
           "AI"
         ],
         "detectedDates": [],
         "title": "On-Demand Learning Courses - The Council on Undergraduate Research",
-        "snippet": "to the content The Council on Undergraduate Research Join My Account Profile Log In Log Out My Communities Recent Events Recent Purchases Email Preferences Forgot Password Search Search About What is Undergraduate Research? Mission and History Strategic Plan Leadership CUR Impact Report Code of Conduct Membership + Community Membership Divisions Member Direc"
+        "snippet": "to the content The Council on Undergraduate Research Join My Account Profile Log In Log Out My Communities Recent Events Recent Purchases Email Preferences Forgot Password Search Search About What is Undergraduate Research? Mission and History Strategic Plan Leadership CUR Impact Report Code of Conduct Membership + Community Membership Divisions Member Direc",
+        "contentHash": "fdfe9f935b540ca9eb40ad6e9c0e154bde3ba537e73e64da6b8515e39c0e3b44",
+        "changed": false
       },
       {
         "key": "cirtl_instructor_materials",
         "provider": "CIRTL",
         "label": "CIRTL Instructor Materials",
         "url": "https://cirtl.net/instructor-materials/",
-        "lastFetched": "2026-08-19T04:26:58.645Z",
+        "lastFetched": "2026-08-19T14:38:18.697Z",
         "status": "ok",
         "keywordsFound": [
           "Instructor Materials",
@@ -474,28 +508,32 @@
         ],
         "detectedDates": [],
         "title": "Instructor Materials",
-        "snippet": "Instructor Materials - CIRTL Network Skip to main content CIRTL Central Team Log In Calendar Contact Us About About CIRTL Why CIRTL Values Core Ideas Learning Goals Achievement Levels News Contact Us The CIRTL Network Institutions Leadership CIRTL Central Alumni Network Events & Courses Upcoming Past How to Attend CIRTL Network Transcripts Membership Members"
+        "snippet": "Instructor Materials - CIRTL Network Skip to main content CIRTL Central Team Log In Calendar Contact Us About About CIRTL Why CIRTL Values Core Ideas Learning Goals Achievement Levels News Contact Us The CIRTL Network Institutions Leadership CIRTL Central Alumni Network Events & Courses Upcoming Past How to Attend CIRTL Network Transcripts Membership Members",
+        "contentHash": "17662c81333d2c8a0489aba521740ef01d6c9efde1aeb58018d78834f046868b",
+        "changed": false
       },
       {
         "key": "cirtl_teaching_as_research",
         "provider": "CIRTL",
         "label": "CIRTL Teaching-as-Research",
         "url": "https://cirtl.net/teaching-as-research/",
-        "lastFetched": "2026-08-19T04:26:58.645Z",
+        "lastFetched": "2026-08-19T14:38:18.697Z",
         "status": "ok",
         "keywordsFound": [
           "Teaching-as-Research"
         ],
         "detectedDates": [],
         "title": "Teaching-as-Research",
-        "snippet": "Teaching-as-Research - CIRTL Network Skip to main content CIRTL Central Team Log In Calendar Contact Us About About CIRTL Why CIRTL Values Core Ideas Learning Goals Achievement Levels News Contact Us The CIRTL Network Institutions Leadership CIRTL Central Alumni Network Events & Courses Upcoming Past How to Attend CIRTL Network Transcripts Membership Members"
+        "snippet": "Teaching-as-Research - CIRTL Network Skip to main content CIRTL Central Team Log In Calendar Contact Us About About CIRTL Why CIRTL Values Core Ideas Learning Goals Achievement Levels News Contact Us The CIRTL Network Institutions Leadership CIRTL Central Alumni Network Events & Courses Upcoming Past How to Attend CIRTL Network Transcripts Membership Members",
+        "contentHash": "fd2639b9f63c868260081133061f1fb61285fb69973d5ed15bd29b591070be56",
+        "changed": false
       },
       {
         "key": "cirtl_disciplinary_learning_communities",
         "provider": "CIRTL",
         "label": "CIRTL Disciplinary Learning Communities",
         "url": "https://cirtl.net/disciplinary-learning-communities/",
-        "lastFetched": "2026-08-19T04:26:58.645Z",
+        "lastFetched": "2026-08-19T14:38:18.697Z",
         "status": "ok",
         "keywordsFound": [
           "Disciplinary Learning Communities",
@@ -503,14 +541,16 @@
         ],
         "detectedDates": [],
         "title": "Disciplinary Learning Communities",
-        "snippet": "Disciplinary Learning Communities - CIRTL Network Skip to main content CIRTL Central Team Log In Calendar Contact Us About About CIRTL Why CIRTL Values Core Ideas Learning Goals Achievement Levels News Contact Us The CIRTL Network Institutions Leadership CIRTL Central Alumni Network Events & Courses Upcoming Past How to Attend CIRTL Network Transcripts Membe"
+        "snippet": "Disciplinary Learning Communities - CIRTL Network Skip to main content CIRTL Central Team Log In Calendar Contact Us About About CIRTL Why CIRTL Values Core Ideas Learning Goals Achievement Levels News Contact Us The CIRTL Network Institutions Leadership CIRTL Central Alumni Network Events & Courses Upcoming Past How to Attend CIRTL Network Transcripts Membe",
+        "contentHash": "dc9dabb04e61eb890b10a9d59c9392946cf12d144bbed54464b3446be4515da6",
+        "changed": false
       },
       {
         "key": "brown_advance_research_mentoring",
         "provider": "Other",
         "label": "Brown Advance-CTR Research Mentoring Training Programs",
         "url": "https://advancectr.brown.edu/events-training/research-mentoring-training-programs",
-        "lastFetched": "2026-08-19T04:26:58.645Z",
+        "lastFetched": "2026-08-19T14:38:18.697Z",
         "status": "ok",
         "keywordsFound": [
           "Research Mentoring Training",
@@ -521,15 +561,17 @@
         ],
         "detectedDates": [],
         "title": "Research Mentoring Training Programs",
-        "snippet": "Research Mentoring Training Programs | Advance-CTR | Medical School | Brown University Skip to Main Content Brown University Advance-CTR Secondary Navigation Navigation Give Now Search Menu Site Navigation Home About Us Our Cores Leadership Advisory Committees Cite Advance-CTR News Contact Us Media Kit Research Services Our Service Policy Biostatistics & Res"
+        "snippet": "Research Mentoring Training Programs | Advance-CTR | Medical School | Brown University Skip to Main Content Brown University Advance-CTR Secondary Navigation Navigation Give Now Search Menu Site Navigation Home About Us Our Cores Leadership Advisory Committees Cite Advance-CTR News Contact Us Media Kit Research Services Our Service Policy Biostatistics & Res",
+        "contentHash": "0370eddb02ad60e9eed687f4919da21c037f5dcef11f6736bdfebb8361bc4586",
+        "changed": false
       }
     ],
     "updateSummary": {
       "checkedSources": 21,
       "successfulSources": 21,
-      "detectedItems": 2,
-      "addedDiscoveries": 0,
-      "updatedKnownItems": 57,
+      "detectedItems": 28,
+      "addedDiscoveries": 26,
+      "updatedKnownItems": 83,
       "archivedPastItems": 0,
       "restoredItems": 0
     },
@@ -2141,6 +2183,282 @@
             "managedCatalogs": 0
           }
         ]
+      },
+      {
+        "ranAt": "2026-08-19T14:38:18.697Z",
+        "localDate": "2026-08-19",
+        "checkedSources": 21,
+        "successfulSources": 21,
+        "failedSources": [],
+        "added": [
+          {
+            "id": "ncfdd-writing-challenge-spring-2027",
+            "title": "14-Day Writing Challenge: Spring 2027 Session",
+            "provider": "NCFDD"
+          },
+          {
+            "id": "ncfdd-writing-challenge-summer-2027",
+            "title": "14-Day Writing Challenge: Summer 2027 Session",
+            "provider": "NCFDD"
+          },
+          {
+            "id": "ncfdd-writing-challenge-back-to-school-2027",
+            "title": "14-Day Writing Challenge: Back-to-School 2027 Session",
+            "provider": "NCFDD"
+          },
+          {
+            "id": "ncfdd-writing-challenge-fall-2027",
+            "title": "14-Day Writing Challenge: Fall 2027 Session",
+            "provider": "NCFDD"
+          },
+          {
+            "id": "detected-ncfdd-every-semester-needs-a-plan",
+            "title": "Every Semester Needs a Plan",
+            "provider": "NCFDD"
+          },
+          {
+            "id": "detected-ncfdd-access-the-recording-the-state-of-faculty-development-bridgi",
+            "title": "Access the Recording: The State of Faculty Development: Bridging the Faculty Support Gap",
+            "provider": "NCFDD"
+          },
+          {
+            "id": "detected-ncfdd-access-the-recording-how-to-create-and-maintain-healthy-boun",
+            "title": "Access the Recording: How to Create and Maintain Healthy Boundaries",
+            "provider": "NCFDD"
+          },
+          {
+            "id": "detected-ncfdd-access-the-recording-strengthening-your-department-chair-pla",
+            "title": "Access the Recording: Strengthening Your Department Chair Playbook",
+            "provider": "NCFDD"
+          },
+          {
+            "id": "detected-ncfdd-planning-for-rest-and-recovery-an-agile-end-of-year-reflecti",
+            "title": "Planning for Rest and Recovery: An Agile End-of-Year Reflection",
+            "provider": "NCFDD"
+          },
+          {
+            "id": "detected-cirtl-self-paced-teaching-learning-courses",
+            "title": "Self-Paced Teaching & Learning Courses",
+            "provider": "CIRTL"
+          },
+          {
+            "id": "detected-cirtl-the-college-classroom",
+            "title": "The College Classroom",
+            "provider": "CIRTL"
+          },
+          {
+            "id": "detected-cirtl-writing-an-effective-teaching-philosophy-statement",
+            "title": "Writing an Effective Teaching Philosophy Statement",
+            "provider": "CIRTL"
+          },
+          {
+            "id": "detected-cirtl-thinking-like-a-search-committee-packaging-your-experience-f",
+            "title": "Thinking Like a Search Committee: Packaging Your Experience for a Tenure Track Faculty Position",
+            "provider": "CIRTL"
+          },
+          {
+            "id": "detected-cirtl-rethinking-assessment-design-in-the-age-of-ai-a-practical-fr",
+            "title": "Rethinking Assessment Design in the Age of AI: A Practical Framework",
+            "provider": "CIRTL"
+          },
+          {
+            "id": "detected-cirtl-real-world-and-hands-on-learning-learning-centered-teaching-",
+            "title": "Real-World and Hands-On Learning: Learning-Centered Teaching Strategies for Student Success",
+            "provider": "CIRTL"
+          },
+          {
+            "id": "detected-cirtl-a-student-centered-approach-to-plagiarism-in-the-age-of-gene",
+            "title": "A Student-Centered Approach to Plagiarism in the Age of Generative AI",
+            "provider": "CIRTL"
+          },
+          {
+            "id": "detected-cirtl-designing-assignments-with-udl-supporting-student-emotional-",
+            "title": "Designing Assignments with UDL: Supporting Student Emotional Capacity",
+            "provider": "CIRTL"
+          },
+          {
+            "id": "detected-cirtl-teaching-with-objects-an-e-ective-teaching-method-for-future",
+            "title": "Teaching with Objects - An Eﬀective Teaching Method for Future Faculty",
+            "provider": "CIRTL"
+          },
+          {
+            "id": "detected-cirtl-preparing-your-teaching-demo-for-a-job-interview",
+            "title": "Preparing Your Teaching Demo for a Job Interview",
+            "provider": "CIRTL"
+          },
+          {
+            "id": "detected-cirtl-exploring-teaching-careers-at-research-universities-with-cir",
+            "title": "Exploring Teaching Careers at Research Universities with CIRTL Alumni",
+            "provider": "CIRTL"
+          },
+          {
+            "id": "detected-cur-nace-cur-workshop-series-session-1-career-readiness-and-unde",
+            "title": "NACE-CUR Workshop Series Session 1: Career Readiness and Undergraduate Research: The What and Why",
+            "provider": "CUR"
+          },
+          {
+            "id": "detected-cur-nace-cur-workshop-series-session-2-best-practices-for-integr",
+            "title": "NACE-CUR Workshop Series Session 2: Best Practices for Integrating Career Readiness into Undergraduate Research",
+            "provider": "CUR"
+          },
+          {
+            "id": "detected-cur-nace-cur-workshop-series-session-3-implementation-in-practic",
+            "title": "NACE-CUR Workshop Series Session 3: Implementation in Practice: Faculty and Staff Panel",
+            "provider": "CUR"
+          },
+          {
+            "id": "detected-cur-str-2026-27-session-1-getting-inspired-setting-goals",
+            "title": "STR 2026-27 Session 1: Getting Inspired, Setting Goals",
+            "provider": "CUR"
+          },
+          {
+            "id": "detected-cur-str-2026-27-session-2-connecting-and-building-relationships-",
+            "title": "STR 2026-27 Session 2: Connecting and Building Relationships with Policymakers",
+            "provider": "CUR"
+          },
+          {
+            "id": "detected-cur-str-2026-27-session-3-op-ed-writing-and-pitching",
+            "title": "STR 2026-27 Session 3: Op-ed Writing and Pitching",
+            "provider": "CUR"
+          }
+        ],
+        "changedSources": [],
+        "providerChanges": [
+          {
+            "source": "uri_atl_fall_2026",
+            "provider": "URI-ATL",
+            "status": "ok",
+            "catalogItems": 23,
+            "added": [],
+            "missing": [],
+            "removed": [
+              "All sessions will be held from 10:00am - 11:00am via Zoom."
+            ],
+            "restored": []
+          },
+          {
+            "source": "ncfdd_events",
+            "provider": "NCFDD",
+            "status": "ok",
+            "catalogItems": 6,
+            "added": [
+              "Every Semester Needs a Plan",
+              "Access the Recording: The State of Faculty Development: Bridging the Faculty Support Gap",
+              "Access the Recording: How to Create and Maintain Healthy Boundaries",
+              "Access the Recording: Strengthening Your Department Chair Playbook",
+              "Planning for Rest and Recovery: An Agile End-of-Year Reflection",
+              "The AIs Go Marching On: Finding Our Way with AI in Education"
+            ],
+            "missing": [],
+            "removed": [],
+            "restored": []
+          },
+          {
+            "source": "cirtl_upcoming",
+            "provider": "CIRTL",
+            "status": "ok",
+            "catalogItems": 12,
+            "added": [
+              "Self-Paced Teaching & Learning Courses",
+              "The College Classroom",
+              "Writing an Effective Teaching Philosophy Statement",
+              "Thinking Like a Search Committee: Packaging Your Experience for a Tenure Track Faculty Position",
+              "Rethinking Assessment Design in the Age of AI: A Practical Framework",
+              "Real-World and Hands-On Learning: Learning-Centered Teaching Strategies for Student Success",
+              "UDL + AI Design Studio",
+              "A Student-Centered Approach to Plagiarism in the Age of Generative AI",
+              "Designing Assignments with UDL: Supporting Student Emotional Capacity",
+              "Teaching with Objects - An Eﬀective Teaching Method for Future Faculty",
+              "Preparing Your Teaching Demo for a Job Interview",
+              "Exploring Teaching Careers at Research Universities with CIRTL Alumni"
+            ],
+            "missing": [],
+            "removed": [],
+            "restored": []
+          },
+          {
+            "source": "cur_calendar",
+            "provider": "CUR",
+            "status": "ok",
+            "catalogItems": 6,
+            "added": [
+              "NACE-CUR Workshop Series Session 1: Career Readiness and Undergraduate Research: The What and Why",
+              "NACE-CUR Workshop Series Session 2: Best Practices for Integrating Career Readiness into Undergraduate Research",
+              "NACE-CUR Workshop Series Session 3: Implementation in Practice: Faculty and Staff Panel",
+              "STR 2026-27 Session 1: Getting Inspired, Setting Goals",
+              "STR 2026-27 Session 2: Connecting and Building Relationships with Policymakers",
+              "STR 2026-27 Session 3: Op-ed Writing and Pitching"
+            ],
+            "missing": [],
+            "removed": [],
+            "restored": []
+          }
+        ],
+        "archivedPast": [],
+        "linkAudit": {
+          "checkedUrls": 58,
+          "successfulUrls": 58,
+          "goneUrls": [],
+          "transientErrors": [],
+          "removed": [],
+          "restored": []
+        },
+        "providerCoverage": [
+          {
+            "provider": "AAC&U",
+            "activeRecords": 2,
+            "configuredSources": 1,
+            "managedCatalogs": 0
+          },
+          {
+            "provider": "CIRTL",
+            "activeRecords": 15,
+            "configuredSources": 6,
+            "managedCatalogs": 1
+          },
+          {
+            "provider": "CUR",
+            "activeRecords": 14,
+            "configuredSources": 7,
+            "managedCatalogs": 1
+          },
+          {
+            "provider": "EAB",
+            "activeRecords": 4,
+            "configuredSources": 2,
+            "managedCatalogs": 0
+          },
+          {
+            "provider": "NCFDD",
+            "activeRecords": 21,
+            "configuredSources": 3,
+            "managedCatalogs": 1
+          },
+          {
+            "provider": "Other",
+            "activeRecords": 2,
+            "configuredSources": 1,
+            "managedCatalogs": 0
+          },
+          {
+            "provider": "URI",
+            "activeRecords": 2,
+            "configuredSources": 0,
+            "managedCatalogs": 0
+          },
+          {
+            "provider": "URI-ATL",
+            "activeRecords": 23,
+            "configuredSources": 1,
+            "managedCatalogs": 1
+          },
+          {
+            "provider": "URI-Provost's Office",
+            "activeRecords": 15,
+            "configuredSources": 0,
+            "managedCatalogs": 0
+          }
+        ]
       }
     ]
   },
@@ -2257,11 +2575,11 @@
       "id": "ncfdd-writing-challenge-july-2026",
       "title": "14-Day Writing Challenge: Summer Session",
       "provider": "NCFDD",
-      "status": "recommended",
+      "status": "expired",
       "priority": "advertise-now",
-      "startDate": "2027-10-04",
-      "endDate": "2027-10-17",
-      "dateLabel": "October 4-October 17, 2027",
+      "startDate": "2026-07-06",
+      "endDate": "2026-07-19",
+      "dateLabel": "July 6-19, 2026",
       "datePrecision": "exact",
       "format": "Asynchronous writing accountability challenge",
       "topics": [
@@ -2279,7 +2597,9 @@
       "description": "A structured two-week challenge in which participants commit to at least 30 minutes of writing each weekday and log progress in an online community.",
       "whyInclude": "Creates summer writing momentum before fall preparation begins.",
       "sourceUrl": "https://www.ncfdd.org/programs/14-day-writing-challenge/",
-      "lastVerified": "2026-08-19"
+      "lastVerified": "2026-08-19",
+      "statusBeforeExpiry": "recommended",
+      "expiredAt": "2026-08-19"
     },
     {
       "id": "cirtl-critical-ai-literacy-2026",
@@ -4557,7 +4877,7 @@
       "id": "detected-uri-atl-all-sessions-will-be-held-from-10-00am-11-00am-via-zoom",
       "title": "All sessions will be held from 10:00am - 11:00am via Zoom.",
       "provider": "URI-ATL",
-      "status": "discovered",
+      "status": "source-removed",
       "priority": "review",
       "startDate": "2026-08-18",
       "endDate": "2026-08-18",
@@ -4578,7 +4898,723 @@
       "sourceUrl": "https://web.uri.edu/atl/fall-2026-atl-programming/",
       "lastVerified": "2026-08-19",
       "detectedByUpdater": true,
-      "catalogSource": "uri_atl_fall_2026"
+      "catalogSource": "uri_atl_fall_2026",
+      "statusBeforeSourceRemoval": "discovered",
+      "sourceRemovedAt": "2026-08-19",
+      "sourceRemovalReason": "catalog-invalid"
+    },
+    {
+      "id": "ncfdd-writing-challenge-spring-2027",
+      "title": "14-Day Writing Challenge: Spring 2027 Session",
+      "provider": "NCFDD",
+      "status": "discovered",
+      "priority": "standard",
+      "startDate": "2027-02-15",
+      "endDate": "2027-02-28",
+      "dateLabel": "February 15-February 28, 2027",
+      "datePrecision": "exact",
+      "format": "Online writing challenge",
+      "topics": [
+        "Writing"
+      ],
+      "audience": [
+        "Faculty",
+        "Graduate Students",
+        "Postdocs"
+      ],
+      "access": "Free program. Use the provider source to register.",
+      "accessStatus": "verified",
+      "costStatus": "free",
+      "description": "A free, structured two-week opportunity to build a consistent writing habit with accountability and community support.",
+      "whyInclude": "Automatically added from NCFDD's published Writing Challenge schedule.",
+      "sourceUrl": "https://www.ncfdd.org/programs/14-day-writing-challenge/",
+      "lastVerified": "2026-08-19",
+      "detectedByUpdater": true,
+      "catalogSource": "ncfdd_writing_challenge"
+    },
+    {
+      "id": "ncfdd-writing-challenge-summer-2027",
+      "title": "14-Day Writing Challenge: Summer 2027 Session",
+      "provider": "NCFDD",
+      "status": "discovered",
+      "priority": "standard",
+      "startDate": "2027-06-07",
+      "endDate": "2027-06-20",
+      "dateLabel": "June 7-June 20, 2027",
+      "datePrecision": "exact",
+      "format": "Online writing challenge",
+      "topics": [
+        "Writing"
+      ],
+      "audience": [
+        "Faculty",
+        "Graduate Students",
+        "Postdocs"
+      ],
+      "access": "Free program. Use the provider source to register.",
+      "accessStatus": "verified",
+      "costStatus": "free",
+      "description": "A free, structured two-week opportunity to build a consistent writing habit with accountability and community support.",
+      "whyInclude": "Automatically added from NCFDD's published Writing Challenge schedule.",
+      "sourceUrl": "https://www.ncfdd.org/programs/14-day-writing-challenge/",
+      "lastVerified": "2026-08-19",
+      "detectedByUpdater": true,
+      "catalogSource": "ncfdd_writing_challenge"
+    },
+    {
+      "id": "ncfdd-writing-challenge-back-to-school-2027",
+      "title": "14-Day Writing Challenge: Back-to-School 2027 Session",
+      "provider": "NCFDD",
+      "status": "discovered",
+      "priority": "standard",
+      "startDate": "2027-08-02",
+      "endDate": "2027-08-15",
+      "dateLabel": "August 2-August 15, 2027",
+      "datePrecision": "exact",
+      "format": "Online writing challenge",
+      "topics": [
+        "Writing"
+      ],
+      "audience": [
+        "Faculty",
+        "Graduate Students",
+        "Postdocs"
+      ],
+      "access": "Free program. Use the provider source to register.",
+      "accessStatus": "verified",
+      "costStatus": "free",
+      "description": "A free, structured two-week opportunity to build a consistent writing habit with accountability and community support.",
+      "whyInclude": "Automatically added from NCFDD's published Writing Challenge schedule.",
+      "sourceUrl": "https://www.ncfdd.org/programs/14-day-writing-challenge/",
+      "lastVerified": "2026-08-19",
+      "detectedByUpdater": true,
+      "catalogSource": "ncfdd_writing_challenge"
+    },
+    {
+      "id": "ncfdd-writing-challenge-fall-2027",
+      "title": "14-Day Writing Challenge: Fall 2027 Session",
+      "provider": "NCFDD",
+      "status": "discovered",
+      "priority": "standard",
+      "startDate": "2027-10-04",
+      "endDate": "2027-10-17",
+      "dateLabel": "October 4-October 17, 2027",
+      "datePrecision": "exact",
+      "format": "Online writing challenge",
+      "topics": [
+        "Writing"
+      ],
+      "audience": [
+        "Faculty",
+        "Graduate Students",
+        "Postdocs"
+      ],
+      "access": "Free program. Use the provider source to register.",
+      "accessStatus": "verified",
+      "costStatus": "free",
+      "description": "A free, structured two-week opportunity to build a consistent writing habit with accountability and community support.",
+      "whyInclude": "Automatically added from NCFDD's published Writing Challenge schedule.",
+      "sourceUrl": "https://www.ncfdd.org/programs/14-day-writing-challenge/",
+      "lastVerified": "2026-08-19",
+      "detectedByUpdater": true,
+      "catalogSource": "ncfdd_writing_challenge"
+    },
+    {
+      "id": "detected-ncfdd-every-semester-needs-a-plan",
+      "title": "Every Semester Needs a Plan",
+      "provider": "NCFDD",
+      "status": "discovered",
+      "priority": "standard",
+      "startDate": "2026-08-19",
+      "endDate": "2026-08-19",
+      "dateLabel": "See the provider source for dates and registration",
+      "datePrecision": "placeholder",
+      "format": "Detected archive page",
+      "topics": [
+        "Faculty Development"
+      ],
+      "audience": [
+        "Faculty"
+      ],
+      "access": "Automatically published from the provider catalog. Check the source for access, cost, and registration details.",
+      "accessStatus": "confirm",
+      "costStatus": "membership-confirmation-needed",
+      "description": "New opportunity detected on NCFDD events and webinar archive.",
+      "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
+      "sourceUrl": "https://www.ncfdd.org/events-and-webinars/every-semester-needs-a-plan-recording/",
+      "lastVerified": "2026-08-19",
+      "detectedByUpdater": true,
+      "catalogSource": "ncfdd_events"
+    },
+    {
+      "id": "detected-ncfdd-access-the-recording-the-state-of-faculty-development-bridgi",
+      "title": "Access the Recording: The State of Faculty Development: Bridging the Faculty Support Gap",
+      "provider": "NCFDD",
+      "status": "discovered",
+      "priority": "standard",
+      "startDate": "2026-08-19",
+      "endDate": "2026-08-19",
+      "dateLabel": "See the provider source for dates and registration",
+      "datePrecision": "placeholder",
+      "format": "Detected archive page",
+      "topics": [
+        "Faculty Development"
+      ],
+      "audience": [
+        "Faculty"
+      ],
+      "access": "Automatically published from the provider catalog. Check the source for access, cost, and registration details.",
+      "accessStatus": "confirm",
+      "costStatus": "membership-confirmation-needed",
+      "description": "New opportunity detected on NCFDD events and webinar archive.",
+      "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
+      "sourceUrl": "https://www.ncfdd.org/events-and-webinars/state-faculty-development-webinar-recording/",
+      "lastVerified": "2026-08-19",
+      "detectedByUpdater": true,
+      "catalogSource": "ncfdd_events"
+    },
+    {
+      "id": "detected-ncfdd-access-the-recording-how-to-create-and-maintain-healthy-boun",
+      "title": "Access the Recording: How to Create and Maintain Healthy Boundaries",
+      "provider": "NCFDD",
+      "status": "discovered",
+      "priority": "standard",
+      "startDate": "2026-08-19",
+      "endDate": "2026-08-19",
+      "dateLabel": "See the provider source for dates and registration",
+      "datePrecision": "placeholder",
+      "format": "Detected archive page",
+      "topics": [
+        "AI"
+      ],
+      "audience": [
+        "Faculty"
+      ],
+      "access": "Automatically published from the provider catalog. Check the source for access, cost, and registration details.",
+      "accessStatus": "confirm",
+      "costStatus": "membership-confirmation-needed",
+      "description": "New opportunity detected on NCFDD events and webinar archive.",
+      "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
+      "sourceUrl": "https://www.ncfdd.org/events-and-webinars/fsp-preview-webinar-boundaries/",
+      "lastVerified": "2026-08-19",
+      "detectedByUpdater": true,
+      "catalogSource": "ncfdd_events"
+    },
+    {
+      "id": "detected-ncfdd-access-the-recording-strengthening-your-department-chair-pla",
+      "title": "Access the Recording: Strengthening Your Department Chair Playbook",
+      "provider": "NCFDD",
+      "status": "discovered",
+      "priority": "standard",
+      "startDate": "2026-08-19",
+      "endDate": "2026-08-19",
+      "dateLabel": "See the provider source for dates and registration",
+      "datePrecision": "placeholder",
+      "format": "Detected archive page",
+      "topics": [
+        "AI",
+        "Faculty Leadership"
+      ],
+      "audience": [
+        "Faculty"
+      ],
+      "access": "Automatically published from the provider catalog. Check the source for access, cost, and registration details.",
+      "accessStatus": "confirm",
+      "costStatus": "membership-confirmation-needed",
+      "description": "New opportunity detected on NCFDD events and webinar archive.",
+      "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
+      "sourceUrl": "https://www.ncfdd.org/events-and-webinars/csp-preview-webinar/",
+      "lastVerified": "2026-08-19",
+      "detectedByUpdater": true,
+      "catalogSource": "ncfdd_events"
+    },
+    {
+      "id": "detected-ncfdd-planning-for-rest-and-recovery-an-agile-end-of-year-reflecti",
+      "title": "Planning for Rest and Recovery: An Agile End-of-Year Reflection",
+      "provider": "NCFDD",
+      "status": "discovered",
+      "priority": "standard",
+      "startDate": "2026-08-19",
+      "endDate": "2026-08-19",
+      "dateLabel": "See the provider source for dates and registration",
+      "datePrecision": "placeholder",
+      "format": "Detected archive page",
+      "topics": [
+        "Faculty Development"
+      ],
+      "audience": [
+        "Faculty"
+      ],
+      "access": "Automatically published from the provider catalog. Check the source for access, cost, and registration details.",
+      "accessStatus": "confirm",
+      "costStatus": "membership-confirmation-needed",
+      "description": "New opportunity detected on NCFDD events and webinar archive.",
+      "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
+      "sourceUrl": "https://www.ncfdd.org/events-and-webinars/planning-rest-recovery-agile/",
+      "lastVerified": "2026-08-19",
+      "detectedByUpdater": true,
+      "catalogSource": "ncfdd_events"
+    },
+    {
+      "id": "detected-cirtl-self-paced-teaching-learning-courses",
+      "title": "Self-Paced Teaching & Learning Courses",
+      "provider": "CIRTL",
+      "status": "discovered",
+      "priority": "standard",
+      "startDate": "2025-08-01",
+      "endDate": "2027-08-01",
+      "dateLabel": "Aug 1, 2025 - Aug 1, 2027",
+      "datePrecision": "exact",
+      "format": "Online",
+      "topics": [
+        "Teaching"
+      ],
+      "audience": [
+        "Faculty"
+      ],
+      "access": "Automatically published from the provider catalog. Check the source for access, cost, and registration details.",
+      "accessStatus": "confirm",
+      "costStatus": "membership-confirmation-needed",
+      "description": "&lt;p&gt;Learn more about and register for CIRTL\\'s self-paced, asynchronous offerings for 2025-2026. &lt;/p&gt;\\n",
+      "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
+      "sourceUrl": "https://cirtl.net/event/self-paced-courses/",
+      "lastVerified": "2026-08-19",
+      "detectedByUpdater": true,
+      "catalogSource": "cirtl_upcoming"
+    },
+    {
+      "id": "detected-cirtl-the-college-classroom",
+      "title": "The College Classroom",
+      "provider": "CIRTL",
+      "status": "discovered",
+      "priority": "standard",
+      "startDate": "2026-09-08",
+      "endDate": "2026-09-08",
+      "dateLabel": "Sep 8, 2026",
+      "datePrecision": "exact",
+      "format": "Online in Zoom",
+      "topics": [
+        "Faculty Development"
+      ],
+      "audience": [
+        "Faculty"
+      ],
+      "access": "Automatically published from the provider catalog. Check the source for access, cost, and registration details.",
+      "accessStatus": "confirm",
+      "costStatus": "membership-confirmation-needed",
+      "description": "&lt;p&gt;Get an introduction to key learning principles and the basics of effective, evidence-based teaching practices in this course. This interactive, 10-week online course meets in Zoom and has a cap of 100 seats. Members & alumni are prioritized in enrollment.&lt;/p&gt;\\n",
+      "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
+      "sourceUrl": "https://cirtl.net/event/the-college-classroom-5/2026-09-08/",
+      "lastVerified": "2026-08-19",
+      "detectedByUpdater": true,
+      "catalogSource": "cirtl_upcoming"
+    },
+    {
+      "id": "detected-cirtl-writing-an-effective-teaching-philosophy-statement",
+      "title": "Writing an Effective Teaching Philosophy Statement",
+      "provider": "CIRTL",
+      "status": "discovered",
+      "priority": "standard",
+      "startDate": "2026-09-14",
+      "endDate": "2026-09-14",
+      "dateLabel": "Sep 14, 2026",
+      "datePrecision": "exact",
+      "format": "Online in Zoom",
+      "topics": [
+        "Writing",
+        "Teaching"
+      ],
+      "audience": [
+        "Faculty"
+      ],
+      "access": "Automatically published from the provider catalog. Check the source for access, cost, and registration details.",
+      "accessStatus": "confirm",
+      "costStatus": "membership-confirmation-needed",
+      "description": "&lt;p&gt;Learn what a teaching philosophy statement is and how they are used in the academic job hunt. This interactive, online, 2-part workshop meets in Zoom and has a cap of 50 seats. Enrollment typically fills with members & alumni only.&lt;/p&gt;\\n",
+      "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
+      "sourceUrl": "https://cirtl.net/event/writing-an-effective-teaching-philosophy-statement-3/2026-09-14/",
+      "lastVerified": "2026-08-19",
+      "detectedByUpdater": true,
+      "catalogSource": "cirtl_upcoming"
+    },
+    {
+      "id": "detected-cirtl-thinking-like-a-search-committee-packaging-your-experience-f",
+      "title": "Thinking Like a Search Committee: Packaging Your Experience for a Tenure Track Faculty Position",
+      "provider": "CIRTL",
+      "status": "discovered",
+      "priority": "standard",
+      "startDate": "2026-09-23",
+      "endDate": "2026-09-23",
+      "dateLabel": "Sep 23, 2026",
+      "datePrecision": "exact",
+      "format": "Online in Zoom",
+      "topics": [
+        "Promotion & Tenure"
+      ],
+      "audience": [
+        "Faculty"
+      ],
+      "access": "Automatically published from the provider catalog. Check the source for access, cost, and registration details.",
+      "accessStatus": "confirm",
+      "costStatus": "membership-confirmation-needed",
+      "description": "&lt;p&gt;Go behind the curtain on the academic hiring process to understand what it\\'s like to transition into tenure-track faculty roles. This interactive, online event meets in Zoom and has unlimited seats. Register now for Zoom info.&lt;/p&gt;\\n",
+      "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
+      "sourceUrl": "https://cirtl.net/event/thinking-like-a-search-committee-packaging-your-experience-for-a-tenure-track-faculty-position/",
+      "lastVerified": "2026-08-19",
+      "detectedByUpdater": true,
+      "catalogSource": "cirtl_upcoming"
+    },
+    {
+      "id": "detected-cirtl-rethinking-assessment-design-in-the-age-of-ai-a-practical-fr",
+      "title": "Rethinking Assessment Design in the Age of AI: A Practical Framework",
+      "provider": "CIRTL",
+      "status": "discovered",
+      "priority": "standard",
+      "startDate": "2026-09-30",
+      "endDate": "2026-09-30",
+      "dateLabel": "Sep 30, 2026",
+      "datePrecision": "exact",
+      "format": "Online in Zoom",
+      "topics": [
+        "AI",
+        "Teaching"
+      ],
+      "audience": [
+        "Faculty"
+      ],
+      "access": "Automatically published from the provider catalog. Check the source for access, cost, and registration details.",
+      "accessStatus": "confirm",
+      "costStatus": "membership-confirmation-needed",
+      "description": "&lt;p&gt;Explore how to redesign assessments in the age of AI through a practical framework that shifts the focus from answer generation to evidence, reasoning, decision-making, and reflection. This interactive, online workshop meets in Zoom and has unlimited seats. Register for Zoom info.&lt;/p&gt;\\n",
+      "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
+      "sourceUrl": "https://cirtl.net/event/rethinking-assessment-design-in-the-age-of-ai-a-practical-framework/",
+      "lastVerified": "2026-08-19",
+      "detectedByUpdater": true,
+      "catalogSource": "cirtl_upcoming"
+    },
+    {
+      "id": "detected-cirtl-real-world-and-hands-on-learning-learning-centered-teaching-",
+      "title": "Real-World and Hands-On Learning: Learning-Centered Teaching Strategies for Student Success",
+      "provider": "CIRTL",
+      "status": "discovered",
+      "priority": "standard",
+      "startDate": "2026-10-02",
+      "endDate": "2026-10-02",
+      "dateLabel": "Oct 2, 2026",
+      "datePrecision": "exact",
+      "format": "Online in Zoom",
+      "topics": [
+        "Teaching"
+      ],
+      "audience": [
+        "Faculty"
+      ],
+      "access": "Automatically published from the provider catalog. Check the source for access, cost, and registration details.",
+      "accessStatus": "confirm",
+      "costStatus": "membership-confirmation-needed",
+      "description": "&lt;p&gt;Discover and apply the power of learning-centered teaching in this engaging, hands-on workshop. This interactive, online event meets in Zoom and has unlimited seats. Register now for Zoom info.&lt;/p&gt;\\n",
+      "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
+      "sourceUrl": "https://cirtl.net/event/real-world-and-hands-on-learning-learning-centered-teaching-strategies-for-student-success/",
+      "lastVerified": "2026-08-19",
+      "detectedByUpdater": true,
+      "catalogSource": "cirtl_upcoming"
+    },
+    {
+      "id": "detected-cirtl-a-student-centered-approach-to-plagiarism-in-the-age-of-gene",
+      "title": "A Student-Centered Approach to Plagiarism in the Age of Generative AI",
+      "provider": "CIRTL",
+      "status": "discovered",
+      "priority": "standard",
+      "startDate": "2026-10-13",
+      "endDate": "2026-10-13",
+      "dateLabel": "Oct 13, 2026",
+      "datePrecision": "exact",
+      "format": "Online in Zoom",
+      "topics": [
+        "AI"
+      ],
+      "audience": [
+        "Faculty"
+      ],
+      "access": "Automatically published from the provider catalog. Check the source for access, cost, and registration details.",
+      "accessStatus": "confirm",
+      "costStatus": "membership-confirmation-needed",
+      "description": "&lt;p&gt;Learn how transparency around the work of learning can reduce plagiarism and help students engage more meaningfully in an era of generative AI. This interactive, online workshops meets in Zoom and has unlimited seats. Register for Zoom info.&lt;/p&gt;\\n",
+      "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
+      "sourceUrl": "https://cirtl.net/event/a-student-centered-approach-to-plagiarism-in-the-age-of-generative-ai/2026-10-13/",
+      "lastVerified": "2026-08-19",
+      "detectedByUpdater": true,
+      "catalogSource": "cirtl_upcoming"
+    },
+    {
+      "id": "detected-cirtl-designing-assignments-with-udl-supporting-student-emotional-",
+      "title": "Designing Assignments with UDL: Supporting Student Emotional Capacity",
+      "provider": "CIRTL",
+      "status": "discovered",
+      "priority": "standard",
+      "startDate": "2026-10-19",
+      "endDate": "2026-10-19",
+      "dateLabel": "Oct 19, 2026",
+      "datePrecision": "exact",
+      "format": "Online in Zoom",
+      "topics": [
+        "Faculty Development"
+      ],
+      "audience": [
+        "Faculty"
+      ],
+      "access": "Automatically published from the provider catalog. Check the source for access, cost, and registration details.",
+      "accessStatus": "confirm",
+      "costStatus": "membership-confirmation-needed",
+      "description": "&lt;p&gt;Explore how the assignment design choices can create unintended emotional barriers to learning, and develop concrete strategies for assignment design that help students learn. This interactive, online, 2-part workshop meets in Zoom and has a cap of 70 seats. Enrollment typically fills with members & alumni only.&lt;/p&gt;\\n",
+      "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
+      "sourceUrl": "https://cirtl.net/event/designing-assignments-with-udl-supporting-student-emotional-capacity/2026-10-19/",
+      "lastVerified": "2026-08-19",
+      "detectedByUpdater": true,
+      "catalogSource": "cirtl_upcoming"
+    },
+    {
+      "id": "detected-cirtl-teaching-with-objects-an-e-ective-teaching-method-for-future",
+      "title": "Teaching with Objects - An Eﬀective Teaching Method for Future Faculty",
+      "provider": "CIRTL",
+      "status": "discovered",
+      "priority": "standard",
+      "startDate": "2026-10-27",
+      "endDate": "2026-10-27",
+      "dateLabel": "Oct 27, 2026",
+      "datePrecision": "exact",
+      "format": "Online in Zoom",
+      "topics": [
+        "Teaching"
+      ],
+      "audience": [
+        "Faculty"
+      ],
+      "access": "Automatically published from the provider catalog. Check the source for access, cost, and registration details.",
+      "accessStatus": "confirm",
+      "costStatus": "membership-confirmation-needed",
+      "description": "&lt;p&gt;Gain foundational skills and confidence to integrate object-based learning into your teaching across all disciplines. This interactive, online workshop meets in Zoom and has a cap of 30 seats. Enrollment typically fills with members & alumni only.&lt;/p&gt;\\n",
+      "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
+      "sourceUrl": "https://cirtl.net/event/teaching-with-objects-an-e%ef%ac%80ective-teaching-method-for-future-faculty/",
+      "lastVerified": "2026-08-19",
+      "detectedByUpdater": true,
+      "catalogSource": "cirtl_upcoming"
+    },
+    {
+      "id": "detected-cirtl-preparing-your-teaching-demo-for-a-job-interview",
+      "title": "Preparing Your Teaching Demo for a Job Interview",
+      "provider": "CIRTL",
+      "status": "discovered",
+      "priority": "standard",
+      "startDate": "2026-10-29",
+      "endDate": "2026-10-29",
+      "dateLabel": "Oct 29, 2026",
+      "datePrecision": "exact",
+      "format": "Online in Zoom",
+      "topics": [
+        "Teaching"
+      ],
+      "audience": [
+        "Faculty"
+      ],
+      "access": "Automatically published from the provider catalog. Check the source for access, cost, and registration details.",
+      "accessStatus": "confirm",
+      "costStatus": "membership-confirmation-needed",
+      "description": "&lt;p&gt;Learn what makes a strong teaching demonstration, and become familiar with some common last-minute surprises that can impact your success during this part of the academic hiring process. This interactive, online workshop meets in Zoom and has a cap of 50 seats. Enrollment typically fills with members & alumni only.&lt;/p&gt;\\n",
+      "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
+      "sourceUrl": "https://cirtl.net/event/preparing-your-teaching-demo-for-a-job-interview-fall-2026/",
+      "lastVerified": "2026-08-19",
+      "detectedByUpdater": true,
+      "catalogSource": "cirtl_upcoming"
+    },
+    {
+      "id": "detected-cirtl-exploring-teaching-careers-at-research-universities-with-cir",
+      "title": "Exploring Teaching Careers at Research Universities with CIRTL Alumni",
+      "provider": "CIRTL",
+      "status": "discovered",
+      "priority": "standard",
+      "startDate": "2026-11-02",
+      "endDate": "2026-11-02",
+      "dateLabel": "Nov 2, 2026",
+      "datePrecision": "exact",
+      "format": "Online in Zoom",
+      "topics": [
+        "Teaching"
+      ],
+      "audience": [
+        "Faculty"
+      ],
+      "access": "Automatically published from the provider catalog. Check the source for access, cost, and registration details.",
+      "accessStatus": "confirm",
+      "costStatus": "membership-confirmation-needed",
+      "description": "&lt;p&gt;Learn about teaching faculty careers in this online panel of CIRTL alumni who are now junior faculty at research universities. This interactive, online event meets in Zoom and has unlimited seats. Register now for Zoom info.&lt;/p&gt;\\n",
+      "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
+      "sourceUrl": "https://cirtl.net/event/exploring-teaching-careers-at-research-universities-with-cirtl-alumni-4/",
+      "lastVerified": "2026-08-19",
+      "detectedByUpdater": true,
+      "catalogSource": "cirtl_upcoming"
+    },
+    {
+      "id": "detected-cur-nace-cur-workshop-series-session-1-career-readiness-and-unde",
+      "title": "NACE-CUR Workshop Series Session 1: Career Readiness and Undergraduate Research: The What and Why",
+      "provider": "CUR",
+      "status": "discovered",
+      "priority": "standard",
+      "startDate": "2026-10-21",
+      "endDate": "2026-10-21",
+      "dateLabel": "Oct 21, 2026",
+      "datePrecision": "exact",
+      "format": "Provider event",
+      "topics": [
+        "Mentoring"
+      ],
+      "audience": [
+        "Faculty"
+      ],
+      "access": "Automatically published from the provider catalog. Check the source for access, cost, and registration details.",
+      "accessStatus": "confirm",
+      "costStatus": "membership-confirmation-needed",
+      "description": "New opportunity detected on CUR Community event calendar.",
+      "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
+      "sourceUrl": "https://community.cur.org/events/event-description?CalendarEventKey=19990bf2-6e58-4f7b-ab57-019fdd4d9e56&Home=%2fevents%2fcalendar",
+      "lastVerified": "2026-08-19",
+      "detectedByUpdater": true,
+      "catalogSource": "cur_calendar"
+    },
+    {
+      "id": "detected-cur-nace-cur-workshop-series-session-2-best-practices-for-integr",
+      "title": "NACE-CUR Workshop Series Session 2: Best Practices for Integrating Career Readiness into Undergraduate Research",
+      "provider": "CUR",
+      "status": "discovered",
+      "priority": "standard",
+      "startDate": "2026-10-28",
+      "endDate": "2026-10-28",
+      "dateLabel": "Oct 28, 2026",
+      "datePrecision": "exact",
+      "format": "Provider event",
+      "topics": [
+        "Mentoring"
+      ],
+      "audience": [
+        "Faculty"
+      ],
+      "access": "Automatically published from the provider catalog. Check the source for access, cost, and registration details.",
+      "accessStatus": "confirm",
+      "costStatus": "membership-confirmation-needed",
+      "description": "New opportunity detected on CUR Community event calendar.",
+      "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
+      "sourceUrl": "https://community.cur.org/events/event-description?CalendarEventKey=506c5b2c-2a8c-4557-982d-019fdd4ff2a5&Home=%2fevents%2fcalendar",
+      "lastVerified": "2026-08-19",
+      "detectedByUpdater": true,
+      "catalogSource": "cur_calendar"
+    },
+    {
+      "id": "detected-cur-nace-cur-workshop-series-session-3-implementation-in-practic",
+      "title": "NACE-CUR Workshop Series Session 3: Implementation in Practice: Faculty and Staff Panel",
+      "provider": "CUR",
+      "status": "discovered",
+      "priority": "standard",
+      "startDate": "2026-11-04",
+      "endDate": "2026-11-04",
+      "dateLabel": "Nov 4, 2026",
+      "datePrecision": "exact",
+      "format": "Provider event",
+      "topics": [
+        "Faculty Development"
+      ],
+      "audience": [
+        "Faculty"
+      ],
+      "access": "Automatically published from the provider catalog. Check the source for access, cost, and registration details.",
+      "accessStatus": "confirm",
+      "costStatus": "membership-confirmation-needed",
+      "description": "New opportunity detected on CUR Community event calendar.",
+      "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
+      "sourceUrl": "https://community.cur.org/events/event-description?CalendarEventKey=0f1f8302-9147-46f9-9ee1-019fdd5159a1&Home=%2fevents%2fcalendar",
+      "lastVerified": "2026-08-19",
+      "detectedByUpdater": true,
+      "catalogSource": "cur_calendar"
+    },
+    {
+      "id": "detected-cur-str-2026-27-session-1-getting-inspired-setting-goals",
+      "title": "STR 2026-27 Session 1: Getting Inspired, Setting Goals",
+      "provider": "CUR",
+      "status": "discovered",
+      "priority": "standard",
+      "startDate": "2026-11-13",
+      "endDate": "2026-11-13",
+      "dateLabel": "Nov 13, 2026",
+      "datePrecision": "exact",
+      "format": "Provider event",
+      "topics": [
+        "Faculty Development"
+      ],
+      "audience": [
+        "Faculty"
+      ],
+      "access": "Automatically published from the provider catalog. Check the source for access, cost, and registration details.",
+      "accessStatus": "confirm",
+      "costStatus": "membership-confirmation-needed",
+      "description": "New opportunity detected on CUR Community event calendar.",
+      "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
+      "sourceUrl": "https://community.cur.org/events/event-description?CalendarEventKey=1a9c743c-f7a0-4d30-a62e-019fdd516661&Home=%2fevents%2fcalendar",
+      "lastVerified": "2026-08-19",
+      "detectedByUpdater": true,
+      "catalogSource": "cur_calendar"
+    },
+    {
+      "id": "detected-cur-str-2026-27-session-2-connecting-and-building-relationships-",
+      "title": "STR 2026-27 Session 2: Connecting and Building Relationships with Policymakers",
+      "provider": "CUR",
+      "status": "discovered",
+      "priority": "standard",
+      "startDate": "2026-12-04",
+      "endDate": "2026-12-04",
+      "dateLabel": "Dec 4, 2026",
+      "datePrecision": "exact",
+      "format": "Provider event",
+      "topics": [
+        "Faculty Development"
+      ],
+      "audience": [
+        "Faculty"
+      ],
+      "access": "Automatically published from the provider catalog. Check the source for access, cost, and registration details.",
+      "accessStatus": "confirm",
+      "costStatus": "membership-confirmation-needed",
+      "description": "New opportunity detected on CUR Community event calendar.",
+      "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
+      "sourceUrl": "https://community.cur.org/events/event-description?CalendarEventKey=1e196eff-94ef-453e-b553-019fdd54db45&Home=%2fevents%2fcalendar",
+      "lastVerified": "2026-08-19",
+      "detectedByUpdater": true,
+      "catalogSource": "cur_calendar"
+    },
+    {
+      "id": "detected-cur-str-2026-27-session-3-op-ed-writing-and-pitching",
+      "title": "STR 2026-27 Session 3: Op-ed Writing and Pitching",
+      "provider": "CUR",
+      "status": "discovered",
+      "priority": "standard",
+      "startDate": "2027-01-15",
+      "endDate": "2027-01-15",
+      "dateLabel": "Jan 15, 2027",
+      "datePrecision": "exact",
+      "format": "Provider event",
+      "topics": [
+        "Writing"
+      ],
+      "audience": [
+        "Faculty"
+      ],
+      "access": "Automatically published from the provider catalog. Check the source for access, cost, and registration details.",
+      "accessStatus": "confirm",
+      "costStatus": "membership-confirmation-needed",
+      "description": "New opportunity detected on CUR Community event calendar.",
+      "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
+      "sourceUrl": "https://community.cur.org/events/event-description?CalendarEventKey=bf1125af-1af7-4e8c-8246-019fdd58ad44&Home=%2fevents%2fcalendar",
+      "lastVerified": "2026-08-19",
+      "detectedByUpdater": true,
+      "catalogSource": "cur_calendar"
     }
   ]
 }
