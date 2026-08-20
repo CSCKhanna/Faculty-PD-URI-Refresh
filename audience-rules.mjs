@@ -1,7 +1,11 @@
 export const AUDIENCE_GROUPS = [
   {
-    label: "Graduate Students & Postdocs",
-    aliases: ["Future faculty", "Graduate students", "Graduate teaching assistants", "Postdocs"]
+    label: "Graduate Students",
+    aliases: ["Future faculty", "Graduate students", "Graduate teaching assistants"]
+  },
+  {
+    label: "Postdocs",
+    aliases: ["Future faculty", "Postdocs", "Postdoctoral scholars", "Postdoctoral fellows"]
   },
   {
     label: "New Faculty",
@@ -58,7 +62,7 @@ export const NCFDD_ALL_AUDIENCES = [
 const FACULTY_GROUPS = AUDIENCE_GROUPS
   .map((group) => group.label)
   .filter((label) => label.endsWith("Faculty"));
-const GRADUATE_GROUP = "Graduate Students & Postdocs";
+const GRADUATE_GROUPS = new Set(["Graduate Students", "Postdocs"]);
 const GENERAL_FACULTY_AUDIENCES = new Set([
   "all faculty",
   "all instructors",
@@ -74,7 +78,7 @@ function normalizeAudience(value) {
 }
 
 export function resolveAudienceGroups(item) {
-  if (item.provider === "CIRTL") return new Set([GRADUATE_GROUP]);
+  if (item.provider === "CIRTL") return new Set(GRADUATE_GROUPS);
   if (item.provider === "NCFDD") return new Set(AUDIENCE_GROUPS.map((group) => group.label));
 
   const audiences = (item.audience || []).map(normalizeAudience);
@@ -88,7 +92,7 @@ export function resolveAudienceGroups(item) {
   });
 
   const hasGeneralFacultyAudience = audiences.some((audience) => GENERAL_FACULTY_AUDIENCES.has(audience));
-  const hasSpecificFacultyOrLeadershipAudience = [...directGroups].some((label) => label !== GRADUATE_GROUP);
+  const hasSpecificFacultyOrLeadershipAudience = [...directGroups].some((label) => !GRADUATE_GROUPS.has(label));
 
   if (hasGeneralFacultyAudience && !hasSpecificFacultyOrLeadershipAudience) {
     FACULTY_GROUPS.forEach((label) => directGroups.add(label));

@@ -25,7 +25,23 @@ test("a specific faculty audience overrides a general faculty label", () => {
 
 test("explicit graduate and postdoc audiences remain available with a general faculty audience", () => {
   const groups = resolveAudienceGroups({ provider: "Other", audience: ["Faculty", "Graduate students", "Postdocs"] });
-  assert.deepEqual([...groups], ["Graduate Students & Postdocs", ...ALL_FACULTY_GROUPS]);
+  assert.deepEqual([...groups], ["Graduate Students", "Postdocs", ...ALL_FACULTY_GROUPS]);
+});
+
+test("graduate students and postdocs can be filtered independently", () => {
+  assert.deepEqual(
+    [...resolveAudienceGroups({ provider: "Other", audience: ["Graduate students"] })],
+    ["Graduate Students"]
+  );
+  assert.deepEqual(
+    [...resolveAudienceGroups({ provider: "Other", audience: ["Postdocs"] })],
+    ["Postdocs"]
+  );
+});
+
+test("future faculty opportunities match graduate students and postdocs", () => {
+  const groups = resolveAudienceGroups({ provider: "Other", audience: ["Future faculty"] });
+  assert.deepEqual([...groups], ["Graduate Students", "Postdocs"]);
 });
 
 test("every NCFDD opportunity matches every audience category", () => {
@@ -40,5 +56,5 @@ test("leadership-specific opportunities stay leadership-specific", () => {
 
 test("every CIRTL opportunity is limited to graduate students and postdocs", () => {
   const groups = resolveAudienceGroups({ provider: "CIRTL", audience: ["Faculty", "Chairs", "Program directors"] });
-  assert.deepEqual([...groups], ["Graduate Students & Postdocs"]);
+  assert.deepEqual([...groups], ["Graduate Students", "Postdocs"]);
 });
