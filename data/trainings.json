@@ -2,7 +2,7 @@
   "meta": {
     "title": "URI Instructor Development Calendar: Professional Development from URI and Member Organizations",
     "subtitle": "Professional development from URI and member organizations",
-    "lastUpdated": "2026-08-20T04:26:42.861Z",
+    "lastUpdated": "2026-08-20T17:18:09.625Z",
     "dataVersion": 1,
     "notes": [
       "The three starter DOCX files were imported locally on June 2, 2026.",
@@ -2933,6 +2933,14 @@
             "managedCatalogs": 0
           }
         ]
+      },
+      {
+        "ranAt": "2026-08-20T17:18:09.625Z",
+        "localDate": "2026-08-20",
+        "type": "manual-provider-audience-rule",
+        "provider": "NCFDD",
+        "changed": 24,
+        "note": "Applied the Provost's Office request that every NCFDD opportunity match every dashboard audience category."
       }
     ]
   },
@@ -3063,6 +3071,8 @@
         "Part-time faculty",
         "Teaching-track faculty",
         "Tenure-track faculty",
+        "Clinical faculty",
+        "Research faculty",
         "Associate deans",
         "Department chairs"
       ],
@@ -3162,6 +3172,8 @@
         "Part-time faculty",
         "Teaching-track faculty",
         "Tenure-track faculty",
+        "Clinical faculty",
+        "Research faculty",
         "Associate deans",
         "Department chairs"
       ],
@@ -3231,6 +3243,8 @@
         "Part-time faculty",
         "Teaching-track faculty",
         "Tenure-track faculty",
+        "Clinical faculty",
+        "Research faculty",
         "Associate deans",
         "Department chairs"
       ],
@@ -3267,6 +3281,8 @@
         "Part-time faculty",
         "Teaching-track faculty",
         "Tenure-track faculty",
+        "Clinical faculty",
+        "Research faculty",
         "Associate deans",
         "Department chairs"
       ],
@@ -3304,6 +3320,8 @@
         "Part-time faculty",
         "Teaching-track faculty",
         "Tenure-track faculty",
+        "Clinical faculty",
+        "Research faculty",
         "Associate deans",
         "Department chairs"
       ],
@@ -3340,6 +3358,8 @@
         "Part-time faculty",
         "Teaching-track faculty",
         "Tenure-track faculty",
+        "Clinical faculty",
+        "Research faculty",
         "Associate deans",
         "Department chairs"
       ],
@@ -3467,6 +3487,8 @@
         "Part-time faculty",
         "Teaching-track faculty",
         "Tenure-track faculty",
+        "Clinical faculty",
+        "Research faculty",
         "Associate deans",
         "Department chairs"
       ],
@@ -4353,6 +4375,8 @@
         "Part-time faculty",
         "Teaching-track faculty",
         "Tenure-track faculty",
+        "Clinical faculty",
+        "Research faculty",
         "Associate deans",
         "Department chairs"
       ],
@@ -4389,6 +4413,8 @@
         "Part-time faculty",
         "Teaching-track faculty",
         "Tenure-track faculty",
+        "Clinical faculty",
+        "Research faculty",
         "Associate deans",
         "Department chairs"
       ],
@@ -4460,6 +4486,8 @@
         "Part-time faculty",
         "Teaching-track faculty",
         "Tenure-track faculty",
+        "Clinical faculty",
+        "Research faculty",
         "Associate deans",
         "Department chairs"
       ],
@@ -4500,6 +4528,8 @@
         "Part-time faculty",
         "Teaching-track faculty",
         "Tenure-track faculty",
+        "Clinical faculty",
+        "Research faculty",
         "Associate deans",
         "Department chairs"
       ],
@@ -4538,6 +4568,8 @@
         "Part-time faculty",
         "Teaching-track faculty",
         "Tenure-track faculty",
+        "Clinical faculty",
+        "Research faculty",
         "Associate deans",
         "Department chairs"
       ],
@@ -4575,6 +4607,8 @@
         "Part-time faculty",
         "Teaching-track faculty",
         "Tenure-track faculty",
+        "Clinical faculty",
+        "Research faculty",
         "Associate deans",
         "Department chairs"
       ],
@@ -4613,6 +4647,8 @@
         "Part-time faculty",
         "Teaching-track faculty",
         "Tenure-track faculty",
+        "Clinical faculty",
+        "Research faculty",
         "Associate deans",
         "Department chairs"
       ],
@@ -4650,6 +4686,8 @@
         "Part-time faculty",
         "Teaching-track faculty",
         "Tenure-track faculty",
+        "Clinical faculty",
+        "Research faculty",
         "Associate deans",
         "Department chairs"
       ],
@@ -5605,6 +5643,8 @@
         "Part-time faculty",
         "Teaching-track faculty",
         "Tenure-track faculty",
+        "Clinical faculty",
+        "Research faculty",
         "Associate deans",
         "Department chairs"
       ],
@@ -5642,6 +5682,8 @@
         "Part-time faculty",
         "Teaching-track faculty",
         "Tenure-track faculty",
+        "Clinical faculty",
+        "Research faculty",
         "Associate deans",
         "Department chairs"
       ],
@@ -5679,6 +5721,8 @@
         "Part-time faculty",
         "Teaching-track faculty",
         "Tenure-track faculty",
+        "Clinical faculty",
+        "Research faculty",
         "Associate deans",
         "Department chairs"
       ],
@@ -5716,6 +5760,8 @@
         "Part-time faculty",
         "Teaching-track faculty",
         "Tenure-track faculty",
+        "Clinical faculty",
+        "Research faculty",
         "Associate deans",
         "Department chairs"
       ],
@@ -5753,6 +5799,8 @@
         "Part-time faculty",
         "Teaching-track faculty",
         "Tenure-track faculty",
+        "Clinical faculty",
+        "Research faculty",
         "Associate deans",
         "Department chairs"
       ],
@@ -5790,6 +5838,8 @@
         "Part-time faculty",
         "Teaching-track faculty",
         "Tenure-track faculty",
+        "Clinical faculty",
+        "Research faculty",
         "Associate deans",
         "Department chairs"
       ],
@@ -5827,6 +5877,8 @@
         "Part-time faculty",
         "Teaching-track faculty",
         "Tenure-track faculty",
+        "Clinical faculty",
+        "Research faculty",
         "Associate deans",
         "Department chairs"
       ],
@@ -5865,6 +5917,8 @@
         "Part-time faculty",
         "Teaching-track faculty",
         "Tenure-track faculty",
+        "Clinical faculty",
+        "Research faculty",
         "Associate deans",
         "Department chairs"
       ],
@@ -5902,6 +5956,8 @@
         "Part-time faculty",
         "Teaching-track faculty",
         "Tenure-track faculty",
+        "Clinical faculty",
+        "Research faculty",
         "Associate deans",
         "Department chairs"
       ],

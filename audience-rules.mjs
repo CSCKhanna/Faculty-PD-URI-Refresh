@@ -36,6 +36,14 @@ export const AUDIENCE_GROUPS = [
     aliases: ["Tenure-track faculty"]
   },
   {
+    label: "Clinical Faculty",
+    aliases: ["Clinical faculty", "Clinical-track faculty", "Clinical professors", "Clinical instructors"]
+  },
+  {
+    label: "Research Faculty",
+    aliases: ["Research faculty", "Research-track faculty", "Research professors", "Research scientists"]
+  },
+  {
     label: "Associate Deans",
     aliases: ["Associate deans"]
   },
@@ -55,14 +63,39 @@ export const NCFDD_ALL_AUDIENCES = [
   "Part-time faculty",
   "Teaching-track faculty",
   "Tenure-track faculty",
+  "Clinical faculty",
+  "Research faculty",
   "Associate deans",
   "Department chairs"
 ];
 
-const FACULTY_GROUPS = AUDIENCE_GROUPS
+const SPECIALIZED_FACULTY_GROUPS = new Set(["Clinical Faculty", "Research Faculty"]);
+const GENERAL_FACULTY_GROUPS = AUDIENCE_GROUPS
   .map((group) => group.label)
-  .filter((label) => label.endsWith("Faculty"));
+  .filter((label) => label.endsWith("Faculty") && !SPECIALIZED_FACULTY_GROUPS.has(label));
 const GRADUATE_GROUPS = new Set(["Graduate Students", "Postdocs"]);
+const NON_TEACHING_TOPICS = new Set([
+  "Career Development",
+  "Career Transitions",
+  "Faculty Community",
+  "Faculty Leadership",
+  "Faculty Well-being",
+  "Grant Writing",
+  "Mentoring",
+  "Onboarding",
+  "Productivity",
+  "Promotion & Tenure",
+  "Research",
+  "Shared Governance",
+  "Strategy",
+  "Undergraduate Research",
+  "Workload",
+  "Writing"
+]);
+const TEACHING_CONTEXT_TOPICS = new Set(["Teaching", "Curriculum"]);
+const STRONG_MIXED_CONTEXT_TOPICS = new Set(
+  [...NON_TEACHING_TOPICS].filter((topic) => topic !== "Mentoring")
+);
 const GENERAL_FACULTY_AUDIENCES = new Set([
   "all faculty",
   "all instructors",
@@ -95,7 +128,14 @@ export function resolveAudienceGroups(item) {
   const hasSpecificFacultyOrLeadershipAudience = [...directGroups].some((label) => !GRADUATE_GROUPS.has(label));
 
   if (hasGeneralFacultyAudience && !hasSpecificFacultyOrLeadershipAudience) {
-    FACULTY_GROUPS.forEach((label) => directGroups.add(label));
+    GENERAL_FACULTY_GROUPS.forEach((label) => directGroups.add(label));
+    const topics = item.topics || [];
+    const hasNonTeachingTopic = topics.some((topic) => NON_TEACHING_TOPICS.has(topic));
+    const hasTeachingContext = topics.some((topic) => TEACHING_CONTEXT_TOPICS.has(topic));
+    const hasStrongMixedContext = topics.some((topic) => STRONG_MIXED_CONTEXT_TOPICS.has(topic));
+    if (hasNonTeachingTopic && (!hasTeachingContext || hasStrongMixedContext)) {
+      SPECIALIZED_FACULTY_GROUPS.forEach((label) => directGroups.add(label));
+    }
   }
 
   return directGroups;

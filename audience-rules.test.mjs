@@ -13,9 +13,35 @@ const ALL_FACULTY_GROUPS = [
   "Tenure-Track Faculty"
 ];
 
-test("general faculty opportunities match every faculty type", () => {
-  const groups = resolveAudienceGroups({ provider: "URI-ATL", audience: ["All instructors"] });
+test("general teaching opportunities match the standard faculty types", () => {
+  const groups = resolveAudienceGroups({ provider: "URI-ATL", audience: ["All instructors"], topics: ["Teaching"] });
   assert.deepEqual([...groups], ALL_FACULTY_GROUPS);
+});
+
+test("general non-teaching opportunities include clinical and research faculty", () => {
+  const groups = resolveAudienceGroups({ provider: "CUR", audience: ["Faculty"], topics: ["Writing", "Research"] });
+  assert.deepEqual([...groups], [...ALL_FACULTY_GROUPS, "Clinical Faculty", "Research Faculty"]);
+});
+
+test("teaching-only opportunities do not infer clinical or research faculty", () => {
+  const groups = resolveAudienceGroups({
+    provider: "URI-ATL",
+    audience: ["Faculty"],
+    topics: ["Teaching", "Curriculum", "Mentoring"]
+  });
+  assert.equal(groups.has("Clinical Faculty"), false);
+  assert.equal(groups.has("Research Faculty"), false);
+});
+
+test("clinical and research faculty can be named explicitly", () => {
+  assert.deepEqual(
+    [...resolveAudienceGroups({ provider: "Other", audience: ["Clinical faculty"], topics: ["Teaching"] })],
+    ["Clinical Faculty"]
+  );
+  assert.deepEqual(
+    [...resolveAudienceGroups({ provider: "Other", audience: ["Research faculty"], topics: ["Teaching"] })],
+    ["Research Faculty"]
+  );
 });
 
 test("a specific faculty audience overrides a general faculty label", () => {
