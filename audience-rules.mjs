@@ -115,6 +115,10 @@ export function resolveAudienceGroups(item) {
   if (item.provider === "NCFDD") return new Set(AUDIENCE_GROUPS.map((group) => group.label));
 
   const audiences = (item.audience || []).map(normalizeAudience);
+  if (audiences.includes("staff")) {
+    return new Set(AUDIENCE_GROUPS.map((group) => group.label));
+  }
+
   const directGroups = new Set();
 
   AUDIENCE_GROUPS.forEach((group) => {

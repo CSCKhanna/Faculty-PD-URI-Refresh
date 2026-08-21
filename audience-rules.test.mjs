@@ -75,6 +75,14 @@ test("every NCFDD opportunity matches every audience category", () => {
   assert.deepEqual([...groups], AUDIENCE_GROUPS.map((group) => group.label));
 });
 
+test("opportunities available to staff match every audience category", () => {
+  const groups = resolveAudienceGroups({
+    provider: "URI-IACR",
+    audience: ["Faculty", "Graduate students", "Postdocs", "Staff", "Researchers"]
+  });
+  assert.deepEqual([...groups], AUDIENCE_GROUPS.map((group) => group.label));
+});
+
 test("leadership-specific opportunities stay leadership-specific", () => {
   const groups = resolveAudienceGroups({ provider: "EAB", audience: ["Faculty", "Chairs"] });
   assert.deepEqual([...groups], ["Department Chairs"]);
