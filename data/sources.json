@@ -51,7 +51,9 @@
           "Panaopto Advanced: Video editing and interactivity": "Panopto Advanced: Video Editing and Interactivity",
           "Accessbility in LMS: Tools & Brightspace Insights for WCAG 2.1AA": "Accessibility in LMS: Tools and Brightspace Insights for WCAG 2.1 AA"
         },
-        "audience": ["Faculty"],
+        "audience": [
+          "Faculty"
+        ],
         "access": "URI ITS professional development for URI faculty. Use the registration link or source page for participation details.",
         "accessStatus": "local",
         "costStatus": "free-or-member"
@@ -62,6 +64,40 @@
         "Accessibility",
         "AI",
         "Teaching"
+      ]
+    },
+    {
+      "key": "uri_iacr_workshops",
+      "provider": "URI-IACR",
+      "label": "URI IACR workshops and outreach",
+      "url": "https://web.uri.edu/iacr/iacr-workshops-outreach/",
+      "type": "event-page",
+      "enabled": true,
+      "discover": false,
+      "match": [
+        "workshops every semester",
+        "Machine Learning",
+        "Deep Learning",
+        "Generative AI",
+        "R",
+        "Python"
+      ]
+    },
+    {
+      "key": "uri_iacr_research_training",
+      "provider": "URI-IACR",
+      "label": "URI IACR self-paced research training",
+      "url": "https://its.uri.edu/research-computing/research-training/",
+      "type": "resource-center",
+      "enabled": true,
+      "discover": false,
+      "match": [
+        "AI Training",
+        "HPC Training",
+        "Bioinformatics Training",
+        "R Training Videos",
+        "SPSS Training Videos",
+        "Python Training Videos"
       ]
     },
     {
@@ -94,7 +130,9 @@
       "enabled": true,
       "discover": false,
       "catalogSync": {
-        "headingLevels": [2],
+        "headingLevels": [
+          2
+        ],
         "minimumItems": 4,
         "missingRunsBeforeArchive": 2,
         "includePatterns": [
@@ -210,7 +248,11 @@
           "Grant Dialogues",
           "STR 20[0-9]{2}.*Session"
         ],
-        "excludePatterns": ["Deadline", "Submission", "Registration Open"],
+        "excludePatterns": [
+          "Deadline",
+          "Submission",
+          "Registration Open"
+        ],
         "titleAliases": {
           "NACE-CUR Workshop Series Session 2: Best Practices for Integrating Career Readiness into Undergradua": "NACE-CUR Workshop Series Session 2: Best Practices for Integrating Career Readiness into Undergraduate Research"
         }

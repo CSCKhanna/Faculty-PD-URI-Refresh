@@ -2,7 +2,7 @@
   "meta": {
     "title": "URI Academic Professional Development: Opportunities from URI and Member Organizations",
     "subtitle": "Professional development from URI and member organizations",
-    "lastUpdated": "2026-08-21T04:28:43.321Z",
+    "lastUpdated": "2026-08-21T14:02:17.024Z",
     "dataVersion": 1,
     "notes": [
       "The three starter DOCX files were imported locally on June 2, 2026.",
@@ -3113,6 +3113,172 @@
             "managedCatalogs": 0
           }
         ]
+      },
+      {
+        "ranAt": "2026-08-21T14:02:17.024Z",
+        "localDate": "2026-08-21",
+        "type": "manual-source-import",
+        "provider": "URI-IACR",
+        "source": "Workshop schedule Fall26.docx and linked URI Research Training resources",
+        "added": [
+          {
+            "id": "uri-iacr-unity-2026-09-15",
+            "title": "Introduction to Unity High-Performance Computing",
+            "provider": "URI-IACR"
+          },
+          {
+            "id": "uri-iacr-bioinformatics-2026-09-21",
+            "title": "Bioinformatics on Unity",
+            "provider": "URI-IACR"
+          },
+          {
+            "id": "uri-iacr-r-introduction-2026-09-22",
+            "title": "R Programming: Introduction",
+            "provider": "URI-IACR"
+          },
+          {
+            "id": "uri-iacr-ai-tools-researchers-2026-09-25",
+            "title": "AI Tools for Researchers",
+            "provider": "URI-IACR"
+          },
+          {
+            "id": "uri-iacr-opencode-codex-2026-10-01",
+            "title": "OpenCode and Codex",
+            "provider": "URI-IACR"
+          },
+          {
+            "id": "uri-iacr-ai-tools-programming-2026-10-02",
+            "title": "AI Tools for Programming",
+            "provider": "URI-IACR"
+          },
+          {
+            "id": "uri-iacr-spss-2026-10-06",
+            "title": "SPSS: Beginner's Course",
+            "provider": "URI-IACR"
+          },
+          {
+            "id": "uri-iacr-prompt-engineering-2026-10-08",
+            "title": "Prompt Engineering",
+            "provider": "URI-IACR"
+          },
+          {
+            "id": "uri-iacr-ai-tools-video-music-2026-10-09",
+            "title": "AI Tools for Video and Music",
+            "provider": "URI-IACR"
+          },
+          {
+            "id": "uri-iacr-unity-2026-10-13",
+            "title": "Introduction to Unity High-Performance Computing",
+            "provider": "URI-IACR"
+          },
+          {
+            "id": "uri-iacr-sbdc-training-2026-10-14",
+            "title": "SBDC Training",
+            "provider": "URI-IACR"
+          },
+          {
+            "id": "uri-iacr-ai-tools-images-art-2026-10-16",
+            "title": "AI Tools for Images and Art",
+            "provider": "URI-IACR"
+          },
+          {
+            "id": "uri-iacr-bioinformatics-2026-10-19",
+            "title": "Bioinformatics on Unity",
+            "provider": "URI-IACR"
+          },
+          {
+            "id": "uri-iacr-r-inputting-data-2026-10-20",
+            "title": "R Programming: Inputting Data",
+            "provider": "URI-IACR"
+          },
+          {
+            "id": "uri-iacr-sbdc-training-2026-10-21",
+            "title": "SBDC Training",
+            "provider": "URI-IACR"
+          },
+          {
+            "id": "uri-iacr-opencode-codex-2026-10-23",
+            "title": "OpenCode and Codex",
+            "provider": "URI-IACR"
+          },
+          {
+            "id": "uri-iacr-ai-tools-writing-2026-10-30",
+            "title": "AI Tools for Writing",
+            "provider": "URI-IACR"
+          },
+          {
+            "id": "uri-iacr-spss-2026-11-03",
+            "title": "SPSS: Beginner's Course",
+            "provider": "URI-IACR"
+          },
+          {
+            "id": "uri-iacr-prompt-engineering-2026-11-06",
+            "title": "Prompt Engineering",
+            "provider": "URI-IACR"
+          },
+          {
+            "id": "uri-iacr-unity-2026-11-10",
+            "title": "Introduction to Unity High-Performance Computing",
+            "provider": "URI-IACR"
+          },
+          {
+            "id": "uri-iacr-bioinformatics-2026-11-16",
+            "title": "Bioinformatics on Unity",
+            "provider": "URI-IACR"
+          },
+          {
+            "id": "uri-iacr-r-exploratory-data-analysis-2026-11-17",
+            "title": "R Programming: Exploratory Data Analysis",
+            "provider": "URI-IACR"
+          },
+          {
+            "id": "uri-iacr-self-paced-ai-tools-recordings",
+            "title": "IACR Self-Paced AI Tools Recordings",
+            "provider": "URI-IACR"
+          },
+          {
+            "id": "uri-iacr-self-paced-hpc-training",
+            "title": "IACR Self-Paced High-Performance Computing Training",
+            "provider": "URI-IACR"
+          },
+          {
+            "id": "uri-iacr-self-paced-bioinformatics-series",
+            "title": "IACR Self-Paced Bioinformatics Training Series",
+            "provider": "URI-IACR"
+          },
+          {
+            "id": "uri-iacr-self-paced-r-training-series",
+            "title": "IACR Self-Paced R Training Video Series",
+            "provider": "URI-IACR"
+          },
+          {
+            "id": "uri-iacr-self-paced-spss-basics",
+            "title": "IACR Self-Paced SPSS Basics",
+            "provider": "URI-IACR"
+          },
+          {
+            "id": "uri-iacr-self-paced-sas-beginner",
+            "title": "IACR Self-Paced SAS Beginner Training",
+            "provider": "URI-IACR"
+          },
+          {
+            "id": "uri-iacr-self-paced-python-series",
+            "title": "IACR Self-Paced Python Training Video Series",
+            "provider": "URI-IACR"
+          },
+          {
+            "id": "uri-iacr-self-paced-quantum-ibm-platform",
+            "title": "IACR Self-Paced Quantum Computing on the IBM Platform",
+            "provider": "URI-IACR"
+          },
+          {
+            "id": "uri-iacr-self-paced-qualtrics-basics",
+            "title": "IACR Self-Paced Qualtrics Basics",
+            "provider": "URI-IACR"
+          }
+        ],
+        "updated": [],
+        "note": "Added 22 dated Fall 2026 sessions and 9 self-paced opportunity groups."
       }
     ]
   },
@@ -7123,6 +7289,1026 @@
       "detectedByUpdater": true,
       "catalogSource": "uri_its_training_support",
       "catalogIdentityIncludesDate": true
+    },
+    {
+      "provider": "URI-IACR",
+      "status": "recommended",
+      "priority": "local",
+      "audience": [
+        "Faculty",
+        "Graduate students",
+        "Postdocs",
+        "Staff",
+        "Researchers"
+      ],
+      "access": "URI IACR Fall 2026 workshop. URI describes IACR workshops as open to faculty, staff, and students; use the registration link or contact IACR for participation details.",
+      "accessStatus": "verified",
+      "costStatus": "free",
+      "whyInclude": "Adds local research-computing and AI development for URI faculty and researchers.",
+      "sourceUrl": "https://web.uri.edu/iacr/iacr-workshops-outreach/",
+      "lastVerified": "2026-08-21",
+      "curationSource": "Workshop schedule Fall26.docx",
+      "iacrSchedule": "fall-2026",
+      "id": "uri-iacr-unity-2026-09-15",
+      "title": "Introduction to Unity High-Performance Computing",
+      "startDate": "2026-09-15",
+      "endDate": "2026-09-15",
+      "dateLabel": "September 15, 2026, 1:00-2:30 PM",
+      "datePrecision": "exact",
+      "format": "Online; Zoom",
+      "topics": [
+        "Research",
+        "Technology"
+      ],
+      "description": "A beginner-friendly introduction to Unity, URI's high-performance computing cluster, including account setup, SSH access, storage and permissions, software modules, SLURM jobs, and research-computing support.",
+      "registrationUrl": "https://uri-edu.zoom.us/meeting/register/p0GLSZi0Sny3XIa9NMkhWA"
+    },
+    {
+      "provider": "URI-IACR",
+      "status": "recommended",
+      "priority": "local",
+      "audience": [
+        "Faculty",
+        "Graduate students",
+        "Postdocs",
+        "Staff",
+        "Researchers"
+      ],
+      "access": "URI IACR Fall 2026 workshop. URI describes IACR workshops as open to faculty, staff, and students; use the registration link or contact IACR for participation details.",
+      "accessStatus": "verified",
+      "costStatus": "free",
+      "whyInclude": "Adds local research-computing and AI development for URI faculty and researchers.",
+      "sourceUrl": "https://web.uri.edu/iacr/iacr-workshops-outreach/",
+      "lastVerified": "2026-08-21",
+      "curationSource": "Workshop schedule Fall26.docx",
+      "iacrSchedule": "fall-2026",
+      "id": "uri-iacr-bioinformatics-2026-09-21",
+      "title": "Bioinformatics on Unity",
+      "startDate": "2026-09-21",
+      "endDate": "2026-09-21",
+      "dateLabel": "September 21, 2026, 1:00-2:00 PM",
+      "datePrecision": "exact",
+      "format": "Online; Zoom",
+      "topics": [
+        "Research",
+        "Technology"
+      ],
+      "description": "A hands-on session in the three-part bioinformatics-on-Unity series, covering tools for preprocessing sequencing data, sequence assembly, variant calling, and efficient use of the Unity platform.",
+      "registrationUrl": "https://uri-edu.zoom.us/meeting/register/-W6yK0TnQ-GdJaurQdojdQ"
+    },
+    {
+      "provider": "URI-IACR",
+      "status": "recommended",
+      "priority": "local",
+      "audience": [
+        "Faculty",
+        "Graduate students",
+        "Postdocs",
+        "Staff",
+        "Researchers"
+      ],
+      "access": "URI IACR Fall 2026 workshop. URI describes IACR workshops as open to faculty, staff, and students; use the registration link or contact IACR for participation details.",
+      "accessStatus": "verified",
+      "costStatus": "free",
+      "whyInclude": "Adds local research-computing and AI development for URI faculty and researchers.",
+      "sourceUrl": "https://web.uri.edu/iacr/iacr-workshops-outreach/",
+      "lastVerified": "2026-08-21",
+      "curationSource": "Workshop schedule Fall26.docx",
+      "iacrSchedule": "fall-2026",
+      "id": "uri-iacr-r-introduction-2026-09-22",
+      "title": "R Programming: Introduction",
+      "startDate": "2026-09-22",
+      "endDate": "2026-09-22",
+      "dateLabel": "September 22, 2026, 10:30-11:30 AM",
+      "datePrecision": "exact",
+      "format": "Online; Zoom",
+      "topics": [
+        "Research",
+        "Technology"
+      ],
+      "description": "A beginner-friendly R and RStudio session for data analysis and visualization, including data import, manipulation, graphing, and introductory statistical analysis.",
+      "registrationUrl": "https://uri-edu.zoom.us/meeting/register/invqJfUsTo-xRfq1mtZdcQ"
+    },
+    {
+      "provider": "URI-IACR",
+      "status": "recommended",
+      "priority": "local",
+      "audience": [
+        "Faculty",
+        "Graduate students",
+        "Postdocs",
+        "Staff",
+        "Researchers"
+      ],
+      "access": "URI IACR Fall 2026 workshop. URI describes IACR workshops as open to faculty, staff, and students; use the registration link or contact IACR for participation details.",
+      "accessStatus": "verified",
+      "costStatus": "free",
+      "whyInclude": "Adds local research-computing and AI development for URI faculty and researchers.",
+      "sourceUrl": "https://web.uri.edu/iacr/iacr-workshops-outreach/",
+      "lastVerified": "2026-08-21",
+      "curationSource": "Workshop schedule Fall26.docx",
+      "iacrSchedule": "fall-2026",
+      "id": "uri-iacr-ai-tools-researchers-2026-09-25",
+      "title": "AI Tools for Researchers",
+      "startDate": "2026-09-25",
+      "endDate": "2026-09-25",
+      "dateLabel": "September 25, 2026, 12:00-1:30 PM",
+      "datePrecision": "exact",
+      "format": "Hybrid; location to be announced and Zoom",
+      "topics": [
+        "AI",
+        "Research",
+        "Productivity"
+      ],
+      "description": "A practical IACR AI Tools session focused on using artificial intelligence for academic, research, creative, or technical work.",
+      "registrationUrl": "https://us04web.zoom.us/j/3024990767?pwd=M0l1dzNaQWJpTGVvU3IxNGdKeVRqZz09"
+    },
+    {
+      "provider": "URI-IACR",
+      "status": "recommended",
+      "priority": "local",
+      "audience": [
+        "Faculty",
+        "Graduate students",
+        "Postdocs",
+        "Staff",
+        "Researchers"
+      ],
+      "access": "URI IACR Fall 2026 workshop. URI describes IACR workshops as open to faculty, staff, and students; use the registration link or contact IACR for participation details.",
+      "accessStatus": "verified",
+      "costStatus": "free",
+      "whyInclude": "Adds local research-computing and AI development for URI faculty and researchers.",
+      "sourceUrl": "https://web.uri.edu/iacr/iacr-workshops-outreach/",
+      "lastVerified": "2026-08-21",
+      "curationSource": "Workshop schedule Fall26.docx",
+      "iacrSchedule": "fall-2026",
+      "id": "uri-iacr-opencode-codex-2026-10-01",
+      "title": "OpenCode and Codex",
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-01",
+      "dateLabel": "October 1, 2026, 10:00-11:30 AM",
+      "datePrecision": "exact",
+      "format": "Hybrid; location to be announced and Zoom",
+      "topics": [
+        "AI",
+        "Technology",
+        "Productivity"
+      ],
+      "description": "A hands-on introduction to URI OpenCode and Codex, including access, local setup, desktop, terminal, and VS Code workflows, configuration, and guided use cases.",
+      "registrationUrl": "https://uri-edu.zoom.us/meeting/register/zOoWJiz-RdiLCJvGfhLiSA"
+    },
+    {
+      "provider": "URI-IACR",
+      "status": "recommended",
+      "priority": "local",
+      "audience": [
+        "Faculty",
+        "Graduate students",
+        "Postdocs",
+        "Staff",
+        "Researchers"
+      ],
+      "access": "URI IACR Fall 2026 workshop. URI describes IACR workshops as open to faculty, staff, and students; use the registration link or contact IACR for participation details.",
+      "accessStatus": "verified",
+      "costStatus": "free",
+      "whyInclude": "Adds local research-computing and AI development for URI faculty and researchers.",
+      "sourceUrl": "https://web.uri.edu/iacr/iacr-workshops-outreach/",
+      "lastVerified": "2026-08-21",
+      "curationSource": "Workshop schedule Fall26.docx",
+      "iacrSchedule": "fall-2026",
+      "id": "uri-iacr-ai-tools-programming-2026-10-02",
+      "title": "AI Tools for Programming",
+      "startDate": "2026-10-02",
+      "endDate": "2026-10-02",
+      "dateLabel": "October 2, 2026, 12:00-1:30 PM",
+      "datePrecision": "exact",
+      "format": "Hybrid; location to be announced and Zoom",
+      "topics": [
+        "AI",
+        "Research",
+        "Technology"
+      ],
+      "description": "A practical IACR AI Tools session focused on using artificial intelligence for academic, research, creative, or technical work.",
+      "registrationUrl": "https://us04web.zoom.us/j/3024990767?pwd=M0l1dzNaQWJpTGVvU3IxNGdKeVRqZz09"
+    },
+    {
+      "provider": "URI-IACR",
+      "status": "recommended",
+      "priority": "local",
+      "audience": [
+        "Faculty",
+        "Graduate students",
+        "Postdocs",
+        "Staff",
+        "Researchers"
+      ],
+      "access": "URI IACR Fall 2026 workshop. URI describes IACR workshops as open to faculty, staff, and students; use the registration link or contact IACR for participation details.",
+      "accessStatus": "verified",
+      "costStatus": "free",
+      "whyInclude": "Adds local research-computing and AI development for URI faculty and researchers.",
+      "sourceUrl": "https://web.uri.edu/iacr/iacr-workshops-outreach/",
+      "lastVerified": "2026-08-21",
+      "curationSource": "Workshop schedule Fall26.docx",
+      "iacrSchedule": "fall-2026",
+      "id": "uri-iacr-spss-2026-10-06",
+      "title": "SPSS: Beginner's Course",
+      "startDate": "2026-10-06",
+      "endDate": "2026-10-06",
+      "dateLabel": "October 6, 2026, 10:30-11:30 AM",
+      "datePrecision": "exact",
+      "format": "Online; Zoom",
+      "topics": [
+        "Research",
+        "Technology"
+      ],
+      "description": "An introduction to IBM SPSS Statistics, including installation and licensing, dataset management, basic statistical analysis, and interpretation of results.",
+      "registrationUrl": "https://uri-edu.zoom.us/meeting/register/EeYAlSE_QLypBy1vveEYyQ"
+    },
+    {
+      "provider": "URI-IACR",
+      "status": "recommended",
+      "priority": "local",
+      "audience": [
+        "Faculty",
+        "Graduate students",
+        "Postdocs",
+        "Staff",
+        "Researchers"
+      ],
+      "access": "URI IACR Fall 2026 workshop. URI describes IACR workshops as open to faculty, staff, and students; use the registration link or contact IACR for participation details.",
+      "accessStatus": "verified",
+      "costStatus": "free",
+      "whyInclude": "Adds local research-computing and AI development for URI faculty and researchers.",
+      "sourceUrl": "https://web.uri.edu/iacr/iacr-workshops-outreach/",
+      "lastVerified": "2026-08-21",
+      "curationSource": "Workshop schedule Fall26.docx",
+      "iacrSchedule": "fall-2026",
+      "id": "uri-iacr-prompt-engineering-2026-10-08",
+      "title": "Prompt Engineering",
+      "startDate": "2026-10-08",
+      "endDate": "2026-10-08",
+      "dateLabel": "October 8, 2026, 10:00-11:30 AM",
+      "datePrecision": "exact",
+      "format": "Hybrid; location to be announced and Zoom",
+      "topics": [
+        "AI",
+        "Productivity"
+      ],
+      "description": "A hands-on introduction to effective prompting for large language models, including instruction structure, context windows, examples, iterative refinement, ambiguity reduction, and hallucination awareness.",
+      "registrationUrl": "https://uri-edu.zoom.us/meeting/register/yoJ4X-h5Q7qIshdmFNti6Q"
+    },
+    {
+      "provider": "URI-IACR",
+      "status": "recommended",
+      "priority": "local",
+      "audience": [
+        "Faculty",
+        "Graduate students",
+        "Postdocs",
+        "Staff",
+        "Researchers"
+      ],
+      "access": "URI IACR Fall 2026 workshop. URI describes IACR workshops as open to faculty, staff, and students; use the registration link or contact IACR for participation details.",
+      "accessStatus": "verified",
+      "costStatus": "free",
+      "whyInclude": "Adds local research-computing and AI development for URI faculty and researchers.",
+      "sourceUrl": "https://web.uri.edu/iacr/iacr-workshops-outreach/",
+      "lastVerified": "2026-08-21",
+      "curationSource": "Workshop schedule Fall26.docx",
+      "iacrSchedule": "fall-2026",
+      "id": "uri-iacr-ai-tools-video-music-2026-10-09",
+      "title": "AI Tools for Video and Music",
+      "startDate": "2026-10-09",
+      "endDate": "2026-10-09",
+      "dateLabel": "October 9, 2026, 12:00-1:30 PM",
+      "datePrecision": "exact",
+      "format": "Hybrid; location to be announced and Zoom",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "description": "A practical IACR AI Tools session focused on using artificial intelligence for academic, research, creative, or technical work.",
+      "registrationUrl": "https://us04web.zoom.us/j/3024990767?pwd=M0l1dzNaQWJpTGVvU3IxNGdKeVRqZz09"
+    },
+    {
+      "provider": "URI-IACR",
+      "status": "recommended",
+      "priority": "local",
+      "audience": [
+        "Faculty",
+        "Graduate students",
+        "Postdocs",
+        "Staff",
+        "Researchers"
+      ],
+      "access": "URI IACR Fall 2026 workshop. URI describes IACR workshops as open to faculty, staff, and students; use the registration link or contact IACR for participation details.",
+      "accessStatus": "verified",
+      "costStatus": "free",
+      "whyInclude": "Adds local research-computing and AI development for URI faculty and researchers.",
+      "sourceUrl": "https://web.uri.edu/iacr/iacr-workshops-outreach/",
+      "lastVerified": "2026-08-21",
+      "curationSource": "Workshop schedule Fall26.docx",
+      "iacrSchedule": "fall-2026",
+      "id": "uri-iacr-unity-2026-10-13",
+      "title": "Introduction to Unity High-Performance Computing",
+      "startDate": "2026-10-13",
+      "endDate": "2026-10-13",
+      "dateLabel": "October 13, 2026, 1:00-2:30 PM",
+      "datePrecision": "exact",
+      "format": "Online; Zoom",
+      "topics": [
+        "Research",
+        "Technology"
+      ],
+      "description": "A beginner-friendly introduction to Unity, URI's high-performance computing cluster, including account setup, SSH access, storage and permissions, software modules, SLURM jobs, and research-computing support.",
+      "registrationUrl": "https://uri-edu.zoom.us/meeting/register/40Z_WITAS-inx8UqY0FQUg"
+    },
+    {
+      "provider": "URI-IACR",
+      "status": "recommended",
+      "priority": "local",
+      "audience": [
+        "Faculty",
+        "Graduate students",
+        "Postdocs",
+        "Staff",
+        "Researchers"
+      ],
+      "access": "Listed in the IACR Fall 2026 schedule; confirm participation details with URI IACR.",
+      "accessStatus": "confirm",
+      "costStatus": "not-listed",
+      "whyInclude": "Adds local research-computing and AI development for URI faculty and researchers.",
+      "sourceUrl": "https://web.uri.edu/iacr/iacr-workshops-outreach/",
+      "lastVerified": "2026-08-21",
+      "curationSource": "Workshop schedule Fall26.docx",
+      "iacrSchedule": "fall-2026",
+      "id": "uri-iacr-sbdc-training-2026-10-14",
+      "title": "SBDC Training",
+      "startDate": "2026-10-14",
+      "endDate": "2026-10-14",
+      "dateLabel": "October 14, 2026, 9:00 AM-12:00 PM",
+      "datePrecision": "exact",
+      "format": "In person; URI Welcome Center",
+      "topics": [
+        "Career Development"
+      ],
+      "description": "An in-person SBDC training session listed in the IACR Fall 2026 workshop schedule. The schedule does not provide a session description or registration route."
+    },
+    {
+      "provider": "URI-IACR",
+      "status": "recommended",
+      "priority": "local",
+      "audience": [
+        "Faculty",
+        "Graduate students",
+        "Postdocs",
+        "Staff",
+        "Researchers"
+      ],
+      "access": "URI IACR Fall 2026 workshop. URI describes IACR workshops as open to faculty, staff, and students; use the registration link or contact IACR for participation details.",
+      "accessStatus": "verified",
+      "costStatus": "free",
+      "whyInclude": "Adds local research-computing and AI development for URI faculty and researchers.",
+      "sourceUrl": "https://web.uri.edu/iacr/iacr-workshops-outreach/",
+      "lastVerified": "2026-08-21",
+      "curationSource": "Workshop schedule Fall26.docx",
+      "iacrSchedule": "fall-2026",
+      "id": "uri-iacr-ai-tools-images-art-2026-10-16",
+      "title": "AI Tools for Images and Art",
+      "startDate": "2026-10-16",
+      "endDate": "2026-10-16",
+      "dateLabel": "October 16, 2026, 12:00-1:30 PM",
+      "datePrecision": "exact",
+      "format": "Hybrid; location to be announced and Zoom",
+      "topics": [
+        "AI",
+        "Technology"
+      ],
+      "description": "A practical IACR AI Tools session focused on using artificial intelligence for academic, research, creative, or technical work.",
+      "registrationUrl": "https://us04web.zoom.us/j/3024990767?pwd=M0l1dzNaQWJpTGVvU3IxNGdKeVRqZz09"
+    },
+    {
+      "provider": "URI-IACR",
+      "status": "recommended",
+      "priority": "local",
+      "audience": [
+        "Faculty",
+        "Graduate students",
+        "Postdocs",
+        "Staff",
+        "Researchers"
+      ],
+      "access": "URI IACR Fall 2026 workshop. URI describes IACR workshops as open to faculty, staff, and students; use the registration link or contact IACR for participation details.",
+      "accessStatus": "verified",
+      "costStatus": "free",
+      "whyInclude": "Adds local research-computing and AI development for URI faculty and researchers.",
+      "sourceUrl": "https://web.uri.edu/iacr/iacr-workshops-outreach/",
+      "lastVerified": "2026-08-21",
+      "curationSource": "Workshop schedule Fall26.docx",
+      "iacrSchedule": "fall-2026",
+      "id": "uri-iacr-bioinformatics-2026-10-19",
+      "title": "Bioinformatics on Unity",
+      "startDate": "2026-10-19",
+      "endDate": "2026-10-19",
+      "dateLabel": "October 19, 2026, 1:00-2:00 PM",
+      "datePrecision": "exact",
+      "format": "Online; Zoom",
+      "topics": [
+        "Research",
+        "Technology"
+      ],
+      "description": "A hands-on session in the three-part bioinformatics-on-Unity series, covering tools for preprocessing sequencing data, sequence assembly, variant calling, and efficient use of the Unity platform.",
+      "registrationUrl": "https://uri-edu.zoom.us/meeting/register/-W6yK0TnQ-GdJaurQdojdQ"
+    },
+    {
+      "provider": "URI-IACR",
+      "status": "recommended",
+      "priority": "local",
+      "audience": [
+        "Faculty",
+        "Graduate students",
+        "Postdocs",
+        "Staff",
+        "Researchers"
+      ],
+      "access": "URI IACR Fall 2026 workshop. URI describes IACR workshops as open to faculty, staff, and students; use the registration link or contact IACR for participation details.",
+      "accessStatus": "verified",
+      "costStatus": "free",
+      "whyInclude": "Adds local research-computing and AI development for URI faculty and researchers.",
+      "sourceUrl": "https://web.uri.edu/iacr/iacr-workshops-outreach/",
+      "lastVerified": "2026-08-21",
+      "curationSource": "Workshop schedule Fall26.docx",
+      "iacrSchedule": "fall-2026",
+      "id": "uri-iacr-r-inputting-data-2026-10-20",
+      "title": "R Programming: Inputting Data",
+      "startDate": "2026-10-20",
+      "endDate": "2026-10-20",
+      "dateLabel": "October 20, 2026, 10:30-11:30 AM",
+      "datePrecision": "exact",
+      "format": "Online; Zoom",
+      "topics": [
+        "Research",
+        "Technology"
+      ],
+      "description": "A beginner-friendly R and RStudio session for data analysis and visualization, including data import, manipulation, graphing, and introductory statistical analysis.",
+      "registrationUrl": "https://uri-edu.zoom.us/meeting/register/invqJfUsTo-xRfq1mtZdcQ"
+    },
+    {
+      "provider": "URI-IACR",
+      "status": "recommended",
+      "priority": "local",
+      "audience": [
+        "Faculty",
+        "Graduate students",
+        "Postdocs",
+        "Staff",
+        "Researchers"
+      ],
+      "access": "Listed in the IACR Fall 2026 schedule; confirm participation details with URI IACR.",
+      "accessStatus": "confirm",
+      "costStatus": "not-listed",
+      "whyInclude": "Adds local research-computing and AI development for URI faculty and researchers.",
+      "sourceUrl": "https://web.uri.edu/iacr/iacr-workshops-outreach/",
+      "lastVerified": "2026-08-21",
+      "curationSource": "Workshop schedule Fall26.docx",
+      "iacrSchedule": "fall-2026",
+      "id": "uri-iacr-sbdc-training-2026-10-21",
+      "title": "SBDC Training",
+      "startDate": "2026-10-21",
+      "endDate": "2026-10-21",
+      "dateLabel": "October 21, 2026, 9:00 AM-12:00 PM",
+      "datePrecision": "exact",
+      "format": "In person; URI Welcome Center",
+      "topics": [
+        "Career Development"
+      ],
+      "description": "An in-person SBDC training session listed in the IACR Fall 2026 workshop schedule. The schedule does not provide a session description or registration route."
+    },
+    {
+      "provider": "URI-IACR",
+      "status": "recommended",
+      "priority": "local",
+      "audience": [
+        "Faculty",
+        "Graduate students",
+        "Postdocs",
+        "Staff",
+        "Researchers"
+      ],
+      "access": "URI IACR Fall 2026 workshop. URI describes IACR workshops as open to faculty, staff, and students; use the registration link or contact IACR for participation details.",
+      "accessStatus": "verified",
+      "costStatus": "free",
+      "whyInclude": "Adds local research-computing and AI development for URI faculty and researchers.",
+      "sourceUrl": "https://web.uri.edu/iacr/iacr-workshops-outreach/",
+      "lastVerified": "2026-08-21",
+      "curationSource": "Workshop schedule Fall26.docx",
+      "iacrSchedule": "fall-2026",
+      "id": "uri-iacr-opencode-codex-2026-10-23",
+      "title": "OpenCode and Codex",
+      "startDate": "2026-10-23",
+      "endDate": "2026-10-23",
+      "dateLabel": "October 23, 2026, 10:00-11:30 AM",
+      "datePrecision": "exact",
+      "format": "Hybrid; location to be announced and Zoom",
+      "topics": [
+        "AI",
+        "Technology",
+        "Productivity"
+      ],
+      "description": "A hands-on introduction to URI OpenCode and Codex, including access, local setup, desktop, terminal, and VS Code workflows, configuration, and guided use cases.",
+      "registrationUrl": "https://uri-edu.zoom.us/meeting/register/zOoWJiz-RdiLCJvGfhLiSA"
+    },
+    {
+      "provider": "URI-IACR",
+      "status": "recommended",
+      "priority": "local",
+      "audience": [
+        "Faculty",
+        "Graduate students",
+        "Postdocs",
+        "Staff",
+        "Researchers"
+      ],
+      "access": "URI IACR Fall 2026 workshop. URI describes IACR workshops as open to faculty, staff, and students; use the registration link or contact IACR for participation details.",
+      "accessStatus": "verified",
+      "costStatus": "free",
+      "whyInclude": "Adds local research-computing and AI development for URI faculty and researchers.",
+      "sourceUrl": "https://web.uri.edu/iacr/iacr-workshops-outreach/",
+      "lastVerified": "2026-08-21",
+      "curationSource": "Workshop schedule Fall26.docx",
+      "iacrSchedule": "fall-2026",
+      "id": "uri-iacr-ai-tools-writing-2026-10-30",
+      "title": "AI Tools for Writing",
+      "startDate": "2026-10-30",
+      "endDate": "2026-10-30",
+      "dateLabel": "October 30, 2026, 12:00-1:30 PM",
+      "datePrecision": "exact",
+      "format": "Hybrid; location to be announced and Zoom",
+      "topics": [
+        "AI",
+        "Writing",
+        "Productivity"
+      ],
+      "description": "A practical IACR AI Tools session focused on using artificial intelligence for academic, research, creative, or technical work.",
+      "registrationUrl": "https://us04web.zoom.us/j/3024990767?pwd=M0l1dzNaQWJpTGVvU3IxNGdKeVRqZz09"
+    },
+    {
+      "provider": "URI-IACR",
+      "status": "recommended",
+      "priority": "local",
+      "audience": [
+        "Faculty",
+        "Graduate students",
+        "Postdocs",
+        "Staff",
+        "Researchers"
+      ],
+      "access": "URI IACR Fall 2026 workshop. URI describes IACR workshops as open to faculty, staff, and students; use the registration link or contact IACR for participation details.",
+      "accessStatus": "verified",
+      "costStatus": "free",
+      "whyInclude": "Adds local research-computing and AI development for URI faculty and researchers.",
+      "sourceUrl": "https://web.uri.edu/iacr/iacr-workshops-outreach/",
+      "lastVerified": "2026-08-21",
+      "curationSource": "Workshop schedule Fall26.docx",
+      "iacrSchedule": "fall-2026",
+      "id": "uri-iacr-spss-2026-11-03",
+      "title": "SPSS: Beginner's Course",
+      "startDate": "2026-11-03",
+      "endDate": "2026-11-03",
+      "dateLabel": "November 3, 2026, 10:30-11:30 AM",
+      "datePrecision": "exact",
+      "format": "Online; Zoom",
+      "topics": [
+        "Research",
+        "Technology"
+      ],
+      "description": "An introduction to IBM SPSS Statistics, including installation and licensing, dataset management, basic statistical analysis, and interpretation of results.",
+      "registrationUrl": "https://uri-edu.zoom.us/meeting/register/EeYAlSE_QLypBy1vveEYyQ"
+    },
+    {
+      "provider": "URI-IACR",
+      "status": "recommended",
+      "priority": "local",
+      "audience": [
+        "Faculty",
+        "Graduate students",
+        "Postdocs",
+        "Staff",
+        "Researchers"
+      ],
+      "access": "URI IACR Fall 2026 workshop. URI describes IACR workshops as open to faculty, staff, and students; use the registration link or contact IACR for participation details.",
+      "accessStatus": "verified",
+      "costStatus": "free",
+      "whyInclude": "Adds local research-computing and AI development for URI faculty and researchers.",
+      "sourceUrl": "https://web.uri.edu/iacr/iacr-workshops-outreach/",
+      "lastVerified": "2026-08-21",
+      "curationSource": "Workshop schedule Fall26.docx",
+      "iacrSchedule": "fall-2026",
+      "id": "uri-iacr-prompt-engineering-2026-11-06",
+      "title": "Prompt Engineering",
+      "startDate": "2026-11-06",
+      "endDate": "2026-11-06",
+      "dateLabel": "November 6, 2026, 10:00-11:30 AM",
+      "datePrecision": "exact",
+      "format": "Hybrid; location to be announced and Zoom",
+      "topics": [
+        "AI",
+        "Productivity"
+      ],
+      "description": "A hands-on introduction to effective prompting for large language models, including instruction structure, context windows, examples, iterative refinement, ambiguity reduction, and hallucination awareness.",
+      "registrationUrl": "https://uri-edu.zoom.us/meeting/register/yoJ4X-h5Q7qIshdmFNti6Q"
+    },
+    {
+      "provider": "URI-IACR",
+      "status": "recommended",
+      "priority": "local",
+      "audience": [
+        "Faculty",
+        "Graduate students",
+        "Postdocs",
+        "Staff",
+        "Researchers"
+      ],
+      "access": "URI IACR Fall 2026 workshop. URI describes IACR workshops as open to faculty, staff, and students; use the registration link or contact IACR for participation details.",
+      "accessStatus": "verified",
+      "costStatus": "free",
+      "whyInclude": "Adds local research-computing and AI development for URI faculty and researchers.",
+      "sourceUrl": "https://web.uri.edu/iacr/iacr-workshops-outreach/",
+      "lastVerified": "2026-08-21",
+      "curationSource": "Workshop schedule Fall26.docx",
+      "iacrSchedule": "fall-2026",
+      "id": "uri-iacr-unity-2026-11-10",
+      "title": "Introduction to Unity High-Performance Computing",
+      "startDate": "2026-11-10",
+      "endDate": "2026-11-10",
+      "dateLabel": "November 10, 2026, 1:00-2:30 PM",
+      "datePrecision": "exact",
+      "format": "Online; Zoom",
+      "topics": [
+        "Research",
+        "Technology"
+      ],
+      "description": "A beginner-friendly introduction to Unity, URI's high-performance computing cluster, including account setup, SSH access, storage and permissions, software modules, SLURM jobs, and research-computing support.",
+      "registrationUrl": "https://uri-edu.zoom.us/meeting/register/FYQg8SOcQFu9NMyMIL7e5Q"
+    },
+    {
+      "provider": "URI-IACR",
+      "status": "recommended",
+      "priority": "local",
+      "audience": [
+        "Faculty",
+        "Graduate students",
+        "Postdocs",
+        "Staff",
+        "Researchers"
+      ],
+      "access": "URI IACR Fall 2026 workshop. URI describes IACR workshops as open to faculty, staff, and students; use the registration link or contact IACR for participation details.",
+      "accessStatus": "verified",
+      "costStatus": "free",
+      "whyInclude": "Adds local research-computing and AI development for URI faculty and researchers.",
+      "sourceUrl": "https://web.uri.edu/iacr/iacr-workshops-outreach/",
+      "lastVerified": "2026-08-21",
+      "curationSource": "Workshop schedule Fall26.docx",
+      "iacrSchedule": "fall-2026",
+      "id": "uri-iacr-bioinformatics-2026-11-16",
+      "title": "Bioinformatics on Unity",
+      "startDate": "2026-11-16",
+      "endDate": "2026-11-16",
+      "dateLabel": "November 16, 2026, 1:00-2:00 PM",
+      "datePrecision": "exact",
+      "format": "Online; Zoom",
+      "topics": [
+        "Research",
+        "Technology"
+      ],
+      "description": "A hands-on session in the three-part bioinformatics-on-Unity series, covering tools for preprocessing sequencing data, sequence assembly, variant calling, and efficient use of the Unity platform.",
+      "registrationUrl": "https://uri-edu.zoom.us/meeting/register/-W6yK0TnQ-GdJaurQdojdQ"
+    },
+    {
+      "provider": "URI-IACR",
+      "status": "recommended",
+      "priority": "local",
+      "audience": [
+        "Faculty",
+        "Graduate students",
+        "Postdocs",
+        "Staff",
+        "Researchers"
+      ],
+      "access": "URI IACR Fall 2026 workshop. URI describes IACR workshops as open to faculty, staff, and students; use the registration link or contact IACR for participation details.",
+      "accessStatus": "verified",
+      "costStatus": "free",
+      "whyInclude": "Adds local research-computing and AI development for URI faculty and researchers.",
+      "sourceUrl": "https://web.uri.edu/iacr/iacr-workshops-outreach/",
+      "lastVerified": "2026-08-21",
+      "curationSource": "Workshop schedule Fall26.docx",
+      "iacrSchedule": "fall-2026",
+      "id": "uri-iacr-r-exploratory-data-analysis-2026-11-17",
+      "title": "R Programming: Exploratory Data Analysis",
+      "startDate": "2026-11-17",
+      "endDate": "2026-11-17",
+      "dateLabel": "November 17, 2026, 10:30-11:30 AM",
+      "datePrecision": "exact",
+      "format": "Online; Zoom",
+      "topics": [
+        "Research",
+        "Technology"
+      ],
+      "description": "A beginner-friendly R and RStudio session for data analysis and visualization, including data import, manipulation, graphing, and introductory statistical analysis.",
+      "registrationUrl": "https://uri-edu.zoom.us/meeting/register/invqJfUsTo-xRfq1mtZdcQ"
+    },
+    {
+      "provider": "URI-IACR",
+      "status": "recommended",
+      "priority": "local",
+      "startDate": "2026-08-21",
+      "endDate": "2027-08-20",
+      "dateLabel": "Self-paced; available anytime",
+      "datePrecision": "ongoing",
+      "format": "Self-paced recordings and resources",
+      "audience": [
+        "Faculty",
+        "Graduate students",
+        "Postdocs",
+        "Staff",
+        "Researchers"
+      ],
+      "access": "Publicly available URI research-computing recordings and resources.",
+      "accessStatus": "verified",
+      "costStatus": "free",
+      "whyInclude": "Provides flexible, on-demand research-computing development for faculty who cannot attend a live session.",
+      "lastVerified": "2026-08-21",
+      "curationSource": "URI Research Training page linked from Workshop schedule Fall26.docx",
+      "iacrLibrary": true,
+      "id": "uri-iacr-self-paced-ai-tools-recordings",
+      "title": "IACR Self-Paced AI Tools Recordings",
+      "topics": [
+        "AI",
+        "Research",
+        "Writing",
+        "Productivity",
+        "Technology"
+      ],
+      "description": "Recordings and supporting materials cover AI tools for images and art, researchers, personal productivity, writing, programming, video and music, and educators.",
+      "sourceUrl": "https://docs.google.com/document/d/1WIKdpum9i8ifRs15vDZHgYjuTAd3smGzCAYXV2YAlnY/"
+    },
+    {
+      "provider": "URI-IACR",
+      "status": "recommended",
+      "priority": "local",
+      "startDate": "2026-08-21",
+      "endDate": "2027-08-20",
+      "dateLabel": "Self-paced; available anytime",
+      "datePrecision": "ongoing",
+      "format": "Self-paced recordings and resources",
+      "audience": [
+        "Faculty",
+        "Graduate students",
+        "Postdocs",
+        "Staff",
+        "Researchers"
+      ],
+      "access": "Publicly available URI research-computing recordings and resources.",
+      "accessStatus": "verified",
+      "costStatus": "free",
+      "whyInclude": "Provides flexible, on-demand research-computing development for faculty who cannot attend a live session.",
+      "lastVerified": "2026-08-21",
+      "curationSource": "URI Research Training page linked from Workshop schedule Fall26.docx",
+      "iacrLibrary": true,
+      "id": "uri-iacr-self-paced-hpc-training",
+      "title": "IACR Self-Paced High-Performance Computing Training",
+      "topics": [
+        "Research",
+        "Technology"
+      ],
+      "description": "On-demand resources include Introduction to Unity High Performance Computing Cluster, MIT SuperCloud HPC tutorials, and Unity Digital Edge.",
+      "sourceUrl": "https://its.uri.edu/research-computing/research-training/"
+    },
+    {
+      "provider": "URI-IACR",
+      "status": "recommended",
+      "priority": "local",
+      "startDate": "2026-08-21",
+      "endDate": "2027-08-20",
+      "dateLabel": "Self-paced; available anytime",
+      "datePrecision": "ongoing",
+      "format": "Self-paced recordings and resources",
+      "audience": [
+        "Faculty",
+        "Graduate students",
+        "Postdocs",
+        "Staff",
+        "Researchers"
+      ],
+      "access": "Publicly available URI research-computing recordings and resources.",
+      "accessStatus": "verified",
+      "costStatus": "free",
+      "whyInclude": "Provides flexible, on-demand research-computing development for faculty who cannot attend a live session.",
+      "lastVerified": "2026-08-21",
+      "curationSource": "URI Research Training page linked from Workshop schedule Fall26.docx",
+      "iacrLibrary": true,
+      "id": "uri-iacr-self-paced-bioinformatics-series",
+      "title": "IACR Self-Paced Bioinformatics Training Series",
+      "topics": [
+        "Research",
+        "Technology"
+      ],
+      "description": "A three-part bioinformatics video series with companion PDFs for using software on the Unity high-performance computing platform.",
+      "sourceUrl": "https://its.uri.edu/research-computing/research-training/"
+    },
+    {
+      "provider": "URI-IACR",
+      "status": "recommended",
+      "priority": "local",
+      "startDate": "2026-08-21",
+      "endDate": "2027-08-20",
+      "dateLabel": "Self-paced; available anytime",
+      "datePrecision": "ongoing",
+      "format": "Self-paced recordings and resources",
+      "audience": [
+        "Faculty",
+        "Graduate students",
+        "Postdocs",
+        "Staff",
+        "Researchers"
+      ],
+      "access": "Publicly available URI research-computing recordings and resources.",
+      "accessStatus": "verified",
+      "costStatus": "free",
+      "whyInclude": "Provides flexible, on-demand research-computing development for faculty who cannot attend a live session.",
+      "lastVerified": "2026-08-21",
+      "curationSource": "URI Research Training page linked from Workshop schedule Fall26.docx",
+      "iacrLibrary": true,
+      "id": "uri-iacr-self-paced-r-training-series",
+      "title": "IACR Self-Paced R Training Video Series",
+      "topics": [
+        "Research",
+        "Technology"
+      ],
+      "description": "Five on-demand modules cover R programming basics, inputting data, exploratory data analysis, tidy data, and R Markdown.",
+      "sourceUrl": "https://its.uri.edu/research-computing/research-training/"
+    },
+    {
+      "provider": "URI-IACR",
+      "status": "recommended",
+      "priority": "local",
+      "startDate": "2026-08-21",
+      "endDate": "2027-08-20",
+      "dateLabel": "Self-paced; available anytime",
+      "datePrecision": "ongoing",
+      "format": "Self-paced recordings and resources",
+      "audience": [
+        "Faculty",
+        "Graduate students",
+        "Postdocs",
+        "Staff",
+        "Researchers"
+      ],
+      "access": "Publicly available URI research-computing recordings and resources.",
+      "accessStatus": "verified",
+      "costStatus": "free",
+      "whyInclude": "Provides flexible, on-demand research-computing development for faculty who cannot attend a live session.",
+      "lastVerified": "2026-08-21",
+      "curationSource": "URI Research Training page linked from Workshop schedule Fall26.docx",
+      "iacrLibrary": true,
+      "id": "uri-iacr-self-paced-spss-basics",
+      "title": "IACR Self-Paced SPSS Basics",
+      "topics": [
+        "Research",
+        "Technology"
+      ],
+      "description": "An on-demand introduction to SPSS for dataset management, statistical analysis, and interpretation.",
+      "sourceUrl": "https://uri.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2f623afd-7f24-4ee0-92df-af24011f164f"
+    },
+    {
+      "provider": "URI-IACR",
+      "status": "recommended",
+      "priority": "local",
+      "startDate": "2026-08-21",
+      "endDate": "2027-08-20",
+      "dateLabel": "Self-paced; available anytime",
+      "datePrecision": "ongoing",
+      "format": "Self-paced recordings and resources",
+      "audience": [
+        "Faculty",
+        "Graduate students",
+        "Postdocs",
+        "Staff",
+        "Researchers"
+      ],
+      "access": "Publicly available URI research-computing recordings and resources.",
+      "accessStatus": "verified",
+      "costStatus": "free",
+      "whyInclude": "Provides flexible, on-demand research-computing development for faculty who cannot attend a live session.",
+      "lastVerified": "2026-08-21",
+      "curationSource": "URI Research Training page linked from Workshop schedule Fall26.docx",
+      "iacrLibrary": true,
+      "id": "uri-iacr-self-paced-sas-beginner",
+      "title": "IACR Self-Paced SAS Beginner Training",
+      "topics": [
+        "Research",
+        "Technology"
+      ],
+      "description": "An on-demand beginner training for using SAS in research and data analysis.",
+      "sourceUrl": "https://uri.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6832eb2c-96bd-4dd1-b760-ae1a00ea809c"
+    },
+    {
+      "provider": "URI-IACR",
+      "status": "recommended",
+      "priority": "local",
+      "startDate": "2026-08-21",
+      "endDate": "2027-08-20",
+      "dateLabel": "Self-paced; available anytime",
+      "datePrecision": "ongoing",
+      "format": "Self-paced recordings and resources",
+      "audience": [
+        "Faculty",
+        "Graduate students",
+        "Postdocs",
+        "Staff",
+        "Researchers"
+      ],
+      "access": "Publicly available URI research-computing recordings and resources.",
+      "accessStatus": "verified",
+      "costStatus": "free",
+      "whyInclude": "Provides flexible, on-demand research-computing development for faculty who cannot attend a live session.",
+      "lastVerified": "2026-08-21",
+      "curationSource": "URI Research Training page linked from Workshop schedule Fall26.docx",
+      "iacrLibrary": true,
+      "id": "uri-iacr-self-paced-python-series",
+      "title": "IACR Self-Paced Python Training Video Series",
+      "topics": [
+        "Research",
+        "Technology",
+        "AI"
+      ],
+      "description": "Eight on-demand modules cover Python programming, data structures, NumPy, pandas, data visualization, supervised and unsupervised machine learning, and deep learning.",
+      "sourceUrl": "https://its.uri.edu/research-computing/research-training/"
+    },
+    {
+      "provider": "URI-IACR",
+      "status": "recommended",
+      "priority": "local",
+      "startDate": "2026-08-21",
+      "endDate": "2027-08-20",
+      "dateLabel": "Self-paced; available anytime",
+      "datePrecision": "ongoing",
+      "format": "Self-paced recordings and resources",
+      "audience": [
+        "Faculty",
+        "Graduate students",
+        "Postdocs",
+        "Staff",
+        "Researchers"
+      ],
+      "access": "Publicly available URI research-computing recordings and resources.",
+      "accessStatus": "verified",
+      "costStatus": "free",
+      "whyInclude": "Provides flexible, on-demand research-computing development for faculty who cannot attend a live session.",
+      "lastVerified": "2026-08-21",
+      "curationSource": "URI Research Training page linked from Workshop schedule Fall26.docx",
+      "iacrLibrary": true,
+      "id": "uri-iacr-self-paced-quantum-ibm-platform",
+      "title": "IACR Self-Paced Quantum Computing on the IBM Platform",
+      "topics": [
+        "Research",
+        "Technology"
+      ],
+      "description": "An on-demand introduction to quantum computing using the IBM platform.",
+      "sourceUrl": "https://uri.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=03238dc0-9bef-4562-bf24-af82010cbc06"
+    },
+    {
+      "provider": "URI-IACR",
+      "status": "recommended",
+      "priority": "local",
+      "startDate": "2026-08-21",
+      "endDate": "2027-08-20",
+      "dateLabel": "Self-paced; available anytime",
+      "datePrecision": "ongoing",
+      "format": "Self-paced recordings and resources",
+      "audience": [
+        "Faculty",
+        "Graduate students",
+        "Postdocs",
+        "Staff",
+        "Researchers"
+      ],
+      "access": "Publicly available URI research-computing recordings and resources.",
+      "accessStatus": "verified",
+      "costStatus": "free",
+      "whyInclude": "Provides flexible, on-demand research-computing development for faculty who cannot attend a live session.",
+      "lastVerified": "2026-08-21",
+      "curationSource": "URI Research Training page linked from Workshop schedule Fall26.docx",
+      "iacrLibrary": true,
+      "id": "uri-iacr-self-paced-qualtrics-basics",
+      "title": "IACR Self-Paced Qualtrics Basics",
+      "topics": [
+        "Research",
+        "Technology",
+        "Assessment"
+      ],
+      "description": "An on-demand introduction to getting started with Qualtrics; the recording was produced by Wagner College and is listed by URI because the concepts apply locally.",
+      "sourceUrl": "https://youtu.be/13H16TzAVx0?si=pS7M9WceO52Bzpp6"
     }
   ]
 }
