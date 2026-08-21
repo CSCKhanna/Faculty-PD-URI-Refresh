@@ -1,4 +1,4 @@
-import { AUDIENCE_GROUPS, resolveAudienceGroups } from "./audience-rules.mjs";
+import { AUDIENCE_GROUPS, resolveAudienceGroups } from "./audience-rules.mjs?v=20260821-staff-audiences";
 
 const DATA_URL = "./data/trainings.json";
 const TODAY = new Date("2026-06-02T12:00:00-04:00");
