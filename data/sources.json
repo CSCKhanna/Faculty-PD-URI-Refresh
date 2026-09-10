@@ -150,6 +150,7 @@
         "excludePatterns": [
           "Events and Webinars",
           "All categories",
+          "^Faculty Success Program$",
           "^AASCU",
           "^APLU",
           "^SREB"

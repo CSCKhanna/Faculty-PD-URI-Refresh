@@ -2,7 +2,7 @@
   "meta": {
     "title": "URI Academic Professional Development: Opportunities from URI and Member Organizations",
     "subtitle": "Professional development from URI and member organizations",
-    "lastUpdated": "2026-09-10T08:30:38.162Z",
+    "lastUpdated": "2026-09-10T20:25:31.000Z",
     "dataVersion": 1,
     "notes": [
       "The three starter DOCX files were imported locally on June 2, 2026.",
@@ -7156,6 +7156,25 @@
             "managedCatalogs": 0
           }
         ]
+      },
+      {
+        "ranAt": "2026-09-10T20:25:31.000Z",
+        "localDate": "2026-09-10",
+        "type": "manual-curation",
+        "manualChanges": [
+          {
+            "action": "removed-and-permanently-excluded",
+            "id": "ncfdd-faculty-success-program-hold",
+            "title": "Faculty Success Program",
+            "provider": "NCFDD"
+          },
+          {
+            "action": "revised-access-copy",
+            "id": "ncfdd-teaching-toolkit-ai-hold",
+            "title": "Teaching Toolkit in the Age of AI",
+            "provider": "NCFDD"
+          }
+        ]
       }
     ]
   },
@@ -8567,45 +8586,6 @@
       "lastVerified": "2026-06-02"
     },
     {
-      "id": "ncfdd-faculty-success-program-hold",
-      "title": "Faculty Success Program",
-      "provider": "NCFDD",
-      "status": "hold",
-      "priority": "sponsor-only",
-      "startDate": "2026-09-14",
-      "endDate": "2026-11-22",
-      "dateLabel": "Fall 2026 session listed September 14-November 22, 2026",
-      "datePrecision": "exact",
-      "format": "10-week coached program",
-      "topics": [
-        "Writing",
-        "Productivity",
-        "Promotion & Tenure"
-      ],
-      "audience": [
-        "Graduate students",
-        "Postdocs",
-        "New faculty",
-        "Early-career faculty",
-        "Associate professors",
-        "Full professors",
-        "Part-time faculty",
-        "Teaching-track faculty",
-        "Tenure-track faculty",
-        "Clinical faculty",
-        "Research faculty",
-        "Associate deans",
-        "Department chairs"
-      ],
-      "access": "Do not advertise as free unless URI sponsors seats.",
-      "accessStatus": "paid",
-      "costStatus": "paid-or-sponsor-needed",
-      "description": "Structured, coached productivity and writing program.",
-      "whyInclude": "Valuable but not part of the free/basic institutional membership list.",
-      "sourceUrl": "https://www.ncfdd.org/programs/faculty-success-program/",
-      "lastVerified": "2026-09-10"
-    },
-    {
       "id": "ncfdd-teaching-toolkit-ai-hold",
       "title": "Teaching Toolkit in the Age of AI",
       "provider": "NCFDD",
@@ -8635,7 +8615,7 @@
         "Associate deans",
         "Department chairs"
       ],
-      "access": "NCFDD lists the 2026 course at $495; do not advertise as free unless URI purchases/sponsors access.",
+      "access": "NCFDD lists the 2026 course at $495.",
       "accessStatus": "paid",
       "costStatus": "paid-or-sponsor-needed",
       "description": "Course on assessment, grading, teaching workload, and AI-informed teaching decisions.",

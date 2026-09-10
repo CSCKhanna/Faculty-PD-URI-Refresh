@@ -5,8 +5,11 @@ import {
   applyProviderAudienceRules,
   extractCatalogItems,
   extractCatalogTitles,
+  isPermanentlyExcludedOpportunity,
   reconcileCatalogItems,
   reconcileExpiredItems,
+  removePermanentlyExcludedOpportunities,
+  sanitizeOpportunityCopy,
   refreshNcfddWritingChallenge
 } from "./update-feeds.mjs";
 
@@ -92,6 +95,43 @@ test("applies every audience category to all NCFDD opportunities", () => {
   assert.deepEqual(items[0].audience, NCFDD_ALL_AUDIENCES);
   assert.deepEqual(items[1].audience, NCFDD_ALL_AUDIENCES);
   assert.deepEqual(items[2].audience, ["Faculty"]);
+});
+
+test("permanently excludes the NCFDD Faculty Success Program from updates", () => {
+  const items = [
+    { id: "fsp", provider: "NCFDD", title: "Faculty Success Program" },
+    { id: "other", provider: "NCFDD", title: "Faculty Success Program Preview Webinar" }
+  ];
+
+  assert.equal(isPermanentlyExcludedOpportunity(items[0]), true);
+  assert.equal(isPermanentlyExcludedOpportunity(items[1]), false);
+  assert.deepEqual(removePermanentlyExcludedOpportunities(items), [
+    { id: "fsp", provider: "NCFDD", title: "Faculty Success Program" }
+  ]);
+  assert.deepEqual(items.map((item) => item.id), ["other"]);
+
+  const source = {
+    key: "ncfdd_events",
+    provider: "NCFDD",
+    label: "NCFDD events",
+    type: "archive-page",
+    catalogSync: { minimumItems: 1 }
+  };
+  const result = reconcileCatalogItems([], source, ["Faculty Success Program", "Teaching Toolkit in the Age of AI"], "2026-09-10");
+  assert.deepEqual(result.discoveries.map((item) => item.title), ["Teaching Toolkit in the Age of AI"]);
+});
+
+test("removes disallowed access wording from existing and future opportunity copy", () => {
+  const items = [{
+    access: "NCFDD lists the course at $495; do not advertise as free unless URI purchases/sponsors access.",
+    description: "Do not advertise as free unless URI purchases/sponsors access.",
+    whyInclude: "Strong topic fit."
+  }];
+
+  assert.equal(sanitizeOpportunityCopy(items), 2);
+  assert.equal(items[0].access, "NCFDD lists the course at $495.");
+  assert.equal(items[0].description, "");
+  assert.equal(items[0].whyInclude, "Strong topic fit.");
 });
 
 test("extracts provider program titles without logistics labels", () => {

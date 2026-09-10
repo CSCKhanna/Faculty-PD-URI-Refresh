@@ -10,6 +10,11 @@ const dataPath = path.join(__dirname, "data", "trainings.json");
 const sourcesPath = path.join(__dirname, "data", "sources.json");
 const DISPLAY_TIME_ZONE = "America/New_York";
 const EXPIRING_DATE_PRECISIONS = new Set(["exact", "detected"]);
+const PERMANENTLY_EXCLUDED_OPPORTUNITIES = new Set([
+  "ncfdd:faculty success program"
+]);
+const DISALLOWED_ACCESS_COPY = /\s*;\s*do not advertise as free unless URI purchases\/sponsors access\./gi;
+const DISALLOWED_ACCESS_SENTENCE = /do not advertise as free unless URI purchases\/sponsors access\.?/gi;
 
 const TOPIC_KEYWORDS = {
   AI: ["ai", "artificial intelligence", "generative ai", "chatgpt"],
@@ -22,6 +27,8 @@ const TOPIC_KEYWORDS = {
 
 export async function updateFeeds() {
   const data = JSON.parse(await fs.readFile(dataPath, "utf8"));
+  const permanentlyExcluded = removePermanentlyExcludedOpportunities(data.trainings);
+  let sanitizedOpportunityFields = sanitizeOpportunityCopy(data.trainings);
   const sources = JSON.parse(await fs.readFile(sourcesPath, "utf8")).sources.filter((source) => source.enabled);
   const history = { runs: data.meta.updateHistory || [] };
   const previousSnapshots = new Map((data.meta.sourceSnapshots || []).map((snapshot) => [snapshot.key, snapshot]));
@@ -100,6 +107,7 @@ export async function updateFeeds() {
 
   const merged = mergeDiscoveries(data.trainings, discoveries);
   data.trainings = merged.trainings;
+  sanitizedOpportunityFields += sanitizeOpportunityCopy(data.trainings);
   applyProviderAudienceRules(data.trainings);
   const beforeExpiration = new Map(data.trainings.map((item) => [item.id, item.status]));
   const expiration = reconcileExpiredItems(data.trainings, today);
@@ -136,6 +144,8 @@ export async function updateFeeds() {
       label: snapshot.label
     })),
     providerChanges,
+    permanentlyExcluded,
+    sanitizedOpportunityFields,
     archivedPast,
     linkAudit,
     providerCoverage: summarizeProviderCoverage(data.trainings, sources)
@@ -163,7 +173,8 @@ export function reconcileCatalogItems(trainings, source, catalogItems, today) {
   const canonicalItems = uniqueCatalogItems(catalogItems.map((item) => {
     const normalized = typeof item === "string" ? { title: item } : item;
     return { ...normalized, title: sync.titleAliases?.[normalized.title] || normalized.title };
-  }), sync.identityIncludesDate);
+  }), sync.identityIncludesDate)
+    .filter((item) => !isPermanentlyExcludedOpportunity({ provider: source.provider, title: item.title }));
   if (canonicalItems.length < minimumItems) {
     return {
       status: "degraded",
@@ -314,6 +325,39 @@ export function applyProviderAudienceRules(trainings) {
     if (item.provider !== "NCFDD") continue;
     if (JSON.stringify(item.audience) !== JSON.stringify(NCFDD_ALL_AUDIENCES)) updated += 1;
     item.audience = [...NCFDD_ALL_AUDIENCES];
+  }
+  return updated;
+}
+
+export function isPermanentlyExcludedOpportunity(item) {
+  const key = `${String(item?.provider || "").trim().toLowerCase()}:${catalogTitleKey(item?.title || "")}`;
+  return PERMANENTLY_EXCLUDED_OPPORTUNITIES.has(key);
+}
+
+export function removePermanentlyExcludedOpportunities(trainings) {
+  const removed = trainings
+    .filter(isPermanentlyExcludedOpportunity)
+    .map(({ id, title, provider }) => ({ id, title, provider }));
+  if (!removed.length) return removed;
+  trainings.splice(0, trainings.length, ...trainings.filter((item) => !isPermanentlyExcludedOpportunity(item)));
+  return removed;
+}
+
+export function sanitizeOpportunityCopy(trainings) {
+  let updated = 0;
+  for (const item of trainings) {
+    for (const field of ["access", "description", "whyInclude"]) {
+      if (typeof item[field] !== "string") continue;
+      const cleaned = item[field]
+        .replace(DISALLOWED_ACCESS_COPY, ".")
+        .replace(DISALLOWED_ACCESS_SENTENCE, "")
+        .replace(/\s{2,}/g, " ")
+        .trim();
+      if (cleaned !== item[field]) {
+        item[field] = cleaned;
+        updated += 1;
+      }
+    }
   }
   return updated;
 }
@@ -563,6 +607,7 @@ function mergeDiscoveries(trainings, discoveries) {
   const byTitleProvider = new Set(trainings.map(discoveryKey));
 
   for (const discovery of discoveries) {
+    if (isPermanentlyExcludedOpportunity(discovery)) continue;
     const key = discoveryKey(discovery);
     if (byId.has(discovery.id) || byTitleProvider.has(key)) continue;
     trainings.push(discovery);
