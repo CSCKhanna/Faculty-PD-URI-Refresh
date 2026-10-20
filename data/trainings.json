@@ -2,21 +2,21 @@
   "meta": {
     "title": "URI Academic Professional Development: Opportunities from URI and Member Organizations",
     "subtitle": "Professional development from URI and member organizations",
-    "lastUpdated": "2026-10-19T09:25:14.314Z",
+    "lastUpdated": "2026-10-20T08:59:52.001Z",
     "dataVersion": 1,
     "notes": [
       "The three starter DOCX files were imported locally on June 2, 2026.",
       "The internal training grid labeled DO NOT USE was used only for planning signals such as audience, timing, and topic gaps; its internal presenter and logistics details were not published.",
       "NCFDD, CIRTL, CUR, EAB, and AAC&U access routes were verified from URI or user-provided membership information."
     ],
-    "nextUpdateRecommended": "2026-10-26T09:25:14.314Z",
+    "nextUpdateRecommended": "2026-10-27T08:59:52.001Z",
     "sourceSnapshots": [
       {
         "key": "uri_atl_fall_2026",
         "provider": "URI-ATL",
         "label": "URI ATL Fall 2026 programming",
         "url": "https://web.uri.edu/atl/fall-2026-atl-programming/",
-        "lastFetched": "2026-10-19T09:25:14.314Z",
+        "lastFetched": "2026-10-20T08:59:52.001Z",
         "status": "ok",
         "keywordsFound": [
           "Writing",
@@ -40,7 +40,7 @@
         "provider": "URI-ITS",
         "label": "URI ITS Training and Support",
         "url": "https://its.uri.edu/training-and-support/",
-        "lastFetched": "2026-10-19T09:25:14.314Z",
+        "lastFetched": "2026-10-20T08:59:52.001Z",
         "status": "ok",
         "keywordsFound": [
           "Brightspace",
@@ -51,7 +51,7 @@
         "detectedDates": [],
         "title": "Training",
         "snippet": "ing and Learning Services (TLS) are on the 2nd floor of the library, M-F, 8:30-4. Scheduled PD (In-person and Virtual) Oct 23 Reducing Your Brightspace Course Data 10:00 AM to 11:00 AM View Details View in Calendar Got a lot of material in Brightspace - you’re not alone. Cleaning up data can significantly improve your efficiency but data management can be a",
-        "contentHash": "db6d8c96f1d957d30a28401a20c4492dbcfe8e484d3793fc5055a5bf91b94a1b",
+        "contentHash": "1518a605c854f4de2e63a29853c1881c44c5a020e9d3038dc3bc5314aa1f902c",
         "changed": true
       },
       {
@@ -59,7 +59,7 @@
         "provider": "URI-IACR",
         "label": "URI IACR workshops and outreach",
         "url": "https://web.uri.edu/iacr/iacr-workshops-outreach/",
-        "lastFetched": "2026-10-19T09:25:14.314Z",
+        "lastFetched": "2026-10-20T08:59:52.001Z",
         "status": "ok",
         "keywordsFound": [
           "Generative AI",
@@ -81,7 +81,7 @@
         "provider": "URI-IACR",
         "label": "URI IACR self-paced research training",
         "url": "https://its.uri.edu/research-computing/research-training/",
-        "lastFetched": "2026-10-19T09:25:14.314Z",
+        "lastFetched": "2026-10-20T08:59:52.001Z",
         "status": "ok",
         "keywordsFound": [
           "AI Training",
@@ -102,7 +102,7 @@
         "provider": "NCFDD",
         "label": "URI NCFDD membership page",
         "url": "https://web.uri.edu/diversity/training/national-center-for-faculty-development-diversity-ncfdd/",
-        "lastFetched": "2026-10-19T09:25:14.314Z",
+        "lastFetched": "2026-10-20T08:59:52.001Z",
         "status": "ok",
         "keywordsFound": [],
         "detectedDates": [],
@@ -116,7 +116,7 @@
         "provider": "NCFDD",
         "label": "NCFDD 14-Day Writing Challenge",
         "url": "https://www.ncfdd.org/programs/14-day-writing-challenge/",
-        "lastFetched": "2026-10-19T09:25:14.314Z",
+        "lastFetched": "2026-10-20T08:59:52.001Z",
         "status": "ok",
         "keywordsFound": [
           "14-Day Writing Challenge",
@@ -150,7 +150,7 @@
         "provider": "NCFDD",
         "label": "NCFDD events and webinar archive",
         "url": "https://www.ncfdd.org/category/events-and-webinars/",
-        "lastFetched": "2026-10-19T09:25:14.314Z",
+        "lastFetched": "2026-10-20T08:59:52.001Z",
         "status": "ok",
         "keywordsFound": [
           "AI",
@@ -201,7 +201,7 @@
         "provider": "CIRTL",
         "label": "URI ATL CIRTL page",
         "url": "https://web.uri.edu/atl/graduate-students/",
-        "lastFetched": "2026-10-19T09:25:14.314Z",
+        "lastFetched": "2026-10-20T08:59:52.001Z",
         "status": "ok",
         "keywordsFound": [],
         "detectedDates": [],
@@ -215,7 +215,7 @@
         "provider": "CIRTL",
         "label": "CIRTL upcoming events and courses",
         "url": "https://cirtl.net/events/",
-        "lastFetched": "2026-10-19T09:25:14.314Z",
+        "lastFetched": "2026-10-20T08:59:52.001Z",
         "status": "ok",
         "keywordsFound": [
           "AI",
@@ -234,8 +234,8 @@
           }
         ],
         "title": "Events",
-        "snippet": "Events from October 19 - December 10 - CIRTL Network Skip to main content CIRTL Central Team Log In Calendar Contact Us About About CIRTL Why CIRTL Values Core Ideas Learning Goals Achievement Levels News Contact Us The CIRTL Network Institutions Leadership CIRTL Central Alumni Network Events & Courses Upcoming Past How to Attend CIRTL Network Transcripts Me",
-        "contentHash": "685e11bd13a975ee7fe4a5380c03996723b5e279e99d78a71fc532d5a6de17f2",
+        "snippet": "Events from October 20 - December 10 - CIRTL Network Skip to main content CIRTL Central Team Log In Calendar Contact Us About About CIRTL Why CIRTL Values Core Ideas Learning Goals Achievement Levels News Contact Us The CIRTL Network Institutions Leadership CIRTL Central Alumni Network Events & Courses Upcoming Past How to Attend CIRTL Network Transcripts Me",
+        "contentHash": "3399bb578d4f411dff461d4a42a0ce2a2cf9a8dc068a0f4a2f9fad3346d5e9e9",
         "changed": true
       },
       {
@@ -243,7 +243,7 @@
         "provider": "CIRTL",
         "label": "CIRTL Summer 2026 programming",
         "url": "https://cirtl.net/summer-2026-cirtl-network-programming/",
-        "lastFetched": "2026-10-19T09:25:14.314Z",
+        "lastFetched": "2026-10-20T08:59:52.001Z",
         "status": "ok",
         "keywordsFound": [
           "AI",
@@ -256,21 +256,21 @@
             "iso": "2026-04-24"
           },
           {
-            "label": "September 1, 2023",
-            "iso": "2023-09-01"
-          },
-          {
-            "label": "October 4, 2023",
-            "iso": "2023-10-04"
+            "label": "February 21, 2024",
+            "iso": "2024-02-21"
           },
           {
             "label": "July 7, 2022",
             "iso": "2022-07-07"
+          },
+          {
+            "label": "October 3, 2022",
+            "iso": "2022-10-03"
           }
         ],
         "title": "Summer 2026 CIRTL Network Programming",
         "snippet": "Summer 2026 CIRTL Network Programming - CIRTL Network Skip to main content CIRTL Central Team Log In Calendar Contact Us About About CIRTL Why CIRTL Values Core Ideas Learning Goals Achievement Levels News Contact Us The CIRTL Network Institutions Leadership CIRTL Central Alumni Network Events & Courses Upcoming Past How to Attend CIRTL Network Transcripts M",
-        "contentHash": "223998e21d231775566eb4f93e18b9cb764d4ceafa544c244da63e61acf2b5f2",
+        "contentHash": "5377fe2d719e3e1c83dfc5f50f2c3ca02dc850a9e99ea832e20b908db4ef337a",
         "changed": true
       },
       {
@@ -278,7 +278,7 @@
         "provider": "EAB",
         "label": "EAB Higher Education AI Resource Center",
         "url": "https://eab.com/resources/resource-center/higher-education-ai-resource-center/",
-        "lastFetched": "2026-10-19T09:25:14.314Z",
+        "lastFetched": "2026-10-20T08:59:52.001Z",
         "status": "ok",
         "keywordsFound": [
           "AI",
@@ -288,15 +288,15 @@
         "detectedDates": [],
         "title": "Higher Education AI Resource Center | EAB",
         "snippet": "Higher Education AI Resource Center | EAB Skip navigation EAB Logo Navigate to the EAB Homepage Navigate to EAB home Menu Close Solutions By Focus Area Marketing and Enrollment Graduate Marketing and Enrollment Student Success and Retention Data and Analytics Advancement Research and Advisory By Institution Type Colleges and Universities Community Colleges G",
-        "contentHash": "faf0d62f1e3b947872274bfbc6a34914145536d526b0e9e00d6c54a0cd953f61",
-        "changed": false
+        "contentHash": "f7b7a59f1f7418d5ff2e6416dcf200772e9dc0b23028f06079a885ebdde79800",
+        "changed": true
       },
       {
         "key": "eab_ai_toolkit",
         "provider": "EAB",
         "label": "EAB Construction Kit for Faculty AI Resources",
         "url": "https://eab.com/resources/tool/construction-kit-faculty-ai-resources/",
-        "lastFetched": "2026-10-19T09:25:14.314Z",
+        "lastFetched": "2026-10-20T08:59:52.001Z",
         "status": "ok",
         "keywordsFound": [
           "AI",
@@ -313,7 +313,7 @@
         "provider": "CUR",
         "label": "CUR Community event calendar",
         "url": "https://community.cur.org/events/calendar",
-        "lastFetched": "2026-10-19T09:25:14.314Z",
+        "lastFetched": "2026-10-20T08:59:52.001Z",
         "status": "ok",
         "keywordsFound": [
           "AI",
@@ -365,7 +365,7 @@
         "provider": "CUR",
         "label": "CUR COEUR 2.0",
         "url": "https://www.cur.org/resources-publications/coeur-2-0/",
-        "lastFetched": "2026-10-19T09:25:14.314Z",
+        "lastFetched": "2026-10-20T08:59:52.001Z",
         "status": "ok",
         "keywordsFound": [
           "COEUR",
@@ -387,7 +387,7 @@
         "provider": "CUR",
         "label": "CUR mentoring insight page",
         "url": "https://www.cur.org/insights/mentoring/",
-        "lastFetched": "2026-10-19T09:25:14.314Z",
+        "lastFetched": "2026-10-20T08:59:52.001Z",
         "status": "ok",
         "keywordsFound": [
           "Mentoring"
@@ -403,7 +403,7 @@
         "provider": "AAC&U",
         "label": "AAC&U AI Week listing",
         "url": "https://hawksites.newpaltz.edu/fdc/2026/04/21/aac-apr-27-30/",
-        "lastFetched": "2026-10-19T09:25:14.314Z",
+        "lastFetched": "2026-10-20T08:59:52.001Z",
         "status": "ok",
         "keywordsFound": [
           "AI"
@@ -424,7 +424,7 @@
         "provider": "CUR",
         "label": "CUR Enhanced Membership activation",
         "url": "https://www.cur.org/membership-community/membership/activate-enhanced-membership-benefits/",
-        "lastFetched": "2026-10-19T09:25:14.314Z",
+        "lastFetched": "2026-10-20T08:59:52.001Z",
         "status": "ok",
         "keywordsFound": [],
         "detectedDates": [],
@@ -438,7 +438,7 @@
         "provider": "CUR",
         "label": "CUR ConnectUR",
         "url": "https://www.cur.org/events-services/connectur/",
-        "lastFetched": "2026-10-19T09:25:14.314Z",
+        "lastFetched": "2026-10-20T08:59:52.001Z",
         "status": "ok",
         "keywordsFound": [
           "ConnectUR",
@@ -489,7 +489,7 @@
         "provider": "CUR",
         "label": "CUR Grant Dialogues",
         "url": "https://www.cur.org/events-services/dialogues/",
-        "lastFetched": "2026-10-19T09:25:14.314Z",
+        "lastFetched": "2026-10-20T08:59:52.001Z",
         "status": "ok",
         "keywordsFound": [
           "Grant Dialogues",
@@ -532,7 +532,7 @@
         "provider": "CUR",
         "label": "CUR on-demand learning courses",
         "url": "https://www.cur.org/events-services/on-demand-learning-courses/",
-        "lastFetched": "2026-10-19T09:25:14.314Z",
+        "lastFetched": "2026-10-20T08:59:52.001Z",
         "status": "ok",
         "keywordsFound": [
           "AI"
@@ -548,7 +548,7 @@
         "provider": "CIRTL",
         "label": "CIRTL Instructor Materials",
         "url": "https://cirtl.net/instructor-materials/",
-        "lastFetched": "2026-10-19T09:25:14.314Z",
+        "lastFetched": "2026-10-20T08:59:52.001Z",
         "status": "ok",
         "keywordsFound": [
           "Instructor Materials",
@@ -565,7 +565,7 @@
         "provider": "CIRTL",
         "label": "CIRTL Teaching-as-Research",
         "url": "https://cirtl.net/teaching-as-research/",
-        "lastFetched": "2026-10-19T09:25:14.314Z",
+        "lastFetched": "2026-10-20T08:59:52.001Z",
         "status": "ok",
         "keywordsFound": [
           "Teaching-as-Research"
@@ -581,7 +581,7 @@
         "provider": "CIRTL",
         "label": "CIRTL Disciplinary Learning Communities",
         "url": "https://cirtl.net/disciplinary-learning-communities/",
-        "lastFetched": "2026-10-19T09:25:14.314Z",
+        "lastFetched": "2026-10-20T08:59:52.001Z",
         "status": "ok",
         "keywordsFound": [
           "Disciplinary Learning Communities",
@@ -598,7 +598,7 @@
         "provider": "Other",
         "label": "Brown Advance-CTR Research Mentoring Training Programs",
         "url": "https://advancectr.brown.edu/events-training/research-mentoring-training-programs",
-        "lastFetched": "2026-10-19T09:25:14.314Z",
+        "lastFetched": "2026-10-20T08:59:52.001Z",
         "status": "ok",
         "keywordsFound": [
           "Research Mentoring Training",
@@ -625,7 +625,7 @@
       "detectedItems": 1,
       "addedDiscoveries": 0,
       "updatedKnownItems": 147,
-      "archivedPastItems": 19,
+      "archivedPastItems": 21,
       "restoredItems": 0
     },
     "sourceReconciliations": [
@@ -17636,6 +17636,326 @@
             "managedCatalogs": 0
           }
         ]
+      },
+      {
+        "ranAt": "2026-10-20T08:59:52.001Z",
+        "localDate": "2026-10-20",
+        "checkedSources": 24,
+        "successfulSources": 24,
+        "failedSources": [],
+        "added": [],
+        "changedSources": [
+          {
+            "key": "uri_its_training_support",
+            "provider": "URI-ITS",
+            "label": "URI ITS Training and Support"
+          },
+          {
+            "key": "cirtl_upcoming",
+            "provider": "CIRTL",
+            "label": "CIRTL upcoming events and courses"
+          },
+          {
+            "key": "cirtl_summer_2026",
+            "provider": "CIRTL",
+            "label": "CIRTL Summer 2026 programming"
+          },
+          {
+            "key": "eab_ai_center",
+            "provider": "EAB",
+            "label": "EAB Higher Education AI Resource Center"
+          }
+        ],
+        "providerChanges": [
+          {
+            "source": "uri_atl_fall_2026",
+            "provider": "URI-ATL",
+            "status": "ok",
+            "catalogItems": 25,
+            "added": [],
+            "missing": [
+              "The SoTL Guide Book Club"
+            ],
+            "removed": [],
+            "restored": []
+          },
+          {
+            "source": "uri_its_training_support",
+            "provider": "URI-ITS",
+            "status": "ok",
+            "catalogItems": 15,
+            "added": [],
+            "missing": [
+              "Merge Course Sections: Combine sections in Brightspace",
+              "Rhody Ed Tech Essentials",
+              "Brightspace Accessibility and URI Resources",
+              "Brightspace Basics",
+              "Panopto Basics: Create lectures",
+              "Is my course content accessible?",
+              "Screencasts, videos, captions and transcripts",
+              "Archive Your Course and Student Data",
+              "Accessibility of OER and External Course Resources",
+              "Panopto Advanced: Video Editing and Interactivity",
+              "EdTech Connect 1st Wednesday",
+              "Archive Your Course and Student Data",
+              "Accessibility and AI",
+              "Screencasts, videos, captions and transcripts training"
+            ],
+            "removed": [
+              "Merge Course Sections: Combine sections in Brightspace",
+              "Rhody Ed Tech Essentials",
+              "Brightspace Accessibility and URI Resources",
+              "Brightspace Basics",
+              "Panopto Basics: Create lectures",
+              "Is my course content accessible?",
+              "Screencasts, videos, captions and transcripts",
+              "Archive Your Course and Student Data",
+              "Accessibility of OER and External Course Resources",
+              "Panopto Advanced: Video Editing and Interactivity",
+              "EdTech Connect 1st Wednesday",
+              "Archive Your Course and Student Data",
+              "Accessibility and AI",
+              "Screencasts, videos, captions and transcripts training"
+            ],
+            "restored": []
+          },
+          {
+            "source": "ncfdd_events",
+            "provider": "NCFDD",
+            "status": "ok",
+            "catalogItems": 4,
+            "added": [],
+            "missing": [
+              "Planning for Rest and Recovery: An Agile End-of-Year Reflection"
+            ],
+            "removed": [],
+            "restored": []
+          },
+          {
+            "source": "cirtl_upcoming",
+            "provider": "CIRTL",
+            "status": "ok",
+            "catalogItems": 11,
+            "added": [
+              "UDL + AI Design Studio"
+            ],
+            "missing": [
+              "Writing an Effective Teaching Philosophy Statement",
+              "Thinking Like a Search Committee: Packaging Your Experience for a Tenure Track Faculty Position",
+              "Rethinking Assessment Design in the Age of AI: A Practical Framework",
+              "Real-World and Hands-On Learning: Learning-Centered Teaching Strategies for Student Success",
+              "A Student-Centered Approach to Plagiarism in the Age of Generative AI"
+            ],
+            "removed": [
+              "Writing an Effective Teaching Philosophy Statement",
+              "Thinking Like a Search Committee: Packaging Your Experience for a Tenure Track Faculty Position",
+              "Rethinking Assessment Design in the Age of AI: A Practical Framework",
+              "Real-World and Hands-On Learning: Learning-Centered Teaching Strategies for Student Success",
+              "A Student-Centered Approach to Plagiarism in the Age of Generative AI"
+            ],
+            "restored": []
+          },
+          {
+            "source": "cur_calendar",
+            "provider": "CUR",
+            "status": "ok",
+            "catalogItems": 9,
+            "added": [],
+            "missing": [],
+            "removed": [],
+            "restored": []
+          }
+        ],
+        "permanentlyExcluded": [],
+        "sanitizedOpportunityFields": 0,
+        "archivedPast": [
+          {
+            "id": "detected-cirtl-writing-an-effective-teaching-philosophy-statement",
+            "title": "Writing an Effective Teaching Philosophy Statement",
+            "provider": "CIRTL"
+          },
+          {
+            "id": "detected-cirtl-thinking-like-a-search-committee-packaging-your-experience-f",
+            "title": "Thinking Like a Search Committee: Packaging Your Experience for a Tenure Track Faculty Position",
+            "provider": "CIRTL"
+          },
+          {
+            "id": "detected-cirtl-rethinking-assessment-design-in-the-age-of-ai-a-practical-fr",
+            "title": "Rethinking Assessment Design in the Age of AI: A Practical Framework",
+            "provider": "CIRTL"
+          },
+          {
+            "id": "detected-cirtl-real-world-and-hands-on-learning-learning-centered-teaching-",
+            "title": "Real-World and Hands-On Learning: Learning-Centered Teaching Strategies for Student Success",
+            "provider": "CIRTL"
+          },
+          {
+            "id": "detected-cirtl-a-student-centered-approach-to-plagiarism-in-the-age-of-gene",
+            "title": "A Student-Centered Approach to Plagiarism in the Age of Generative AI",
+            "provider": "CIRTL"
+          },
+          {
+            "id": "detected-cirtl-designing-assignments-with-udl-supporting-student-emotional-",
+            "title": "Designing Assignments with UDL: Supporting Student Emotional Capacity",
+            "provider": "CIRTL"
+          },
+          {
+            "id": "detected-uri-its-merge-course-sections-combine-sections-in-brightspace-2026-08-21",
+            "title": "Merge Course Sections: Combine sections in Brightspace",
+            "provider": "URI-ITS"
+          },
+          {
+            "id": "detected-uri-its-rhody-ed-tech-essentials-2026-08-25",
+            "title": "Rhody Ed Tech Essentials",
+            "provider": "URI-ITS"
+          },
+          {
+            "id": "detected-uri-its-brightspace-accessibility-and-uri-resources-2026-09-04",
+            "title": "Brightspace Accessibility and URI Resources",
+            "provider": "URI-ITS"
+          },
+          {
+            "id": "detected-uri-its-brightspace-basics-2026-09-04",
+            "title": "Brightspace Basics",
+            "provider": "URI-ITS"
+          },
+          {
+            "id": "detected-uri-its-panopto-basics-create-lectures-2026-09-11",
+            "title": "Panopto Basics: Create lectures",
+            "provider": "URI-ITS"
+          },
+          {
+            "id": "detected-uri-its-is-my-course-content-accessible-2026-09-18",
+            "title": "Is my course content accessible?",
+            "provider": "URI-ITS"
+          },
+          {
+            "id": "detected-uri-its-screencasts-videos-captions-and-transcripts-2026-09-25",
+            "title": "Screencasts, videos, captions and transcripts",
+            "provider": "URI-ITS"
+          },
+          {
+            "id": "detected-uri-its-archive-your-course-and-student-data-2026-09-29",
+            "title": "Archive Your Course and Student Data",
+            "provider": "URI-ITS"
+          },
+          {
+            "id": "detected-uri-its-accessibility-of-oer-and-external-course-resources-2026-10-02",
+            "title": "Accessibility of OER and External Course Resources",
+            "provider": "URI-ITS"
+          },
+          {
+            "id": "detected-uri-its-panopto-advanced-video-editing-and-interactivity-2026-10-02",
+            "title": "Panopto Advanced: Video Editing and Interactivity",
+            "provider": "URI-ITS"
+          },
+          {
+            "id": "detected-uri-its-edtech-connect-1st-wednesday-2026-10-07",
+            "title": "EdTech Connect 1st Wednesday",
+            "provider": "URI-ITS"
+          },
+          {
+            "id": "detected-uri-its-archive-your-course-and-student-data-2026-10-09",
+            "title": "Archive Your Course and Student Data",
+            "provider": "URI-ITS"
+          },
+          {
+            "id": "detected-uri-its-accessibility-and-ai-2026-10-16",
+            "title": "Accessibility and AI",
+            "provider": "URI-ITS"
+          },
+          {
+            "id": "uri-iacr-bioinformatics-2026-10-19",
+            "title": "Bioinformatics on Unity",
+            "provider": "URI-IACR"
+          },
+          {
+            "id": "detected-uri-its-screencasts-videos-captions-and-transcripts-training-2026-09-25",
+            "title": "Screencasts, videos, captions and transcripts training",
+            "provider": "URI-ITS"
+          }
+        ],
+        "linkAudit": {
+          "checkedUrls": 94,
+          "successfulUrls": 93,
+          "goneUrls": [],
+          "transientErrors": [
+            {
+              "url": "https://www.aacu.org/",
+              "error": "HTTP 403"
+            }
+          ],
+          "removed": [],
+          "restored": []
+        },
+        "providerCoverage": [
+          {
+            "provider": "AAC&U",
+            "activeRecords": 2,
+            "configuredSources": 1,
+            "managedCatalogs": 0
+          },
+          {
+            "provider": "CIRTL",
+            "activeRecords": 11,
+            "configuredSources": 6,
+            "managedCatalogs": 1
+          },
+          {
+            "provider": "CUR",
+            "activeRecords": 17,
+            "configuredSources": 7,
+            "managedCatalogs": 1
+          },
+          {
+            "provider": "EAB",
+            "activeRecords": 4,
+            "configuredSources": 2,
+            "managedCatalogs": 0
+          },
+          {
+            "provider": "NCFDD",
+            "activeRecords": 18,
+            "configuredSources": 3,
+            "managedCatalogs": 1
+          },
+          {
+            "provider": "Other",
+            "activeRecords": 2,
+            "configuredSources": 1,
+            "managedCatalogs": 0
+          },
+          {
+            "provider": "URI",
+            "activeRecords": 2,
+            "configuredSources": 0,
+            "managedCatalogs": 0
+          },
+          {
+            "provider": "URI-ATL",
+            "activeRecords": 17,
+            "configuredSources": 1,
+            "managedCatalogs": 1
+          },
+          {
+            "provider": "URI-IACR",
+            "activeRecords": 18,
+            "configuredSources": 2,
+            "managedCatalogs": 0
+          },
+          {
+            "provider": "URI-ITS",
+            "activeRecords": 15,
+            "configuredSources": 1,
+            "managedCatalogs": 1
+          },
+          {
+            "provider": "URI-Provost's Office",
+            "activeRecords": 11,
+            "configuredSources": 0,
+            "managedCatalogs": 0
+          }
+        ]
       }
     ]
   },
@@ -17705,7 +18025,7 @@
       "description": "A practical AI session focused on deeper learning, creativity, human-centered innovation, critical thinking, collaboration, and reflective practice.",
       "whyInclude": "Strong first summer AI session for faculty who want to move beyond efficiency toward thoughtful course and research design.",
       "sourceUrl": "https://cirtl.net/summer-2026-cirtl-network-programming/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "statusBeforeExpiry": "recommended",
       "expiredAt": "2026-07-27"
     },
@@ -17737,7 +18057,7 @@
       "description": "Participants redesign one real teaching artifact using Universal Design for Learning and AI as a design assistant.",
       "whyInclude": "Applied, artifact-producing course that can support course revision and teaching evidence for review files.",
       "sourceUrl": "https://cirtl.net/event/udl-ai-design-studio/2026-06-26/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "statusBeforeExpiry": "recommended",
       "expiredAt": "2026-08-01"
     },
@@ -17777,7 +18097,7 @@
       "description": "A structured two-week challenge in which participants commit to at least 30 minutes of writing each weekday and log progress in an online community.",
       "whyInclude": "Creates summer writing momentum before fall preparation begins.",
       "sourceUrl": "https://www.ncfdd.org/programs/14-day-writing-challenge/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "statusBeforeExpiry": "recommended",
       "expiredAt": "2026-08-19"
     },
@@ -17840,7 +18160,7 @@
       "description": "A webinar for faculty who teach writing or use writing for learning and assessment in an AI-disrupted context.",
       "whyInclude": "Directly connects two priority themes: writing pedagogy and generative AI.",
       "sourceUrl": "https://hawksites.newpaltz.edu/fdc/2026/04/21/aac-apr-27-30/",
-      "lastVerified": "2026-10-19"
+      "lastVerified": "2026-10-20"
     },
     {
       "id": "ncfdd-writing-challenge-august-2026",
@@ -17878,7 +18198,7 @@
       "description": "A structured two-week challenge to rebuild writing routines before the academic year begins.",
       "whyInclude": "Well-timed pre-semester writing reset.",
       "sourceUrl": "https://www.ncfdd.org/programs/14-day-writing-challenge/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "statusBeforeExpiry": "recommended",
       "expiredAt": "2026-08-17"
     },
@@ -17910,7 +18230,7 @@
       "description": "Toolkit for building faculty AI policy guidance and resource lists for curricular and teaching practice.",
       "whyInclude": "Useful for departments that need a practical AI resource list before fall syllabi are finalized.",
       "sourceUrl": "https://eab.com/resources/tool/construction-kit-faculty-ai-resources/",
-      "lastVerified": "2026-10-19"
+      "lastVerified": "2026-10-20"
     },
     {
       "id": "ncfdd-develop-daily-writing-practice-2026",
@@ -17949,7 +18269,7 @@
       "description": "Writing routine webinar that explicitly connects daily writing practice to tenure and promotion expectations.",
       "whyInclude": "Good first-month-of-fall intervention for sustainable scholarly productivity.",
       "sourceUrl": "https://www.ncfdd.org/events/members-only-develop-daily-writing-practice/",
-      "lastVerified": "2026-10-19"
+      "lastVerified": "2026-10-20"
     },
     {
       "id": "ncfdd-writing-challenge-september-2026",
@@ -17987,7 +18307,7 @@
       "description": "A structured writing challenge after fall teaching routines have started to settle.",
       "whyInclude": "A timely fall writing push for manuscripts, grant proposals, books, exhibits, and other scholarly work.",
       "sourceUrl": "https://www.ncfdd.org/programs/14-day-writing-challenge/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "statusBeforeExpiry": "recommended",
       "expiredAt": "2026-10-05"
     },
@@ -18028,7 +18348,7 @@
       "description": "Time management, academic writing, support networks, and alignment with institutional and personal priorities.",
       "whyInclude": "Good fit for new and early-career faculty navigating writing expectations and first-year overload.",
       "sourceUrl": "https://www.ncfdd.org/events/members-only-mastering-academic-time-management/",
-      "lastVerified": "2026-10-19"
+      "lastVerified": "2026-10-20"
     },
     {
       "id": "ncfdd-ais-go-marching-on-recording",
@@ -18066,7 +18386,7 @@
       "description": "Practical and ethical approaches to AI in teaching and learning, including hands-on activities and draft materials.",
       "whyInclude": "Works well as a fall teaching-and-learning discussion session after faculty have seen AI issues in live courses.",
       "sourceUrl": "https://www.ncfdd.org/events-and-webinars/finding-way-with-ai-education/",
-      "lastVerified": "2026-10-19"
+      "lastVerified": "2026-10-20"
     },
     {
       "id": "eab-higher-ed-ai-resource-center",
@@ -18096,7 +18416,7 @@
       "description": "Research, strategy, and guidance on AI across student success, enrollment, and higher education strategy.",
       "whyInclude": "Useful for chairs, deans, and faculty leaders who need governance and institutional-strategy context.",
       "sourceUrl": "https://eab.com/resources/resource-center/higher-education-ai-resource-center/",
-      "lastVerified": "2026-10-19"
+      "lastVerified": "2026-10-20"
     },
     {
       "id": "cur-coeur-2-0-webinar",
@@ -18126,7 +18446,7 @@
       "description": "COEUR 2.0 offers a framework for building successful and accessible undergraduate research programs.",
       "whyInclude": "Helps faculty and programs document undergraduate research mentoring as teaching, scholarship, and service evidence.",
       "sourceUrl": "https://www.cur.org/resources-publications/coeur-2-0/",
-      "lastVerified": "2026-10-19"
+      "lastVerified": "2026-10-20"
     },
     {
       "id": "cur-mentoring-webinar-archive",
@@ -18155,7 +18475,7 @@
       "description": "Includes mentoring resources such as Mentoring through Failure and Mentoring in Engineering Undergraduate Research.",
       "whyInclude": "Can support faculty in documenting undergraduate mentoring quality and outcomes in annual review and promotion materials.",
       "sourceUrl": "https://www.cur.org/insights/mentoring/",
-      "lastVerified": "2026-10-19"
+      "lastVerified": "2026-10-20"
     },
     {
       "id": "ncfdd-core-curriculum-2027",
@@ -18195,7 +18515,7 @@
       "description": "NCFDD core and guest expert webinars, member library, accountability buddy matches, and writing resources.",
       "whyInclude": "A flexible January restart for faculty planning, writing, boundaries, mentoring networks, and productivity.",
       "sourceUrl": "https://web.uri.edu/diversity/training/national-center-for-faculty-development-diversity-ncfdd/",
-      "lastVerified": "2026-10-19"
+      "lastVerified": "2026-10-20"
     },
     {
       "id": "cur-teacher-research-thinking-reasoning-ai",
@@ -18224,7 +18544,7 @@
       "description": "Webinar on teacher research thinking and reasoning AI, including benefits and risks.",
       "whyInclude": "Good AI option for faculty thinking about inquiry, student research, and education contexts.",
       "sourceUrl": "https://www.cur.org/membership-community/divisions/education-division/",
-      "lastVerified": "2026-10-19"
+      "lastVerified": "2026-10-20"
     },
     {
       "id": "eab-ai-at-the-tipping-point",
@@ -18313,7 +18633,7 @@
       "description": "Placeholder to refresh the page with the newest CIRTL AI, inclusive teaching, and teaching-as-research offerings.",
       "whyInclude": "CIRTL schedules change by semester and should be refreshed rather than frozen.",
       "sourceUrl": "https://cirtl.net/",
-      "lastVerified": "2026-10-19"
+      "lastVerified": "2026-10-20"
     },
     {
       "id": "aacu-ai-week-refresh-2027",
@@ -18370,7 +18690,7 @@
       "description": "A 9-hour, peer-driven program based on CIMER/NRMN mentor-training curriculum that helps faculty mentors strengthen communication, mentoring strategies, and professional-development outcomes.",
       "whyInclude": "Adds a strong mentoring-focused option that complements CUR undergraduate-research mentoring and NCFDD mentoring/planning resources.",
       "sourceUrl": "https://advancectr.brown.edu/events-training/research-mentoring-training-programs",
-      "lastVerified": "2026-10-19"
+      "lastVerified": "2026-10-20"
     },
     {
       "id": "other-brown-advance-mentors-supporting-mentors",
@@ -18398,7 +18718,7 @@
       "description": "Quarterly Zoom meetings where trained mentors discuss mentoring issues and relevant topics with members of the Mentoring Steering Committee.",
       "whyInclude": "Keeps mentoring development active after the initial training and gives faculty a peer network for research mentoring questions.",
       "sourceUrl": "https://advancectr.brown.edu/events-training/research-mentoring-training-programs",
-      "lastVerified": "2026-10-19"
+      "lastVerified": "2026-10-20"
     },
     {
       "id": "uri-atl-part-time-course-prep-consultations-fall-2026",
@@ -18426,7 +18746,7 @@
       "whyInclude": "Provides flexible, individualized teaching support throughout the semester.",
       "registrationUrl": "https://calendar.app.google/SLYjPtEBosKoDKt1A",
       "sourceUrl": "https://web.uri.edu/atl/part-time-faculty-course-prep-teaching-consultations/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "statusBeforeExpiry": "recommended",
       "expiredAt": "2026-09-19"
     },
@@ -18456,7 +18776,7 @@
       "whyInclude": "Offers a flexible, concentrated day of practical teaching and research-assignment development before the fall semester is fully underway.",
       "registrationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSdp2ssu_ULXawdAyQy6Cd-_DvGmAY1-mKPddlxjeTZFHRII-Q/viewform",
       "sourceUrl": "https://web.uri.edu/atl/faculty-learning-day-2026/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "statusBeforeExpiry": "recommended",
       "expiredAt": "2026-09-04"
     },
@@ -18486,7 +18806,7 @@
       "whyInclude": "Offers immediately usable strategies for more collaborative and inclusive teaching.",
       "registrationUrl": "https://forms.gle/DoSntRey5KEKjkhZ6",
       "sourceUrl": "https://web.uri.edu/atl/atls-single-session-workshops/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "statusBeforeExpiry": "recommended",
       "expiredAt": "2026-09-16"
     },
@@ -18517,7 +18837,7 @@
       "whyInclude": "Creates a low-barrier community-building opportunity for part-time instructors.",
       "registrationUrl": "https://forms.gle/o1QsvRbZrCyyLwRi6",
       "sourceUrl": "https://web.uri.edu/atl/part-time-faculty-meet-greet/",
-      "lastVerified": "2026-10-19"
+      "lastVerified": "2026-10-20"
     },
     {
       "id": "uri-atl-walk-talk-fall-2026",
@@ -18545,7 +18865,7 @@
       "whyInclude": "Combines collegial connection, teaching conversation, and a restorative break.",
       "registrationUrl": "https://forms.gle/Bpx5RPn7UpezyjXG7",
       "sourceUrl": "https://web.uri.edu/atl/atl-walk-talk/",
-      "lastVerified": "2026-10-19"
+      "lastVerified": "2026-10-20"
     },
     {
       "id": "uri-atl-strategies-tools-graduate-tas-fall-2026",
@@ -18573,7 +18893,7 @@
       "whyInclude": "Offers structured, recognized professional development for graduate instructors.",
       "registrationUrl": "https://forms.gle/sdNz2aCVEB3mP3J17",
       "sourceUrl": "https://web.uri.edu/atl/strategies-and-tools-for-graduate-teaching-assistants/",
-      "lastVerified": "2026-10-19"
+      "lastVerified": "2026-10-20"
     },
     {
       "id": "uri-atl-unraveling-faculty-burnout-book-club-fall-2026",
@@ -18601,7 +18921,7 @@
       "whyInclude": "Supports sustainable faculty careers through evidence-informed reflection and peer community.",
       "registrationUrl": "https://forms.gle/QQHh4z1GtRsy4vvg9",
       "sourceUrl": "https://web.uri.edu/atl/book-club-unraveling-faculty-burnout/",
-      "lastVerified": "2026-10-19"
+      "lastVerified": "2026-10-20"
     },
     {
       "id": "uri-atl-part-time-faculty-community-practice-fall-2026",
@@ -18629,7 +18949,7 @@
       "whyInclude": "Provides sustained peer support tailored to part-time instructors.",
       "registrationUrl": "https://forms.gle/ik9RF7GNDHq2SiUo7",
       "sourceUrl": "https://web.uri.edu/atl/part-time-faculty-cop/",
-      "lastVerified": "2026-10-19"
+      "lastVerified": "2026-10-20"
     },
     {
       "id": "uri-atl-intentional-rest-fall-2026",
@@ -18656,7 +18976,7 @@
       "whyInclude": "Helps faculty build sustainable work practices and protect well-being.",
       "registrationUrl": "https://forms.gle/ig41bgvEtwCLD4ocA",
       "sourceUrl": "https://web.uri.edu/atl/cultivating-vitality-through-intentional-rest/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "statusBeforeExpiry": "recommended",
       "expiredAt": "2026-09-29"
     },
@@ -18686,7 +19006,7 @@
       "whyInclude": "Connects faculty well-being, collegiality, and sustainable academic practice.",
       "registrationUrl": "https://forms.gle/j72QWPisPCSZ4vRC6",
       "sourceUrl": "https://web.uri.edu/atl/book-club-the-slow-professor-challenging-the-culture-of-speed-in-the-academy/",
-      "lastVerified": "2026-10-19"
+      "lastVerified": "2026-10-20"
     },
     {
       "id": "uri-atl-faculty-tools-support-students-fall-2026",
@@ -18715,7 +19035,7 @@
       "whyInclude": "Helps instructors use URI systems confidently when students need support.",
       "registrationUrl": "https://forms.gle/DoSntRey5KEKjkhZ6",
       "sourceUrl": "https://web.uri.edu/atl/atls-single-session-workshops/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "statusBeforeExpiry": "recommended",
       "expiredAt": "2026-10-01"
     },
@@ -18744,7 +19064,7 @@
       "whyInclude": "Provides practical support for faculty well-being and sustainable work.",
       "registrationUrl": "https://forms.gle/bPd69ftV9LhR6CfA7",
       "sourceUrl": "https://web.uri.edu/atl/understanding-and-mitigating-burnout/",
-      "lastVerified": "2026-10-19"
+      "lastVerified": "2026-10-20"
     },
     {
       "id": "uri-atl-finishing-semester-strong-fall-2026",
@@ -18772,7 +19092,7 @@
       "whyInclude": "Gives new faculty timely strategies for completing their first fall semester well.",
       "registrationUrl": "https://forms.gle/c3JJRnii5WbFmrd9A",
       "sourceUrl": "https://web.uri.edu/atl/new-faculty-teaching-pathway/",
-      "lastVerified": "2026-10-19"
+      "lastVerified": "2026-10-20"
     },
     {
       "id": "uri-atl-assessing-learning-fall-2026",
@@ -18800,7 +19120,7 @@
       "whyInclude": "Supports stronger assessment practice and evidence of teaching effectiveness.",
       "registrationUrl": "https://forms.gle/c3JJRnii5WbFmrd9A",
       "sourceUrl": "https://web.uri.edu/atl/new-faculty-teaching-pathway/",
-      "lastVerified": "2026-10-19"
+      "lastVerified": "2026-10-20"
     },
     {
       "id": "uri-atl-consultations-ongoing",
@@ -18827,7 +19147,7 @@
       "description": "Meet with an ATL team member to discuss a class, assignment, teaching question, or curriculum.",
       "whyInclude": "Provides individualized support when a scheduled workshop does not fit the instructor's need.",
       "sourceUrl": "https://web.uri.edu/atl/what/meet/",
-      "lastVerified": "2026-10-19"
+      "lastVerified": "2026-10-20"
     },
     {
       "id": "uri-atl-brightspace-basics-ongoing",
@@ -18854,7 +19174,7 @@
       "description": "A self-paced course covering the Brightspace essentials instructors need to get started and manage a course.",
       "whyInclude": "Offers anytime access to foundational learning-management-system training.",
       "sourceUrl": "https://web.uri.edu/atl/basic-brightspace-training-course/",
-      "lastVerified": "2026-10-19"
+      "lastVerified": "2026-10-20"
     },
     {
       "id": "uri-atl-academic-testing-center-ongoing",
@@ -18882,7 +19202,7 @@
       "description": "Professional proctoring and assessment support designed to promote integrity, equity, accessibility, and student learning outcomes.",
       "whyInclude": "Connects instructors with an ongoing URI resource for accessible and inclusive assessment.",
       "sourceUrl": "https://uri.edu/atc",
-      "lastVerified": "2026-10-19"
+      "lastVerified": "2026-10-20"
     },
     {
       "id": "uri-atl-strategies-tools-new-faculty-fall-2026",
@@ -18910,7 +19230,7 @@
       "whyInclude": "This is the first required component of URI's year-long New Faculty Teaching Pathway and helps new faculty establish a strong teaching record.",
       "registrationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeqVaNaJ1kQbvGybo__Dir7w-ncvdt9ICZyvyiqwlx1LUG3Vw/viewform",
       "sourceUrl": "https://web.uri.edu/atl/2026-strategies-and-tools-for-teaching-at-uri/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "statusBeforeExpiry": "recommended",
       "expiredAt": "2026-08-20"
     },
@@ -18939,7 +19259,7 @@
       "whyInclude": "Reflective teaching can help faculty articulate growth, choices, and evidence of effectiveness in annual review and promotion materials.",
       "registrationUrl": "https://forms.gle/DoSntRey5KEKjkhZ6",
       "sourceUrl": "https://web.uri.edu/atl/atls-single-session-workshops/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "statusBeforeExpiry": "recommended",
       "expiredAt": "2026-09-17"
     },
@@ -18970,8 +19290,8 @@
       "whyInclude": "The series connects reflective teaching, project design, scholarly writing, and a potential contribution to a faculty member's promotion record.",
       "registrationUrl": "https://forms.gle/h2j2vcCVPCmEk1dp6",
       "sourceUrl": "https://web.uri.edu/atl/the-sotl-guide-book-club/",
-      "lastVerified": "2026-10-19",
-      "sourceMissingCount": 19,
+      "lastVerified": "2026-10-20",
+      "sourceMissingCount": 20,
       "sourceMissingSince": "2026-10-01",
       "statusBeforeSourceRemoval": "recommended",
       "sourceRemovedAt": "2026-10-02",
@@ -19004,7 +19324,7 @@
       "whyInclude": "These local retreats provide protected writing time at two useful points in the fall semester.",
       "registrationUrl": "https://forms.gle/ZxTfR2SgYXyFw7VH6",
       "sourceUrl": "https://web.uri.edu/atl/fall-writing-retreats/",
-      "lastVerified": "2026-10-19"
+      "lastVerified": "2026-10-20"
     },
     {
       "id": "uri-atl-idea-more-than-a-number-fall-2026",
@@ -19032,7 +19352,7 @@
       "whyInclude": "The workshop helps faculty interpret teaching feedback and connect it to reflective improvement and evidence of teaching effectiveness.",
       "registrationUrl": "https://forms.gle/c3JJRnii5WbFmrd9A",
       "sourceUrl": "https://web.uri.edu/atl/new-faculty-teaching-pathway/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "statusBeforeExpiry": "recommended",
       "expiredAt": "2026-10-09"
     },
@@ -19101,7 +19421,7 @@
       "description": "Course on assessment, grading, teaching workload, and AI-informed teaching decisions.",
       "whyInclude": "Strong topic fit, but it should be held unless funding is available.",
       "sourceUrl": "https://www.ncfdd.org/programs/teaching-toolkit/",
-      "lastVerified": "2026-10-19"
+      "lastVerified": "2026-10-20"
     },
     {
       "id": "cur-connectur-2026-hold",
@@ -19130,7 +19450,7 @@
       "description": "CUR's annual conference focuses on practical strategies, leadership insights, inclusive approaches, emerging trends, scalable practices, and campus impact in undergraduate research.",
       "whyInclude": "Useful, but should not appear in a free/membership list unless covered or confirmed free.",
       "sourceUrl": "https://www.cur.org/events-services/connectur/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "statusBeforeExpiry": "hold",
       "expiredAt": "2026-07-27"
     },
@@ -19174,7 +19494,7 @@
       "description": "NCFDD event/archive item on creating a realistic summer plan for writing, research, rest, and faculty productivity. Review access and date before advertising.",
       "whyInclude": "Newly detected by the updater because the source page matched the calendar's priority topics.",
       "sourceUrl": "https://www.ncfdd.org/category/events-and-webinars/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "statusBeforeExpiry": "discovered",
       "expiredAt": "2026-07-27"
@@ -19404,7 +19724,7 @@
       "description": "Materials from selected CIRTL courses and workshops, including syllabi, course plans, handouts, slides, and assignments.",
       "whyInclude": "Useful for faculty adapting evidence-based teaching materials without waiting for a live course.",
       "sourceUrl": "https://cirtl.net/instructor-materials/",
-      "lastVerified": "2026-10-19"
+      "lastVerified": "2026-10-20"
     },
     {
       "id": "cirtl-teaching-as-research-pathway",
@@ -19434,7 +19754,7 @@
       "description": "Teaching-as-Research uses deliberate, systematic, and reflective inquiry to improve teaching practices and student learning outcomes.",
       "whyInclude": "Helps faculty connect teaching improvement to evidence that can be documented in annual review or promotion materials.",
       "sourceUrl": "https://cirtl.net/teaching-as-research/",
-      "lastVerified": "2026-10-19"
+      "lastVerified": "2026-10-20"
     },
     {
       "id": "cirtl-disciplinary-learning-communities",
@@ -19464,7 +19784,7 @@
       "description": "Two curricula and survey tools that departments can use to facilitate disciplinary learning communities around teaching and discipline-based education research.",
       "whyInclude": "Gives chairs and programs a ready structure for department-level faculty development.",
       "sourceUrl": "https://cirtl.net/disciplinary-learning-communities/",
-      "lastVerified": "2026-10-19"
+      "lastVerified": "2026-10-20"
     },
     {
       "id": "cur-enhanced-membership-activation",
@@ -19495,7 +19815,7 @@
       "description": "Faculty, mentors, administrators, students, and staff can activate CUR membership benefits and access CUR communities, divisions, resources, and member materials.",
       "whyInclude": "This should be the first CUR item promoted so faculty can unlock the rest of the CUR resources.",
       "sourceUrl": "https://www.cur.org/membership-community/membership/activate-enhanced-membership-benefits/",
-      "lastVerified": "2026-10-19"
+      "lastVerified": "2026-10-20"
     },
     {
       "id": "cur-community-forums",
@@ -19525,7 +19845,7 @@
       "description": "CUR offers online forums for disciplinary divisions, jobs, student journals, and resource-sharing among undergraduate research mentors and program leaders.",
       "whyInclude": "A lightweight way for faculty to find discipline-specific undergraduate research mentoring examples and colleagues.",
       "sourceUrl": "https://community.cur.org/home",
-      "lastVerified": "2026-10-19"
+      "lastVerified": "2026-10-20"
     },
     {
       "id": "cur-publications-member-resources",
@@ -19583,7 +19903,7 @@
       "description": "A CUR and NGMA professional development event on navigating the funding landscape.",
       "whyInclude": "Strong writing/grants fit, but should not be advertised as free without cost confirmation.",
       "sourceUrl": "https://www.cur.org/events-services/dialogues/",
-      "lastVerified": "2026-10-19"
+      "lastVerified": "2026-10-20"
     },
     {
       "id": "cur-on-demand-ai-writing-courses-hold",
@@ -19613,7 +19933,7 @@
       "description": "Potentially relevant courses include Ethical Use of AI in Higher Education, Introduction to ChatGPT for Academic Research, Master Class on Grant Writing Best Practices, and Building Mentorship and Student Supervision Skills for University Faculty.",
       "whyInclude": "Excellent topic fit for AI, writing, and mentoring, but cost status needs review.",
       "sourceUrl": "https://www.cur.org/events-services/on-demand-learning-courses/",
-      "lastVerified": "2026-10-19"
+      "lastVerified": "2026-10-20"
     },
     {
       "id": "uri-cur-ur-welcome-packet-session",
@@ -19642,7 +19962,7 @@
       "description": "A short orientation module that explains URI's CUR membership, how to activate benefits, how undergraduate research supports faculty work, and how to document undergraduate research mentoring for annual review and promotion.",
       "whyInclude": "The CUR resource-system document specifically recommends a new-faculty welcome packet, activation instructions, inspiring UR examples, and guidance on noting UR activity for P&T.",
       "sourceUrl": "https://www.cur.org/membership-community/membership/activate-enhanced-membership-benefits/",
-      "lastVerified": "2026-10-19"
+      "lastVerified": "2026-10-20"
     },
     {
       "id": "detected-cur-connectur-2026-onsite-only-or-bundle-registration-deadline-1",
@@ -19668,7 +19988,7 @@
       "description": "Upcoming Events - Council on Undergraduate Research Skip to main content (Press Enter). Sign in Skip auxiliary navigation (Press Enter). Contact Us Rules & Etiquette CUR Homepage Skip main navigation (Press Enter). Toggle navigation Home Forums All Forums My Forums Directory Events Upcoming Events Resources Job Board Volunteer Opportunities Making the Most o",
       "whyInclude": "Newly detected by the updater because the source page matched the calendar's priority topics.",
       "sourceUrl": "https://community.cur.org/events/calendar",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "statusBeforeExpiry": "discovered",
       "expiredAt": "2026-07-27"
@@ -19697,7 +20017,7 @@
       "description": "Upcoming Events - Council on Undergraduate Research Skip to main content (Press Enter). Sign in Skip auxiliary navigation (Press Enter). Contact Us Rules & Etiquette CUR Homepage Skip main navigation (Press Enter). Toggle navigation Home Forums All Forums My Forums Directory Events Upcoming Events Resources Job Board Volunteer Opportunities Making the Most o",
       "whyInclude": "Newly detected by the updater because the source page matched the calendar's priority topics.",
       "sourceUrl": "https://community.cur.org/events/calendar",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "statusBeforeExpiry": "discovered",
       "expiredAt": "2026-07-27"
@@ -19726,7 +20046,7 @@
       "description": "Upcoming Events - Council on Undergraduate Research Skip to main content (Press Enter). Sign in Skip auxiliary navigation (Press Enter). Contact Us Rules & Etiquette CUR Homepage Skip main navigation (Press Enter). Toggle navigation Home Forums All Forums My Forums Directory Events Upcoming Events Resources Job Board Volunteer Opportunities Making the Most o",
       "whyInclude": "Newly detected by the updater because the source page matched the calendar's priority topics.",
       "sourceUrl": "https://community.cur.org/events/calendar",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "statusBeforeExpiry": "discovered",
       "expiredAt": "2026-07-27"
@@ -20276,7 +20596,7 @@
       "description": "New opportunity detected on URI ATL Fall 2026 programming.",
       "whyInclude": "Added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://web.uri.edu/atl/fall-2026-atl-programming/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "uri_atl_fall_2026"
     },
@@ -20303,7 +20623,7 @@
       "description": "New opportunity detected on URI ATL Fall 2026 programming.",
       "whyInclude": "Added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://web.uri.edu/atl/fall-2026-atl-programming/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "uri_atl_fall_2026",
       "statusBeforeSourceRemoval": "discovered",
@@ -20345,7 +20665,7 @@
       "description": "A free, structured two-week opportunity to build a consistent writing habit with accountability and community support.",
       "whyInclude": "Automatically added from NCFDD's published Writing Challenge schedule.",
       "sourceUrl": "https://www.ncfdd.org/programs/14-day-writing-challenge/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "ncfdd_writing_challenge"
     },
@@ -20384,7 +20704,7 @@
       "description": "A free, structured two-week opportunity to build a consistent writing habit with accountability and community support.",
       "whyInclude": "Automatically added from NCFDD's published Writing Challenge schedule.",
       "sourceUrl": "https://www.ncfdd.org/programs/14-day-writing-challenge/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "ncfdd_writing_challenge"
     },
@@ -20423,7 +20743,7 @@
       "description": "A free, structured two-week opportunity to build a consistent writing habit with accountability and community support.",
       "whyInclude": "Automatically added from NCFDD's published Writing Challenge schedule.",
       "sourceUrl": "https://www.ncfdd.org/programs/14-day-writing-challenge/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "ncfdd_writing_challenge"
     },
@@ -20462,7 +20782,7 @@
       "description": "A free, structured two-week opportunity to build a consistent writing habit with accountability and community support.",
       "whyInclude": "Automatically added from NCFDD's published Writing Challenge schedule.",
       "sourceUrl": "https://www.ncfdd.org/programs/14-day-writing-challenge/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "ncfdd_writing_challenge"
     },
@@ -20501,7 +20821,7 @@
       "description": "New opportunity detected on NCFDD events and webinar archive.",
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://www.ncfdd.org/events-and-webinars/every-semester-needs-a-plan-recording/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "ncfdd_events"
     },
@@ -20540,7 +20860,7 @@
       "description": "New opportunity detected on NCFDD events and webinar archive.",
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://www.ncfdd.org/events-and-webinars/state-faculty-development-webinar-recording/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "ncfdd_events"
     },
@@ -20579,7 +20899,7 @@
       "description": "New opportunity detected on NCFDD events and webinar archive.",
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://www.ncfdd.org/events-and-webinars/fsp-preview-webinar-boundaries/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "ncfdd_events"
     },
@@ -20619,7 +20939,7 @@
       "description": "New opportunity detected on NCFDD events and webinar archive.",
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://www.ncfdd.org/events-and-webinars/csp-preview-webinar/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "ncfdd_events"
     },
@@ -20658,10 +20978,10 @@
       "description": "New opportunity detected on NCFDD events and webinar archive.",
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://www.ncfdd.org/events-and-webinars/planning-rest-recovery-agile/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "ncfdd_events",
-      "sourceMissingCount": 31,
+      "sourceMissingCount": 32,
       "sourceMissingSince": "2026-09-19",
       "statusBeforeSourceRemoval": "discovered",
       "sourceRemovedAt": "2026-09-20",
@@ -20690,7 +21010,7 @@
       "description": "&lt;p&gt;Learn more about and register for CIRTL\\'s self-paced, asynchronous offerings for 2025-2026. &lt;/p&gt;\\n",
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://cirtl.net/event/self-paced-courses/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "cirtl_upcoming"
     },
@@ -20717,7 +21037,7 @@
       "description": "&lt;p&gt;Get an introduction to key learning principles and the basics of effective, evidence-based teaching practices in this course. This interactive, 10-week online course meets in Zoom and has a cap of 100 seats. Members & alumni are prioritized in enrollment.&lt;/p&gt;\\n",
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://cirtl.net/event/the-college-classroom-5/2026-09-08/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "cirtl_upcoming",
       "statusBeforeExpiry": "discovered",
@@ -20747,15 +21067,15 @@
       "description": "&lt;p&gt;Learn what a teaching philosophy statement is and how they are used in the academic job hunt. This interactive, online, 2-part workshop meets in Zoom and has a cap of 50 seats. Enrollment typically fills with members & alumni only.&lt;/p&gt;\\n",
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://cirtl.net/event/writing-an-effective-teaching-philosophy-statement-3/2026-09-14/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "cirtl_upcoming",
       "statusBeforeExpiry": "source-removed",
-      "expiredAt": "2026-10-19",
-      "sourceMissingCount": 28,
+      "expiredAt": "2026-10-20",
+      "sourceMissingCount": 29,
       "sourceMissingSince": "2026-09-22",
       "statusBeforeSourceRemoval": "expired",
-      "sourceRemovedAt": "2026-10-19",
+      "sourceRemovedAt": "2026-10-20",
       "sourceRemovalReason": "catalog-missing"
     },
     {
@@ -20781,15 +21101,15 @@
       "description": "&lt;p&gt;Go behind the curtain on the academic hiring process to understand what it\\'s like to transition into tenure-track faculty roles. This interactive, online event meets in Zoom and has unlimited seats. Register now for Zoom info.&lt;/p&gt;\\n",
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://cirtl.net/event/thinking-like-a-search-committee-packaging-your-experience-for-a-tenure-track-faculty-position/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "cirtl_upcoming",
-      "sourceMissingCount": 26,
+      "sourceMissingCount": 27,
       "sourceMissingSince": "2026-09-24",
       "statusBeforeExpiry": "source-removed",
-      "expiredAt": "2026-10-19",
+      "expiredAt": "2026-10-20",
       "statusBeforeSourceRemoval": "expired",
-      "sourceRemovedAt": "2026-10-19",
+      "sourceRemovedAt": "2026-10-20",
       "sourceRemovalReason": "catalog-missing"
     },
     {
@@ -20816,15 +21136,15 @@
       "description": "&lt;p&gt;Explore how to redesign assessments in the age of AI through a practical framework that shifts the focus from answer generation to evidence, reasoning, decision-making, and reflection. This interactive, online workshop meets in Zoom and has unlimited seats. Register for Zoom info.&lt;/p&gt;\\n",
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://cirtl.net/event/rethinking-assessment-design-in-the-age-of-ai-a-practical-framework/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "cirtl_upcoming",
-      "sourceMissingCount": 19,
+      "sourceMissingCount": 20,
       "sourceMissingSince": "2026-10-01",
       "statusBeforeExpiry": "source-removed",
-      "expiredAt": "2026-10-19",
+      "expiredAt": "2026-10-20",
       "statusBeforeSourceRemoval": "expired",
-      "sourceRemovedAt": "2026-10-19",
+      "sourceRemovedAt": "2026-10-20",
       "sourceRemovalReason": "catalog-missing"
     },
     {
@@ -20850,15 +21170,15 @@
       "description": "&lt;p&gt;Discover and apply the power of learning-centered teaching in this engaging, hands-on workshop. This interactive, online event meets in Zoom and has unlimited seats. Register now for Zoom info.&lt;/p&gt;\\n",
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://cirtl.net/event/real-world-and-hands-on-learning-learning-centered-teaching-strategies-for-student-success/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "cirtl_upcoming",
-      "sourceMissingCount": 17,
+      "sourceMissingCount": 18,
       "sourceMissingSince": "2026-10-03",
       "statusBeforeExpiry": "source-removed",
-      "expiredAt": "2026-10-19",
+      "expiredAt": "2026-10-20",
       "statusBeforeSourceRemoval": "expired",
-      "sourceRemovedAt": "2026-10-19",
+      "sourceRemovedAt": "2026-10-20",
       "sourceRemovalReason": "catalog-missing"
     },
     {
@@ -20884,22 +21204,22 @@
       "description": "&lt;p&gt;Learn how transparency around the work of learning can reduce plagiarism and help students engage more meaningfully in an era of generative AI. This interactive, online workshops meets in Zoom and has unlimited seats. Register for Zoom info.&lt;/p&gt;\\n",
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://cirtl.net/event/a-student-centered-approach-to-plagiarism-in-the-age-of-generative-ai/2026-10-13/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "cirtl_upcoming",
       "statusBeforeExpiry": "source-removed",
-      "expiredAt": "2026-10-19",
-      "sourceMissingCount": 5,
+      "expiredAt": "2026-10-20",
+      "sourceMissingCount": 6,
       "sourceMissingSince": "2026-10-15",
       "statusBeforeSourceRemoval": "expired",
-      "sourceRemovedAt": "2026-10-19",
+      "sourceRemovedAt": "2026-10-20",
       "sourceRemovalReason": "catalog-missing"
     },
     {
       "id": "detected-cirtl-designing-assignments-with-udl-supporting-student-emotional-",
       "title": "Designing Assignments with UDL: Supporting Student Emotional Capacity",
       "provider": "CIRTL",
-      "status": "discovered",
+      "status": "expired",
       "priority": "standard",
       "startDate": "2026-10-19",
       "endDate": "2026-10-19",
@@ -20918,9 +21238,11 @@
       "description": "&lt;p&gt;Explore how the assignment design choices can create unintended emotional barriers to learning, and develop concrete strategies for assignment design that help students learn. This interactive, online, 2-part workshop meets in Zoom and has a cap of 70 seats. Enrollment typically fills with members & alumni only.&lt;/p&gt;\\n",
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://cirtl.net/event/designing-assignments-with-udl-supporting-student-emotional-capacity/2026-10-19/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
-      "catalogSource": "cirtl_upcoming"
+      "catalogSource": "cirtl_upcoming",
+      "statusBeforeExpiry": "discovered",
+      "expiredAt": "2026-10-20"
     },
     {
       "id": "detected-cirtl-teaching-with-objects-an-e-ective-teaching-method-for-future",
@@ -20945,7 +21267,7 @@
       "description": "&lt;p&gt;Gain foundational skills and confidence to integrate object-based learning into your teaching across all disciplines. This interactive, online workshop meets in Zoom and has a cap of 30 seats. Enrollment typically fills with members & alumni only.&lt;/p&gt;\\n",
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://cirtl.net/event/teaching-with-objects-an-e%ef%ac%80ective-teaching-method-for-future-faculty/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "cirtl_upcoming"
     },
@@ -20972,7 +21294,7 @@
       "description": "&lt;p&gt;Learn what makes a strong teaching demonstration, and become familiar with some common last-minute surprises that can impact your success during this part of the academic hiring process. This interactive, online workshop meets in Zoom and has a cap of 50 seats. Enrollment typically fills with members & alumni only.&lt;/p&gt;\\n",
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://cirtl.net/event/preparing-your-teaching-demo-for-a-job-interview-fall-2026/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "cirtl_upcoming"
     },
@@ -20999,7 +21321,7 @@
       "description": "&lt;p&gt;Learn about teaching faculty careers in this online panel of CIRTL alumni who are now junior faculty at research universities. This interactive, online event meets in Zoom and has unlimited seats. Register now for Zoom info.&lt;/p&gt;\\n",
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://cirtl.net/event/exploring-teaching-careers-at-research-universities-with-cirtl-alumni-4/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "cirtl_upcoming"
     },
@@ -21026,7 +21348,7 @@
       "description": "New opportunity detected on CUR Community event calendar.",
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://community.cur.org/events/event-description?CalendarEventKey=19990bf2-6e58-4f7b-ab57-019fdd4d9e56&Home=%2fevents%2fcalendar",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "cur_calendar"
     },
@@ -21053,7 +21375,7 @@
       "description": "New opportunity detected on CUR Community event calendar.",
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://community.cur.org/events/event-description?CalendarEventKey=506c5b2c-2a8c-4557-982d-019fdd4ff2a5&Home=%2fevents%2fcalendar",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "cur_calendar"
     },
@@ -21080,7 +21402,7 @@
       "description": "New opportunity detected on CUR Community event calendar.",
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://community.cur.org/events/event-description?CalendarEventKey=0f1f8302-9147-46f9-9ee1-019fdd5159a1&Home=%2fevents%2fcalendar",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "cur_calendar"
     },
@@ -21107,7 +21429,7 @@
       "description": "New opportunity detected on CUR Community event calendar.",
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://community.cur.org/events/event-description?CalendarEventKey=1a9c743c-f7a0-4d30-a62e-019fdd516661&Home=%2fevents%2fcalendar",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "cur_calendar"
     },
@@ -21134,7 +21456,7 @@
       "description": "New opportunity detected on CUR Community event calendar.",
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://community.cur.org/events/event-description?CalendarEventKey=1e196eff-94ef-453e-b553-019fdd54db45&Home=%2fevents%2fcalendar",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "cur_calendar"
     },
@@ -21161,7 +21483,7 @@
       "description": "New opportunity detected on CUR Community event calendar.",
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://community.cur.org/events/event-description?CalendarEventKey=bf1125af-1af7-4e8c-8246-019fdd58ad44&Home=%2fevents%2fcalendar",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "cur_calendar"
     },
@@ -21189,17 +21511,17 @@
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://its.uri.edu/training-and-support/",
       "registrationUrl": "https://uri-edu.zoom.us/meeting/register/RH8lhuPGQ-mwVJ03peqzeA",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "uri_its_training_support",
       "catalogIdentityIncludesDate": true,
-      "sourceMissingCount": 59,
+      "sourceMissingCount": 60,
       "sourceMissingSince": "2026-08-22",
       "statusBeforeSourceRemoval": "expired",
-      "sourceRemovedAt": "2026-10-19",
+      "sourceRemovedAt": "2026-10-20",
       "sourceRemovalReason": "catalog-missing",
       "statusBeforeExpiry": "source-removed",
-      "expiredAt": "2026-10-19"
+      "expiredAt": "2026-10-20"
     },
     {
       "id": "detected-uri-its-rhody-ed-tech-essentials-2026-08-25",
@@ -21225,17 +21547,17 @@
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://its.uri.edu/training-and-support/",
       "registrationUrl": "https://uri-edu.zoom.us/meeting/register/6ZMWLCTeR0WTJL514eJBhw",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "uri_its_training_support",
       "catalogIdentityIncludesDate": true,
-      "sourceMissingCount": 55,
+      "sourceMissingCount": 56,
       "sourceMissingSince": "2026-08-26",
       "statusBeforeSourceRemoval": "expired",
-      "sourceRemovedAt": "2026-10-19",
+      "sourceRemovedAt": "2026-10-20",
       "sourceRemovalReason": "catalog-missing",
       "statusBeforeExpiry": "source-removed",
-      "expiredAt": "2026-10-19"
+      "expiredAt": "2026-10-20"
     },
     {
       "id": "detected-uri-its-brightspace-accessibility-and-uri-resources-2026-09-04",
@@ -21261,17 +21583,17 @@
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://its.uri.edu/training-and-support/",
       "registrationUrl": "https://uri-edu.zoom.us/meeting/register/pvOtDlkqRCS4qsnk0Ms72g",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "uri_its_training_support",
       "catalogIdentityIncludesDate": true,
-      "sourceMissingCount": 45,
+      "sourceMissingCount": 46,
       "sourceMissingSince": "2026-09-05",
       "statusBeforeSourceRemoval": "expired",
-      "sourceRemovedAt": "2026-10-19",
+      "sourceRemovedAt": "2026-10-20",
       "sourceRemovalReason": "catalog-missing",
       "statusBeforeExpiry": "source-removed",
-      "expiredAt": "2026-10-19"
+      "expiredAt": "2026-10-20"
     },
     {
       "id": "detected-uri-its-brightspace-basics-2026-09-04",
@@ -21297,17 +21619,17 @@
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://its.uri.edu/training-and-support/",
       "registrationUrl": "https://uri-edu.zoom.us/meeting/register/Z53wZ4TeQmqLAxFM7eKYwg",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "uri_its_training_support",
       "catalogIdentityIncludesDate": true,
-      "sourceMissingCount": 45,
+      "sourceMissingCount": 46,
       "sourceMissingSince": "2026-09-05",
       "statusBeforeSourceRemoval": "expired",
-      "sourceRemovedAt": "2026-10-19",
+      "sourceRemovedAt": "2026-10-20",
       "sourceRemovalReason": "catalog-missing",
       "statusBeforeExpiry": "source-removed",
-      "expiredAt": "2026-10-19"
+      "expiredAt": "2026-10-20"
     },
     {
       "id": "detected-uri-its-panopto-basics-create-lectures-2026-09-11",
@@ -21333,17 +21655,17 @@
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://its.uri.edu/training-and-support/",
       "registrationUrl": "https://uri-edu.zoom.us/meeting/register/0ivVoe3iRS63AyhcuMVKRQ",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "uri_its_training_support",
       "catalogIdentityIncludesDate": true,
-      "sourceMissingCount": 38,
+      "sourceMissingCount": 39,
       "sourceMissingSince": "2026-09-12",
       "statusBeforeSourceRemoval": "expired",
-      "sourceRemovedAt": "2026-10-19",
+      "sourceRemovedAt": "2026-10-20",
       "sourceRemovalReason": "catalog-missing",
       "statusBeforeExpiry": "source-removed",
-      "expiredAt": "2026-10-19"
+      "expiredAt": "2026-10-20"
     },
     {
       "id": "detected-uri-its-is-my-course-content-accessible-2026-09-18",
@@ -21369,17 +21691,17 @@
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://its.uri.edu/training-and-support/",
       "registrationUrl": "https://uri-edu.zoom.us/meeting/register/Y0vAsKDBSSOXrS-kfGjQCg",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "uri_its_training_support",
       "catalogIdentityIncludesDate": true,
-      "sourceMissingCount": 31,
+      "sourceMissingCount": 32,
       "sourceMissingSince": "2026-09-19",
       "statusBeforeSourceRemoval": "expired",
-      "sourceRemovedAt": "2026-10-19",
+      "sourceRemovedAt": "2026-10-20",
       "sourceRemovalReason": "catalog-missing",
       "statusBeforeExpiry": "source-removed",
-      "expiredAt": "2026-10-19"
+      "expiredAt": "2026-10-20"
     },
     {
       "id": "detected-uri-its-screencasts-videos-captions-and-transcripts-2026-09-25",
@@ -21405,17 +21727,17 @@
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://its.uri.edu/training-and-support/",
       "registrationUrl": "https://uri-edu.zoom.us/meeting/register/MmatBhYGQWmcLDNOc-pezA",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "uri_its_training_support",
       "catalogIdentityIncludesDate": true,
-      "sourceMissingCount": 52,
+      "sourceMissingCount": 53,
       "sourceMissingSince": "2026-08-29",
       "statusBeforeSourceRemoval": "expired",
-      "sourceRemovedAt": "2026-10-19",
+      "sourceRemovedAt": "2026-10-20",
       "sourceRemovalReason": "catalog-missing",
       "statusBeforeExpiry": "source-removed",
-      "expiredAt": "2026-10-19"
+      "expiredAt": "2026-10-20"
     },
     {
       "id": "detected-uri-its-archive-your-course-and-student-data-2026-09-29",
@@ -21441,17 +21763,17 @@
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://its.uri.edu/training-and-support/",
       "registrationUrl": "https://uri-edu.zoom.us/meeting/register/sooFs0WfTWWA8vOD3AKlLA",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "uri_its_training_support",
       "catalogIdentityIncludesDate": true,
-      "sourceMissingCount": 20,
+      "sourceMissingCount": 21,
       "sourceMissingSince": "2026-09-30",
       "statusBeforeSourceRemoval": "expired",
-      "sourceRemovedAt": "2026-10-19",
+      "sourceRemovedAt": "2026-10-20",
       "sourceRemovalReason": "catalog-missing",
       "statusBeforeExpiry": "source-removed",
-      "expiredAt": "2026-10-19"
+      "expiredAt": "2026-10-20"
     },
     {
       "id": "detected-uri-its-accessibility-of-oer-and-external-course-resources-2026-10-02",
@@ -21477,17 +21799,17 @@
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://its.uri.edu/training-and-support/",
       "registrationUrl": "https://uri-edu.zoom.us/meeting/register/US1l74JqSXa0Ng3Kns5K_w",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "uri_its_training_support",
       "catalogIdentityIncludesDate": true,
-      "sourceMissingCount": 17,
+      "sourceMissingCount": 18,
       "sourceMissingSince": "2026-10-03",
       "statusBeforeSourceRemoval": "expired",
-      "sourceRemovedAt": "2026-10-19",
+      "sourceRemovedAt": "2026-10-20",
       "sourceRemovalReason": "catalog-missing",
       "statusBeforeExpiry": "source-removed",
-      "expiredAt": "2026-10-19"
+      "expiredAt": "2026-10-20"
     },
     {
       "id": "detected-uri-its-panopto-advanced-video-editing-and-interactivity-2026-10-02",
@@ -21513,17 +21835,17 @@
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://its.uri.edu/training-and-support/",
       "registrationUrl": "https://uri-edu.zoom.us/meeting/register/eEuD8l9eQh6_qlnEt7LXKg",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "uri_its_training_support",
       "catalogIdentityIncludesDate": true,
-      "sourceMissingCount": 17,
+      "sourceMissingCount": 18,
       "sourceMissingSince": "2026-10-03",
       "statusBeforeSourceRemoval": "expired",
-      "sourceRemovedAt": "2026-10-19",
+      "sourceRemovedAt": "2026-10-20",
       "sourceRemovalReason": "catalog-missing",
       "statusBeforeExpiry": "source-removed",
-      "expiredAt": "2026-10-19"
+      "expiredAt": "2026-10-20"
     },
     {
       "id": "detected-uri-its-edtech-connect-1st-wednesday-2026-10-07",
@@ -21548,17 +21870,17 @@
       "description": "URI ITS scheduled professional development on EdTech Connect 1st Wednesday.",
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://its.uri.edu/training-and-support/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "uri_its_training_support",
       "catalogIdentityIncludesDate": true,
-      "sourceMissingCount": 12,
+      "sourceMissingCount": 13,
       "sourceMissingSince": "2026-10-08",
       "statusBeforeSourceRemoval": "expired",
-      "sourceRemovedAt": "2026-10-19",
+      "sourceRemovedAt": "2026-10-20",
       "sourceRemovalReason": "catalog-missing",
       "statusBeforeExpiry": "source-removed",
-      "expiredAt": "2026-10-19"
+      "expiredAt": "2026-10-20"
     },
     {
       "id": "detected-uri-its-archive-your-course-and-student-data-2026-10-09",
@@ -21584,17 +21906,17 @@
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://its.uri.edu/training-and-support/",
       "registrationUrl": "https://uri-edu.zoom.us/meeting/register/UFKZjKf-Q0eHM7RzjzOW4g",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "uri_its_training_support",
       "catalogIdentityIncludesDate": true,
-      "sourceMissingCount": 10,
+      "sourceMissingCount": 11,
       "sourceMissingSince": "2026-10-10",
       "statusBeforeSourceRemoval": "expired",
-      "sourceRemovedAt": "2026-10-19",
+      "sourceRemovedAt": "2026-10-20",
       "sourceRemovalReason": "catalog-missing",
       "statusBeforeExpiry": "source-removed",
-      "expiredAt": "2026-10-19"
+      "expiredAt": "2026-10-20"
     },
     {
       "id": "detected-uri-its-accessibility-and-ai-2026-10-16",
@@ -21620,17 +21942,17 @@
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://its.uri.edu/training-and-support/",
       "registrationUrl": "https://uri-edu.zoom.us/meeting/register/bCnF4VrET8y6n5EXCoHP0Q",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "uri_its_training_support",
       "catalogIdentityIncludesDate": true,
-      "sourceMissingCount": 3,
+      "sourceMissingCount": 4,
       "sourceMissingSince": "2026-10-17",
       "statusBeforeSourceRemoval": "expired",
-      "sourceRemovedAt": "2026-10-19",
+      "sourceRemovedAt": "2026-10-20",
       "sourceRemovalReason": "catalog-missing",
       "statusBeforeExpiry": "source-removed",
-      "expiredAt": "2026-10-19"
+      "expiredAt": "2026-10-20"
     },
     {
       "id": "detected-uri-its-reducing-your-brightspace-course-data-2026-10-23",
@@ -21656,7 +21978,7 @@
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://its.uri.edu/training-and-support/",
       "registrationUrl": "https://uri-edu.zoom.us/meeting/register/zY-8ohODQe6cTE56SzRqVA",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "uri_its_training_support",
       "catalogIdentityIncludesDate": true
@@ -21685,7 +22007,7 @@
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://its.uri.edu/training-and-support/",
       "registrationUrl": "https://uri-edu.zoom.us/meeting/register/grnyinauSniBGspYB0tCUw",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "uri_its_training_support",
       "catalogIdentityIncludesDate": true
@@ -21713,7 +22035,7 @@
       "description": "URI ITS scheduled professional development on EdTech Connect 1st Wednesday.",
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://its.uri.edu/training-and-support/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "uri_its_training_support",
       "catalogIdentityIncludesDate": true
@@ -21742,7 +22064,7 @@
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://its.uri.edu/training-and-support/",
       "registrationUrl": "https://uri-edu.zoom.us/meeting/register/TR1PgH7nTMif5JKmfwlaQA",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "uri_its_training_support",
       "catalogIdentityIncludesDate": true
@@ -21771,7 +22093,7 @@
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://its.uri.edu/training-and-support/",
       "registrationUrl": "https://uri-edu.zoom.us/meeting/register/PcauHxA0RC2EU7FULt7VoQ",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "uri_its_training_support",
       "catalogIdentityIncludesDate": true
@@ -21792,7 +22114,7 @@
       "costStatus": "free",
       "whyInclude": "Adds local research-computing and AI development for URI faculty and researchers.",
       "sourceUrl": "https://web.uri.edu/iacr/iacr-workshops-outreach/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "curationSource": "Workshop schedule Fall26.docx",
       "iacrSchedule": "fall-2026",
       "id": "uri-iacr-unity-2026-09-15",
@@ -21827,7 +22149,7 @@
       "costStatus": "free",
       "whyInclude": "Adds local research-computing and AI development for URI faculty and researchers.",
       "sourceUrl": "https://web.uri.edu/iacr/iacr-workshops-outreach/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "curationSource": "Workshop schedule Fall26.docx",
       "iacrSchedule": "fall-2026",
       "id": "uri-iacr-bioinformatics-2026-09-21",
@@ -21862,7 +22184,7 @@
       "costStatus": "free",
       "whyInclude": "Adds local research-computing and AI development for URI faculty and researchers.",
       "sourceUrl": "https://web.uri.edu/iacr/iacr-workshops-outreach/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "curationSource": "Workshop schedule Fall26.docx",
       "iacrSchedule": "fall-2026",
       "id": "uri-iacr-r-introduction-2026-09-22",
@@ -21897,7 +22219,7 @@
       "costStatus": "free",
       "whyInclude": "Adds local research-computing and AI development for URI faculty and researchers.",
       "sourceUrl": "https://web.uri.edu/iacr/iacr-workshops-outreach/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "curationSource": "Workshop schedule Fall26.docx",
       "iacrSchedule": "fall-2026",
       "id": "uri-iacr-ai-tools-researchers-2026-09-25",
@@ -21933,7 +22255,7 @@
       "costStatus": "free",
       "whyInclude": "Adds local research-computing and AI development for URI faculty and researchers.",
       "sourceUrl": "https://web.uri.edu/iacr/iacr-workshops-outreach/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "curationSource": "Workshop schedule Fall26.docx",
       "iacrSchedule": "fall-2026",
       "id": "uri-iacr-opencode-codex-2026-10-01",
@@ -21969,7 +22291,7 @@
       "costStatus": "free",
       "whyInclude": "Adds local research-computing and AI development for URI faculty and researchers.",
       "sourceUrl": "https://web.uri.edu/iacr/iacr-workshops-outreach/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "curationSource": "Workshop schedule Fall26.docx",
       "iacrSchedule": "fall-2026",
       "id": "uri-iacr-ai-tools-programming-2026-10-02",
@@ -22005,7 +22327,7 @@
       "costStatus": "free",
       "whyInclude": "Adds local research-computing and AI development for URI faculty and researchers.",
       "sourceUrl": "https://web.uri.edu/iacr/iacr-workshops-outreach/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "curationSource": "Workshop schedule Fall26.docx",
       "iacrSchedule": "fall-2026",
       "id": "uri-iacr-spss-2026-10-06",
@@ -22040,7 +22362,7 @@
       "costStatus": "free",
       "whyInclude": "Adds local research-computing and AI development for URI faculty and researchers.",
       "sourceUrl": "https://web.uri.edu/iacr/iacr-workshops-outreach/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "curationSource": "Workshop schedule Fall26.docx",
       "iacrSchedule": "fall-2026",
       "id": "uri-iacr-prompt-engineering-2026-10-08",
@@ -22075,7 +22397,7 @@
       "costStatus": "free",
       "whyInclude": "Adds local research-computing and AI development for URI faculty and researchers.",
       "sourceUrl": "https://web.uri.edu/iacr/iacr-workshops-outreach/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "curationSource": "Workshop schedule Fall26.docx",
       "iacrSchedule": "fall-2026",
       "id": "uri-iacr-ai-tools-video-music-2026-10-09",
@@ -22110,7 +22432,7 @@
       "costStatus": "free",
       "whyInclude": "Adds local research-computing and AI development for URI faculty and researchers.",
       "sourceUrl": "https://web.uri.edu/iacr/iacr-workshops-outreach/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "curationSource": "Workshop schedule Fall26.docx",
       "iacrSchedule": "fall-2026",
       "id": "uri-iacr-unity-2026-10-13",
@@ -22145,7 +22467,7 @@
       "costStatus": "not-listed",
       "whyInclude": "Adds local research-computing and AI development for URI faculty and researchers.",
       "sourceUrl": "https://web.uri.edu/iacr/iacr-workshops-outreach/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "curationSource": "Workshop schedule Fall26.docx",
       "iacrSchedule": "fall-2026",
       "id": "uri-iacr-sbdc-training-2026-10-14",
@@ -22178,7 +22500,7 @@
       "costStatus": "free",
       "whyInclude": "Adds local research-computing and AI development for URI faculty and researchers.",
       "sourceUrl": "https://web.uri.edu/iacr/iacr-workshops-outreach/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "curationSource": "Workshop schedule Fall26.docx",
       "iacrSchedule": "fall-2026",
       "id": "uri-iacr-ai-tools-images-art-2026-10-16",
@@ -22199,7 +22521,7 @@
     },
     {
       "provider": "URI-IACR",
-      "status": "recommended",
+      "status": "expired",
       "priority": "local",
       "audience": [
         "Faculty",
@@ -22213,7 +22535,7 @@
       "costStatus": "free",
       "whyInclude": "Adds local research-computing and AI development for URI faculty and researchers.",
       "sourceUrl": "https://web.uri.edu/iacr/iacr-workshops-outreach/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "curationSource": "Workshop schedule Fall26.docx",
       "iacrSchedule": "fall-2026",
       "id": "uri-iacr-bioinformatics-2026-10-19",
@@ -22228,7 +22550,9 @@
         "Technology"
       ],
       "description": "A hands-on session in the three-part bioinformatics-on-Unity series, covering tools for preprocessing sequencing data, sequence assembly, variant calling, and efficient use of the Unity platform.",
-      "registrationUrl": "https://uri-edu.zoom.us/meeting/register/-W6yK0TnQ-GdJaurQdojdQ"
+      "registrationUrl": "https://uri-edu.zoom.us/meeting/register/-W6yK0TnQ-GdJaurQdojdQ",
+      "statusBeforeExpiry": "recommended",
+      "expiredAt": "2026-10-20"
     },
     {
       "provider": "URI-IACR",
@@ -22246,7 +22570,7 @@
       "costStatus": "free",
       "whyInclude": "Adds local research-computing and AI development for URI faculty and researchers.",
       "sourceUrl": "https://web.uri.edu/iacr/iacr-workshops-outreach/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "curationSource": "Workshop schedule Fall26.docx",
       "iacrSchedule": "fall-2026",
       "id": "uri-iacr-r-inputting-data-2026-10-20",
@@ -22279,7 +22603,7 @@
       "costStatus": "not-listed",
       "whyInclude": "Adds local research-computing and AI development for URI faculty and researchers.",
       "sourceUrl": "https://web.uri.edu/iacr/iacr-workshops-outreach/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "curationSource": "Workshop schedule Fall26.docx",
       "iacrSchedule": "fall-2026",
       "id": "uri-iacr-sbdc-training-2026-10-21",
@@ -22310,7 +22634,7 @@
       "costStatus": "free",
       "whyInclude": "Adds local research-computing and AI development for URI faculty and researchers.",
       "sourceUrl": "https://web.uri.edu/iacr/iacr-workshops-outreach/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "curationSource": "Workshop schedule Fall26.docx",
       "iacrSchedule": "fall-2026",
       "id": "uri-iacr-opencode-codex-2026-10-23",
@@ -22344,7 +22668,7 @@
       "costStatus": "free",
       "whyInclude": "Adds local research-computing and AI development for URI faculty and researchers.",
       "sourceUrl": "https://web.uri.edu/iacr/iacr-workshops-outreach/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "curationSource": "Workshop schedule Fall26.docx",
       "iacrSchedule": "fall-2026",
       "id": "uri-iacr-ai-tools-writing-2026-10-30",
@@ -22378,7 +22702,7 @@
       "costStatus": "free",
       "whyInclude": "Adds local research-computing and AI development for URI faculty and researchers.",
       "sourceUrl": "https://web.uri.edu/iacr/iacr-workshops-outreach/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "curationSource": "Workshop schedule Fall26.docx",
       "iacrSchedule": "fall-2026",
       "id": "uri-iacr-spss-2026-11-03",
@@ -22411,7 +22735,7 @@
       "costStatus": "free",
       "whyInclude": "Adds local research-computing and AI development for URI faculty and researchers.",
       "sourceUrl": "https://web.uri.edu/iacr/iacr-workshops-outreach/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "curationSource": "Workshop schedule Fall26.docx",
       "iacrSchedule": "fall-2026",
       "id": "uri-iacr-prompt-engineering-2026-11-06",
@@ -22444,7 +22768,7 @@
       "costStatus": "free",
       "whyInclude": "Adds local research-computing and AI development for URI faculty and researchers.",
       "sourceUrl": "https://web.uri.edu/iacr/iacr-workshops-outreach/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "curationSource": "Workshop schedule Fall26.docx",
       "iacrSchedule": "fall-2026",
       "id": "uri-iacr-unity-2026-11-10",
@@ -22477,7 +22801,7 @@
       "costStatus": "free",
       "whyInclude": "Adds local research-computing and AI development for URI faculty and researchers.",
       "sourceUrl": "https://web.uri.edu/iacr/iacr-workshops-outreach/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "curationSource": "Workshop schedule Fall26.docx",
       "iacrSchedule": "fall-2026",
       "id": "uri-iacr-bioinformatics-2026-11-16",
@@ -22510,7 +22834,7 @@
       "costStatus": "free",
       "whyInclude": "Adds local research-computing and AI development for URI faculty and researchers.",
       "sourceUrl": "https://web.uri.edu/iacr/iacr-workshops-outreach/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "curationSource": "Workshop schedule Fall26.docx",
       "iacrSchedule": "fall-2026",
       "id": "uri-iacr-r-exploratory-data-analysis-2026-11-17",
@@ -22582,7 +22906,7 @@
       "accessStatus": "verified",
       "costStatus": "free",
       "whyInclude": "Provides flexible, on-demand research-computing development for faculty who cannot attend a live session.",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "curationSource": "URI Research Training page linked from Workshop schedule Fall26.docx",
       "iacrLibrary": true,
       "id": "uri-iacr-self-paced-hpc-training",
@@ -22614,7 +22938,7 @@
       "accessStatus": "verified",
       "costStatus": "free",
       "whyInclude": "Provides flexible, on-demand research-computing development for faculty who cannot attend a live session.",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "curationSource": "URI Research Training page linked from Workshop schedule Fall26.docx",
       "iacrLibrary": true,
       "id": "uri-iacr-self-paced-bioinformatics-series",
@@ -22646,7 +22970,7 @@
       "accessStatus": "verified",
       "costStatus": "free",
       "whyInclude": "Provides flexible, on-demand research-computing development for faculty who cannot attend a live session.",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "curationSource": "URI Research Training page linked from Workshop schedule Fall26.docx",
       "iacrLibrary": true,
       "id": "uri-iacr-self-paced-r-training-series",
@@ -22742,7 +23066,7 @@
       "accessStatus": "verified",
       "costStatus": "free",
       "whyInclude": "Provides flexible, on-demand research-computing development for faculty who cannot attend a live session.",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "curationSource": "URI Research Training page linked from Workshop schedule Fall26.docx",
       "iacrLibrary": true,
       "id": "uri-iacr-self-paced-python-series",
@@ -22844,7 +23168,7 @@
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://its.uri.edu/training-and-support/",
       "registrationUrl": "https://uri-edu.zoom.us/meeting/register/TnSTEDRUQVGl1jT5mOueSg",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "uri_its_training_support",
       "catalogIdentityIncludesDate": true
@@ -22873,7 +23197,7 @@
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://its.uri.edu/training-and-support/",
       "registrationUrl": "https://uri-edu.zoom.us/meeting/register/UkT51joXSpuBU1VhB3Hxhw",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "uri_its_training_support",
       "catalogIdentityIncludesDate": true
@@ -22901,7 +23225,7 @@
       "description": "New opportunity detected on URI ATL Fall 2026 programming.",
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://web.uri.edu/atl/fall-2026-atl-programming/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "uri_atl_fall_2026",
       "catalogIdentityIncludesDate": false
@@ -22930,17 +23254,17 @@
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://its.uri.edu/training-and-support/",
       "registrationUrl": "https://uri-edu.zoom.us/meeting/register/MmatBhYGQWmcLDNOc-pezA",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "uri_its_training_support",
       "catalogIdentityIncludesDate": true,
-      "sourceMissingCount": 24,
+      "sourceMissingCount": 25,
       "sourceMissingSince": "2026-09-26",
       "statusBeforeSourceRemoval": "expired",
-      "sourceRemovedAt": "2026-10-19",
+      "sourceRemovedAt": "2026-10-20",
       "sourceRemovalReason": "catalog-missing",
       "statusBeforeExpiry": "source-removed",
-      "expiredAt": "2026-10-19"
+      "expiredAt": "2026-10-20"
     },
     {
       "id": "detected-uri-its-archive-your-course-and-student-data-2026-12-01",
@@ -22966,7 +23290,7 @@
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://its.uri.edu/training-and-support/",
       "registrationUrl": "https://uri-edu.zoom.us/meeting/register/-qUF0aiKRRKf1Mb4Sb1Gkg",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "uri_its_training_support",
       "catalogIdentityIncludesDate": true
@@ -22994,7 +23318,7 @@
       "description": "URI ITS scheduled professional development on EdTech Connect 1st Wednesday.",
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://its.uri.edu/training-and-support/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "uri_its_training_support",
       "catalogIdentityIncludesDate": true
@@ -23023,7 +23347,7 @@
       "description": "&lt;p&gt;Looking for feedback on your new draft teaching philosophy statement? Join this 2-hour online workshop, designed just for participants who have completed CIRTL\\'s self-paced workshop on writing a teaching philosophy statement.&lt;/p&gt;\\n",
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://cirtl.net/event/workshopping-your-teaching-philosophy-statement/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "cirtl_upcoming",
       "catalogIdentityIncludesDate": false,
@@ -23057,7 +23381,7 @@
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://its.uri.edu/training-and-support/",
       "registrationUrl": "https://uri-edu.zoom.us/meeting/register/3yQSYzaNR16EhwlrgTXzWw",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "uri_its_training_support",
       "catalogIdentityIncludesDate": true
@@ -23086,7 +23410,7 @@
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://its.uri.edu/training-and-support/",
       "registrationUrl": "https://uri-edu.zoom.us/meeting/register/cCryY2X-QQqJ2cosMvhodw",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "uri_its_training_support",
       "catalogIdentityIncludesDate": true
@@ -23115,7 +23439,7 @@
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://its.uri.edu/training-and-support/",
       "registrationUrl": "https://uri-edu.zoom.us/meeting/register/njKMy6YNSUCHHaDTDDC7FA",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "uri_its_training_support",
       "catalogIdentityIncludesDate": true
@@ -23143,7 +23467,7 @@
       "description": "New opportunity detected on URI ATL Fall 2026 programming.",
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://web.uri.edu/atl/fall-2026-atl-programming/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "uri_atl_fall_2026",
       "catalogIdentityIncludesDate": false
@@ -23172,7 +23496,7 @@
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://its.uri.edu/training-and-support/",
       "registrationUrl": "https://uri-edu.zoom.us/meeting/register/fUK2APlrQ6G7fBcNyRIUsw",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "uri_its_training_support",
       "catalogIdentityIncludesDate": true
@@ -23201,7 +23525,7 @@
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://its.uri.edu/training-and-support/",
       "registrationUrl": "https://uri-edu.zoom.us/meeting/register/6Z8HavoxQIKd8rFcu1ST9Q",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "uri_its_training_support",
       "catalogIdentityIncludesDate": true
@@ -23229,7 +23553,7 @@
       "description": "New opportunity detected on CUR Community event calendar.",
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://community.cur.org/events/event-description?CalendarEventKey=9cde20be-b6ba-4cd2-a089-019fdd5b2711&Home=%2fevents%2fcalendar",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "cur_calendar",
       "catalogIdentityIncludesDate": false
@@ -23258,7 +23582,7 @@
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://its.uri.edu/training-and-support/",
       "registrationUrl": "https://uri-edu.zoom.us/meeting/register/Jr2A9JGTRA6mdT4Y-zlBVQ",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "uri_its_training_support",
       "catalogIdentityIncludesDate": true
@@ -23286,7 +23610,7 @@
       "description": "&lt;p&gt;Learn about teaching faculty careers in this online panel of CIRTL alumni who teach at liberal arts colleges and universities. This interactive, online event meets in Zoom and has unlimited seats. Register now for Zoom info.&lt;/p&gt;\\n",
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://cirtl.net/event/exploring-teaching-careers-at-teaching-intensive-universities-with-cirtl-alumni-4/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "cirtl_upcoming",
       "catalogIdentityIncludesDate": false
@@ -23314,7 +23638,7 @@
       "description": "&lt;p&gt;Learn about academic staff positions at universities in this online panel of CIRTL alumni who hold PhDs in various STEM disciplines. This interactive, online event meets in Zoom and has unlimited seats. Register now for Zoom info.&lt;/p&gt;\\n",
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://cirtl.net/event/exploring-academic-careers-beyond-the-professoriate-with-cirtl-alumni-in-centers-for-teaching-learning/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "cirtl_upcoming",
       "catalogIdentityIncludesDate": false
@@ -23342,7 +23666,7 @@
       "description": "&lt;p&gt;Learn about careers beyond academia in this online panel of CIRTL alumni. This interactive, online event meets in Zoom and has unlimited seats. Register now for Zoom info.&lt;/p&gt;\\n",
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://cirtl.net/event/exploring-careers-beyond-academia-with-cirtl-alumni/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "cirtl_upcoming",
       "catalogIdentityIncludesDate": false
@@ -23370,7 +23694,7 @@
       "description": "New opportunity detected on URI ATL Fall 2026 programming.",
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://web.uri.edu/atl/fall-2026-atl-programming/",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "uri_atl_fall_2026",
       "catalogIdentityIncludesDate": false
@@ -23398,7 +23722,7 @@
       "description": "New opportunity detected on CUR Community event calendar.",
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://community.cur.org/events/event-description?CalendarEventKey=d2443923-52c7-4b70-9f5a-019fdd5b29d5&Home=%2fevents%2fcalendar",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "cur_calendar",
       "catalogIdentityIncludesDate": false
@@ -23426,7 +23750,7 @@
       "description": "New opportunity detected on CUR Community event calendar.",
       "whyInclude": "Automatically added by the overnight provider-catalog comparison.",
       "sourceUrl": "https://community.cur.org/events/event-description?CalendarEventKey=44c906d8-d4a9-49fc-88eb-019fdd5c602a&Home=%2fevents%2fcalendar",
-      "lastVerified": "2026-10-19",
+      "lastVerified": "2026-10-20",
       "detectedByUpdater": true,
       "catalogSource": "cur_calendar",
       "catalogIdentityIncludesDate": false
